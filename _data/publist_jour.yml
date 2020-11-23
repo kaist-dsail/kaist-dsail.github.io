@@ -1,0 +1,66 @@
+- title: Learning to Utilize Auxiliary Reviews for Recommendation
+  authors: Dongmin Hyun, Chanyoung Park, Junsu Cho, Hwanjo Yu 
+  venue: Information Sciences
+  venue_full: (2020) (SCI) (IF. 5.912)
+  type: p
+  pdf_url: https://kaist-dsail.github.io/
+
+- title: Deep Multiplex Graph Infomax&#58; Attentive Multiplex Network Embedding using Global Information
+  authors: Chanyoung Park, Jiawei Han, Hwanjo Yu 
+  venue: Knowledge-Based Systems 
+  venue_full: (2020. 6) (SCI) (IF. 5.910)
+  type: pc
+  pdf_url: https://doi.org/10.1016/j.knosys.2020.105861
+  code_url: https://github.com/pcy1302/DMGI
+ 
+
+- title: Improved prediction of miRNA–disease associations based on matrix completion with network regularization
+  authors: Jihwan Ha, Chihyun Park, Chanyoung Park, Sanghyun Park 
+  venue: Cells 
+  venue_full: (2020. 4) (SCIE) (IF. 5.656)
+  type: p
+  pdf_url: https://www.mdpi.com/2073-4409/9/4/881
+
+- title: Click-aware Purchase Prediction with Push at the Top
+  authors: Chanyoung Park, Donghyun Kim, Min-Chul Yang, Jung-Tae Lee, Hwanjo Yu 
+  venue: Information Sciences 
+  venue_full: (2020. 6) (SCI) (IF. 5.912)
+  type: p
+  pdf_url: https://doi.org/10.1016/j.ins.2020.02.062
+
+- title: IMIPMF&#58; Inferring miRNA-disease interactions using probabilistic matrix factorization
+  authors: Jihwan Ha, Chihyun Park, Chanyoung Park, Sanghyun Park 
+  venue: Journal of Biomedical Informatics 
+  venue_full: (2020. 2) (SCI) (IF. 2.950)
+  type: p
+  pdf_url: https://www.sciencedirect.com/science/article/abs/pii/S1532046419302783
+
+- title: An Encoder-Decoder Switch Network for Purchase Prediction
+  authors: Chanyoung Park, Donghyun Kim, Hwanjo Yu 
+  venue: Knowledge-Based Systems 
+  venue_full: (2019. 12) (SCI) (IF. 5.910)
+  type: p
+  pdf_url: https://doi.org/10.1016/j.knosys.2019.104932
+
+- title: Target-Aware Convolutional Neural Network for Target-Level Sentiment Analysis
+  authors: Dongmin Hyun, Chanyoung Park, Min-Chul Yang, Ilhyeon Song, Jung-Tae Lee, Hwanjo Yu 
+  venue: Information Sciences 
+  venue_full: (2019. 7) (SCI) (IF. 5.912)
+  type: p
+  pdf_url: https://www.sciencedirect.com/science/article/pii/S0020025519302877
+
+- title: Deep Hybrid Recommender Systems via Exploiting Document Context and Statistics of Items
+  authors: Donghyun Kim, Chanyoung Park, Jinoh Oh, Hwanjo Yu 
+  venue: Information Sciences 
+  venue_full: (2017. 11) (SCI) (IF. 5.912)
+  type: pc
+  pdf_url: https://doi.org/10.1016/j.ins.2017.06.026
+  code_url: https://github.com/cartopy/ConvMF-1.0.0
+
+- title: Improving top-K recommendation with truster and trustee relationship in user trust network
+  authors: Chanyoung Park, Donghyun Kim, Jinoh Oh, Hwanjo Yu 
+  venue: Information Sciences 
+  venue_full: (2016. 12) (SCI) (IF. 5.912)
+  type: ps
+  pdf_url: https://www.mdpi.com/2073-4409/9/4/881
+  slide_url: https://pcy1302.github.io/data/InforSci16_slide.pdf
