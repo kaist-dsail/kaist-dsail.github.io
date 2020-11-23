@@ -97,6 +97,6 @@ Our main research interests include <b>Data Mining, Machine Learning, Deep Learn
 </div>
 </div>
 ## Interested?
-If you’re interested in joining our lab, send an email with your interests and CV to <cy.park424@gmail.com>.
+If you’re interested in joining our lab, send an email with your interests and CV to <cy.park@kaist.ac.kr>.
 
 

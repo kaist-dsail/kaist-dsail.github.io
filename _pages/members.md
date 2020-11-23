@@ -10,7 +10,7 @@ permalink: /members/
 
 
 ## Members
-<span style="color:red">**I am actively seeking for passionate and self-motivated Ph.D. students, MS students, and postdocs. If you are interested, send me an email (<cy.park424@gmail.com>) with your interests and CV.**</span>
+<span style="color:red">**I am actively seeking for passionate and self-motivated Ph.D. students, MS students, and postdocs. If you are interested, send me an email (<cy.park@kaist.ac.kr>) with your interests and CV.**</span>
 
 
 {% assign number_printed = 0 %}
