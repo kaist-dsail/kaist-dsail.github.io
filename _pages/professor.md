@@ -40,8 +40,8 @@ permalink: /professor/
 - I am also looking for undergraduate students who are interested in doing internship in our lab. If you are interested, send me an email with your interests and CV.
 
 ### News
+- (2020.11) I gave a talk at Korea Military Academy.
 - (2020.11) I joined KAIST as an assistant professor.
-<!-- - (2020.09) I will joined KAIST as an assistant professor starting from Nov. 2020. -->
 - (2020.09) A paper got accepted at ICDM 2020.
 - (2020.07) I was invited as a program commettee member of AAAI 2021.
 - (2020.06) I was invited as a program commettee member of WWW 2021.
@@ -49,7 +49,7 @@ permalink: /professor/
 - (2019.11) A paper got accepted at AAAI 2020.
 - (2019.05) Two papers got accepted at CIKM 2019.
 - (2019.01) I joined University of Illinois at Urbana-Champaign as a postdoctoral research fellow.
-- (2019.10) I successfully defended Ph.D theses.
+- (2018.10) I successfully defended Ph.D theses.
 
 ### Work Experience
 - <b>KAIST (Korea Advanced Institute of Science and Technology)</b>, Daejeon, South Korea
