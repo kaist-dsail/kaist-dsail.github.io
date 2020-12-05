@@ -8,7 +8,7 @@ permalink: /
 
 
 ## Welcome!
-We are <b>Data Science & Artificial Intelligence Lab (DSAIL) at KAIST</b> led by [Prof. Chanyoung Park](https://kaist-dsail.github.io/professor/){:target="_blank"}. 
+We are <b>Data Science & Artificial Intelligence Lab (DSAIL) at KAIST</b> led by [Prof. Chanyoung Park](https://dsail.kaist.ac.kr/professor/){:target="_blank"}. 
 Due to the recent expansion of social media and online communities, online platforms in the digital economy are inundated with vast amounts of usergenerated multimodal (heterogeneous) data from various sources, which can be categorized into structured (e.g., graphs such as social network) and unstructured data (e.g., text, image, video, and audio). When properly analyzed, such multimodal data can be a valuable asset to the companies, but it is challenging not only due to the difficulty in
 extracting meaningful information from the inherently <em>sparse and noisy data</em>, but also in <em>combining and customizing the extracted knowledge from different modalities with different statistical properties</em> to facilitate various target applications. 
 

@@ -3,7 +3,7 @@
   venue: ICDM 2020
   venue_full: The IEEE International Conference on Data Mining (Acceptance Rate&#58; 9.8%)
   type: p
-  pdf_url: https://kaist-dsail.github.io/
+  pdf_url: https://dsail.kaist.ac.kr/files/ICDM20.pdf
 
 
 - title: Unsupervised Differentiable Multi-aspect Network Embedding
@@ -13,7 +13,7 @@
   type: pcsv
   pdf_url: https://arxiv.org/abs/2006.04239
   code_url: https://github.com/pcy1302/asp2vec
-  slide_url: https://kaist-dsail.github.io/files/KDD20_slide.pdf
+  slide_url: https://dsail.kaist.ac.kr/files/KDD20_slide.pdf
   video_url: https://youtu.be/DOdRmz1gLdc
 
 
@@ -25,7 +25,7 @@
   type: pcs
   pdf_url: https://arxiv.org/abs/1911.06750
   code_url: https://github.com/pcy1302/DMGI
-  slide_url: https://kaist-dsail.github.io/files/AAAI20_slide.pdf
+  slide_url: https://dsail.kaist.ac.kr/files/AAAI20_slide.pdf
    
 
 - title: Task-Guided Pair Embedding in Heterogeneous Network
@@ -35,7 +35,7 @@
   type: pcs
   pdf_url: https://arxiv.org/pdf/1906.01546.pdf
   code_url: https://github.com/pcy1302/TapEM
-  slide_url: https://kaist-dsail.github.io/files/CIKM19_slide.pdf
+  slide_url: https://dsail.kaist.ac.kr/files/CIKM19_slide.pdf
   
 
 - title: BHIN2vec&#58; Balancing the Type of Relation in Heterogeneous Information Network
@@ -43,7 +43,7 @@
   venue: CIKM 2019
   venue_full: ACM International Conference on Information and Knowledge Management (Acceptance Rate&#58; 19.4%)
   type: p
-  pdf_url: https://kaist-dsail.github.io/files/CIKM19.pdf
+  pdf_url: https://dsail.kaist.ac.kr/files/CIKM19.pdf
 
 
 - title: Action Space Learning for Heterogeneous User Behavior Prediction
@@ -51,7 +51,7 @@
   venue: IJCAI 2019
   venue_full: International Joint Conference on Artificial Intelligence (Acceptance Rate&#58; 17.9%)
   type: pc
-  pdf_url: https://kaist-dsail.github.io/files/IJCAI19_2.pdf
+  pdf_url: https://dsail.kaist.ac.kr/files/IJCAI19_2.pdf
   code_url: https://github.com/donalee/metas
  
 
@@ -60,16 +60,16 @@
   venue: IJCAI 2019
   venue_full: International Joint Conference on Artificial Intelligence (Acceptance Rate&#58; 17.9%)
   type: p
-  pdf_url: https://kaist-dsail.github.io/files/IJCAI19_1.pdf
+  pdf_url: https://dsail.kaist.ac.kr/files/IJCAI19_1.pdf
 
 - title: Collaborative Translational Metric Learning
   authors: Chanyoung Park, Donghyun Kim, Xing Xie, Hwanjo Yu 
   venue: ICDM 2018
   venue_full: The IEEE International Conference on Data Mining (Acceptance Rate&#58; 8.86%)
   type: pcs
-  pdf_url: https://kaist-dsail.github.io/files/ICDM18.pdf
+  pdf_url: https://dsail.kaist.ac.kr/files/ICDM18.pdf
   code_url: https://github.com/pcy1302/TransCF
-  slide_url: https://kaist-dsail.github.io/files/ICDM18_slide.pdf
+  slide_url: https://dsail.kaist.ac.kr/files/ICDM18_slide.pdf
    
 
 - title: Review Sentiment-Guided Scalable Deep Recommender System
@@ -77,16 +77,16 @@
   venue: SIGIR 2018
   venue_full: The 41st International ACM SIGIR Conference on Research and Development in Information Retrieval (short paper)
   type: p
-  pdf_url: https://kaist-dsail.github.io/files/SIGIR18.pdf
+  pdf_url: https://dsail.kaist.ac.kr/files/SIGIR18.pdf
 
 - title: Do "Also-Viewed" Products Help User Rating Prediction?
   authors: Chanyoung Park, Donghyun Kim, Jinoh Oh, Hwanjo Yu 
   venue: WWW 2017
   venue_full: 26th International World-Wide Web Conference (Acceptance Rate&#58; 17%)
   type: pc
-  pdf_url: https://kaist-dsail.github.io/files/WWW17.pdf
+  pdf_url: https://dsail.kaist.ac.kr/files/WWW17.pdf
   code_url: https://cornac.readthedocs.io/en/latest/models.html#module-cornac.models.mcf.recom_mcf
-  slide_url: https://kaist-dsail.github.io/files/WWW17_slide.pdf
+  slide_url: https://dsail.kaist.ac.kr/files/WWW17_slide.pdf
  
 
 - title: Convolutional Matrix Factorization for Document Context-Aware Recommendation
@@ -94,7 +94,7 @@
   venue: RecSys 2016
   venue_full: ACM International Conference on Recommender System (Acceptance Rate&#58; 18.2%)
   type: pc
-  pdf_url: https://kaist-dsail.github.io/files/RecSys16.pdf
+  pdf_url: https://dsail.kaist.ac.kr/files/RecSys16.pdf
   code_url: https://github.com/cartopy/ConvMF-1.0.0
  
 
@@ -103,7 +103,7 @@
   venue: WWW 2016
   venue_full: 25th International World-Wide Web Conference (Poster)
   type: pc
-  pdf_url: https://kaist-dsail.github.io/files/WWW16.pdf
+  pdf_url: https://dsail.kaist.ac.kr/files/WWW16.pdf
   code_url: http://dm.postech.ac.kr/TRecSo/TRecSo.java
 
 
@@ -113,5 +113,5 @@
   venue_full: ACM Recommender Systems Challenge (10th place, top 1.1%)
   type: ps
   pdf_url: http://dx.doi.org/10.1145/2813448.2813517
-  slide_url: https://kaist-dsail.github.io/files/RecSysChallenge15_slide.pdf
+  slide_url: https://dsail.kaist.ac.kr/files/RecSysChallenge15_slide.pdf
  

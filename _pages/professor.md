@@ -29,7 +29,7 @@ permalink: /professor/
 - Before joining KAIST, I was a postdoctoral research fellow in Computer Science at University of Illinois at Urbana-Champaign. I obtained my Ph.D degree in Computer Science and Engineering from Pohang University of Science and Technology (POSTECH), and B.S. in Computer Science from Sogang University.
 
 ### Research Interest
-#### (Click [here](https://kaist-dsail.github.io/files/research.pdf){:target="_blank"} for more detail)
+#### (Click [here](https://dsail.kaist.ac.kr/files/research.pdf){:target="_blank"} for more detail)
 - <b>Multimodal Data Mining, Applied Machine Learning, Deep Learning</b>
   - Mining meaningful knowledge from multimodal data to develop artificial intelligence solutions for various real-world applications across different disciplines.
   - Keywords: Multimodal user behavior analysis, Machine learning for graphs, Graph neural network, Graph representation learning
