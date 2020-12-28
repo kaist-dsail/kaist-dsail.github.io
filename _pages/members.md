@@ -9,8 +9,8 @@ permalink: /members/
 <!-- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
 
 
-## Members
-<span style="color:red">**I am actively seeking for passionate and self-motivated Ph.D. students, MS students, and postdocs. If you are interested, send me an email (<cy.park@kaist.ac.kr>) with your interests and CV.**</span>
+## Current Members
+<!-- <span style="color:red">**I am actively seeking for passionate and self-motivated Ph.D. students, MS students, and postdocs. If you are interested, send me an email (<cy.park@kaist.ac.kr>) with your interests and CV.**</span> -->
 
 
 {% assign number_printed = 0 %}
@@ -23,6 +23,7 @@ permalink: /members/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}">
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
