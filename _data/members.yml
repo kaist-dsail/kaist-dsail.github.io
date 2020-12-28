@@ -1,6 +1,26 @@
-# - name: Rebecca Gharibaan
-#   photo: rock.jpg
-#   info: Master student
-#   email: R.Gharibaan@student.tudelft.nl
-#   number_educ: 0
-#   education1:
+- name: Namkyeong Lee
+  photo: namkyeong.jpg
+  info: Master student
+  email: namkyeong96 (at) kaist.ac.kr
+  # number_educ: 0
+  # education1:
+
+- name: Yoonho Lee
+  photo: yoonho.jpg
+  info: UG at KAIST EE
+  email: sml0399benbm (at) kaist.ac.kr 
+
+- name: Sein Kim
+  photo: sein.jpg
+  info: UG at KAIST ISysE
+  email: namkyeong96 (at) kaist.ac.kr
+
+- name: Sukwon Yun
+  photo: sukwon.jpg
+  info: UG at Hanyang IE
+  email: tyryey89 (at) gmail.com
+
+- name: Kibeom Kim
+  photo: kibeom.jpg
+  info: UG at Hanyang IE
+  email: namkyeong96 (at) kaist.ac.kr
