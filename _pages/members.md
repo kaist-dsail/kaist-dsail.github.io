@@ -13,7 +13,7 @@ permalink: /members/
 <!-- <span style="color:red">**I am actively seeking for passionate and self-motivated Ph.D. students, MS students, and postdocs. If you are interested, send me an email (<cy.park@kaist.ac.kr>) with your interests and CV.**</span> -->
 
 {% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+{% for member in site.data.members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
