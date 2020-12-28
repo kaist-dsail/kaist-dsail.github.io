@@ -14,7 +14,7 @@ permalink: /professor/
 <div class="col-sm-8 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  {{ member.info }}<br>E-mail: <{{ member.email }}><br>
+  {{ member.info }}<br>E-mail: {{ member.email }}<br>
   Tel: +82-42-350-3137<br> 
   Office: {{ member.office }}<br>
   [[CV]]({{ member.cv_url }}){:target="_blank"}[[Google Scholar]]({{ member.gs_url }}){:target="_blank"}
