@@ -26,7 +26,7 @@ permalink: /members/
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="30%">
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>{{ member.email }}</i>
-  <ul style="overflow: hidden">
+  <!-- <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
@@ -50,19 +50,19 @@ permalink: /members/
   <li> {{ member.education4 }} </li>
   {% endif %}
 
-  </ul>
+  </ul> -->
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
 
-{% if even_odd == 1 %}
+{% if even_odd == 3 %}
 </div>
 {% endif %}
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
+{% assign even_odd = number_printed | modulo: 4 %}
+{% if even_odd == 3 %}
 </div>
 {% endif %}
 
