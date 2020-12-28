@@ -23,7 +23,7 @@ permalink: /members/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="50%" height="50%">
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>{{ member.email }}</i>
   <ul style="overflow: hidden">
