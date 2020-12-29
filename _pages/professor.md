@@ -49,7 +49,7 @@ permalink: /professor/
 - (2019.11) A paper got accepted at AAAI 2020.
 - (2019.05) Two papers got accepted at CIKM 2019.
 - (2019.01) I joined University of Illinois at Urbana-Champaign as a postdoctoral research fellow.
-- (2018.10) I successfully defended Ph.D theses.
+- (2018.10) I successfully defended Ph.D thesis.
 
 ### Work Experience
 - <b>KAIST (Korea Advanced Institute of Science and Technology)</b>, Daejeon, South Korea
