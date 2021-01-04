@@ -98,6 +98,7 @@ permalink: /professor/
 - ACM International Conference on Information and Knowledge Management (CIKM), 2016, 2017, 2018
 
 #### Journal Reviewer
+- Reliability Engineering & System Safety, Elsevier
 - Applied Soft Computing, Elsevier
 - Data & Knowledge Engineering, Elsevier
 - Pattern Recognition, Elsevier
