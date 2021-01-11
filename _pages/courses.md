@@ -7,3 +7,5 @@ permalink: /courses.html
 ---
 
 ## Spring 2021
+
+- IE343: Statistical Machine Learning
