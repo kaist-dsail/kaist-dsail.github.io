@@ -105,6 +105,7 @@ permalink: /professor/
 - Information Sciences, Elsevier
 - Expert Systems with Applications, Elsevier
 - Computational and Structural Biotechnology Journal, Elsevier
+- Frontiers of Information Technology & Electronic Engineering, Springer
 - Applied Intelligence (APIN), Springer
 - GeoInformatica, Springer
 - ACM Transactions on Knowledge and Data Engineering (TKDE)
