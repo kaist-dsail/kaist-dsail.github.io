@@ -40,6 +40,7 @@ permalink: /professor/
 - I am also looking for undergraduate students who are interested in doing internship in our lab. If you are interested, send me an email with your interests and CV.
 
 ### News
+- (2021.01) A paper got accepted at WWW 2021.
 - (2020.11) I gave a talk at Korea Military Academy.
 - (2020.11) I joined KAIST as an assistant professor.
 - (2020.09) A paper got accepted at ICDM 2020.
