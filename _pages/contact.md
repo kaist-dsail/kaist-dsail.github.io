@@ -7,7 +7,7 @@ permalink: /contact.html
 ---
 
 # Email
-cy.park@kaist.ac.kr
+cy.park (at) kaist.ac.kr
 
 # Tel
 010-000-0000
