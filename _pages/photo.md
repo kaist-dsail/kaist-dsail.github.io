@@ -10,7 +10,7 @@ permalink: /photo/
 <!-- <div class="col-sm-3 clearfix"> -->
 <div class="gallery">
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" width="100%" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" width="50%" />
 <div class="caption">Footsal vs. KSE. Jan, 2021</div>
 </center>
 </div>
