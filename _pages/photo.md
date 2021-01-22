@@ -13,11 +13,10 @@ permalink: /photo/
 {% for pic in site.data.activity %}
 <div class="gallery">
   <center>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" width="30%" />
   <div class="caption">{{ pic.info }}</div>
   </center>
 </div>
 </div>
 </div>
 </div>
-{% endfor %}
