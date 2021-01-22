@@ -7,12 +7,12 @@ permalink: /photo/
 
 {% for pic in site.data.activity %}
 
-<!-- <div class="col-sm-3 clearfix"> -->
-<div class="gallery">
+<div class="col-sm-3 clearfix">
+<!-- <div class="gallery"> -->
 	<center>
 	<img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" />
 	<div class="caption">Footsal vs. KSE. Jan, 2021</div>
-  </center>
+  	</center>
 </div>
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}"> -->
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" /> -->
