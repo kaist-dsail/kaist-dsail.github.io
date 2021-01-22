@@ -11,7 +11,7 @@ permalink: /photo/
 <div class="gallery">
 <center>
 <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" width="30%" />
-<div class="caption">Footsal vs. KSE. Jan, 2021</div>
+<div class="caption">Footsal (Jan, 2021)</div>
 </center>
 </div>
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}"> -->
