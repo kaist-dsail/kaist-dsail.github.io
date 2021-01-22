@@ -11,6 +11,6 @@ permalink: /photo/
 <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" />
 </div>
 
-<h4>{{ pic.info }}</h4>
+#### {{ pic.info }}
 
 {% endfor %}
