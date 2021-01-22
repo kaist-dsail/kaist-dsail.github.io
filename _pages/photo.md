@@ -10,12 +10,8 @@ permalink: /photo/
 <!-- <div class="col-sm-3 clearfix"> -->
 <!-- <div class="gallery"> -->
 <figure>
-<center>
 <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" width="30%" />
 <figcaption>Footsal (Jan, 2021)</figcaption>
-<!-- <div class="caption">Footsal (Jan, 2021)</div> -->
-</center>
-<!-- </div> -->
 </figure>
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}"> -->
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" /> -->
