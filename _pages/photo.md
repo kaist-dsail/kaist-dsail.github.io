@@ -8,12 +8,15 @@ permalink: /photo/
 {% for pic in site.data.activity %}
 
 <!-- <div class="col-sm-3 clearfix"> -->
-<div class="gallery">
+<!-- <div class="gallery"> -->
+<figure>
 <center>
 <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" width="30%" />
-<div class="caption">Footsal (Jan, 2021)</div>
+<figcaption>Footsal (Jan, 2021)</figcaption>
+<!-- <div class="caption">Footsal (Jan, 2021)</div> -->
 </center>
-</div>
+<!-- </div> -->
+</figure>
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}"> -->
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" /> -->
 <!-- </div> -->
