@@ -19,10 +19,6 @@ permalink: /photo/
   </figcaption>	
   <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" class="img-responsive" width="50%" />
 </figure>
-  <!-- <strong>{{ pic.info }}</strong> -->
-  <!-- <div class="caption">{{ pic.info }}</div> -->
-  <!-- </center> -->
-<!-- </div> -->
 {% endfor %}
 </div>
 </div>
