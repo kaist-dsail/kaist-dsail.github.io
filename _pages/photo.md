@@ -15,7 +15,7 @@ permalink: /photo/
 <!-- <div class="gallery"> -->
 <figure>
   <center>
-  <figcaption>Footsal</figcaption>	
+  <figcaption><strong>{{ pic.info }}</strong></figcaption>	
   <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" class="img-responsive" width="50%" />
   <!-- <strong>{{ pic.info }}</strong> -->
   <!-- <div class="caption">{{ pic.info }}</div> -->
