@@ -8,7 +8,7 @@ permalink: /photo/
 <div class="container-fluid">
 <div class="row">
 <div id="textid" class="col-sm-12">
-###Lab Photos
+## Lab Photos
 {% for pic in site.data.activity %}
 <strong>
 {{ pic.info }}
