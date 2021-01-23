@@ -11,13 +11,9 @@ permalink: /photo/
 <h3>Lab Photos</h3>
 
 {% for pic in site.data.activity %}
-
-<!-- <div class="gallery"> -->
-<!--   <center> -->
 <figure>
-  <figcaption>{{ pic.info }}
-  </figcaption>	
-  <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" class="img-responsive" width="50%" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/activity/{{ pic.image }}" width="50%" />
+  <figcaption>{{ pic.info }}</figcaption>	
 </figure>
 {% endfor %}
 </div>
