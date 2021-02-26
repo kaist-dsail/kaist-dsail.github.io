@@ -64,11 +64,11 @@ permalink: /professor/
 - <b>NAVER</b>, Seongnam, South Korea 
   + Research Intern in NAVER Shopping (2017.3 - 2017.6)
   + Host: [Dr. Jung-Tae Lee](https://scholar.google.com/citations?user=b7aYQFAAAAAJ&hl=en){:target="_blank"}
-  
+    
 ### Education
 - <b>POSTECH (Pohang University of Science and Technology)</b>
   + Ph.D. in Computer Science and Engineering (2014.3 - 2019.2)
-  + Dissertation: [Recommendation Framework via Matrix Factorization and Translation](http://www.dcollection.net/handler/postech/200000176265){:target="_blank"}
+  + Dissertation: Recommendation Framework via Matrix Factorization and Translation
   + Advisor: [Prof. Hwanjo Yu](http://hwanjoyu.org/){:target="_blank"}
 - <b>Sogang University</b>
   + B.S. in Computer Science and Engineering (2008.03 - 2014. 2)
