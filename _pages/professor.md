@@ -40,7 +40,7 @@ permalink: /professor/
 - I am also looking for undergraduate students who are interested in doing internship in our lab. If you are interested, send me an email with your interests and CV.
 
 ### News
-- (2021.02) I gave a talk at [2021 한국인공지능학회 동계단기강좌](http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF) [[Slide]](https://dsail.kaist.ac.kr/files/MLGraph2021.pdf).
+- (2021.02) I gave a talk at [2021 한국인공지능학회 동계단기강좌](http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF){:target="_blank"} [[Slide]](https://dsail.kaist.ac.kr/files/MLGraph2021.pdf){:target="_blank"}.
 - (2021.01) A paper got accepted at WWW 2021.
 - (2020.11) I gave a talk at Korea Military Academy.
 - (2020.11) I joined KAIST as an assistant professor.
@@ -54,7 +54,7 @@ permalink: /professor/
 - (2018.10) I successfully defended Ph.D thesis.
 
 ### Selected Presentation Slide
-- Recent Advancement in Machine Learning on Graph [[Slide]](https://dsail.kaist.ac.kr/files/MLGraph2021.pdf) ([2021 한국인공지능학회 동계단기강좌](http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF))
+- Recent Advancement in Machine Learning on Graph [[Slide]](https://dsail.kaist.ac.kr/files/MLGraph2021.pdf){:target="_blank"} ([2021 한국인공지능학회 동계단기강좌](http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF){:target="_blank"})
 
 
 ### Work Experience
