@@ -28,9 +28,6 @@ permalink: /professor/
 - I am an assistant professor in the [Department of Industrial Engineering and Systems](https://ie.kaist.ac.kr/){:target="_blank"} at [KAIST](http://kaist.ac.kr/){:target="_blank"}. 
 - Before joining KAIST, I was a postdoctoral research fellow in Computer Science at University of Illinois at Urbana-Champaign. I obtained my Ph.D degree in Computer Science and Engineering from Pohang University of Science and Technology (POSTECH), and B.S. in Computer Science from Sogang University.
 
-### Selected Presentation Slide
-- Recent Advancement in Machine Learning on Graph [slide](https://dsail.kaist.ac.kr/files/MLGraph2021.pdf) ([2021 한국인공지능학회 동계단기강좌](http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF))
-
 ### Research Interest
 #### (Click [here](https://dsail.kaist.ac.kr/files/research.pdf){:target="_blank"} for more detail)
 - <b>Multimodal Data Mining, Applied Machine Learning, Deep Learning</b>
@@ -43,6 +40,7 @@ permalink: /professor/
 - I am also looking for undergraduate students who are interested in doing internship in our lab. If you are interested, send me an email with your interests and CV.
 
 ### News
+- (2021.02) I gave a talk at [2021 한국인공지능학회 동계단기강좌](http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF) [[Slide]](https://dsail.kaist.ac.kr/files/MLGraph2021.pdf).
 - (2021.01) A paper got accepted at WWW 2021.
 - (2020.11) I gave a talk at Korea Military Academy.
 - (2020.11) I joined KAIST as an assistant professor.
@@ -54,6 +52,10 @@ permalink: /professor/
 - (2019.05) Two papers got accepted at CIKM 2019.
 - (2019.01) I joined University of Illinois at Urbana-Champaign as a postdoctoral research fellow.
 - (2018.10) I successfully defended Ph.D thesis.
+
+### Selected Presentation Slide
+- Recent Advancement in Machine Learning on Graph [[Slide]](https://dsail.kaist.ac.kr/files/MLGraph2021.pdf) ([2021 한국인공지능학회 동계단기강좌](http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF))
+
 
 ### Work Experience
 - <b>KAIST (Korea Advanced Institute of Science and Technology)</b>, Daejeon, South Korea
