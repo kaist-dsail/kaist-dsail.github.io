@@ -99,6 +99,7 @@ permalink: /professor/
 - ACM International Conference on Information and Knowledge Management (CIKM), 2016, 2017, 2018
 
 #### Journal Reviewer
+- Entropy, MDPI
 - Transactions on Asian and Low-Resource Language Information Processing, ACM
 - Journal of King Saud University, Elsevier
 - Reliability Engineering & System Safety, Elsevier
