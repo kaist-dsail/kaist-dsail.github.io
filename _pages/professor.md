@@ -28,6 +28,9 @@ permalink: /professor/
 - I am an assistant professor in the [Department of Industrial Engineering and Systems](https://ie.kaist.ac.kr/){:target="_blank"} at [KAIST](http://kaist.ac.kr/){:target="_blank"}. 
 - Before joining KAIST, I was a postdoctoral research fellow in Computer Science at University of Illinois at Urbana-Champaign. I obtained my Ph.D degree in Computer Science and Engineering from Pohang University of Science and Technology (POSTECH), and B.S. in Computer Science from Sogang University.
 
+### Selected Presentation Slide
+- Recent Advancement in Machine Learning on Graph [slide](https://dsail.kaist.ac.kr/files/MLGraph2021.pdf) ([2021 한국인공지능학회 동계단기강좌](http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF))
+
 ### Research Interest
 #### (Click [here](https://dsail.kaist.ac.kr/files/research.pdf){:target="_blank"} for more detail)
 - <b>Multimodal Data Mining, Applied Machine Learning, Deep Learning</b>
