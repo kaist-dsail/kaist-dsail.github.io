@@ -36,8 +36,8 @@ permalink: /professor/
   - <b>Application domains</b>: Recommendation system, Social network analysis, Fraud detection, Sentiment analysis, Purchase/Click prediction, Anomaly detection, Knowlede-graph construction, Time-series and spatio-temporal anlaysis, etc.
 
 ### Announcements
-- <span style="color:red"><b>I am actively seeking for passionate and self-motivated Ph.D. students, MS students, and postdocs. If you are interested, send me an email with your interests and CV.</b></span>
-- I am also looking for undergraduate students who are interested in doing internship in our lab. If you are interested, send me an email with your interests and CV.
+- <span style="color:red"><b>I am actively seeking for passionate and self-motivated Ph.D. students, MS students, and postdocs. If you are interested, send me an email with your interests, CV, and transcript.</b></span>
+- I am also looking for undergraduate students who are interested in doing internship in our lab. If you are interested, send me an email with your interests, CV, and transcript.
 
 ### News
 - (2021.02) I gave a talk at [2021 한국인공지능학회 동계단기강좌](http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF){:target="_blank"} [[Slide]](https://dsail.kaist.ac.kr/files/MLGraph2021.pdf){:target="_blank"}.
