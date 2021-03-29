@@ -14,15 +14,15 @@
   email: zxop0327 (at) kaist.ac.kr
   # number_educ: 0
   # education1:
-- name: Jungwoon Shin
-  photo: jungwoon.jpg
-  info: Visiting researcher
-  email: jungwoonshin (at) gmail.com
-
 - name: Dongmin Hyun
   photo: dongmin.jpg
   info: Visiting researcher
   email: dmhyun92 (at) gmail.com
+
+- name: Jungwoon Shin
+  photo: jungwoon.jpg
+  info: Visiting researcher
+  email: jungwoonshin (at) gmail.com
 
 - name: Junyoung Ryu
   photo: junyoung.png
