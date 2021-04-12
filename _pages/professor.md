@@ -92,7 +92,7 @@ permalink: /professor/
 - The Web Conference (WWW), 2020, 2021
 - The Web Conference (WWW) Poster Track, 2020
 - ACM International Conference on Information and Knowledge Management (CIKM) Short Paper Track, 2020
-- IEEE BigData, 2020
+- IEEE International Conference on Big Data (BigData) 2020, 2021
 - ECML-PKDD Applied Data Science Track, and Demo Track, 2020
 - International Conference on Internet and Web Applications and Services (ICIW), 2017, 2018
 
