@@ -1,7 +1,7 @@
 - title: Bootstrapping User and Item Representations for One-Class Collaborative Filtering
   authors: Dongha Lee, Seongku Kang, Hyunjun Ju, Chanyoung Park, Hwanjo Yu
   venue: SIGIR 2021
-  venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2021 (Acceptance Rate&#58; 21%)
+  venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval (Acceptance Rate&#58; 21%)
   type: pc
   pdf_url: http://dsail.kaist.ac.kr/publications/
   code_url: https://github.com/donalee/BUIR
