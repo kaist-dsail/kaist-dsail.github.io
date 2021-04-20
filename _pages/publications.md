@@ -80,6 +80,11 @@ permalink: /publications/
 {{ publi.authors }}<br />
 <b>{{ publi.venue }}</b> - {{ publi.venue_full }}<br />
 [[PDF]]({{ publi.pdf_url }}){:target="_blank"}[[Code]]({{ publi.code_url }}){:target="_blank"}[[Slide]]({{ publi.slide_url }}){:target="_blank"}[[Video]]({{ publi.video_url }}){:target="_blank"}
+{% elsif publi.type == 'pv' %}
+<font color="blue"><b>{{ publi.title }}</b></font>
+{{ publi.authors }}<br />
+<b>{{ publi.venue }}</b> - {{ publi.venue_full }}<br />
+[[PDF]]({{ publi.pdf_url }}){:target="_blank"}[[Video]]({{ publi.video_url }}){:target="_blank"}
 {% else %}
 <font color="blue"><b>{{ publi.title }}</b></font>
 {{ publi.authors }}<br />
