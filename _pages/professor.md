@@ -25,7 +25,7 @@ permalink: /professor/
 {% endfor %}
 
 ### About
-- I am an assistant professor in the [Department of Industrial Engineering and Systems](https://ie.kaist.ac.kr/){:target="_blank"} at [KAIST](http://kaist.ac.kr/){:target="_blank"}. 
+- I am an assistant professor in the [Department of Industrial Engineering and Systems](https://ie.kaist.ac.kr/){:target="_blank"} and [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"} at [KAIST](http://kaist.ac.kr/){:target="_blank"}. 
 - Before joining KAIST, I was a postdoctoral research fellow in Computer Science at University of Illinois at Urbana-Champaign. I obtained my Ph.D degree in Computer Science and Engineering from Pohang University of Science and Technology (POSTECH), and B.S. in Computer Science from Sogang University.
 
 ### Research Interest
