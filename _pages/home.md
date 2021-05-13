@@ -20,6 +20,8 @@ Two underlying themes of our research are:
 
 Our main research interests include <b>Data Mining, Machine Learning, Deep Learning, and Artificial Intelligence</b>, and their applications including but not limited to the following:
 - Recommendation system
+- Graph Neural Networks for Chemistry 
+- Graph Neural Networks Molecular Design and Drug discovery
 - Social network analysis
 - Graph representation learning
 - Graph Mining
