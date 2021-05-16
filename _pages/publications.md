@@ -96,15 +96,8 @@ permalink: /publications/
 <b>{{ publi.venue }}</b> - {{ publi.venue_full }}<br />
 {% endif %}
 {% endfor %}
-
-<!-- {% for publi in site.data.publist_conf %}
-<font color="blue"><b>{{ publi.title }}</b></font>
-{{ publi.authors }}<br />
-<b>{{ publi.venue }}</b> - {{ publi.venue_full }}
-<br><br>
-{% endfor %} -->
-
 <p> &nbsp;&nbsp; </p>
+
 
 # International Journals
 
