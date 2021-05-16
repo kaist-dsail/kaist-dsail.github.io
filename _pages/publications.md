@@ -80,6 +80,7 @@ permalink: /publications/
 {{ publi.authors }}<br />
 <b>{{ publi.venue }}</b> - {{ publi.venue_full }}<br />
 [[PDF]]({{ publi.pdf_url }}){:target="_blank"}[[Code]]({{ publi.code_url }}){:target="_blank"}[[Slide]]({{ publi.slide_url }}){:target="_blank"}[[Video]]({{ publi.video_url }}){:target="_blank"}
+<<<<<<< HEAD
 {% elsif publi.type == 'pcv' %}
 <font color="blue"><b>{{ publi.title }}</b></font>
 {{ publi.authors }}<br />
@@ -90,6 +91,8 @@ permalink: /publications/
 {{ publi.authors }}<br />
 <b>{{ publi.venue }}</b> - {{ publi.venue_full }}<br />
 [[PDF]]({{ publi.pdf_url }}){:target="_blank"}[[Video]]({{ publi.video_url }}){:target="_blank"}
+=======
+>>>>>>> parent of 8842ee9... 1
 {% else %}
 <font color="blue"><b>{{ publi.title }}</b></font>
 {{ publi.authors }}<br />
