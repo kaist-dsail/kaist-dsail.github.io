@@ -59,8 +59,9 @@
   authors: Seonghyun Lee, Chanyoung Park, Hwanjo Yu 
   venue: CIKM 2019
   venue_full: ACM International Conference on Information and Knowledge Management (Acceptance Rate&#58; 19.4%)
-  type: p
+  type: pc
   pdf_url: https://dsail.kaist.ac.kr/files/CIKM19.pdf
+  code_url: https://github.com/sh0416/BHIN2VEC
 
 
 - title: Action Space Learning for Heterogeneous User Behavior Prediction
