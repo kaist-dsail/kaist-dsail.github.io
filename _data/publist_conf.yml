@@ -10,11 +10,7 @@
   authors: Baoyu Jing, Chanyoung Park, Hanghang Tong
   venue: WWW 2021
   venue_full: The Web Conference 2021 (Acceptance Rate&#58; 20.6%)
-<<<<<<< HEAD
-  type: pcv
-=======
-  type: p
->>>>>>> parent of 8842ee9... 1
+  type: pv
   pdf_url: https://arxiv.org/pdf/2102.07810.pdf
 
 - title: Interest Sustainability-Aware Recommender System
