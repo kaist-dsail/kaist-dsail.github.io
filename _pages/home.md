@@ -25,6 +25,7 @@ Our main research interests include <b>Data Mining, Machine Learning, Deep Learn
 - Social network analysis
 - Graph representation learning
 - Graph Mining
+- AI for Finance
 - Node classification / Link prediction
 - Fraud detection
 - Sentiment analysis
