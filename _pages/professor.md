@@ -33,7 +33,7 @@ permalink: /professor/
 - <b>Multimodal Data Mining, Applied Machine Learning, Deep Learning</b>
   - Mining meaningful knowledge from multimodal data to develop artificial intelligence solutions for various real-world applications across different disciplines.
   - Keywords: Multimodal user behavior analysis, Machine learning for graphs, Graph neural network, Graph representation learning
-  - <b>Application domains</b>: Recommendation system, Social network analysis, Fraud detection, Sentiment analysis, Purchase/Click prediction, Anomaly detection, Knowlede-graph construction, Time-series and spatio-temporal anlaysis, etc.
+  - <b>Application domains</b>: Recommendation system, Social network analysis, Fraud detection, Sentiment analysis, Purchase/Click prediction, Anomaly detection, Knowlede-graph construction, Chemistry, Time-series and spatio-temporal anlaysis, etc.
 
 ### Announcements
 - <span style="color:red"><b>I am actively seeking for passionate and self-motivated Ph.D. students, MS students, and postdocs. If you are interested, send me an email with your interests, CV, and transcript.</b></span>
