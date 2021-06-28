@@ -12,8 +12,17 @@
   photo: junyoung.png
   info: Master student
   email: zxop0327 (at) kaist.ac.kr
-  # number_educ: 0
-  # education1:
+
+- name: Sukwon Yun
+  photo: sukwon.jpg
+  info: Master student
+  email: tyryey89 (at) gmail.com
+
+- name: Ki-Bum Kim
+  photo: kibum.jpg
+  info: Master student
+  email: rlqja9611 (at) naver.com
+
 - name: Dongmin Hyun
   photo: dongmin.jpg
   info: Visiting researcher
@@ -28,18 +37,3 @@
   photo: sein.jpg
   info: UG at KAIST ISysE/CS
   email: rlatpdlsgns (at) kaist.ac.kr
-
-- name: Sukwon Yun
-  photo: sukwon.jpg
-  info: UG at Hanyang Univ. IE
-  email: tyryey89 (at) gmail.com
-
-- name: Ki-Bum Kim
-  photo: kibum.jpg
-  info: UG at Hanyang Univ. IE/CS
-  email: rlqja9611 (at) naver.com
-
-- name: Jae-Hyun Nam
-  photo: jaehyun.jpg
-  info: UG at SNU IE/Math
-  email: johnnam513 (at) snu.ac.kr
