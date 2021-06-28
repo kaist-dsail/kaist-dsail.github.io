@@ -22,9 +22,9 @@ permalink: /members/
 {% endif %}
 
 <div class="col-lg-3 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="100%" style="float: center" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="80%" style="float: center" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>Email: {{ member.email }}</i>
+  <i>{{ member.info }}<br>{{ member.email }}</i>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
