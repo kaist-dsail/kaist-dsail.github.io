@@ -21,7 +21,7 @@ permalink: /members/
 <div class="row">
 {% endif %}
 
-<div class="col-lg-3 clearfix">
+<div class="col-md-3 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="80%" style="float: center" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>{{ member.email }}</i>
