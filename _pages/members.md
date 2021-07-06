@@ -73,6 +73,7 @@ permalink: /members/
 </div>
 {% endif %}
 
+<div class="row"> </div>
 
 ## Previously Affilated
 <!-- <span style="color:red">**I am actively seeking for passionate and self-motivated Ph.D. students, MS students, and postdocs. If you are interested, send me an email (<cy.park (at) kaist.ac.kr>) with your interests and CV.**</span> -->
