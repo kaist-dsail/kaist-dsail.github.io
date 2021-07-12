@@ -40,7 +40,7 @@ permalink: /professor/
 - I am also looking for undergraduate students who are interested in doing internship in our lab. If you are interested, send me an email with your interests, CV, and transcript.
 
 ### News
-- (2021.07) Call For Paper: Frontiers in Artificial Intelligence [Graph representation learning: Methods and Applications](https://www.frontiersin.org/research-topics/22665/graph-representation-learning-methods-and-applications#overview)
+- (2021.07) Call For Paper: Frontiers in Artificial Intelligence ([Graph representation learning: Methods and Applications])(https://www.frontiersin.org/research-topics/22665/graph-representation-learning-methods-and-applications#overview)
 - (2021.02) I gave a talk at [2021 한국인공지능학회 동계단기강좌](http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF){:target="_blank"} [[Slide]](https://dsail.kaist.ac.kr/files/MLGraph2021.pdf){:target="_blank"}.
 - (2021.01) A paper got accepted at WWW 2021.
 - (2020.11) I gave a talk at Korea Military Academy.
