@@ -87,7 +87,7 @@ permalink: /professor/
 - Top 1.1% in RecSys Challenge (2015)
 
 ### Academic Services
-#### Program Commettee (Conference)
+#### Program Commettee for
 - International Conference on Database Systems for Advanced Applications (DASFAA), 2021
 - AAAI Conference on Artificial Intelligence (AAAI), 2021
 - The Web Conference (WWW), 2020, 2021
@@ -97,14 +97,14 @@ permalink: /professor/
 - ECML-PKDD Applied Data Science Track, and Demo Track, 2020
 - International Conference on Internet and Web Applications and Services (ICIW), 2017, 2018
 
-#### External Reviewer (Conference)
+#### External Reviewer for
 - ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2020
 - The Web Conference (WWW), 2017, 2018, 2019
 - IEEE International Conference on Big Data and Smart Computing (BigComp), 2017
 - AAAI Conference on Artificial Intelligence (AAAI), 2017
 - ACM International Conference on Information and Knowledge Management (CIKM), 2016, 2017, 2018
 
-#### Journal Reviewer
+#### Journal Reviewer for
 - Entropy, MDPI
 - Transactions on Asian and Low-Resource Language Information Processing, ACM
 - Journal of King Saud University, Elsevier
@@ -125,6 +125,9 @@ permalink: /professor/
 - Concurrency and Computation: Practice and Experience, John Wiley and Sons Ltd
 - Applied Computational Intelligence and Soft Computing, Hindawi
 - Mathematical Problems in Engineering, Hindawi
+
+#### Editorship
+- Frontiers in Artificial Intelligence [(Graph representation learning: Methods and Applications)](https://www.frontiersin.org/research-topics/22665/graph-representation-learning-methods-and-applications#overview){:target="_blank"}
 
 <!-- ### Teaching
 - POSTECH CSED312: Operating System
