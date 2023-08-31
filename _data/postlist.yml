@@ -1,0 +1,19 @@
+- title: LTE4G&#58; Long-Tail Experts for Graph Neural Networks
+  authors: Sukwon Yun
+  description: 
+  url: LTE4G
+
+- title: Relational Self-Supervised Learning on Graphs
+  authors: Namkyeong Lee
+  description: 
+  url: RGRL
+
+- title: GraFN&#58; Semi-Supervised Node Classification on Graph with Few Labels via Non-Parametric Distribution Assignment
+  authors: Junseok Lee
+  description: 
+  url: GraFN
+
+- title: Augmentation-Free Self-Supervised Learning on Graphs
+  authors: Namkyeong Lee
+  date: 2022.08.24
+  url: AFGRL

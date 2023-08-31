@@ -1,0 +1,391 @@
+- title: MUSE&#58; Music Recommender System with Shuffle Play Recommendation Enhancement
+  authors: Yunhak Oh, Sukwon Yun, Dongmin Hyun, Sein Kim, Chanyoung Park
+  venue: CIKM 2023
+  venue_full: ACM International Conference on Information and Knowledge Management
+  year: 2023
+  type: pc
+  pdf_url: https://arxiv.org/abs/2308.09649
+  code_url: https://github.com/yunhak0/MUSE
+
+- title: Class Label-aware Graph Anomaly Detection
+  authors: Junghoon Kim, Yeonjun In, Kanghoon Yoon, Junmo Lee, Chanyoung Park
+  venue: CIKM 2023 
+  venue_full: ACM International Conference on Information and Knowledge Management (Short paper)
+  year: 2023
+  type: pc
+  pdf_url: https://arxiv.org/abs/2308.11669
+  code_url: https://github.com/jhkim611/CLAD
+  
+- title: Structural Mixup for Graph Neural Networks
+  authors: Junghurn Kim, Sukwon Yun, Chanyoung Park
+  venue: CIKM 2023 
+  venue_full: ACM International Conference on Information and Knowledge Management (Short paper)
+  year: 2023
+  type: pc
+  pdf_url: https://arxiv.org/abs/2308.08097
+  code_url: https://github.com/SukwonYun/S-Mixup
+
+- title: Similarity Preserving Adversarial Graph Contrastive Learning
+  authors: Yeonjun In, Kanghoon Yoon, Chanyoung Park
+  venue: KDD 2023
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2023
+  type: pcv
+  pdf_url: https://arxiv.org/abs/2306.13854
+  code_url: https://github.com/yeonjun-in/torch-SP-AGCL
+  video_url: https://youtu.be/hqJG4_iCYMM
+
+- title: Shift-Robust Molecular Relational Learning with Causal Substructure
+  authors: Namkyeong Lee, Kanghoon Yoon, Gyoung S. Na, Sein Kim, Chanyoung Park
+  venue: KDD 2023
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2023
+  type: pcv
+  pdf_url: https://arxiv.org/abs/2305.18451
+  code_url: https://github.com/Namkyeong/CMRL
+  video_url: https://youtu.be/KVhbwicqh5c
+
+- title: Task-Equivariant Graph Few-shot Learning
+  authors: Sungwon Kim, Junseok Lee, Namkyeong Lee, Wonjoong Kim, Seungyoon Choi, Chanyoung Park
+  venue: KDD 2023
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2023
+  type: pcv
+  pdf_url: https://arxiv.org/abs/2305.18758
+  code_url: https://github.com/sung-won-kim/TEG
+  video_url: https://youtu.be/zfn4gi9cVic
+
+- title: Task Relation-aware Continual User Representation Learning
+  authors: Sein Kim, Namkyeong Lee, Donghyun Kim, Min-Chul Yang, Chanyoung Park
+  venue: KDD 2023
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2023
+  type: pcv
+  pdf_url: https://arxiv.org/abs/2306.01792
+  code_url: https://github.com/Sein-Kim/TERACON
+  video_url: https://youtu.be/4oW3Bwy9r6M
+
+- title: Conditional Graph Information Bottleneck for Molecular Relational Learning
+  authors: Namkyeong Lee, Dongmin Hyun, Gyoung S. Na, Sungwon Kim, Junseok Lee, Chanyoung Park
+  venue: ICML 2023
+  venue_full: International Conference on Machine Learning
+  year: 2023
+  type: pc
+  pdf_url: https://arxiv.org/abs/2305.01520
+  code_url: https://github.com/Namkyeong/CGIB
+
+- title: MELT&#58; Mutual Enhancement of Long-Tailed User and Item for Sequential Recommendation
+  authors: Kibum Kim, Dongmin Hyun, Sukwon Yun, Chanyoung Park
+  venue: SIGIR 2023
+  venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval
+  year: 2023
+  type: pc
+  pdf_url: https://arxiv.org/abs/2304.08382
+  code_url: https://github.com/rlqja1107/MELT
+
+- title: Heterogeneous Graph Learning for Multi-modal Medical Data Analysis
+  authors: Sein Kim, Namkyeong Lee, Junseok Lee, Dongmin Hyun, Chanyoung Park
+  venue: AAAI 2023 (Oral)
+  venue_full: Thirty-Seventh AAAI Conference on Artificial Intelligence
+  year: 2023
+  type: pcsv
+  pdf_url: https://arxiv.org/abs/2211.15158
+  code_url: https://github.com/Sein-Kim/Multimodal-Medical
+  slide_url: https://kaist-dsail.github.io/files/AAAI23_HetMed_slide.pdf
+  video_url: https://youtu.be/NxXhc90dIZs
+
+- title: Unbiased Heterogeneous Scene Graph Generation with Relation-aware Message Passing Neural Network
+  authors: Kanghoon Yoon, Kibum Kim, Jinyoung Moon, Chanyoung Park
+  venue: AAAI 2023
+  venue_full: Thirty-Seventh AAAI Conference on Artificial Intelligence
+  year: 2023
+  type: pcsv
+  pdf_url: https://arxiv.org/abs/2212.00443
+  code_url: https://github.com/KanghoonYoon/hetsgg-torch
+  slide_url: https://kaist-dsail.github.io/files/AAAI23_HetSGG_slide.pdf
+  video_url: https://youtu.be/bfr4iFVN7Jk
+
+- title: Deep single-cell RNA-seq data clustering with graph prototypical contrastive learning
+  authors: Junseok Lee, Sungwon Kim, Dongmin Hyun, Namkyeong Lee, Yejin Kim, Chanyoung Park
+  venue: ICML 2023 Workshop on Computational Biology
+  venue_full: International Conference on Machine Learning
+  year: 2023
+  type: pc
+  pdf_url: https://icml-compbio.github.io/2023/papers/WCBICML2023_paper129.pdf
+  code_url: https://github.com/Junseok0207/scGPCL
+
+- title: Single-cell RNA-seq data imputation using Feature Propagation  
+  authors: Sukwon Yun, Junseok Lee, Chanyoung Park
+  venue: ICML 2023 Workshop on Computational Biology (Contributed Talk) (Best Paper Award)
+  venue_full: International Conference on Machine Learning
+  year: 2023
+  type: pc
+  pdf_url: https://arxiv.org/abs/2307.10037
+  code_url: https://github.com/Junseok0207/scFP
+
+- title: Predicting Density of States via Multi-modal Transformer
+  authors: Namkyeong Lee, Heewoong Noh, Sungwon Kim, Dongmin Hyun, Gyoung S. Na, Chanyoung Park
+  venue: ICLR 2023 Workshop on Machine Learning for Materials (ML4Materials)
+  venue_full: International Conference on Learning Representations
+  year: 2023
+  type: pc
+  pdf_url: https://arxiv.org/abs/2303.07000
+  code_url: https://github.com/HeewoongNoh/DOSTransformer
+
+- title: Shift-Robust Node Classification via Graph Adversarial Clustering
+  authors: Qi Zhu, Chao Zhang, Chanyoung Park, Carl Yang, Jiawei Han
+  venue:  NeurIPS 2022 Workshop on New Frontiers in Graph Learning (GLFrontiers)
+  venue_full: Conference on Neural Information Processing Systems
+  year: 2022
+  type: p
+  pdf_url: https://arxiv.org/abs/2203.15802
+  
+
+- title: Generating Multiple-Length Summaries via Reinforcement Learning for Unsupervised Sentence Summarization
+  authors: Dongmin Hyun, Xiting Wang, Chanyoung Park, Xing Xie, Hwanjo Yu
+  venue: EMNLP 2022 (Findings)
+  venue_full: Conference on Empirical Methods in Natural Language Processing
+  year: 2022
+  type: p
+  pdf_url: https://kaist-dsail.github.io/
+  
+
+- title: Set2Box&#58; Similarity Preserving Representation Learning for Sets
+  authors: Geon Lee, Chanyoung Park, Kijung Shin
+  venue: ICDM 2022
+  venue_full: The IEEE International Conference on Data Mining
+  year: 2022
+  type: pc
+  pdf_url: https://arxiv.org/abs/2210.03282
+  code_url: https://github.com/geon0325/Set2Box
+  
+
+- title: LTE4G&#58; Long-Tail Experts for Graph Neural Networks
+  authors: Sukwon Yun, Kibum Kim, Kanghoon Yoon, Chanyoung Park
+  venue: CIKM 2022
+  venue_full: ACM International Conference on Information and Knowledge Management
+  year: 2022
+  type: pcs
+  pdf_url: https://arxiv.org/abs/2208.10205
+  code_url: https://github.com/SukwonYun/LTE4G
+  slide_url: https://kaist-dsail.github.io/files/CIKM22_LTE4G_slide.pdf
+
+- title: Relational Self-Supervised Learning on Graphs
+  authors: Namkyeong Lee, Dongmin Hyun, Junseok Lee, Chanyoung Park
+  venue: CIKM 2022
+  venue_full: ACM International Conference on Information and Knowledge Management
+  year: 2022
+  type: pcs
+  pdf_url: https://arxiv.org/abs/2208.10493
+  code_url: https://github.com/Namkyeong/RGRL
+  slide_url: https://kaist-dsail.github.io/files/CIKM22_RGRL_slide.pdf
+
+- title: Beyond Learning from Next Item&#58; Sequential Recommendation via Personalized Interest Sustainability
+  authors: Dongmin Hyun, Chanyoung Park, Junsu Cho, Hwanjo Yu
+  venue: CIKM 2022
+  venue_full: ACM International Conference on Information and Knowledge Management
+  year: 2022
+  type: pcs
+  pdf_url: https://arxiv.org/abs/2209.06644
+  code_url: https://github.com/dmhyun/peris
+  slide_url: https://kaist-dsail.github.io/files/CIKM22_PERIS_slide.pdf
+
+- title: Nonlinearity Encoding for Extrapolation of Neural Networks
+  authors: Gyoung S. Na, Chanyoung Park
+  venue: KDD 2022
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2022
+  type: pcs
+  pdf_url: https://kaist-dsail.github.io/files/KDD22.pdf
+  code_url: https://github.com/ngs00/ane
+  slide_url: https://kaist-dsail.github.io/files/KDD22_slide.pdf
+
+- title: GraFN&#58; Semi-Supervised Node Classification on Graph with Few Labels via Non-Parametric Distribution Assignment
+  authors: Junseok Lee, Yunhak Oh, Yeonjun In, Namkyeong Lee, Dongmin Hyun, Chanyoung Park
+  venue: SIGIR 2022
+  venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval (Short paper)
+  year: 2022
+  type: pcs
+  pdf_url: https://arxiv.org/abs/2204.01303
+  code_url: https://github.com/LJS-Student/GraFN
+  slide_url: https://kaist-dsail.github.io/files/SIGIR22_GraFN_slide.pdf
+  
+- title: AHP&#58; Learning to Negative Sample for Hyperedge Prediction
+  authors: Hyunjin Hwang, Seungwoo Lee, Chanyoung Park, Kijung Shin
+  venue: SIGIR 2022
+  venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval (Short paper)
+  year: 2022
+  type: pc
+  pdf_url: https://arxiv.org/abs/2204.06353
+  code_url: https://github.com/HyunjinHwn/SIGIR22-AHP
+
+- title: Augmentation-Free Self-Supervised Learning on Graphs
+  authors: Namkyeong Lee, Junseok Lee, Chanyoung Park
+  venue: AAAI 2022
+  venue_full: Thirty-Sixth AAAI Conference on Artificial Intelligence
+  year: 2022
+  type: pcs
+  pdf_url: https://arxiv.org/abs/2112.02472
+  code_url: https://github.com/Namkyeong/AFGRL
+  slide_url: https://namkyeong.github.io/assets/pdf/slides_AFGRL.pdf
+
+- title: Learnable Structural Semantic Readout for Graph Classification
+  authors: Dongha Lee, Su Kim, Seonghyeon Lee, Chanyoung Park, Hwanjo Yu
+  venue: ICDM 2021
+  venue_full: The IEEE International Conference on Data Mining
+  year: 2021
+  type: pc
+  pdf_url: https://arxiv.org/abs/2111.11523
+  code_url: https://github.com/donalee/ssread
+
+- title: Bootstrapping User and Item Representations for One-Class Collaborative Filtering
+  authors: Dongha Lee, Seongku Kang, Hyunjun Ju, Chanyoung Park, Hwanjo Yu
+  venue: SIGIR 2021
+  venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval 
+  year: 2021
+  type: pc
+  pdf_url: https://arxiv.org/abs/2105.06323
+  code_url: https://github.com/donalee/BUIR
+
+- title: HDMI&#58; High-order Deep Multiplex Infomax
+  authors: Baoyu Jing, Chanyoung Park, Hanghang Tong
+  venue: WWW 2021
+  venue_full: The Web Conference 2021
+  year: 2021
+  type: pcv
+  pdf_url: https://arxiv.org/pdf/2102.07810.pdf
+  video_url: https://www.youtube.com/watch?v=2iW6uFlttJU
+  code_url: https://github.com/baoyujing/HDMI
+
+- title: Interest Sustainability-Aware Recommender System
+  authors: Dongmin Hyun, Junsu Cho, Chanyoung Park, Hwanjo Yu
+  venue: ICDM 2020
+  venue_full: The IEEE International Conference on Data Mining
+  year: 2020
+  type: pc
+  pdf_url: https://kaist-dsail.github.io/files/ICDM20.pdf
+  code_url: https://github.com/dmhyun/CRIS
+
+
+- title: Unsupervised Differentiable Multi-aspect Network Embedding
+  authors: Chanyoung Park, Carl Yang, Qi Zhu, Donghyun Kim, Hwanjo Yu, Jiawei Han
+  venue: KDD 2020
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2020
+  type: pcsv
+  pdf_url: https://arxiv.org/abs/2006.04239
+  code_url: https://github.com/pcy1302/asp2vec
+  slide_url: https://kaist-dsail.github.io/files/KDD20_slide.pdf
+  video_url: https://youtu.be/DOdRmz1gLdc
+
+
+
+- title: Unsupervised Attributed Multiplex Network Embedding
+  authors: Chanyoung Park, Donghyun Kim, Jiawei Han, Hwanjo Yu 
+  venue: AAAI 2020
+  venue_full: Thirty-Fourth AAAI Conference on Artificial Intelligence
+  year: 2020
+  type: pcs
+  pdf_url: https://arxiv.org/abs/1911.06750
+  code_url: https://github.com/pcy1302/DMGI
+  slide_url: https://kaist-dsail.github.io/files/AAAI20_slide.pdf
+   
+
+- title: Task-Guided Pair Embedding in Heterogeneous Network
+  authors: Chanyoung Park, Donghyun Kim, Qi Zhu, Jiawei Han, Hwanjo Yu 
+  venue: CIKM 2019
+  venue_full: ACM International Conference on Information and Knowledge Management
+  year: 2019
+  type: pcs
+  pdf_url: https://arxiv.org/pdf/1906.01546.pdf
+  code_url: https://github.com/pcy1302/TapEM
+  slide_url: https://kaist-dsail.github.io/files/CIKM19_slide.pdf
+  
+
+- title: BHIN2vec&#58; Balancing the Type of Relation in Heterogeneous Information Network
+  authors: Seonghyun Lee, Chanyoung Park, Hwanjo Yu 
+  venue: CIKM 2019
+  venue_full: ACM International Conference on Information and Knowledge Management
+  year: 2019
+  type: pc
+  pdf_url: https://kaist-dsail.github.io/files/CIKM19.pdf
+  code_url: https://github.com/sh0416/BHIN2VEC
+
+
+- title: Action Space Learning for Heterogeneous User Behavior Prediction
+  authors: Dongha Lee, Chanyoung Park, Hyunjun Ju, Junyoung Hwang, Hwanjo Yu 
+  venue: IJCAI 2019
+  venue_full: International Joint Conference on Artificial Intelligence
+  year: 2019
+  type: pc
+  pdf_url: https://kaist-dsail.github.io/files/IJCAI19_2.pdf
+  code_url: https://github.com/donalee/metas
+ 
+
+- title: Sequential and Diverse Recommendation with Long Tail
+  authors: Yejin Kim, Kwangseob Kim, Chanyoung Park, Hwanjo Yu 
+  venue: IJCAI 2019
+  venue_full: International Joint Conference on Artificial Intelligence
+  year: 2019
+  type: p
+  pdf_url: https://kaist-dsail.github.io/files/IJCAI19_1.pdf
+
+- title: Collaborative Translational Metric Learning
+  authors: Chanyoung Park, Donghyun Kim, Xing Xie, Hwanjo Yu 
+  venue: ICDM 2018
+  venue_full: The IEEE International Conference on Data Mining
+  year: 2018
+  type: pcs
+  pdf_url: https://kaist-dsail.github.io/files/ICDM18.pdf
+  code_url: https://github.com/pcy1302/TransCF
+  slide_url: https://kaist-dsail.github.io/files/ICDM18_slide.pdf
+   
+
+- title: Review Sentiment-Guided Scalable Deep Recommender System
+  authors: Dongmin Hyun, Chanyoung Park, Min-Chul Yang, Ilhyeon Song, Jung-Tae Lee, Hwanjo Yu 
+  venue: SIGIR 2018
+  venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval (Short paper)
+  year: 2018
+  type: p
+  pdf_url: https://kaist-dsail.github.io/files/SIGIR18.pdf
+
+- title: Do "Also-Viewed" Products Help User Rating Prediction?
+  authors: Chanyoung Park, Donghyun Kim, Jinoh Oh, Hwanjo Yu 
+  venue: WWW 2017
+  venue_full: 26th International World-Wide Web Conference
+  year: 2017
+  type: pcs
+  pdf_url: https://kaist-dsail.github.io/files/WWW17.pdf
+  code_url: https://cornac.readthedocs.io/en/latest/models.html#module-cornac.models.mcf.recom_mcf
+  slide_url: https://kaist-dsail.github.io/files/WWW17_slide.pdf
+ 
+
+- title: Convolutional Matrix Factorization for Document Context-Aware Recommendation
+  authors: Donghyun Kim, Chanyoung Park, Jinoh Oh, Seungyong Lee, Hwanjo Yu  
+  venue: RecSys 2016
+  venue_full: ACM International Conference on Recommender System
+  year: 2016
+  type: pcs
+  pdf_url: https://kaist-dsail.github.io/files/RecSys16.pdf
+  code_url: https://github.com/cartopy/ConvMF-1.0.0
+  slide_url: https://kaist-dsail.github.io/files/RecSys16_slide.pdf
+ 
+
+- title: TRecSo&#58; Enhancing Top-k Recommendation With Social Information
+  authors: Chanyoung Park, Donghyun Kim, Jinoh Oh, Hwanjo Yu 
+  venue: WWW 2016
+  venue_full: 25th International World-Wide Web Conference (Poster)
+  year: 2016
+  type: pc
+  pdf_url: https://kaist-dsail.github.io/files/WWW16.pdf
+  code_url: http://dm.postech.ac.kr/TRecSo/TRecSo.java
+
+
+- title: Predicting User Purchase in E-commerce by Comprehensive Feature Engineering and Decision Boundary Focused Under-Sampling
+  authors: Chanyoung Park, Donghyun Kim, Jinoh Oh, Hwanjo Yu 
+  venue: RecSysChallenge 2015
+  year: 2015
+  venue_full: ACM Recommender Systems Challenge (10th place, top 1.1%)
+  type: ps
+  pdf_url: http://dx.doi.org/10.1145/2813448.2813517
+  slide_url: https://kaist-dsail.github.io/files/RecSysChallenge15_slide.pdf
