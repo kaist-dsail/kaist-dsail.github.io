@@ -82,6 +82,8 @@ permalink: /alumni/
 </div>
 {% endif %}
 
+</div>
+
 <div class="row"> </div>
 <!-- <br> -->
 
@@ -119,5 +121,5 @@ permalink: /alumni/
 </div>
 {% endif %}
 
-
+</div>
 <!-- <div class="row"> </div> -->
