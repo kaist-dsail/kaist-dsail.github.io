@@ -46,7 +46,7 @@ permalink: /alumni/
 <!-- <br> -->
 <div class="row"> </div>
 
-### &nbsp;&nbsp; Visitor
+### Visitor
 
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_visitor %}
@@ -85,7 +85,7 @@ permalink: /alumni/
 <div class="row"> </div>
 <!-- <br> -->
 
-### &nbsp;&nbsp;&nbsp; Undergraduate Student
+### Undergraduate Student
 
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_undergrad %}
