@@ -72,7 +72,7 @@ permalink: /members/
 {% if even_odd == 3 %}
 </div>
 {% endif %}
-
+</div>
 <div class="row"> </div>
 
 ## Undergraduate Students
