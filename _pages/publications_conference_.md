@@ -73,11 +73,13 @@ permalink: /publications_conference_/
   {% if publi.slide_url %}[[Slide]]({{ publi.slide_url }}){:target="_blank"}{% endif %}
   {% if publi.video_url %}[[Video]]({{ publi.video_url }}){:target="_blank"}{% endif %}
   {% endcapture %}
-
+  
   {% assign resource_links = resource_links | strip_newlines %}
   {% assign resource_links = resource_links | split: '  ' | join: ' ' %}
 
-  {{ resource_links }}<br />
+  {% capture venue_and_links %}<b>{{ publi.venue }}</b> - {{ publi.venue_full }} {{ resource_links }}{% endcapture %}
+
+  {{ venue_and_links | strip_newlines }}<br />
 {% endfor %}
 
 <p> &nbsp;&nbsp; </p>
