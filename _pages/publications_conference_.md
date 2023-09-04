@@ -65,7 +65,6 @@ permalink: /publications_conference_/
 
 <font color="blue"><b>{{ publi.title }}</b></font>
 {{ publi.authors }}<br />
-<b>{{ publi.venue }}</b> - {{ publi.venue_full }}
 
   {% capture resource_links %}
   {% if publi.pdf_url %}[[PDF]]({{ publi.pdf_url }}){:target="_blank"}{% endif %}
