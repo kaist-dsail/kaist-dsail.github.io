@@ -3,7 +3,7 @@ title: "DSAIL @ KAIST - Publications_Conference"
 layout: gridlay
 excerpt: "DSAIL @ KAIST - Publications_Conference"
 sitemap: false
-permalink: /publications_conference_/
+permalink: /publications_conference/
 ---
 
 
