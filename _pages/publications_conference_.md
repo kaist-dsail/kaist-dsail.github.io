@@ -63,10 +63,8 @@ permalink: /publications_conference_/
 <h3> {{ publi.year }} </h3>
 {% endif %}
 
-<font color="blue"><b>{{ publi.title }}</b></font>
-{{ publi.authors }}<br />
+{% capture resource_links %}
 
-  {% capture resource_links %}
   {% if publi.pdf_url %}[[PDF]]({{ publi.pdf_url }}){:target="_blank"}{% endif %}
   {% if publi.code_url %}[[Code]]({{ publi.code_url }}){:target="_blank"}{% endif %}
   {% if publi.slide_url %}[[Slide]]({{ publi.slide_url }}){:target="_blank"}{% endif %}
@@ -76,7 +74,7 @@ permalink: /publications_conference_/
   {% assign resource_links = resource_links | strip_newlines %}
   {% assign resource_links = resource_links | split: '  ' | join: ' ' %}
 
-  {% capture venue_and_links %}<b>{{ publi.venue }}</b> - {{ publi.venue_full }}<br />{{ resource_links }}{% endcapture %}
+  {% capture venue_and_links %}<font color="blue"><b>{{ publi.title }}</b></font><br />{{ publi.authors }}<br /><b>{{ publi.venue }}</b> - {{ publi.venue_full }}<br />{{ resource_links }}{% endcapture %}
 
   {{ venue_and_links }}<br />
 {% endfor %}
