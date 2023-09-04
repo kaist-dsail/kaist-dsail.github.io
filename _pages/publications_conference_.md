@@ -68,10 +68,13 @@ permalink: /publications_conference_/
 <b>{{ publi.venue }}</b> - {{ publi.venue_full }}
 
   {% capture resource_links %}
-  {% if publi.pdf_url %}[[PDF]]({{ publi.pdf_url }}){:target="_blank"}{% endif %}
-  {% if publi.code_url %}[[Code]]({{ publi.code_url }}){:target="_blank"}{% endif %}
-  {% if publi.slide_url %}[[Slide]]({{ publi.slide_url }}){:target="_blank"}{% endif %}
-  {% if publi.video_url %}[[Video]]({{ publi.video_url }}){:target="_blank"}{% endif %}
+   {% if publi.pdf_url %}[[PDF]]({{ publi.pdf_url }}){:target="_blank"}{% endif %}
+   
+   {% if publi.code_url %}[[Code]]({{ publi.code_url }}){:target="_blank"}{% endif %}
+
+   {% if publi.slide_url %}[[Slide]]({{ publi.slide_url }}){:target="_blank"}{% endif %}
+
+   {% if publi.video_url %}[[Video]]({{ publi.video_url }}){:target="_blank"}{% endif %}
   {% endcapture %}
 
   {% assign resource_links = resource_links | strip_newlines %}
