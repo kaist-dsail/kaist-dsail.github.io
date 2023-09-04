@@ -64,32 +64,20 @@ permalink: /publications_conference_/
 {% endif %}
 
 <font color="blue"><b>{{ publi.title }}</b></font>
- {{ publi.authors }}<br />
- <b>{{ publi.venue }}</b> - {{ publi.venue_full }}<br />
+{{ publi.authors }}<br />
+<b>{{ publi.venue }}</b> - {{ publi.venue_full }}<br />
 
   {% capture resource_links %}
-   {% if publi.pdf_url %}
-   [[PDF]]({{ publi.pdf_url }}){:target="_blank"}
-   {% endif %}
-
-   {% if publi.code_url %}
-   [[Code]]({{ publi.code_url }}){:target="_blank"}
-   {% endif %}
-
-   {% if publi.slide_url %}
-   [[Slide]]({{ publi.slide_url }}){:target="_blank"}
-   {% endif %}
-
-   {% if publi.video_url %}
-   [[Video]]({{ publi.video_url }}){:target="_blank"}
-   {% endif %}
+  {% if publi.pdf_url %}[[PDF]]({{ publi.pdf_url }}){:target="_blank"}{% endif %}
+  {% if publi.code_url %}[[Code]]({{ publi.code_url }}){:target="_blank"}{% endif %}
+  {% if publi.slide_url %}[[Slide]]({{ publi.slide_url }}){:target="_blank"}{% endif %}
+  {% if publi.video_url %}[[Video]]({{ publi.video_url }}){:target="_blank"}{% endif %}
   {% endcapture %}
 
-  {{ resource_links | strip_newlines }}
-  <br />
+  {% assign resource_links = resource_links | strip_newlines %}
+  {% assign resource_links = resource_links | split: '  ' | join: ' ' %}
 
-  <br />
-
+  {{ resource_links }}<br />
 {% endfor %}
 
 <p> &nbsp;&nbsp; </p>
