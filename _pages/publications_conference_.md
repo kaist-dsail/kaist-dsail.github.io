@@ -74,7 +74,7 @@ permalink: /publications_conference_/
   {% assign resource_links = resource_links | strip_newlines %}
   {% assign resource_links = resource_links | split: '  ' | join: ' ' %}
 
-  {% capture venue_and_links %}<font color="blue"><b>{{ publi.title }}</b></font><br />{{ publi.authors }}<br /><b>{{ publi.venue }}</b> - {{ publi.venue_full }}<br />{{ resource_links }}{% endcapture %}
+  {% capture venue_and_links %}<font color="blue"><b>{{ publi.title }}</b></font>{{ publi.authors }}<br /><b>{{ publi.venue }}</b> - {{ publi.venue_full }}<br />{{ resource_links }}{% endcapture %}
 
   {{ venue_and_links }}<br />
 {% endfor %}
