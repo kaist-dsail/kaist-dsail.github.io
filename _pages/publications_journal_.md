@@ -1,9 +1,9 @@
 ---
-title: "DSAIL @ KAIST - Publications_Conference"
+title: "DSAIL @ KAIST - Publications_Journal"
 layout: gridlay
-excerpt: "DSAIL @ KAIST - Publications_Conference"
+excerpt: "DSAIL @ KAIST - Publications_Journal"
 sitemap: false
-permalink: /publications_conference_/
+permalink: /publications_journal_/
 ---
 
 
@@ -52,11 +52,11 @@ permalink: /publications_conference_/
 <!-- <p> &nbsp; </p> -->
 
 
-# International Conferences
+# International Journals
 
 
 {% assign unique_years = "" | split: ',' %}
-{% for publi in site.data.publist_conf %}
+{% for publi in site.data.publist_jour %}
 {% if unique_years contains publi.year  %}
 {% else %}
 {% assign unique_years = unique_years | push: publi.year %}
@@ -68,10 +68,13 @@ permalink: /publications_conference_/
 <b>{{ publi.venue }}</b> - {{ publi.venue_full }}
 
   {% capture resource_links %}
-  {% if publi.pdf_url %}[[PDF]]({{ publi.pdf_url }}){:target="_blank"}{% endif %}
-  {% if publi.code_url %}[[Code]]({{ publi.code_url }}){:target="_blank"}{% endif %}
-  {% if publi.slide_url %}[[Slide]]({{ publi.slide_url }}){:target="_blank"}{% endif %}
-  {% if publi.video_url %}[[Video]]({{ publi.video_url }}){:target="_blank"}{% endif %}
+   {% if publi.pdf_url %}[[PDF]]({{ publi.pdf_url }}){:target="_blank"}{% endif %}
+   
+   {% if publi.code_url %}[[Code]]({{ publi.code_url }}){:target="_blank"}{% endif %}
+
+   {% if publi.slide_url %}[[Slide]]({{ publi.slide_url }}){:target="_blank"}{% endif %}
+
+   {% if publi.video_url %}[[Video]]({{ publi.video_url }}){:target="_blank"}{% endif %}
   {% endcapture %}
 
   {% assign resource_links = resource_links | strip_newlines %}

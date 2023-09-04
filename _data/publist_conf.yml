@@ -3,7 +3,6 @@
   venue: CIKM 2023
   venue_full: ACM International Conference on Information and Knowledge Management
   year: 2023
-  type: pc
   pdf_url: https://arxiv.org/abs/2308.09649
   code_url: https://github.com/yunhak0/MUSE
 
@@ -12,7 +11,6 @@
   venue: CIKM 2023 
   venue_full: ACM International Conference on Information and Knowledge Management (Short paper)
   year: 2023
-  type: pc
   pdf_url: https://arxiv.org/abs/2308.11669
   code_url: https://github.com/jhkim611/CLAD
   
@@ -21,7 +19,6 @@
   venue: CIKM 2023 
   venue_full: ACM International Conference on Information and Knowledge Management (Short paper)
   year: 2023
-  type: pc
   pdf_url: https://arxiv.org/abs/2308.08097
   code_url: https://github.com/SukwonYun/S-Mixup
 
@@ -30,7 +27,6 @@
   venue: KDD 2023
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2023
-  type: pcv
   pdf_url: https://arxiv.org/abs/2306.13854
   code_url: https://github.com/yeonjun-in/torch-SP-AGCL
   video_url: https://youtu.be/hqJG4_iCYMM
@@ -40,7 +36,6 @@
   venue: KDD 2023
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2023
-  type: pcv
   pdf_url: https://arxiv.org/abs/2305.18451
   code_url: https://github.com/Namkyeong/CMRL
   video_url: https://youtu.be/KVhbwicqh5c
@@ -50,7 +45,6 @@
   venue: KDD 2023
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2023
-  type: pcv
   pdf_url: https://arxiv.org/abs/2305.18758
   code_url: https://github.com/sung-won-kim/TEG
   video_url: https://youtu.be/zfn4gi9cVic
@@ -60,7 +54,6 @@
   venue: KDD 2023
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2023
-  type: pcv
   pdf_url: https://arxiv.org/abs/2306.01792
   code_url: https://github.com/Sein-Kim/TERACON
   video_url: https://youtu.be/4oW3Bwy9r6M
@@ -70,7 +63,6 @@
   venue: ICML 2023
   venue_full: International Conference on Machine Learning
   year: 2023
-  type: pc
   pdf_url: https://arxiv.org/abs/2305.01520
   code_url: https://github.com/Namkyeong/CGIB
 
@@ -79,7 +71,6 @@
   venue: SIGIR 2023
   venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval
   year: 2023
-  type: pc
   pdf_url: https://arxiv.org/abs/2304.08382
   code_url: https://github.com/rlqja1107/MELT
 
@@ -88,7 +79,6 @@
   venue: AAAI 2023 (Oral)
   venue_full: Thirty-Seventh AAAI Conference on Artificial Intelligence
   year: 2023
-  type: pcsv
   pdf_url: https://arxiv.org/abs/2211.15158
   code_url: https://github.com/Sein-Kim/Multimodal-Medical
   slide_url: https://kaist-dsail.github.io/files/AAAI23_HetMed_slide.pdf
@@ -99,7 +89,6 @@
   venue: AAAI 2023
   venue_full: Thirty-Seventh AAAI Conference on Artificial Intelligence
   year: 2023
-  type: pcsv
   pdf_url: https://arxiv.org/abs/2212.00443
   code_url: https://github.com/KanghoonYoon/hetsgg-torch
   slide_url: https://kaist-dsail.github.io/files/AAAI23_HetSGG_slide.pdf
@@ -110,7 +99,6 @@
   venue: ICML 2023 Workshop on Computational Biology
   venue_full: International Conference on Machine Learning
   year: 2023
-  type: pc
   pdf_url: https://icml-compbio.github.io/2023/papers/WCBICML2023_paper129.pdf
   code_url: https://github.com/Junseok0207/scGPCL
 
@@ -119,7 +107,6 @@
   venue: ICML 2023 Workshop on Computational Biology (Contributed Talk) (Best Paper Award)
   venue_full: International Conference on Machine Learning
   year: 2023
-  type: pc
   pdf_url: https://arxiv.org/abs/2307.10037
   code_url: https://github.com/Junseok0207/scFP
 
@@ -128,7 +115,6 @@
   venue: ICLR 2023 Workshop on Machine Learning for Materials (ML4Materials)
   venue_full: International Conference on Learning Representations
   year: 2023
-  type: pc
   pdf_url: https://arxiv.org/abs/2303.07000
   code_url: https://github.com/HeewoongNoh/DOSTransformer
 
@@ -137,7 +123,6 @@
   venue:  NeurIPS 2022 Workshop on New Frontiers in Graph Learning (GLFrontiers)
   venue_full: Conference on Neural Information Processing Systems
   year: 2022
-  type: p
   pdf_url: https://arxiv.org/abs/2203.15802
   
 
@@ -146,8 +131,8 @@
   venue: EMNLP 2022 (Findings)
   venue_full: Conference on Empirical Methods in Natural Language Processing
   year: 2022
-  type: p
   pdf_url: https://kaist-dsail.github.io/
+  code_url: https://github.com/dmhyun/MSRP
   
 
 - title: Set2Box&#58; Similarity Preserving Representation Learning for Sets
@@ -155,7 +140,6 @@
   venue: ICDM 2022
   venue_full: The IEEE International Conference on Data Mining
   year: 2022
-  type: pc
   pdf_url: https://arxiv.org/abs/2210.03282
   code_url: https://github.com/geon0325/Set2Box
   
@@ -165,7 +149,6 @@
   venue: CIKM 2022
   venue_full: ACM International Conference on Information and Knowledge Management
   year: 2022
-  type: pcs
   pdf_url: https://arxiv.org/abs/2208.10205
   code_url: https://github.com/SukwonYun/LTE4G
   slide_url: https://kaist-dsail.github.io/files/CIKM22_LTE4G_slide.pdf
@@ -175,7 +158,6 @@
   venue: CIKM 2022
   venue_full: ACM International Conference on Information and Knowledge Management
   year: 2022
-  type: pcs
   pdf_url: https://arxiv.org/abs/2208.10493
   code_url: https://github.com/Namkyeong/RGRL
   slide_url: https://kaist-dsail.github.io/files/CIKM22_RGRL_slide.pdf
@@ -185,7 +167,6 @@
   venue: CIKM 2022
   venue_full: ACM International Conference on Information and Knowledge Management
   year: 2022
-  type: pcs
   pdf_url: https://arxiv.org/abs/2209.06644
   code_url: https://github.com/dmhyun/peris
   slide_url: https://kaist-dsail.github.io/files/CIKM22_PERIS_slide.pdf
@@ -195,7 +176,6 @@
   venue: KDD 2022
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2022
-  type: pcs
   pdf_url: https://kaist-dsail.github.io/files/KDD22.pdf
   code_url: https://github.com/ngs00/ane
   slide_url: https://kaist-dsail.github.io/files/KDD22_slide.pdf
@@ -205,7 +185,6 @@
   venue: SIGIR 2022
   venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval (Short paper)
   year: 2022
-  type: pcs
   pdf_url: https://arxiv.org/abs/2204.01303
   code_url: https://github.com/LJS-Student/GraFN
   slide_url: https://kaist-dsail.github.io/files/SIGIR22_GraFN_slide.pdf
@@ -215,7 +194,6 @@
   venue: SIGIR 2022
   venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval (Short paper)
   year: 2022
-  type: pc
   pdf_url: https://arxiv.org/abs/2204.06353
   code_url: https://github.com/HyunjinHwn/SIGIR22-AHP
 
@@ -224,7 +202,6 @@
   venue: AAAI 2022
   venue_full: Thirty-Sixth AAAI Conference on Artificial Intelligence
   year: 2022
-  type: pcs
   pdf_url: https://arxiv.org/abs/2112.02472
   code_url: https://github.com/Namkyeong/AFGRL
   slide_url: https://namkyeong.github.io/assets/pdf/slides_AFGRL.pdf
@@ -234,7 +211,6 @@
   venue: ICDM 2021
   venue_full: The IEEE International Conference on Data Mining
   year: 2021
-  type: pc
   pdf_url: https://arxiv.org/abs/2111.11523
   code_url: https://github.com/donalee/ssread
 
@@ -243,7 +219,6 @@
   venue: SIGIR 2021
   venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval 
   year: 2021
-  type: pc
   pdf_url: https://arxiv.org/abs/2105.06323
   code_url: https://github.com/donalee/BUIR
 
@@ -252,7 +227,6 @@
   venue: WWW 2021
   venue_full: The Web Conference 2021
   year: 2021
-  type: pcv
   pdf_url: https://arxiv.org/pdf/2102.07810.pdf
   video_url: https://www.youtube.com/watch?v=2iW6uFlttJU
   code_url: https://github.com/baoyujing/HDMI
@@ -262,7 +236,6 @@
   venue: ICDM 2020
   venue_full: The IEEE International Conference on Data Mining
   year: 2020
-  type: pc
   pdf_url: https://kaist-dsail.github.io/files/ICDM20.pdf
   code_url: https://github.com/dmhyun/CRIS
 
@@ -272,7 +245,6 @@
   venue: KDD 2020
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2020
-  type: pcsv
   pdf_url: https://arxiv.org/abs/2006.04239
   code_url: https://github.com/pcy1302/asp2vec
   slide_url: https://kaist-dsail.github.io/files/KDD20_slide.pdf
@@ -285,7 +257,6 @@
   venue: AAAI 2020
   venue_full: Thirty-Fourth AAAI Conference on Artificial Intelligence
   year: 2020
-  type: pcs
   pdf_url: https://arxiv.org/abs/1911.06750
   code_url: https://github.com/pcy1302/DMGI
   slide_url: https://kaist-dsail.github.io/files/AAAI20_slide.pdf
@@ -296,7 +267,6 @@
   venue: CIKM 2019
   venue_full: ACM International Conference on Information and Knowledge Management
   year: 2019
-  type: pcs
   pdf_url: https://arxiv.org/pdf/1906.01546.pdf
   code_url: https://github.com/pcy1302/TapEM
   slide_url: https://kaist-dsail.github.io/files/CIKM19_slide.pdf
@@ -307,7 +277,6 @@
   venue: CIKM 2019
   venue_full: ACM International Conference on Information and Knowledge Management
   year: 2019
-  type: pc
   pdf_url: https://kaist-dsail.github.io/files/CIKM19.pdf
   code_url: https://github.com/sh0416/BHIN2VEC
 
@@ -317,7 +286,6 @@
   venue: IJCAI 2019
   venue_full: International Joint Conference on Artificial Intelligence
   year: 2019
-  type: pc
   pdf_url: https://kaist-dsail.github.io/files/IJCAI19_2.pdf
   code_url: https://github.com/donalee/metas
  
@@ -327,7 +295,6 @@
   venue: IJCAI 2019
   venue_full: International Joint Conference on Artificial Intelligence
   year: 2019
-  type: p
   pdf_url: https://kaist-dsail.github.io/files/IJCAI19_1.pdf
 
 - title: Collaborative Translational Metric Learning
@@ -335,7 +302,6 @@
   venue: ICDM 2018
   venue_full: The IEEE International Conference on Data Mining
   year: 2018
-  type: pcs
   pdf_url: https://kaist-dsail.github.io/files/ICDM18.pdf
   code_url: https://github.com/pcy1302/TransCF
   slide_url: https://kaist-dsail.github.io/files/ICDM18_slide.pdf
@@ -346,7 +312,6 @@
   venue: SIGIR 2018
   venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval (Short paper)
   year: 2018
-  type: p
   pdf_url: https://kaist-dsail.github.io/files/SIGIR18.pdf
 
 - title: Do "Also-Viewed" Products Help User Rating Prediction?
@@ -354,7 +319,6 @@
   venue: WWW 2017
   venue_full: 26th International World-Wide Web Conference
   year: 2017
-  type: pcs
   pdf_url: https://kaist-dsail.github.io/files/WWW17.pdf
   code_url: https://cornac.readthedocs.io/en/latest/models.html#module-cornac.models.mcf.recom_mcf
   slide_url: https://kaist-dsail.github.io/files/WWW17_slide.pdf
@@ -365,7 +329,6 @@
   venue: RecSys 2016
   venue_full: ACM International Conference on Recommender System
   year: 2016
-  type: pcs
   pdf_url: https://kaist-dsail.github.io/files/RecSys16.pdf
   code_url: https://github.com/cartopy/ConvMF-1.0.0
   slide_url: https://kaist-dsail.github.io/files/RecSys16_slide.pdf
@@ -376,7 +339,6 @@
   venue: WWW 2016
   venue_full: 25th International World-Wide Web Conference (Poster)
   year: 2016
-  type: pc
   pdf_url: https://kaist-dsail.github.io/files/WWW16.pdf
   code_url: http://dm.postech.ac.kr/TRecSo/TRecSo.java
 
@@ -386,6 +348,5 @@
   venue: RecSysChallenge 2015
   year: 2015
   venue_full: ACM Recommender Systems Challenge (10th place, top 1.1%)
-  type: ps
   pdf_url: http://dx.doi.org/10.1145/2813448.2813517
   slide_url: https://kaist-dsail.github.io/files/RecSysChallenge15_slide.pdf

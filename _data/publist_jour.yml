@@ -3,7 +3,6 @@
   venue: Bioinformatics
   venue_full: (2023) (SCI)
   year: 2023
-  type: pc
   pdf_url: https://doi.org/10.1093/bioinformatics/btad342
   code_url: https://github.com/Junseok0207/scGPCL/
 
@@ -12,7 +11,6 @@
   venue: Information Sciences
   venue_full: (2022. 9) (SCI)
   year: 2022
-  type: pc
   pdf_url: https://doi.org/10.1016/j.ins.2022.08.063
   code_url: https://github.com/Namkyeong/AFGRL
 
@@ -21,7 +19,6 @@
   venue: Information Sciences
   venue_full: (2021. 2) (SCI)
   year: 2021
-  type: p
   pdf_url: https://www.sciencedirect.com/science/article/pii/S0020025520309348
 
 - title: Deep Multiplex Graph Infomax&#58; Attentive Multiplex Network Embedding using Global Information
@@ -29,7 +26,6 @@
   venue: Knowledge-Based Systems 
   venue_full: (2020. 6) (SCI)
   year: 2020
-  type: pc
   pdf_url: https://doi.org/10.1016/j.knosys.2020.105861
   code_url: https://github.com/pcy1302/DMGI
  
@@ -39,7 +35,6 @@
   venue: Cells 
   venue_full: (2020. 4) (SCIE)
   year: 2020
-  type: p
   pdf_url: https://www.mdpi.com/2073-4409/9/4/881
 
 - title: Click-aware Purchase Prediction with Push at the Top
@@ -47,7 +42,6 @@
   venue: Information Sciences 
   venue_full: (2020. 6) (SCI)
   year: 2020
-  type: p
   pdf_url: https://doi.org/10.1016/j.ins.2020.02.062
 
 - title: IMIPMF&#58; Inferring miRNA-disease interactions using probabilistic matrix factorization
@@ -55,7 +49,6 @@
   venue: Journal of Biomedical Informatics 
   venue_full: (2020. 2) (SCI)
   year: 2020
-  type: p
   pdf_url: https://www.sciencedirect.com/science/article/abs/pii/S1532046419302783
 
 - title: An Encoder-Decoder Switch Network for Purchase Prediction
@@ -63,7 +56,6 @@
   venue: Knowledge-Based Systems 
   venue_full: (2019. 12) (SCI)
   year: 2019
-  type: p
   pdf_url: https://doi.org/10.1016/j.knosys.2019.104932
 
 - title: Target-Aware Convolutional Neural Network for Target-Level Sentiment Analysis
@@ -71,7 +63,6 @@
   venue: Information Sciences 
   venue_full: (2019. 7) (SCI)
   year: 2019
-  type: p
   pdf_url: https://www.sciencedirect.com/science/article/pii/S0020025519302877
 
 - title: Deep Hybrid Recommender Systems via Exploiting Document Context and Statistics of Items
@@ -79,7 +70,6 @@
   venue: Information Sciences 
   venue_full: (2017. 11) (SCI)
   year: 2017
-  type: pc
   pdf_url: https://doi.org/10.1016/j.ins.2017.06.026
   code_url: https://github.com/cartopy/ConvMF-1.0.0
 
@@ -88,6 +78,5 @@
   venue: Information Sciences 
   venue_full: (2016. 12) (SCI)
   year: 2016
-  type: ps
   pdf_url: https://www.sciencedirect.com/science/article/pii/S0020025516308301
   slide_url: https://pcy1302.github.io/data/InforSci16_slide.pdf
