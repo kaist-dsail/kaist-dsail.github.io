@@ -32,8 +32,9 @@ permalink: /professor/
 #### (Click [here](https://kaist-dsail.github.io/files/research.pdf){:target="_blank"} for more detail)
 - <b>Multimodal Data Mining, Applied Machine Learning, Deep Learning</b>
   - Mining meaningful knowledge from multimodal data to develop artificial intelligence solutions for various real-world applications across different disciplines.
-  - Keywords: Multimodal user behavior analysis, Machine learning for graphs, Graph neural network, Graph representation learning, AI for Science
-  - <b>Application domains</b>: Recommendation system, Social network analysis, Materials science, Bioinformatics, Medical image analysis, Chemistry, Fraud detection, Sentiment analysis, Purchase/Click prediction, Anomaly detection, Knowlede-graph construction, Time-series and spatio-temporal anlaysis, etc.
+<!--   - Keywords: Multimodal user behavior analysis, Machine learning for graphs, Graph neural network, Graph representation learning, AI for Science -->
+  - <b>Application domains</b>: 
+  Recommendation system, AI for Science (Materials science, Chemistry, Bioinformatics), Social network analysis, Medical image analysis, Fraud/Anomaly detection, Knowlede graph, Sentiment analysis, Purchase/Click prediction, Time-series and spatio-temporal anlaysis, etc.
 
 ### Announcements
 <!-- - <mark style='background-color: #ffd33d'><b>I am looking for interns to join our group during this Summer break.</b></mark>  -->
@@ -162,7 +163,6 @@ Korea Military Academy,
 - ACM International Web Search and Data Mining Conference (WSDM) [2023-present]
 - International Joint Conference on Artificial Intelligence (IJCAI) [2023-present]
 - ACM International Conference on Information and Knowledge Management (CIKM) [2023-present]
-- International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR) [2023-present]
 - International ACM SIGIR Conference on Information Retrieval in the Asia Pacific (SIGIR-AP) [2023-present]
 - Learning on Graphs Conference (LoG) [2022-present]
 - The Web Conference (WWW) Poster Track, 2020
