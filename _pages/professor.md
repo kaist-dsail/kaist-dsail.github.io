@@ -118,6 +118,7 @@ permalink: /professor/
   + Spring 2023
 
 ### Awards
+- Best Paper Award, ICML 2023 Workshop on Computational Biology (2023)
 - KAIST Excellence in Teaching Award of Year 2022, KAIST (2023)
 - Best Teaching Award, ISysE KAIST (2022)
 - ICDM 2018 Travel Award (2018)
