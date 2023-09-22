@@ -1,3 +1,19 @@
+- title: Interpretable Prototype-based Graph Information Bottleneck
+  authors: Sangwoo Seo, Sungwon Kim, Chanyoung Park
+  venue: NeurIPS 2023
+  venue_full: Thirty-seventh Conference on Neural Information Processing Systems
+  year: 2023
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  
+- title: Density of States Prediction of Crystalline Materials via Prompt-guided Multi-Modal Transformer
+  authors: Namkyeong Lee, Heewoong Noh, Sungwon Kim, Dongmin Hyun, Gyoung S. Na, Chanyoung Park
+  venue: NeurIPS 2023
+  venue_full: Thirty-seventh Conference on Neural Information Processing Systems
+  year: 2023
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  
 - title: MUSE&#58; Music Recommender System with Shuffle Play Recommendation Enhancement
   authors: Yunhak Oh, Sukwon Yun, Dongmin Hyun, Sein Kim, Chanyoung Park
   venue: CIKM 2023
