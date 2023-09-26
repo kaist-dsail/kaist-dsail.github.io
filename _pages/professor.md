@@ -127,7 +127,7 @@ permalink: /professor/
 - Top 1.1% in RecSys Challenge (2015)
 
 ### Talks
-- <b>그래프 신경망 기반 화학/소재분야 연구 동향 (Out-of-Distribution 문제를 중심으로)</b> <a href="https://kaist-dsail.github.io/files/SAIT2023.pdf" target="_blank">[Slide]</a> @ 삼성전자 종합기술원
+- <b>그래프 신경망 기반 화학/소재분야 연구 동향 (Out-of-Distribution 문제를 중심으로)</b> <a href="https://kaist-dsail.github.io/files/SAIT2023.pdf" target="_blank">[Slide]</a> @ 삼성전자 종합기술원, 삼성전자 DS
 - <b>Universal User Representation Learning based on Continual Learning</b> <a href="https://kaist-dsail.github.io/files/NAVER_Techtalk2023.pdf" target="_blank">[Slide]</a> @ NAVER Techtalk
 - <b>그래프 신경망 기반 화학/소재분야 연구 동향</b> <a href="https://kaist-dsail.github.io/files/KCC2023.pdf" target="_blank">[Slide]</a> @ <a href="https://www.kiise.or.kr/conference/main/getContent.do?CC=KCC&CS=2023&PARENT_ID=011500&content_no=1795" target="_blank">KCC 2023</a>, 
 <a href="https://www.materic.or.kr/v2/mchannel/view.asp?id=6269&type=webinar" target="_blank">메릭웨비나</a> 
