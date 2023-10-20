@@ -53,6 +53,24 @@ permalink: /publications_conference/
 
 
 # International Conferences
+<h3> Preprint </h3>
+{% for publi in site.data.publist_preprint %}
+{% capture resource_links1 %}
+
+  {% if publi.pdf_url %}[[PDF]]({{ publi.pdf_url }}){:target="_blank"}{% endif %}
+  {% if publi.code_url %}[[Code]]({{ publi.code_url }}){:target="_blank"}{% endif %}
+  {% if publi.slide_url %}[[Slide]]({{ publi.slide_url }}){:target="_blank"}{% endif %}
+  {% if publi.video_url %}[[Video]]({{ publi.video_url }}){:target="_blank"}{% endif %}
+  {% if publi.news_url %}[[News]]({{ publi.news_url }}){:target="_blank"}{% endif %}
+  {% endcapture %}
+  
+  {% assign resource_links1 = resource_links1 | strip_newlines %}
+  {% assign resource_links1 = resource_links1 | split: '  ' | join: ' ' %}
+
+  {% capture venue_and_links %}<font color="blue"><b>{{ publi.title }}</b></font>{{ publi.authors }}<br /><b>{{ publi.venue }}</b> - {{ publi.venue_full }}<br />{{ resource_links1 }}{% endcapture %}
+
+  {{ venue_and_links }}<br />
+{% endfor %}
 
 
 {% assign unique_years = "" | split: ',' %}
