@@ -84,6 +84,7 @@
   pdf_url: https://arxiv.org/abs/2305.01520
   code_url: https://github.com/Namkyeong/CGIB
   news_url: https://n.news.naver.com/mnews/article/016/0002171153?sid=105
+  video_url: https://slideslive.com/39003694/conditional-graph-information-bottleneck-for-molecular-relational-learning?ref=search-presentations-Conditional+Graph+Information+Bottleneck+for+Molecular+Relational+Learning
 
 - title: MELT&#58; Mutual Enhancement of Long-Tailed User and Item for Sequential Recommendation
   authors: Kibum Kim, Dongmin Hyun, Sukwon Yun, Chanyoung Park
@@ -128,6 +129,7 @@
   year: 2023
   pdf_url: https://arxiv.org/abs/2307.10037
   code_url: https://github.com/Junseok0207/scFP
+  video_url: https://slideslive.com/39006500/singlecell-rnaseq-data-imputation-using-feature-propagation?ref=search-presentations-Single-cell+RNA-seq+data+imputation+using+Feature+Propagation
 
 - title: Predicting Density of States via Multi-modal Transformer
   authors: Namkyeong Lee, Heewoong Noh, Sungwon Kim, Dongmin Hyun, Gyoung S. Na, Chanyoung Park
