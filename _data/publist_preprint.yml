@@ -1,5 +1,8 @@
 - title: LLM4SGG&#58; Large Language Model for Weakly Supervised Scene Graph Generation
   authors: Kibum Kim, Kanghoon Yoon, Jaehyeong Jeon, Yeonjun In, Jinyoung Moon, Donghyun Kim, Chanyoung Park
-  venue: preprint
   pdf_url: https://arxiv.org/abs/2310.10404
   code_url: https://github.com/rlqja1107/torch-LLM4SGG
+
+- title: Unsupervised Episode Generation for Graph Meta-learning
+  authors: Jihyeong Jung, Sangwoo Seo, Sungwon Kim, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2306.15217
