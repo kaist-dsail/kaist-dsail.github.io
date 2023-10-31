@@ -21,21 +21,25 @@ Two underlying themes of our research are:
 1. <em>Representation</em>: How can we extract knowledge from different modalities of data and represent them in a unified way such that the relations among different modalities are captured, and the synergy within the multimodality is facilitated?
 2. <em>Fusion</em>: How can we combine the extracted knowledge and customize it to facilitate various underlying target applications?
 
-Our main research interests include <b>Data Mining, Machine Learning, Deep Learning, and Artificial Intelligence</b>, and their applications including but not limited to the following:
-- Graph representation learning (e.g., Self-supervised Learning, Semi-supervised Learning)
-- Graph Neural Networks for Chemistry / Bioinformatics
-- Graph Neural Networks Molecular Design and Drug discovery
-- Node classification / Link prediction on Graphs
-- Knowlede-graph construction
-- Recommendation system
-- Social network analysis
-- Graph Mining
+Our main research interests include <b>Data-centric AI, Machine Learning, Deep Learning, Multi-modal Data Mining</b>, and their applications including but not limited to the following:
+- Recommender system
+- AI for Science (Chemistry/Bioinformatics/Materials Science)
+- Molecular design and Drug discovery
+- (Multi-modal) Representation learning
+- Large Language Models
 - Explainable AI
-- AI for Finance
+- Robust machine learning
+- Scene understanding
+- Knowlede graphs
+- Continual learning
+- Causal learning
+- Social network analysis
+- Graph mining
 - Fraud/Anomaly detection
 - Sentiment analysis
 - Purchase/Click prediction
 - Time-series and spatio-temporal anlaysis, 
+- AI for finance
 - etc...
 
 <div class="carousel-inner" role="listbox" style="width:100%; height: 600px !important;">

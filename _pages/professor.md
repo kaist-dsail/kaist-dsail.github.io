@@ -29,12 +29,12 @@ permalink: /professor/
 - Before joining KAIST, I was a postdoctoral research fellow in Computer Science at University of Illinois at Urbana-Champaign. I obtained my Ph.D degree in Computer Science and Engineering from Pohang University of Science and Technology (POSTECH), and B.S. in Computer Science from Sogang University.
 
 ### Research Interest
-#### (Click [here](https://kaist-dsail.github.io/files/research.pdf){:target="_blank"} for more detail)
-- <b>Multimodal Data Mining, Applied Machine Learning, Deep Learning</b>
+<!-- #### (Click [here](https://kaist-dsail.github.io/files/research.pdf){:target="_blank"} for more detail) -->
+- <b>Data-Centric AI, Model-Centric AI, Multimodal Data Mining, AI for Science</b>
   - Mining meaningful knowledge from multimodal data to develop artificial intelligence solutions for various real-world applications across different disciplines.
 <!--   - Keywords: Multimodal user behavior analysis, Machine learning for graphs, Graph neural network, Graph representation learning, AI for Science -->
   - <b>Application domains</b>: 
-  Recommendation system, AI for Science (Materials science, Chemistry, Bioinformatics), Social network analysis, Medical image analysis, Fraud/Anomaly detection, Knowlede graph, Sentiment analysis, Purchase/Click prediction, Time-series and spatio-temporal anlaysis, etc.
+  Recommendation system, AI for Science (Materials science, Chemistry, Bioinformatics), Large Language Model applications, Scene understanding, Social network analysis, Medical image analysis, Fraud/Anomaly detection, Knowlede graph, Sentiment analysis, Purchase/Click prediction, Time-series and spatio-temporal anlaysis, etc.
 
 ### Announcements
 - <mark style='background-color: #ffd33d'><b>I am looking for interns to join our group during this Winter break (8 weeks). If you are interested, send me an email with your interests, CV, and transcript. </b></mark> 
