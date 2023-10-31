@@ -37,7 +37,7 @@ permalink: /professor/
   Recommendation system, AI for Science (Materials science, Chemistry, Bioinformatics), Social network analysis, Medical image analysis, Fraud/Anomaly detection, Knowlede graph, Sentiment analysis, Purchase/Click prediction, Time-series and spatio-temporal anlaysis, etc.
 
 ### Announcements
-<!-- - <mark style='background-color: #ffd33d'><b>I am looking for interns to join our group during this Summer break.</b></mark>  -->
+- <mark style='background-color: #ffd33d'><b>I am looking for interns to join our group during this Winter break (8 weeks). If you are interested, send me an email with your interests, CV, and transcript. </b></mark> 
   <!-- Click <a href="https://ie.kaist.ac.kr/0502/view/id/2589" target="_blank">here</a> for more detail (Due date: May. 16).</b></mark>. Apply through the <a href="https://forms.gle/tpGNZkao6rime6Sc9" target="_blank">official link</a> and send me an email with your CV and transcript to confirm that you have submitted your application. -->
 - <span style="color:red"><b>I am actively seeking for passionate and self-motivated Ph.D. students, MS students, and postdocs. If you are interested, send me an email with your interests, CV, and transcript.</b></span>  
 - I am also looking for undergraduate students who are interested in doing internship in our lab, which will be open every summer and winter. If you are interested, send me an email with your interests, CV, and transcript. 
