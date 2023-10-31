@@ -7,7 +7,7 @@
   code_url: https://dsail.kaist.ac.kr/publications_conference/
   
 - title: Density of States Prediction of Crystalline Materials via Prompt-guided Multi-Modal Transformer
-  authors: Namkyeong Lee, Heewoong Noh, Sungwon Kim, Dongmin Hyun, Gyoung S. Na, Chanyoung Park
+  authors: Namkyeong Lee&#42;, Heewoong Noh&#42;, Sungwon Kim, Dongmin Hyun, Gyoung S. Na, Chanyoung Park
   venue: NeurIPS 2023
   venue_full: Thirty-seventh Conference on Neural Information Processing Systems
   year: 2023
@@ -16,7 +16,7 @@
 
   
 - title: MUSE&#58; Music Recommender System with Shuffle Play Recommendation Enhancement
-  authors: Yunhak Oh, Sukwon Yun, Dongmin Hyun, Sein Kim, Chanyoung Park
+  authors: Yunhak Oh&#42;, Sukwon Yun&#42;, Dongmin Hyun, Sein Kim, Chanyoung Park
   venue: CIKM 2023
   venue_full: ACM International Conference on Information and Knowledge Management
   year: 2023
@@ -32,7 +32,7 @@
   code_url: https://github.com/jhkim611/CLAD
   
 - title: Structural Mixup for Graph Neural Networks
-  authors: Junghurn Kim, Sukwon Yun, Chanyoung Park
+  authors: Junghurn Kim&#42;, Sukwon Yun&#42;, Chanyoung Park
   venue: CIKM 2023 
   venue_full: ACM International Conference on Information and Knowledge Management (Short paper)
   year: 2023
@@ -40,7 +40,7 @@
   code_url: https://github.com/SukwonYun/S-Mixup
 
 - title: Similarity Preserving Adversarial Graph Contrastive Learning
-  authors: Yeonjun In, Kanghoon Yoon, Chanyoung Park
+  authors: Yeonjun In&#42;, Kanghoon Yoon&#42;, Chanyoung Park
   venue: KDD 2023
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2023
@@ -139,7 +139,7 @@
   code_url: https://github.com/Junseok0207/scGPCL
 
 - title: Single-cell RNA-seq data imputation using Feature Propagation  
-  authors: Sukwon Yun, Junseok Lee, Chanyoung Park
+  authors: Sukwon Yun&#42;, Junseok Lee&#42;, Chanyoung Park
   venue: ICML 2023 Workshop on Computational Biology (Contributed Talk) (Best Paper Award)
   venue_full: International Conference on Machine Learning
   year: 2023
