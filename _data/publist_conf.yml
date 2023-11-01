@@ -6,6 +6,7 @@
   type: pc
   pdf_url: https://arxiv.org/abs/2308.09649
   code_url: https://github.com/yunhak0/MUSE
+  slide_url: https://kaist-dsail.github.io/files/CIKM23_MUSE_slide.pdf
 
 - title: Class Label-aware Graph Anomaly Detection
   authors: Junghoon Kim, Yeonjun In, Kanghoon Yoon, Junmo Lee, Chanyoung Park
@@ -34,6 +35,7 @@
   pdf_url: https://arxiv.org/abs/2306.13854
   code_url: https://github.com/yeonjun-in/torch-SP-AGCL
   video_url: https://youtu.be/hqJG4_iCYMM
+  slide_url: https://kaist-dsail.github.io/files/KDD23_SPAGCL_slide.pdf
 
 - title: Shift-Robust Molecular Relational Learning with Causal Substructure
   authors: Namkyeong Lee, Kanghoon Yoon, Gyoung S. Na, Sein Kim, Chanyoung Park
@@ -44,6 +46,7 @@
   pdf_url: https://arxiv.org/abs/2305.18451
   code_url: https://github.com/Namkyeong/CMRL
   video_url: https://youtu.be/KVhbwicqh5c
+  slide_url: https://kaist-dsail.github.io/files/ICML23_CGIB_slide.pdf
 
 - title: Task-Equivariant Graph Few-shot Learning
   authors: Sungwon Kim, Junseok Lee, Namkyeong Lee, Wonjoong Kim, Seungyoon Choi, Chanyoung Park
@@ -54,6 +57,7 @@
   pdf_url: https://arxiv.org/abs/2305.18758
   code_url: https://github.com/sung-won-kim/TEG
   video_url: https://youtu.be/zfn4gi9cVic
+  slide_url: https://kaist-dsail.github.io/files/KDD23_TEG_slide.pdf
 
 - title: Task Relation-aware Continual User Representation Learning
   authors: Sein Kim, Namkyeong Lee, Donghyun Kim, Min-Chul Yang, Chanyoung Park
@@ -64,6 +68,7 @@
   pdf_url: https://arxiv.org/abs/2306.01792
   code_url: https://github.com/Sein-Kim/TERACON
   video_url: https://youtu.be/4oW3Bwy9r6M
+  slide_url: https://kaist-dsail.github.io/files/KDD23_TEG_slide.pdf
 
 - title: Conditional Graph Information Bottleneck for Molecular Relational Learning
   authors: Namkyeong Lee, Dongmin Hyun, Gyoung S. Na, Sungwon Kim, Junseok Lee, Chanyoung Park
@@ -73,6 +78,7 @@
   type: pc
   pdf_url: https://arxiv.org/abs/2305.01520
   code_url: https://github.com/Namkyeong/CGIB
+  slide_url: https://kaist-dsail.github.io/files/ICML23_CGIB_slide.pdf
 
 - title: MELT&#58; Mutual Enhancement of Long-Tailed User and Item for Sequential Recommendation
   authors: Kibum Kim, Dongmin Hyun, Sukwon Yun, Chanyoung Park
@@ -82,6 +88,7 @@
   type: pc
   pdf_url: https://arxiv.org/abs/2304.08382
   code_url: https://github.com/rlqja1107/MELT
+  slide_url: https://kaist-dsail.github.io/files/SIGIR23_MELT_slide.pdf
 
 - title: Heterogeneous Graph Learning for Multi-modal Medical Data Analysis
   authors: Sein Kim, Namkyeong Lee, Junseok Lee, Dongmin Hyun, Chanyoung Park
@@ -122,6 +129,9 @@
   type: pc
   pdf_url: https://arxiv.org/abs/2307.10037
   code_url: https://github.com/Junseok0207/scFP
+  slide_url: https://kaist-dsail.github.io/files/ICML23_scFP_slide.pdf
+  video_url: https://slideslive.com/39006500/singlecell-rnaseq-data-imputation-using-feature-prop[…]Single-cell+RNA-seq+data+imputation+using+Feature+Propagation
+
 
 - title: Predicting Density of States via Multi-modal Transformer
   authors: Namkyeong Lee, Heewoong Noh, Sungwon Kim, Dongmin Hyun, Gyoung S. Na, Chanyoung Park
