@@ -29,15 +29,15 @@ permalink: /professor/
 - Before joining KAIST, I was a postdoctoral research fellow in Computer Science at University of Illinois at Urbana-Champaign. I obtained my Ph.D degree in Computer Science and Engineering from Pohang University of Science and Technology (POSTECH), and B.S. in Computer Science from Sogang University.
 
 ### Research Interest
-#### (Click [here](https://kaist-dsail.github.io/files/research.pdf){:target="_blank"} for more detail)
-- <b>Multimodal Data Mining, Applied Machine Learning, Deep Learning</b>
+<!-- #### (Click [here](https://kaist-dsail.github.io/files/research.pdf){:target="_blank"} for more detail) -->
+- <b>Data-Centric AI, Model-Centric AI, Multimodal Data Mining, AI for Science</b>
   - Mining meaningful knowledge from multimodal data to develop artificial intelligence solutions for various real-world applications across different disciplines.
-  - Keywords: Multimodal user behavior analysis, Machine learning for graphs, Graph neural network, Graph representation learning, AI for Science
-  - <b>Application domains</b>: Recommendation system, Social network analysis, Materials science, Bioinformatics, Medical image analysis, Chemistry, Fraud detection, Sentiment analysis, Purchase/Click prediction, Anomaly detection, Knowlede-graph construction, Time-series and spatio-temporal anlaysis, etc.
+<!--   - Keywords: Multimodal user behavior analysis, Machine learning for graphs, Graph neural network, Graph representation learning, AI for Science -->
+  - <b>Application domains</b>: 
+  Recommendation system, AI for Science (Materials science, Chemistry, Bioinformatics), Large Language Model applications, Scene understanding, Social network analysis, Medical image analysis, Fraud/Anomaly detection, Knowlede graph, Sentiment analysis, Purchase/Click prediction, Time-series and spatio-temporal anlaysis, etc.
 
 ### Announcements
-<!-- - <mark style='background-color: #ffd33d'><b>I am looking for interns to join our group during this Summer break.</b></mark>  -->
-  <!-- Click <a href="https://ie.kaist.ac.kr/0502/view/id/2589" target="_blank">here</a> for more detail (Due date: May. 16).</b></mark>. Apply through the <a href="https://forms.gle/tpGNZkao6rime6Sc9" target="_blank">official link</a> and send me an email with your CV and transcript to confirm that you have submitted your application. -->
+- <mark style='background-color: #ffd33d'><b>I am looking for interns to join our group during this Winter break (8 weeks). Click <a href="https://ie.kaist.ac.kr/0502/view/id/2726" target="_blank">here</a> for more detail (Due date: Nov. 10).</b></mark>. Apply through the <a href="https://forms.gle/qLJsUAzfevaJWpou6" target="_blank">official link</a> and send me an email <b>with your CV and transcript</b> to confirm that you have submitted your application.
 - <span style="color:red"><b>I am actively seeking for passionate and self-motivated Ph.D. students, MS students, and postdocs. If you are interested, send me an email with your interests, CV, and transcript.</b></span>  
 - I am also looking for undergraduate students who are interested in doing internship in our lab, which will be open every summer and winter. If you are interested, send me an email with your interests, CV, and transcript. 
   + Interns will get opportunities to study about research topics that our lab is focusing on, and participate in research projects with graduate students.
@@ -117,6 +117,7 @@ permalink: /professor/
   + Spring 2023
 
 ### Awards
+- Best Paper Award, ICML 2023 Workshop on Computational Biology (2023)
 - KAIST Excellence in Teaching Award of Year 2022, KAIST (2023)
 - Best Teaching Award, ISysE KAIST (2022)
 - ICDM 2018 Travel Award (2018)
@@ -125,7 +126,10 @@ permalink: /professor/
 - Top 1.1% in RecSys Challenge (2015)
 
 ### Talks
-- <a href="https://www.kiise.or.kr/conference/main/getContent.do?CC=KCC&CS=2023&PARENT_ID=011500&content_no=1795" target="_blank">그래프 신경망 기반 화학/소재분야 연구 동향</a> <a href="https://kaist-dsail.github.io/files/KCC2023.pdf" target="_blank">[Slide]</a> @ KCC 2023.
+- <b>그래프 신경망 기반 화학/소재분야 연구 동향 (Out-of-Distribution 문제를 중심으로)</b> <a href="https://kaist-dsail.github.io/files/SAIT2023.pdf" target="_blank">[Slide]</a> @ 삼성전자 종합기술원, 삼성전자 DS
+- <b>Universal User Representation Learning based on Continual Learning</b> <a href="https://kaist-dsail.github.io/files/NAVER_Techtalk2023.pdf" target="_blank">[Slide]</a> @ NAVER Techtalk
+- <b>그래프 신경망 기반 화학/소재분야 연구 동향</b> <a href="https://kaist-dsail.github.io/files/KCC2023.pdf" target="_blank">[Slide]</a> @ <a href="https://www.kiise.or.kr/conference/main/getContent.do?CC=KCC&CS=2023&PARENT_ID=011500&content_no=1795" target="_blank">KCC 2023</a>, 
+<a href="https://www.materic.or.kr/v2/mchannel/view.asp?id=6269&type=webinar" target="_blank">메릭웨비나</a> 
 - <b>Representation Learning on Graphs</b> [[Slide]](https://kaist-dsail.github.io/files/GRL.pdf){:target="_blank"} @ IBS Data Science Group
 - <b>Recent Advancement in Machine Learning on Graph 2</b> [[Slide]](https://kaist-dsail.github.io/files/MLGraph2022.pdf){:target="_blank"} @ 
 <a href="https://sites.google.com/view/dbsummerschool2022" target="_blank">2022 데이터베이스 소사이어티 여름학교</a>
@@ -140,7 +144,6 @@ NewDB,
 <a href="https://data.seoultech.ac.kr/notice/bbs/?do=view&profboardidx=0&bnum=57140&bidx=511932&cate=7&allboard=false&nowpage=1" target="_blank">SeoulTech Data Science</a>,
 APCTP,
 <a href="http://www.bigcomputing.org/tutorials.html" target="_blank">IEEE BigComp 2022 Tutorial</a>
-
 - <b>Graph-based Multi-aspect User Behavior Analysis</b> @ 
 <a href="https://www.kiise.or.kr/conference/main/getContent.do?CC=kcc&CS=2021&content_no=1350&PARENT_ID=011400" target="_blank">KCC</a>,
 Korea Military Academy,
@@ -159,7 +162,6 @@ Korea Military Academy,
 - ACM International Web Search and Data Mining Conference (WSDM) [2023-present]
 - International Joint Conference on Artificial Intelligence (IJCAI) [2023-present]
 - ACM International Conference on Information and Knowledge Management (CIKM) [2023-present]
-- International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR) [2023-present]
 - International ACM SIGIR Conference on Information Retrieval in the Asia Pacific (SIGIR-AP) [2023-present]
 - Learning on Graphs Conference (LoG) [2022-present]
 - The Web Conference (WWW) Poster Track, 2020

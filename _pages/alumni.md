@@ -24,7 +24,7 @@ permalink: /alumni/
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>
     <i>{{ member.career }}<br>
-    <i>{{ member.homepage }}</i>
+    <!-- <i>{{ member.homepage }}</i> -->
   <ul style="overflow: hidden">
 
   </ul>
