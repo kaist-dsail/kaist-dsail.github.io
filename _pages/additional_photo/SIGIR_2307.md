@@ -1,5 +1,5 @@
 ---
-title: "DSAIL @ KAIST - ICML2023 Photo"
+title: "DSAIL @ KAIST - SIGIR2023 Photo"
 layout: piclay
 excerpt: "DSAIL @ KAIST - Photo"
 permalink: additional_photo/SIGIR_2307/
