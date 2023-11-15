@@ -145,7 +145,7 @@
 
 - title: Single-cell RNA-seq data imputation using Feature Propagation  
   authors: Sukwon Yun&#42;, Junseok Lee&#42;, Chanyoung Park
-  venue: ICML 2023 Workshop on Computational Biology (Contributed Talk) <p style="color:red">(Best Paper Award)</p>
+  venue: ICML 2023 Workshop on Computational Biology (Contributed Talk) <FONT COLOR="#ff0000">(Best Paper Award)</FONT>
   venue_full: International Conference on Machine Learning
   year: 2023
   pdf_url: https://arxiv.org/abs/2307.10037
