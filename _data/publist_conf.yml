@@ -3,16 +3,16 @@
   venue: NeurIPS 2023
   venue_full: Thirty-seventh Conference on Neural Information Processing Systems
   year: 2023
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://openreview.net/pdf?id=icWwBKyVMs
+  code_url: https://github.com/sang-woo-seo/PGIB
   
 - title: Density of States Prediction of Crystalline Materials via Prompt-guided Multi-Modal Transformer
   authors: Namkyeong Lee&#42;, Heewoong Noh&#42;, Sungwon Kim, Dongmin Hyun, Gyoung S. Na, Chanyoung Park
   venue: NeurIPS 2023
   venue_full: Thirty-seventh Conference on Neural Information Processing Systems
   year: 2023
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://openreview.net/pdf?id=2lWh1G1W1I
+  code_url: https://github.com/HeewoongNoh/DOSTransformer
 
   
 - title: MUSE&#58; Music Recommender System with Shuffle Play Recommendation Enhancement
@@ -145,7 +145,7 @@
 
 - title: Single-cell RNA-seq data imputation using Feature Propagation  
   authors: Sukwon Yun&#42;, Junseok Lee&#42;, Chanyoung Park
-  venue: ICML 2023 Workshop on Computational Biology (Contributed Talk) (Best Paper Award)
+  venue: ICML 2023 Workshop on Computational Biology (Contributed Talk) <p style="color:red">(Best Paper Award)</p>
   venue_full: International Conference on Machine Learning
   year: 2023
   pdf_url: https://arxiv.org/abs/2307.10037
