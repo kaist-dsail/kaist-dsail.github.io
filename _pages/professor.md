@@ -212,10 +212,10 @@ Korea Military Academy,
 - Applied Sciences, MDPI
 - Information, MDPI
 - Entropy, MDPI
- -->
+ --><!-- 
 #### Editorial Boards
 - Frontiers in Artificial Intelligence [(Graph representation learning: Methods and Applications)](https://www.frontiersin.org/research-topics/22665/graph-representation-learning-methods-and-applications#overview){:target="_blank"}
-- Frontiers in Big Data
+- Frontiers in Big Data -->
 
 #### Event Organizations
 - Proceedings Chair, The ACM International Conference on Information and Knowledge Management (CIKM) [2023]
