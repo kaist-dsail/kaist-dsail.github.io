@@ -30,7 +30,7 @@ Our main research interests include <b>Data-centric AI, Machine Learning, Deep L
 - Explainable AI
 - Robust machine learning
 - Scene understanding
-- Knowlede graphs
+- Knowledge graphs
 - Continual learning
 - Causal learning
 - Social network analysis
