@@ -1,3 +1,10 @@
+- title: Sterling&#58; Synergistic Representation Learning on Bipartite Graphs
+  authors: Baoyu Jing, Yuchen Yan, Kaize Ding, Chanyoung Park, Yada Zhu, Huan Liu, Hanghang Tong
+  venue: AAAI 2024
+  venue_full: Thirty-Eighth AAAI Conference on Artificial Intelligence
+  year: 2024
+  pdf_url: https://arxiv.org/abs/2302.05428
+
 - title: Interpretable Prototype-based Graph Information Bottleneck
   authors: Sangwoo Seo, Sungwon Kim, Chanyoung Park
   venue: NeurIPS 2023
