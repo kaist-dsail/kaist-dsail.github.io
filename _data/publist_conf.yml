@@ -108,13 +108,14 @@
 
 - title: Heterogeneous Graph Learning for Multi-modal Medical Data Analysis
   authors: Sein Kim, Namkyeong Lee, Junseok Lee, Dongmin Hyun, Chanyoung Park
-  venue: AAAI 2023 (Oral)
+  venue: AAAI 2023 (Oral) <a href="https://breakthroughs.kaist.ac.kr/sub02/view/id/57" target="_blank"><FONT COLOR="#ff0000">(KAIST Breakthrough (Spring 2023))</FONT></a>
   venue_full: Thirty-Seventh AAAI Conference on Artificial Intelligence
   year: 2023
   pdf_url: https://arxiv.org/abs/2211.15158
   code_url: https://github.com/Sein-Kim/Multimodal-Medical
   slide_url: https://kaist-dsail.github.io/files/AAAI23_HetMed_slide.pdf
   video_url: https://youtu.be/NxXhc90dIZs
+
 
 - title: Unbiased Heterogeneous Scene Graph Generation with Relation-aware Message Passing Neural Network
   authors: Kanghoon Yoon&#42;, Kibum Kim&#42;, Jinyoung Moon, Chanyoung Park
@@ -152,11 +153,12 @@
 
 - title: Single-cell RNA-seq data imputation using Feature Propagation  
   authors: Sukwon Yun&#42;, Junseok Lee&#42;, Chanyoung Park
-  venue: ICML 2023 Workshop on Computational Biology (Contributed Talk) <FONT COLOR="#ff0000">(Best Paper Award)</FONT>
+  venue: ICML 2023 Workshop on Computational Biology (Contributed Talk) <a href="https://kaist-dsail.github.io/files/ICML23_award.pdf" target="_blank"><FONT COLOR="#ff0000">(Best Paper Award)</FONT></a>
   venue_full: International Conference on Machine Learning
   year: 2023
   pdf_url: https://arxiv.org/abs/2307.10037
   code_url: https://github.com/Junseok0207/scFP
+
 
 - title: Predicting Density of States via Multi-modal Transformer
   authors: Namkyeong Lee, Heewoong Noh, Sungwon Kim, Dongmin Hyun, Gyoung S. Na, Chanyoung Park
