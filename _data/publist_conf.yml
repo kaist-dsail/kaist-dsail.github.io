@@ -4,7 +4,7 @@
   venue_full: Twelfth International Conference on Learning Representations
   year: 2024
   pdf_url: https://openreview.net/pdf?id=WipsLtH77t
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://github.com/rlqja1107/torch-ST-SGG
 
 - title: Sterling&#58; Synergistic Representation Learning on Bipartite Graphs
   authors: Baoyu Jing, Yuchen Yan, Kaize Ding, Chanyoung Park, Yada Zhu, Huan Liu, Hanghang Tong
