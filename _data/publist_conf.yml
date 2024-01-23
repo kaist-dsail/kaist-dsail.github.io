@@ -1,3 +1,19 @@
+- title: Self-guided Robust Graph Structure Refinement
+  authors: Yeonjun In, Kanghoon Yoon, Kibum Kim, Kijung Shin, Chanyoung Park
+  venue: WWW 2024
+  venue_full: The Web Conference 2024
+  year: 2024
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+
+- title: DSLR&#58; Diversity Enhancement and Structure Learning for Rehearsal-based Graph Continual Learning
+  authors: Seungyoon Choi&#42;, Wonjoong Kim&#42;, Sungwon Kim, Yeonjun In, Sein Kim, Chanyoung Park
+  venue: WWW 2024
+  venue_full: The Web Conference 2024
+  year: 2024
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+
 - title: Adaptive Self-training Framework for Fine-grained Scene Graph Generation
   authors: Kibum Kim&#42;, Kanghoon Yoon&#42;, Yeonjun In, Jinyoung Moon, Donghyun Kim, Chanyoung Park
   venue: ICLR 2024
