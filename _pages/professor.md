@@ -117,6 +117,7 @@ permalink: /professor/
   + Spring 2023
 
 ### Awards
+- Gold Prize, Samsung Humantech Paper Award (2023)
 - Technology Innovation Awards of College of Engineering, KAIST (2023)
 - Top Reviewer of NeurIPS 2023
 - Best Paper Award, ICML 2023 Workshop on Computational Biology (2023)
