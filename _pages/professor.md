@@ -102,22 +102,23 @@ permalink: /professor/
 
 ### Teaching
 - <b>KSE801: Recommender System and Machine Learning on Graphs</b>
-  + Fall 2021, Fall 2022
+  + Fall 2021, Fall 2022, Fall 2023
 
 - <b>CoE202: Basics of Artificial Intelligence</b>
   + Fall 2021
 
 - <b>IE343: Statistical Machine Learning</b>
-  + Spring 2021, 2022, 2023
+  + Spring 2021, 2022, 2023, 2024
+
+- <b>DS503: Machine Learning for Data Science</b>
+  + Spring 2023, 2024
 
 - <b>KSE527: Deep Learning</b>
   + Spring 2022
 
-- <b>DS503: Machine Learning for Data Science</b>
-  + Spring 2023
 
 ### Awards
-- Gold Prize, Samsung Humantech Paper Award (2023)
+- Gold Prize, 30th Samsung Humantech Paper Award (2024)
 - Technology Innovation Awards of College of Engineering, KAIST (2023)
 - Top Reviewer of NeurIPS 2023
 - Best Paper Award, ICML 2023 Workshop on Computational Biology (2023)
