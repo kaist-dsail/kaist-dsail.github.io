@@ -24,6 +24,7 @@ Two underlying themes of our research are:
 Our main research interests include <b>Data-centric AI, Machine Learning, Deep Learning, Multi-modal Data Mining</b>, and their applications including but not limited to the following:
 - Recommender system
 - AI for Science (Chemistry/Bioinformatics/Materials Science)
+- Graph Neural Network and its Applications
 - Molecular design and Drug discovery
 - (Multi-modal) Representation learning
 - Large Language Models
