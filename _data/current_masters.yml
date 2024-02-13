@@ -1,3 +1,19 @@
+- name: Sungwon Kim
+  photo: sungwon.jpg
+  info: Master student
+  email: swkim (at) kaist.ac.kr
+  homepage: <a href="https://sung-won-kim.github.io" target="_blank">[Homepage]</a>
+  
+- name: Wonjoong Kim
+  photo: wonjoong.jpg
+  info: Master student
+  email: wjkim (at) kaist.ac.kr
+
+- name: Seungyoon Choi
+  photo: seungyoon.jpg
+  info: Master student
+  email: csyoon08 (at) kaist.ac.kr
+
 - name: Jihyeong Jung
   photo: Jihyeong_Jung.jpg
   info: Master student
@@ -28,18 +44,3 @@
   info: Master student
   email: heewoongnoh (at) kaist.ac.kr
   homepage: <a href="https://heewoongnoh.github.io/" target="_blank">[Homepage]</a>
-
-- name: Hyunchul Kim
-  photo: Hyunchul_Kim.jpg
-  info: Master student
-  email: khchul (at) kaist.ac.kr
-
-- name: Kim Jiwan
-  photo: Kim_Jiwan.jpg
-  info: Master student
-  email: kim.jiwan (at) kaist.ac.kr 
-
-- name: Hoyoung Choi
-  photo: Hoyoung_Choi.jpg
-  info: Master student
-  email: chy3724 (at) kaist.ac.kr
