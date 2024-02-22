@@ -3,8 +3,8 @@
   venue: WWW 2024
   venue_full: The Web Conference 2024
   year: 2024
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://arxiv.org/abs/2402.11837
+  code_url: https://github.com/yeonjun-in/torch-SG-GSR
 
 - title: DSLR&#58; Diversity Enhancement and Structure Learning for Rehearsal-based Graph Continual Learning
   authors: Seungyoon Choi&#42;, Wonjoong Kim&#42;, Sungwon Kim, Yeonjun In, Sein Kim, Chanyoung Park
