@@ -6,13 +6,17 @@
   image: Humantech_2402.jpg
   additional: 1
 
+- info: KSC Conference at Busan (Dec. 2023)
+  image: KSC_2312.jpg
+  additional: 1
+
 - info: NeurIPS Conference at New Orleans (Dec. 2023)
   image: NeurIPS_2312.jpg
   additional: 1
 
-- info: Sports Activity (Nov. 2023)
-  image: sports_activity.jpg
-  additional: 0
+# - info: Sports Activity (Nov. 2023)
+#   image: sports_activity.jpg
+#   additional: 0
 
 - info: CIKM Conference at Birmingham (Oct. 2023)
   image: CIKM_2310.jpg
