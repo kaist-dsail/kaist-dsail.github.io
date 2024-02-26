@@ -14,7 +14,7 @@ permalink: additional_photo/Humantech_2402/
 {{ pic.info }}
 </strong>
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/activity/Humantech2024/{{ pic.image }}" width="50%" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/activity/Humantech2024/{{ pic.image }}" width="100%" />
 </figure>
 {% endfor %}
 </div>

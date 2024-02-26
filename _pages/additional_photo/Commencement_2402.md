@@ -14,7 +14,7 @@ permalink: additional_photo/Commencement_2402/
 {{ pic.info }}
 </strong>
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/activity/Commencement2024/{{ pic.image }}" width="50%" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/activity/Commencement2024/{{ pic.image }}" width="100%" />
 </figure>
 {% endfor %}
 </div>

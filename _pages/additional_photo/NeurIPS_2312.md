@@ -14,7 +14,7 @@ permalink: additional_photo/NeurIPS_2312/
 {{ pic.info }}
 </strong>
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/activity/NeurIPS2023/{{ pic.image }}" width="50%" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/activity/NeurIPS2023/{{ pic.image }}" width="100%" />
 </figure>
 {% endfor %}
 </div>
