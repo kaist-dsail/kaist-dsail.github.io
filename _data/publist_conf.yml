@@ -11,8 +11,8 @@
   venue: WWW 2024
   venue_full: The Web Conference 2024
   year: 2024
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: http://arxiv.org/abs/2402.13711
+  code_url: https://github.com/seungyoon-Choi/DSLR_official
 
 - title: Adaptive Self-training Framework for Fine-grained Scene Graph Generation
   authors: Kibum Kim&#42;, Kanghoon Yoon&#42;, Yeonjun In, Jinyoung Moon, Donghyun Kim, Chanyoung Park
