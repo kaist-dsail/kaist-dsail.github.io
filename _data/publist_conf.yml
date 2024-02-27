@@ -1,3 +1,11 @@
+- title: LLM4SGG&#58; Large Language Model for Weakly Supervised Scene Graph Generation
+  authors: Kibum Kim, Kanghoon Yoon, Jaehyeong Jeon, Yeonjun In, Jinyoung Moon, Donghyun Kim, Chanyoung Park
+  venue: CVPR 2024
+  venue_full: IEEE/CVF Computer Vision and Pattern Recognition Conference
+  year: 2024
+  pdf_url: https://arxiv.org/abs/2310.10404
+  code_url: https://github.com/rlqja1107/torch-LLM4SGG
+
 - title: Self-guided Robust Graph Structure Refinement
   authors: Yeonjun In, Kanghoon Yoon, Kibum Kim, Kijung Shin, Chanyoung Park
   venue: WWW 2024
