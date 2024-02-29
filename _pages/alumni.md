@@ -42,7 +42,7 @@ permalink: /alumni/
 {% if even_odd == 3 %}
 </div>
 {% endif %}
-</div>
+<!-- </div> -->
 <!-- <br> -->
 <div class="row"> </div>
 
