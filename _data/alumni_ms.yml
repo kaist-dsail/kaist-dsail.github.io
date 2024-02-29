@@ -1,18 +1,36 @@
+- name: Seungyoon Choi
+  photo: seungyoon.jpg
+  info: Spring 2024
+  email: csyoon08 (at) kaist.ac.kr
+  career: KAIST (Ph.D. Student)
+  
+- name: Wonjoong Kim
+  photo: wonjoong.jpg
+  info: Spring 2024
+  email: wjkim (at) kaist.ac.kr
+  career: KAIST (Ph.D. Student)
+
+- name: <a href="https://sung-won-kim.github.io" target="_blank">Sungwon Kim</a>
+  photo: sungwon.jpg
+  info: Spring 2024
+  email: swkim (at) kaist.ac.kr
+  career: KAIST (Ph.D. Student)
+
 - name: Ki-Bum Kim
   photo: kibum.jpg
-  info: Spring 2023
+  info: Fall 2023
   email: rlqja1107 (at) kaist.ac.kr
   career: KAIST (Ph.D. Student)
 
 - name: Yeonjun In
   photo: Yeonjun_In.jpg
-  info: Spring 2023
+  info: Fall 2023
   email: yeonjun.in (at) kaist.ac.kr
   career: KAIST (Ph.D. Student)
 
 - name: <a href="https://yunhak0.github.io" target="_blank">Yunhak Oh</a>
   photo: Yunhak_Oh.jpg
-  info: Spring 2023
+  info: Fall 2023
   email: yunhak.oh (at) kaist.ac.kr
   # homepage: <a href="https://yunhak0.github.io" target="_blank">[Homepage]</a>
   career: KAIST (Ph.D. Student)
@@ -34,7 +52,7 @@
   info: Spring 2023
   email: swyun (at) kaist.ac.kr
   # homepage: <a href="https://sukwonyun.github.io/" target="_blank">[Homepage]</a>
-  career: 
+  career: UNC (Ph.D. Student)
 
 - name: <a href="https://namkyeong.github.io" target="_blank">Namkyeong Lee</a>
   photo: namkyeong.jpg
