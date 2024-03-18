@@ -5,6 +5,16 @@ excerpt: "DSAIL @ KAIST - Courses"
 sitemap: false
 permalink: /courses.html
 ---
+
+#### Spring 2024
+
+- DS503: Machine Learning for Data Science
+- IE343: Statistical Machine Learning
+
+#### Fall 2023
+
+- DS535: Recommender System and Machine Learning on Graphs
+
 #### Spring 2023
 
 - DS503: Machine Learning for Data Science
