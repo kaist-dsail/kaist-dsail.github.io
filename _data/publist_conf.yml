@@ -13,6 +13,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2402.11837
   code_url: https://github.com/yeonjun-in/torch-SG-GSR
+  video_url: https://www.youtube.com/watch?v=o8b710SeuXk
 
 - title: DSLR&#58; Diversity Enhancement and Structure Learning for Rehearsal-based Graph Continual Learning
   authors: Seungyoon Choi&#42;, Wonjoong Kim&#42;, Sungwon Kim, Yeonjun In, Sein Kim, Chanyoung Park
@@ -20,6 +21,7 @@
   venue_full: The Web Conference 2024
   year: 2024
   pdf_url: http://arxiv.org/abs/2402.13711
+  video_url: https://www.youtube.com/watch?v=9NPN7Nj1xD8
   code_url: https://github.com/seungyoon-Choi/DSLR_official
 
 - title: Adaptive Self-training Framework for Fine-grained Scene Graph Generation
@@ -51,7 +53,9 @@
   venue_full: Thirty-seventh Conference on Neural Information Processing Systems
   year: 2023
   pdf_url: https://openreview.net/pdf?id=icWwBKyVMs
+  video_url: https://neurips.cc/virtual/2023/poster/70730
   code_url: https://github.com/sang-woo-seo/PGIB
+
   
 - title: Density of States Prediction of Crystalline Materials via Prompt-guided Multi-Modal Transformer
   authors: Namkyeong Lee&#42;, Heewoong Noh&#42;, Sungwon Kim, Dongmin Hyun, Gyoung S. Na, Chanyoung Park
@@ -60,6 +64,7 @@
   year: 2023
   pdf_url: https://openreview.net/pdf?id=2lWh1G1W1I
   code_url: https://github.com/HeewoongNoh/DOSTransformer
+  video_url: https://neurips.cc/virtual/2023/poster/72930
 
   
 - title: MUSE&#58; Music Recommender System with Shuffle Play Recommendation Enhancement
