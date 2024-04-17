@@ -13,13 +13,6 @@
   pdf_url: https://doi.org/10.1093/bioinformatics/btad342
   code_url: https://github.com/Junseok0207/scGPCL/
 
-- title: Deep Single-cell RNA-seq Data Clustering with Graph Prototypical Contrastive Learning
-  authors: Junseok Lee, Sungwon Kim, Dongmin Hyun, Namkyeong Lee, Yejin Kim, Chanyoung Park
-  venue: Bioinformatics
-  year: 2023
-  pdf_url: https://doi.org/10.1093/bioinformatics/btad342
-  code_url: https://github.com/Junseok0207/scGPCL/
-
 - title: Self-Supervised Graph Representation Learning via Positive Mining
   authors: Namkyeong Lee, Junseok Lee, Chanyoung Park
   venue: Information Sciences
