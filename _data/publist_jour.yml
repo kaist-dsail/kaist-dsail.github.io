@@ -1,7 +1,21 @@
+
+- title: Single-cell RNA Sequencing Data Imputation Using Bi-level Feature Propagation
+  authors: Junseok Lee&#42;, Sukwon Yun&#42;, Yeongmin Kim, Tianlong Chen, Manolis Kellis, Chanyoung Park
+  venue: Briefings in Bioinformatics
+  year: 2024
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://github.com/Junseok0207/scBFP
+
 - title: Deep Single-cell RNA-seq Data Clustering with Graph Prototypical Contrastive Learning
   authors: Junseok Lee, Sungwon Kim, Dongmin Hyun, Namkyeong Lee, Yejin Kim, Chanyoung Park
   venue: Bioinformatics
-  venue_full: (2023) (SCI)
+  year: 2023
+  pdf_url: https://doi.org/10.1093/bioinformatics/btad342
+  code_url: https://github.com/Junseok0207/scGPCL/
+
+- title: Deep Single-cell RNA-seq Data Clustering with Graph Prototypical Contrastive Learning
+  authors: Junseok Lee, Sungwon Kim, Dongmin Hyun, Namkyeong Lee, Yejin Kim, Chanyoung Park
+  venue: Bioinformatics
   year: 2023
   pdf_url: https://doi.org/10.1093/bioinformatics/btad342
   code_url: https://github.com/Junseok0207/scGPCL/
@@ -9,7 +23,6 @@
 - title: Self-Supervised Graph Representation Learning via Positive Mining
   authors: Namkyeong Lee, Junseok Lee, Chanyoung Park
   venue: Information Sciences
-  venue_full: (2022. 9) (SCI)
   year: 2022
   pdf_url: https://doi.org/10.1016/j.ins.2022.08.063
   code_url: https://github.com/Namkyeong/AFGRL
@@ -17,14 +30,12 @@
 - title: Learning to Utilize Auxiliary Reviews for Recommendation
   authors: Dongmin Hyun, Chanyoung Park, Junsu Cho, Hwanjo Yu 
   venue: Information Sciences
-  venue_full: (2021. 2) (SCI)
   year: 2021
   pdf_url: https://www.sciencedirect.com/science/article/pii/S0020025520309348
 
 - title: Deep Multiplex Graph Infomax&#58; Attentive Multiplex Network Embedding using Global Information
   authors: Chanyoung Park, Jiawei Han, Hwanjo Yu 
   venue: Knowledge-Based Systems 
-  venue_full: (2020. 6) (SCI)
   year: 2020
   pdf_url: https://doi.org/10.1016/j.knosys.2020.105861
   code_url: https://github.com/pcy1302/DMGI
@@ -33,42 +44,36 @@
 - title: Improved prediction of miRNA–disease associations based on matrix completion with network regularization
   authors: Jihwan Ha, Chihyun Park, Chanyoung Park, Sanghyun Park 
   venue: Cells 
-  venue_full: (2020. 4) (SCIE)
   year: 2020
   pdf_url: https://www.mdpi.com/2073-4409/9/4/881
 
 - title: Click-aware Purchase Prediction with Push at the Top
   authors: Chanyoung Park, Donghyun Kim, Min-Chul Yang, Jung-Tae Lee, Hwanjo Yu 
   venue: Information Sciences 
-  venue_full: (2020. 6) (SCI)
   year: 2020
   pdf_url: https://doi.org/10.1016/j.ins.2020.02.062
 
 - title: IMIPMF&#58; Inferring miRNA-disease interactions using probabilistic matrix factorization
   authors: Jihwan Ha, Chihyun Park, Chanyoung Park, Sanghyun Park 
   venue: Journal of Biomedical Informatics 
-  venue_full: (2020. 2) (SCI)
   year: 2020
   pdf_url: https://www.sciencedirect.com/science/article/abs/pii/S1532046419302783
 
 - title: An Encoder-Decoder Switch Network for Purchase Prediction
   authors: Chanyoung Park, Donghyun Kim, Hwanjo Yu 
   venue: Knowledge-Based Systems 
-  venue_full: (2019. 12) (SCI)
   year: 2019
   pdf_url: https://doi.org/10.1016/j.knosys.2019.104932
 
 - title: Target-Aware Convolutional Neural Network for Target-Level Sentiment Analysis
   authors: Dongmin Hyun, Chanyoung Park, Min-Chul Yang, Ilhyeon Song, Jung-Tae Lee, Hwanjo Yu 
   venue: Information Sciences 
-  venue_full: (2019. 7) (SCI)
   year: 2019
   pdf_url: https://www.sciencedirect.com/science/article/pii/S0020025519302877
 
 - title: Deep Hybrid Recommender Systems via Exploiting Document Context and Statistics of Items
   authors: Donghyun Kim, Chanyoung Park, Jinoh Oh, Hwanjo Yu 
   venue: Information Sciences 
-  venue_full: (2017. 11) (SCI)
   year: 2017
   pdf_url: https://doi.org/10.1016/j.ins.2017.06.026
   code_url: https://github.com/cartopy/ConvMF-1.0.0
@@ -76,7 +81,6 @@
 - title: Improving top-K recommendation with truster and trustee relationship in user trust network
   authors: Chanyoung Park, Donghyun Kim, Jinoh Oh, Hwanjo Yu 
   venue: Information Sciences 
-  venue_full: (2016. 12) (SCI)
   year: 2016
   pdf_url: https://www.sciencedirect.com/science/article/pii/S0020025516308301
   slide_url: https://pcy1302.github.io/data/InforSci16_slide.pdf
