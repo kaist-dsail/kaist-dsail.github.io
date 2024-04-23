@@ -39,7 +39,7 @@ Our main research interests include <b>Data-centric AI, Machine Learning, Deep L
 - Fraud/Anomaly detection
 - Sentiment analysis
 - Purchase/Click prediction
-- Time-series and spatio-temporal anlaysis, 
+- Time-series and spatio-temporal analysis, 
 - AI for finance
 - etc...
 

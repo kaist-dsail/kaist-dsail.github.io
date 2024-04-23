@@ -34,7 +34,7 @@ permalink: /professor/
   - Mining meaningful knowledge from multimodal data to develop artificial intelligence solutions for various real-world applications across different disciplines.
 <!--   - Keywords: Multimodal user behavior analysis, Machine learning for graphs, Graph neural network, Graph representation learning, AI for Science -->
   - <b>Application domains</b>: 
-  Recommendation system, AI for Science (Materials science, Chemistry, Bioinformatics), Large Language Model applications, Scene understanding, Social network analysis, Medical image analysis, Fraud/Anomaly detection, Knowledge graph, Sentiment analysis, Purchase/Click prediction, Time-series and spatio-temporal anlaysis, etc.
+  Recommendation system, AI for Science (Materials science, Chemistry, Bioinformatics), Large Language Model applications, Scene understanding, Social network analysis, Medical image analysis, Fraud/Anomaly detection, Knowledge graph, Sentiment analysis, Purchase/Click prediction, Time-series and spatio-temporal analysis, etc.
 
 ### Announcements
 <!-- - <mark style='background-color: #ffd33d'><b>I am looking for interns to join our group during this Winter break (8 weeks). Click <a href="https://ie.kaist.ac.kr/0502/view/id/2726" target="_blank">here</a> for more detail (Due date: Nov. 10).</b></mark>. Apply through the <a href="https://forms.gle/qLJsUAzfevaJWpou6" target="_blank">official link</a> and send me an email <b>with your CV and transcript</b> to confirm that you have submitted your application. -->
