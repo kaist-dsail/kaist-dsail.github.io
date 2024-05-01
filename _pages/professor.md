@@ -158,7 +158,9 @@ Korea Military Academy,
 
 ### Academic Services
 #### Conference Program Committee/Reviewer
-- ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) [2022-present]
+- Regular PC Member/Reviewer in KDD, NeurIPS, ICLR, ICML, AAAI, WWW, SIGIR, WSDM, IJCAI, CIKM, LoG, ECML-PKDD, BigData, etc
+- Area Chair in NeurIPS 2024, ICML 2024 AI4Science Workshop, NeurIPS 2023 AI4Science Workshop
+<!-- - ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) [2022-present]
 - The Web Conference (WWW) [2020-present]
 - AAAI Conference on Artificial Intelligence (AAAI), [2021-present]
 - Conference on Neural Information Processing Systemss (NeurIPS) [2022-present]
@@ -179,7 +181,7 @@ Korea Military Academy,
 - International Conference on Big Data and Smart Computing (BigComp) 2023
 - International Conference on Internet and Web Applications and Services (ICIW) [2017-2018]
 - Graph Learning @ TheWebConf, 2022
-- International Joint Conference on Artificial Intelligence (IJCAI) - Special Track on AI for Good, 2022
+- International Joint Conference on Artificial Intelligence (IJCAI) - Special Track on AI for Good, 2022 -->
 
 
 <!-- #### Journal Reviewer
