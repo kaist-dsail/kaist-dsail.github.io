@@ -7,6 +7,7 @@ permalink: /projects.html
 ---
 ### Projects
 #### On-going
+- 그래프 빅데이터를 위한 파운데이션 모델 개발
 - 사출성형 성능예측을 위한 3D 형상 기반 Graph Networks 모델 개발
 - 설계DB 내 유사회로 탐색을 위한 Circuit Recognition
 - 향상된 추천 시스템을 위한 대형언어모델 통합 연구개발
