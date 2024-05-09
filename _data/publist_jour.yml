@@ -3,7 +3,7 @@
   authors: Junseok Lee&#42;, Sukwon Yun&#42;, Yeongmin Kim, Tianlong Chen, Manolis Kellis, Chanyoung Park
   venue: Briefings in Bioinformatics
   year: 2024
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://academic.oup.com/bib/article/25/3/bbae209/7665119
   code_url: https://github.com/Junseok0207/scBFP
 
 - title: Deep Single-cell RNA-seq Data Clustering with Graph Prototypical Contrastive Learning
