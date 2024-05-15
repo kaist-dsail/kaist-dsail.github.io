@@ -5,6 +5,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2306.15217
   code_url: https://github.com/JhngJng/NaQ-PyTorch
+  slide_url: https://kaist-dsail.github.io/files/ICML24_NaQ_slide.pdf
 
 - title: LLM4SGG&#58; Large Language Models for Weakly Supervised Scene Graph Generation
   authors: Kibum Kim, Kanghoon Yoon, Jaehyeong Jeon, Yeonjun In, Jinyoung Moon, Donghyun Kim, Chanyoung Park
