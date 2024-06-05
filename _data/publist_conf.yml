@@ -70,7 +70,7 @@
   venue: WWW 2024 Workshop on Data-centric Artificial Intelligence (DCAI) <FONT COLOR="#ff0000">(Oral)</FONT>
   venue_full: The Web Conference 2024
   year: 2024
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://dcai-workshop.github.io/assets/pdf/accepted_papers/65.pdf
   code_url: https://dsail.kaist.ac.kr/publications_conference/
 
 - title: Interpretable Prototype-based Graph Information Bottleneck
