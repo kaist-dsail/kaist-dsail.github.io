@@ -9,6 +9,8 @@ permalink: /research/
 
 ### Research Area
 
+<script src="//cdn.jsdelivr.net/npm/details-polyfill@1/index.min.js" async></script>
+
 <details>
 <summary>Recommender System</summary>
 <div style="margin-left: 20px;">
