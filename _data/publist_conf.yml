@@ -11,8 +11,8 @@
   venue: KDD 2024
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2024
-  pdf_url: https://dsail.kaist.ac.kr/
-  code_url: https://dsail.kaist.ac.kr/
+  pdf_url: https://arxiv.org/abs/2406.13214
+  code_url: https://github.com/sang-woo-seo/TGIB
 
 
 - title: Unsupervised Episode Generation for Graph Meta-learning
