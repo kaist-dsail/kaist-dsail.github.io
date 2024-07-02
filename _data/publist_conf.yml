@@ -1,3 +1,19 @@
+- title: Semantic Diversity-aware Prototye-based Learning for Unbiased Scene Graph Generation
+  authors: Jaehyeong Jeon, Kibum Kim, Kanghoon Yoon, Chanyoung Park
+  venue: ECCV 2024
+  venue_full: European Conference on Computer Vision
+  year: 2024
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+
+- title: Multiplexed Immunofluorescence Image Analysis through an Efficient Multiplex Network
+  authors: Sukwon Yun, Jie Peng, Alexandro Trevino, Chanyoung Park, Tianlong Chen
+  venue: ECCV 2024
+  venue_full: European Conference on Computer Vision
+  year: 2024
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+
 - title: Large Language Models meet Collaborative Filtering&#58; An Efficient All-round LLM-based Recommender System
   authors: Sein Kim&#42;, Hongseok Kang&#42;, Seungyoon Choi, Donghyun Kim, Minchul Yang, Chanyoung Park
   venue: KDD 2024
