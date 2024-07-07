@@ -1,8 +1,11 @@
 
-
 - title: Continual Traffic Forecasting via Mixture of Experts
   authors: Sanghyun Lee, Chanyoung Park
   pdf_url: https://arxiv.org/pdf/2406.03140
+
+- title: Temporal Graph Learning Recurrent Neural Network for Traffic Forecasting
+  authors: Sanghyun Lee, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2406.02726
   
 - title: SIMPLOT&#58; Enhancing Chart Question Answering by Distilling Essentials
   authors: Wonjoong Kim&#42;, Sangwu Park&#42;, Yeonjun In, Seokwon Han, Chanyoung Park
