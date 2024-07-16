@@ -1,3 +1,20 @@
+
+- title: Debiased Graph Poisoning Attack via Contrastive Surrogate Objective 
+  authors: Kanghoon Yoon, Yeonjun In, Namkyeong Lee, Kibum Kim, Chanyoung Park 
+  venue: CIKM 2024
+  venue_full: ACM International Conference on Information and Knowledge Management
+  year: 2024
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+
+- title: Molecule Language Model with Augmented Pairs and Expertise Transfer
+  authors: Namkyeong Lee, Siddhartha Laghuvarapu, Chanyoung Park, Jimeng Sun
+  venue: CIKM 2024
+  venue_full: ACM International Conference on Information and Knowledge Management
+  year: 2024
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+
 - title: Semantic Diversity-aware Prototype-based Learning for Unbiased Scene Graph Generation
   authors: Jaehyeong Jeon, Kibum Kim, Kanghoon Yoon, Chanyoung Park
   venue: ECCV 2024
