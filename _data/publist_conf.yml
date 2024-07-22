@@ -12,8 +12,8 @@
   venue: CIKM 2024
   venue_full: ACM International Conference on Information and Knowledge Management
   year: 2024
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://arxiv.org/abs/2407.09043
+  code_url: https://github.com/Namkyeong/AMOLE
 
 - title: Semantic Diversity-aware Prototype-based Learning for Unbiased Scene Graph Generation
   authors: Jaehyeong Jeon, Kibum Kim, Kanghoon Yoon, Chanyoung Park
@@ -117,7 +117,8 @@
   venue: ACL 2024 Workshop Language + Molecules
   venue_full: The 62nd Annual Meeting of the Association for Computational Linguistics
   year: 2024
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://arxiv.org/abs/2407.09043
+  code_url: https://github.com/Namkyeong/AMOLE
 
 - title: Noise Robust Graph Learning under Feature-Dependent Graph-Noise
   authors: Yeonjun In, Kanghoon Yoon, Sukwon Yun, Kibum Kim, Sungchul Kim, Chanyoung Park
