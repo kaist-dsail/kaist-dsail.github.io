@@ -20,16 +20,16 @@
   venue: ECCV 2024
   venue_full: European Conference on Computer Vision
   year: 2024
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://arxiv.org/abs/2407.15396
+  code_url: https://github.com/JeonJaeHyeong/DPL
 
 - title: Multiplexed Immunofluorescence Image Analysis through an Efficient Multiplex Network
   authors: Sukwon Yun, Jie Peng, Alexandro Trevino, Chanyoung Park, Tianlong Chen
   venue: ECCV 2024
   venue_full: European Conference on Computer Vision
   year: 2024
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://arxiv.org/abs/2407.17857
+  code_url: https://github.com/UNITES-Lab/Mew
 
 - title: Large Language Models meet Collaborative Filtering&#58; An Efficient All-round LLM-based Recommender System
   authors: Sein Kim&#42;, Hongseok Kang&#42;, Seungyoon Choi, Donghyun Kim, Minchul Yang, Chanyoung Park
