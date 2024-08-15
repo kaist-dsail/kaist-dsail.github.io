@@ -118,6 +118,8 @@ permalink: /professor/
 
 
 ### Awards
+- Best Paper Award, KDD 2024 Workshop on Federated Learning for Data Mining and Graph Analytics (FedKDD) (2024)
+- Best Paper Award, KDD 2024 Workshop on Human-Interpretable AI (2024)
 - Gold Prize, 30th Samsung Humantech Paper Award (2024)
 - Technology Innovation Awards of College of Engineering, KAIST (2023)
 - Top Reviewer of NeurIPS 2023
