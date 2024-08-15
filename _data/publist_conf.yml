@@ -99,15 +99,15 @@
   pdf_url: https://arxiv.org/abs/2302.05428
 
 - title: Subgraph Federated Learning for Local Generalization
-  authors: Sungwon Kim, Yoonho Lee, Carl Yang, Yunhak Oh, Namkyeong Lee, Sukwon Yun, Junseok Lee, Sein Kim, Chanyoung Park
-  venue: KDD 2024 Workshop on Federated Learning for Data Mining and Graph Analytics (FedKDD) <FONT COLOR="#ff0000">(Oral)</FONT>
+  authors: Sungwon Kim, Yoonho Lee, Yunhak Oh, Namkyeong Lee, Sukwon Yun, Junseok Lee, Sein Kim, Carl Yang, Chanyoung Park
+  venue: KDD 2024 Workshop on Federated Learning for Data Mining and Graph Analytics (FedKDD) <FONT COLOR="#ff0000">(Oral)</FONT> <u>(Best Paper Award)</u></FONT></a>
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2024
   pdf_url: https://dsail.kaist.ac.kr/publications_conference/
 
 - title: Interpretable Graph Model with Prototype-Based Graph Information Bottleneck
   authors: Sangwoo Seo, Sungwon Kim, Chanyoung Park
-  venue: KDD 2024 Workshop on Human-Interpretable AI <FONT COLOR="#ff0000">(Oral)</FONT>
+  venue: KDD 2024 Workshop on Human-Interpretable AI <FONT COLOR="#ff0000">(Oral)</FONT> <u>(Best Paper Award)</u></FONT></a>
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2024
   pdf_url: https://dsail.kaist.ac.kr/publications_conference/
