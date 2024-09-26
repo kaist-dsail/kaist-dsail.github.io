@@ -7,6 +7,7 @@ permalink: /projects.html
 ---
 ### Projects
 #### On-going
+- 그래프 파운데이션 모델: 다양한 모달리티 및 도메인에적용 가능한 그래프 기반 기계 학습
 - 추천시스템을 위한 멀티모달 LLM 연구
 - 그래프 빅데이터를 위한 파운데이션 모델 개발
 - 사출성형 성능예측을 위한 3D 형상 기반 Graph Networks 모델 개발
