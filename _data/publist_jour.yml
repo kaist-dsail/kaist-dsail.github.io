@@ -1,3 +1,9 @@
+- title: Generating Fine-grained Scene Graph via Heterogeneous Graph Learning
+  authors: Kanghoon Yoon&#42;, Kibum Kim&#42;, Jinyoung Moon, Chanyoung Park
+  venue:  IEEE Transactions on Neural Networks and Learning
+  year: 2025
+  pdf_url: https://dsail.kaist.ac.kr/
+  code_url: https://dsail.kaist.ac.kr/
 
 - title: Single-cell RNA Sequencing Data Imputation Using Bi-level Feature Propagation
   authors: Junseok Lee&#42;, Sukwon Yun&#42;, Yeongmin Kim, Tianlong Chen, Manolis Kellis, Chanyoung Park

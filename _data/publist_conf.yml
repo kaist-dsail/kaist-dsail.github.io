@@ -113,6 +113,14 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2302.05428
 
+- title: 3D Interaction Geometric Pre-training for Molecular Relational Learning
+  authors: Namkyeong Lee, Yunhak Oh, Heewoong Noh, Gyoung S. Na, Tianfan Fu, Chanyoung Park
+  venue: NeurIPS 2024 Workshop on AI for New Drug Modalities (AIDrugX)
+  venue_full: Thirty-eighth Conference on Neural Information Processing Systems
+  year: 2024
+  pdf_url: https://sites.google.com/view/newmodality-aidrug
+
+
 - title: Subgraph Federated Learning for Local Generalization
   authors: Sungwon Kim, Yoonho Lee, Yunhak Oh, Namkyeong Lee, Sukwon Yun, Junseok Lee, Sein Kim, Carl Yang, Chanyoung Park
   venue: KDD 2024 Workshop on Federated Learning for Data Mining and Graph Analytics (FedKDD) <FONT COLOR="#ff0000">(Oral)</FONT> <a href="https://kaist-dsail.github.io/files/FedKDD2024_award.pdf" target="_blank"><FONT COLOR="#ff0000"><u>(Best Paper Award)</u></FONT></a>
