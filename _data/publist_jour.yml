@@ -7,7 +7,7 @@
 
 - title: Single-cell RNA Sequencing Data Imputation Using Bi-level Feature Propagation
   authors: Junseok Lee&#42;, Sukwon Yun&#42;, Yeongmin Kim, Tianlong Chen, Manolis Kellis, Chanyoung Park
-  venue: Briefings in Bioinformatics
+  venue: Briefings in Bioinformatics <FONT COLOR="#ff0000">(KAIST Graduate Student Outstanding Paper Award)</FONT>
   year: 2024
   pdf_url: https://academic.oup.com/bib/article/25/3/bbae209/7665119
   code_url: https://github.com/Junseok0207/scBFP
