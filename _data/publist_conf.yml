@@ -11,8 +11,8 @@
   venue: NeurIPS 2024
   venue_full: Thirty-eighth Conference on Neural Information Processing Systems
   year: 2024
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://arxiv.org/pdf/2410.21341
+  code_url: https://github.com/HeewoongNoh/Retrieval-Retro
 
 - title: Debiased Graph Poisoning Attack via Contrastive Surrogate Objective 
   authors: Kanghoon Yoon, Yeonjun In, Namkyeong Lee, Kibum Kim, Chanyoung Park 
