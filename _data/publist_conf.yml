@@ -19,8 +19,8 @@
   venue: WSDM 2025
   venue_full: The 18th ACM International Conference on Web Search and Data Mining
   year: 2025
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://arxiv.org/abs/2411.12775v1
+  code_url: https://github.com/LeeJunmo/DAWN
 
 - title: Retrieval-Retro&#58; Retrieval-based Inorganic Retrosynthesis with Expert Knowledge
   authors: Heewoong Noh, Namkyeong Lee, Gyoung S. Na, Chanyoung Park
