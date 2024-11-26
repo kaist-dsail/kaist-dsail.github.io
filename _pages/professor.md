@@ -37,12 +37,12 @@ permalink: /professor/
   Recommendation system, AI for Science (Materials science, Chemistry, Bioinformatics), Large Language Model applications, Scene understanding, Social network analysis, Medical image analysis, Fraud/Anomaly detection, Knowledge graph, Sentiment analysis, Purchase/Click prediction, Time-series and spatio-temporal analysis, etc.
 
 ### Announcements
-- <mark style='background-color: #ffd33d'><b>I am looking for interns to join our group during this Winter break (8 weeks). Click <a href="https://ise.kaist.ac.kr/notices/view/id/2967" target="_blank">here</a> for more detail (Due date&#58;Nov. 13). Apply through the <a href="https://forms.gle/eySPujMHY3FpPueP9" target="_blank">official link</a> and send an email to cy.park (at) kaist.ac.kr <b>with your CV and transcript</b> to confirm that you have submitted your application.
+<!-- - <mark style='background-color: #ffd33d'><b>I am looking for interns to join our group during this Winter break (8 weeks). Click <a href="https://ise.kaist.ac.kr/notices/view/id/2967" target="_blank">here</a> for more detail (Due date&#58;Nov. 13). Apply through the <a href="https://forms.gle/eySPujMHY3FpPueP9" target="_blank">official link</a> and send an email to cy.park (at) kaist.ac.kr <b>with your CV and transcript</b> to confirm that you have submitted your application. -->
 - <span style="color:red"><b>I am actively seeking for passionate and self-motivated Ph.D. students, MS students, and postdocs. If you are interested, send me an email with your interests, CV, and transcript.</b></span>  
 - I am also looking for undergraduate students who are interested in doing internship in our lab, which will be open every summer and winter. If you are interested, send me an email with your interests, CV, and transcript. 
   + Interns will get opportunities to study about research topics that our lab is focusing on, and participate in research projects with graduate students.
   + If you are interested in joining our lab as a graduate student, I strongly recommend you to do an internship before you apply.
-- There are three ways to join our lab. You can apply through 1) [Department of Industrial Engineering and Systems](https://ie.kaist.ac.kr/){:target="_blank"} or 2) [Graduate School of Data Science](https://kse.kaist.ac.kr/insiter.php?design_file=1246.php){:target="_blank"} or 3) [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"}.
+- There are three ways to join our lab. You can apply through 1) [Department of Industrial Engineering and Systems](https://ie.kaist.ac.kr/){:target="_blank"} or 2) [Graduate School of Data Science](https://gsds.kaist.ac.kr/){:target="_blank"} or 3) [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"}.
 
 
 <!-- ### News
