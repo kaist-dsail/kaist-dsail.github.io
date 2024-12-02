@@ -1,16 +1,24 @@
-- info: KDD Conference at Barcelona (Aug. 2024)
+- info: CIKM Conference in Boise (Oct. 2024)
+  image: cikm2410.jpg
+  additional: 1
+
+- info: ECCV Conference in Milano (Sep. 2024)
+  image: eccv2409.jpg
+  additional: 1
+
+- info: KDD Conference in Barcelona (Aug. 2024)
   image: kdd2408.jpg
   additional: 1
 
-- info: ICML Conference at Vienna (Aug. 2024)
+- info: ICML Conference in Vienna (Aug. 2024)
   image: icml2408.jpg
   additional: 1
 
-- info: CVPR Conference at Seattle (July. 2024)
+- info: CVPR Conference in Seattle (July. 2024)
   image: cvpr2407.jpg
   additional: 1
 
-- info: KCC Conference at Jeju (June. 2024)
+- info: KCC Conference in Jeju (June. 2024)
   image: kcc2406.jpg
   additional: 0
 
@@ -18,7 +26,7 @@
   image: www2405.jpg
   additional: 1
 
-- info: ICLR Conference at Vienna (May. 2024)
+- info: ICLR Conference in Vienna (May. 2024)
   image: iclr2405.jpg
   additional: 1
 
@@ -30,7 +38,7 @@
   image: hbd2404.jpg
   additional: 1
 
-- info: Opta forum at London (Mar. 2024)
+- info: Opta forum in London (Mar. 2024)
   image: opta2403.jpg
   additional: 1
 
@@ -50,11 +58,11 @@
   image: Humantech_2402.jpg
   additional: 1
 
-- info: KSC Conference at Busan (Dec. 2023)
+- info: KSC Conference in Busan (Dec. 2023)
   image: KSC_2312.jpg
   additional: 1
 
-- info: NeurIPS Conference at New Orleans (Dec. 2023)
+- info: NeurIPS Conference in New Orleans (Dec. 2023)
   image: NeurIPS_2312.jpg
   additional: 1
 
@@ -62,23 +70,23 @@
 #   image: sports_activity.jpg
 #   additional: 0
 
-- info: CIKM Conference at Birmingham (Oct. 2023)
+- info: CIKM Conference in Birmingham (Oct. 2023)
   image: CIKM_2310.jpg
   additional: 1
 
-- info: KDD Conference at Long Beach (Aug. 2023)
+- info: KDD Conference in Long Beach (Aug. 2023)
   image: KDD_2308.jpg
   additional: 1
 
-- info: ICML Conference at Honolulu (Jul. 2023)
+- info: ICML Conference in Honolulu (Jul. 2023)
   image: ICML_2307.jpg
   additional: 1
 
-- info: SIGIR Conference at Taipei (Jul. 2023)
+- info: SIGIR Conference in Taipei (Jul. 2023)
   image: SIGIR_2307.jpg
   additional: 1
 
-- info: KCC Conference at Jeju (Jun. 2023)
+- info: KCC Conference in Jeju (Jun. 2023)
   image: workshop_2306.jpg
   additional: 0
 
@@ -98,7 +106,7 @@
   image: Homecoming_2023.jpg
   additional: 0
   
-- info: AAAI Conference at Washington D.C. (Feb. 2023)
+- info: AAAI Conference in Washington D.C. (Feb. 2023)
   image: aaai_2302.jpg
   additional: 0
 
@@ -106,15 +114,15 @@
   image: worldcup_2211.jpeg
   additional: 0
 
-- info: CIKM Conference at Atlanta (Oct. 2022)
+- info: CIKM Conference in Atlanta (Oct. 2022)
   image: cikm_2210.jpg
   additional: 0
 
-- info: SIGIR Conference at Spain (Jul. 2022)
+- info: SIGIR Conference in Spain (Jul. 2022)
   image: sigir_2207.jpg
   additional: 0
 
-- info: KCC Conference at Jeju (Jun. 2022)
+- info: KCC Conference in Jeju (Jun. 2022)
   image: workshop_2206.jpg
   additional: 0
 
