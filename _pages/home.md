@@ -54,9 +54,64 @@ Our main research interests include <b>Data-centric AI, Machine Learning, Deep L
             <!-- Add more indicators for additional slides -->
         </ol>
         <div class="carousel-inner" markdown="0">
-
+            
             <div class="item active">
-                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/CIKM23_MUSE.png" alt="Slide 1" /><br>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/NeurIPS24_RetrievalRetro.png" alt="Slide 1" /><br>
+                <center><b>Retrieval-Retro: Retrieval-based Inorganic Retrosynthesis with Expert Knowledge, NeurIPS24</b></center>
+            </div>
+
+            <div class="item">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/CIKM24_AMOLE.png" alt="" /><br>
+                <center><b>Vision Language Model is NOT All You Need: Augmentation Strategies for Molecule Language Models, CIKM24</b></center>
+            </div>
+            
+            <div class="item">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/ECCV24_DPL.png" alt="" /><br>
+                <center><b>Semantic Diversity-aware Prototype-based Learning for Unbiased Scene Graph Generation, ECCV24</b></center>
+            </div>
+
+            <div class="item">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/ECCV24_Mew.png" alt="" /><br>
+                <center><b>Mew: Multiplexed Immunofluorescence Image Analysis through an Efficient Multiplex Network, ECCV24</b></center>
+            </div>
+
+            <div class="item">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/KDD24_ALLMRec.png" alt="" /><br>
+                <center><b>Large Language Models meet Collaborative Filtering: An Efficient All-round LLM-based Recommender System, KDD24</b></center>
+            </div>
+
+            <div class="item">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/KDD24_TGIB.png" alt="" /><br>
+                <center><b>Self-Explainable Temporal Graph Networks based on Graph Information Bottleneck, KDD24</b></center>
+            </div>
+
+            <div class="item">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/ICML_NaQ.png" alt="" /><br>
+                <center><b>Unsupervised Episode Generation for Graph Meta-learning, ICML24</b></center>
+            </div>
+
+            <div class="item">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/CVPR24_LLM4SGG.png" alt="" /><br>
+                <center><b>LLM4SGG: Large Language Models for Weakly Supervised Scene Graph Generation, CVPR24</b></center>
+            </div>
+
+            <div class="item">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/WWW24_SGGSR.png" alt="" /><br>
+                <center><b>Self-guided Robust Graph Structure Refinement, WWW24</b></center>
+            </div>
+
+            <div class="item">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/WWW24_DSLR.png" alt="" /><br>
+                <center><b>DSLR: Diversity Enhancement and Structure Learning for Rehearsal-based Graph Continual Learning, WWW24</b></center>
+            </div>
+
+            <div class="item">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/ICLR24_STSGG.png" alt="" /><br>
+                <center><b>Adaptive Self-training Framework for Fine-grained Scene Graph Generation, ICLR24</b></center>
+            </div>
+
+            <div class="item">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/slider/CIKM23_MUSE.png" alt="" /><br>
                 <center><b>MUSE&#58; Music Recommender System with Shuffle Play Recommendation Enhancement , CIKM23</b></center>
             </div>
 
