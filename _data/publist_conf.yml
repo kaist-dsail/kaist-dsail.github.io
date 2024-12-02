@@ -29,6 +29,7 @@
   year: 2024
   pdf_url: https://arxiv.org/pdf/2410.21341
   code_url: https://github.com/HeewoongNoh/Retrieval-Retro
+  slide_url: https://kaist-dsail.github.io/files/NeurIPS24_RetrievalRetro_slide.pdf
 
 - title: Debiased Graph Poisoning Attack via Contrastive Surrogate Objective 
   authors: Kanghoon Yoon, Yeonjun In, Namkyeong Lee, Kibum Kim, Chanyoung Park 
@@ -45,6 +46,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2407.09043
   code_url: https://github.com/Namkyeong/AMOLE
+  slide_url: https://kaist-dsail.github.io/files/CIKM24_AMOLE_slide.pdf
 
 - title: Semantic Diversity-aware Prototype-based Learning for Unbiased Scene Graph Generation
   authors: Jaehyeong Jeon, Kibum Kim, Kanghoon Yoon, Chanyoung Park
@@ -53,6 +55,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2407.15396
   code_url: https://github.com/JeonJaeHyeong/DPL
+  slide_url: https://kaist-dsail.github.io/files/ECCV24_DPL_slide.pdf
 
 - title: Mew&#58; Multiplexed Immunofluorescence Image Analysis through an Efficient Multiplex Network
   authors: Sukwon Yun, Jie Peng, Alexandro Trevino, Chanyoung Park, Tianlong Chen
@@ -61,6 +64,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2407.17857
   code_url: https://github.com/UNITES-Lab/Mew
+  slide_url: https://kaist-dsail.github.io/files/ECCV24_Mew_slide.pdf
 
 - title: Large Language Models meet Collaborative Filtering&#58; An Efficient All-round LLM-based Recommender System
   authors: Sein Kim&#42;, Hongseok Kang&#42;, Seungyoon Choi, Donghyun Kim, Minchul Yang, Chanyoung Park
@@ -69,6 +73,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2404.11343
   code_url: https://github.com/ghdtjr/A-LLMRec
+  slide_url: https://kaist-dsail.github.io/files/KDD24_ALLMRec_slide.pdf
 
 - title: Self-Explainable Temporal Graph Networks based on Graph Information Bottleneck
   authors: Sangwoo Seo, Sungwon Kim, Jihyeong Jung, Yoonho Lee, Chanyoung Park
@@ -77,6 +82,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2406.13214
   code_url: https://github.com/sang-woo-seo/TGIB
+  slide_url: https://kaist-dsail.github.io/files/KDD24_TGIB_slide.pdf
 
 - title: Unsupervised Episode Generation for Graph Meta-learning
   authors: Jihyeong Jung, Sangwoo Seo, Sungwon Kim, Chanyoung Park
@@ -95,6 +101,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2310.10404
   code_url: https://github.com/rlqja1107/torch-LLM4SGG
+  slide_url: https://kaist-dsail.github.io/files/CVPR24_LLM4SGG_slide.pdf
 
 - title: Self-guided Robust Graph Structure Refinement
   authors: Yeonjun In, Kanghoon Yoon, Kibum Kim, Kijung Shin, Chanyoung Park
@@ -104,6 +111,7 @@
   pdf_url: https://arxiv.org/abs/2402.11837
   code_url: https://github.com/yeonjun-in/torch-SG-GSR
   video_url: https://www.youtube.com/watch?v=o8b710SeuXk
+  slide_url: https://kaist-dsail.github.io/files/WWW24_SGGSR_slide.pdf
 
 - title: DSLR&#58; Diversity Enhancement and Structure Learning for Rehearsal-based Graph Continual Learning
   authors: Seungyoon Choi&#42;, Wonjoong Kim&#42;, Sungwon Kim, Yeonjun In, Sein Kim, Chanyoung Park
@@ -113,6 +121,7 @@
   pdf_url: http://arxiv.org/abs/2402.13711
   video_url: https://www.youtube.com/watch?v=9NPN7Nj1xD8
   code_url: https://github.com/seungyoon-Choi/DSLR_official
+  slide_url: https://kaist-dsail.github.io/files/WWW24_DSLR_slide.pdf
 
 - title: Adaptive Self-training Framework for Fine-grained Scene Graph Generation
   authors: Kibum Kim&#42;, Kanghoon Yoon&#42;, Yeonjun In, Jinyoung Moon, Donghyun Kim, Chanyoung Park
@@ -121,6 +130,7 @@
   year: 2024
   pdf_url: https://openreview.net/pdf?id=WipsLtH77t
   code_url: https://github.com/rlqja1107/torch-ST-SGG
+  slide_url: https://kaist-dsail.github.io/files/ICLR24_STSGG_slide.pdf
 
 - title: Sterling&#58; Synergistic Representation Learning on Bipartite Graphs
   authors: Baoyu Jing, Yuchen Yan, Kaize Ding, Chanyoung Park, Yada Zhu, Huan Liu, Hanghang Tong
