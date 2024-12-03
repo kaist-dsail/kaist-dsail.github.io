@@ -38,6 +38,7 @@
   year: 2024
   pdf_url: https://arxiv.org/pdf/2407.19155
   code_url: https://github.com/KanghoonYoon/torch-metacon
+  slide_url: https://kaist-dsail.github.io/files/CIKM24_metacon_slide.pdf
 
 - title: Vision Language Model is NOT All You Need&#58; Augmentation Strategies for Molecule Language Models
   authors: Namkyeong Lee, Siddhartha Laghuvarapu, Chanyoung Park, Jimeng Sun
