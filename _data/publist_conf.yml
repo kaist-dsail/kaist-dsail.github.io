@@ -1,3 +1,11 @@
+- title: ReTAG&#58; Retrieval-Augmented Scene Graph Generation via Multi-Prototype Learning
+  authors: Kanghoon Yoon, Kibum Kim, Jaehyeong Jeon, Yeonjun In, Donghyun Kim, Chanyoung Park
+  venue: AAAI 2025
+  venue_full: Thirty-Nineth AAAI Conference on Artificial Intelligence
+  year: 2025
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+
 - title: Electron-Informed Coarse-Graining Molecular Representation Learning for Real-World Molecular Physics
   authors: Gyoung S. Na, Chanyoung Park
   venue: KDD 2025
