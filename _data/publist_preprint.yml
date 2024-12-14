@@ -1,4 +1,8 @@
-
+- title: 3D Interaction Geometric Pre-training for Molecular Relational Learning
+  authors: Namkyeong Lee, Yunhak Oh, Heewoong Noh, Gyoung S. Na, Tianfan Fu, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2412.02957
+  code_url: https://github.com/Namkyeong/3DMRL
+  
 - title: Continual Traffic Forecasting via Mixture of Experts
   authors: Sanghyun Lee, Chanyoung Park
   pdf_url: https://arxiv.org/pdf/2406.03140
