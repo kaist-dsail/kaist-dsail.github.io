@@ -153,7 +153,8 @@
   venue: NeurIPS 2024 Workshop on AI for New Drug Modalities (AIDrugX)
   venue_full: Thirty-eighth Conference on Neural Information Processing Systems
   year: 2024
-  pdf_url: https://sites.google.com/view/newmodality-aidrug
+  pdf_url: https://openreview.net/pdf?id=4dQ5ChG6bB
+  code_url: https://github.com/Namkyeong/3DMRL
 
 
 - title: Subgraph Federated Learning for Local Generalization
