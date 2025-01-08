@@ -1,10 +1,10 @@
-- title: RA-SGG&#58; Retrieval-Augmented Scene Graph Generation via Multi-Prototype Learning
+- title: RA-SGG&#58; Retrieval-Augmented Scene Graph Generation Framework via Multi-Prototype Learning
   authors: Kanghoon Yoon, Kibum Kim, Jaehyeong Jeon, Yeonjun In, Donghyun Kim, Chanyoung Park
   venue: AAAI 2025
   venue_full: Thirty-Nineth AAAI Conference on Artificial Intelligence
   year: 2025
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://arxiv.org/abs/2412.12788
+  code_url: https://github.com/KanghoonYoon/torch-rasgg
 
 - title: Electron-Informed Coarse-Graining Molecular Representation Learning for Real-World Molecular Physics
   authors: Gyoung S. Na, Chanyoung Park
