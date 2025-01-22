@@ -22,6 +22,22 @@
   pdf_url: https://openreview.net/forum?id=UQ0RqfhgCk
   code_url: https://dsail.kaist.ac.kr/publications_conference/
 
+- title: Diversify-verify-adapt&#58; Efficient and Robust Retrieval-Augmented Ambiguous Question Answering
+  authors: Yeonjun In, Sungchul Kim, Ryan A. Rossi, Mehrab Tanjim, Tong Yu, Ritwik Sinha, Chanyoung Park
+  venue: NAACL 2025
+  venue_full: Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics
+  year: 2025
+  pdf_url: https://arxiv.org/abs/2409.02361
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  
+- title: SIMPLOT&#58; Enhancing Chart Question Answering by Distilling Essentials
+  authors: Wonjoong Kim, Sangwu Park, Yeonjun In, Seokwon Han, Chanyoung Park
+  venue: NAACL 2025 (Findings)
+  venue_full: Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics
+  year: 2025
+  pdf_url: https://arxiv.org/abs/2405.00021
+  code_url: https://github.com/sangwu99/Simplot
+
 - title: RA-SGG&#58; Retrieval-Augmented Scene Graph Generation Framework via Multi-Prototype Learning
   authors: Kanghoon Yoon, Kibum Kim, Jaehyeong Jeon, Yeonjun In, Donghyun Kim, Chanyoung Park
   venue: AAAI 2025
