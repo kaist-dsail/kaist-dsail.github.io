@@ -14,7 +14,7 @@
   pdf_url: https://openreview.net/forum?id=cH65nS5sOz
   code_url: https://dsail.kaist.ac.kr/publications_conference/
   
-- title: Self-Supervised Diffusion Processes for Electron-Aware Molecular Representation Learning
+- title: Self-Supervised Diffusion Models for Electron-Aware Molecular Representation Learning
   authors: Gyoung S. Na, Chanyoung Park
   venue: ICLR 2025
   venue_full: The Thirteenth International Conference on Learning Representations
@@ -59,7 +59,7 @@
   venue: KDD 2025
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2025
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://arxiv.org/abs/2501.05015
   code_url: https://dsail.kaist.ac.kr/publications_conference/
 
 - title: Revisiting Fake News Detection&#58; Towards Temporality-aware Evaluation by Leveraging Engagement Earliness
