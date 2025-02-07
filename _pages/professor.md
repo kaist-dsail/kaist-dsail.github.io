@@ -94,15 +94,15 @@ permalink: /professor/
 - <b>POSTECH (Pohang University of Science and Technology)</b>
   + Ph.D. in Computer Science and Engineering (2019)
   + Dissertation: Recommendation Framework via Matrix Factorization and Translation
-  + Advisor: [Prof. Hwanjo Yu](http://hwanjoyu.org/){:target="_blank"}
+  <!-- + Advisor: [Prof. Hwanjo Yu](http://hwanjoyu.org/){:target="_blank"} -->
 - <b>Sogang University</b>
   + B.S. in Computer Science and Engineering (2014)
-  + Graduated with Honors (Magma Cum Laude)
+  <!-- + Graduated with Honors (Magma Cum Laude) -->
 
 
 ### Teaching
-- <b>KSE801: Recommender System and Machine Learning on Graphs</b>
-  + Fall 2021, Fall 2022, Fall 2023
+- <b>DS535: Recommender System and Machine Learning on Graphs</b>
+  + Fall 2021, 2022, 2023, 2024
 
 - <b>CoE202: Basics of Artificial Intelligence</b>
   + Fall 2021
@@ -118,7 +118,6 @@ permalink: /professor/
 
 
 ### Awards
-
 - Song-Am Distinguished Research Award, KAIST (2025)
 - Best Academic Award, ISE KAIST (2024)
 - Best Paper Award, KDD 2024 Workshop on Federated Learning for Data Mining and Graph Analytics (FedKDD) (2024)
