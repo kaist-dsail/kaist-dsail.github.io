@@ -118,7 +118,7 @@ permalink: /professor/
 
 
 ### Awards
-- Song-Am Distinguished Research Award, KAIST (2025)
+- Song-Am Distinguished Research Award, KAIST (2024)
 - Best Academic Award, ISE KAIST (2024)
 - Best Paper Award, KDD 2024 Workshop on Federated Learning for Data Mining and Graph Analytics (FedKDD) (2024)
 - Best Paper Award, KDD 2024 Workshop on Human-Interpretable AI (2024)
