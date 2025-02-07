@@ -118,6 +118,9 @@ permalink: /professor/
 
 
 ### Awards
+
+- Song-Am Distinguished Research Award, KAIST (2025)
+- Best Academic Award, ISE KAIST (2024)
 - Best Paper Award, KDD 2024 Workshop on Federated Learning for Data Mining and Graph Analytics (FedKDD) (2024)
 - Best Paper Award, KDD 2024 Workshop on Human-Interpretable AI (2024)
 - Gold Prize, 30th Samsung Humantech Paper Award (2024)
@@ -125,13 +128,13 @@ permalink: /professor/
 - Top Reviewer of NeurIPS 2023
 - Best Paper Award, ICML 2023 Workshop on Computational Biology (2023)
 - KAIST Excellence in Teaching Award of Year 2022, KAIST (2023)
-- Best Teaching Award, ISysE KAIST (2022)
+- Best Teaching Award, ISE KAIST (2022)
 - ICDM 2018 Travel Award (2018)
 - Award of excellence, Microsoft Research Asia Internship Program, Beijing, China (2017)
 - Naver Ph.D Fellowship (2016)
 - Top 1.1% in RecSys Challenge (2015)
 
-### Talks
+### Selected Talks
 - <b>Learning on Graph and its Application to Biomedical Data</b> [[Slide]](https://kaist-dsail.github.io/files/LOG2024.pdf){:target="_blank"} @ 
 <a href="https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20240101&CpPage=231#CONF" target="_blank">2024 한국인공지능학회 동계단기강좌</a>
 - <b>그래프 신경망 기반 화학/소재분야 연구 동향 (Out-of-Distribution 문제를 중심으로)</b> <a href="https://kaist-dsail.github.io/files/SAIT2023.pdf" target="_blank">[Slide]</a> @ 삼성전자 종합기술원, 삼성전자 DS
@@ -230,6 +233,7 @@ Korea Military Academy,
 - Frontiers in Big Data -->
 
 #### Event Organizations
+- General Chair, The ACM International Conference on Information and Knowledge Management (CIKM) [2025]
 - Proceedings Chair, The ACM International Conference on Information and Knowledge Management (CIKM) [2023]
 
 <!-- #### Event Organizations -->
