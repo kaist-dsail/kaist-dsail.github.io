@@ -1,17 +1,17 @@
+- title: Subgraph Federated Learning for Local Generalization
+  authors: Sungwon Kim, Yoonho Lee, Yunhak Oh, Namkyeong Lee, Sukwon Yun, Junseok Lee, Sein Kim, Carl Yang, Chanyoung Park
+  venue: ICLR 2025 <FONT COLOR="#ff0000">(Oral)</FONT>
+  venue_full: The Thirteenth International Conference on Learning Representations
+  year: 2025
+  pdf_url: https://openreview.net/forum?id=cH65nS5sOz
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  
 - title: Weakly Supervised Video Scene Graph Generation via Natural Language Supervision
   authors: Kibum Kim, Kanghoon Yoon, Yeonjun In, Jaehyeong Jeon, Jinyoung Moon, Donghyun Kim, Chanyoung Park
   venue: ICLR 2025
   venue_full: The Thirteenth International Conference on Learning Representations
   year: 2025
   pdf_url: https://openreview.net/forum?id=GQgPj1H4pO
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
-
-- title: Subgraph Federated Learning for Local Generalization
-  authors: Sungwon Kim, Yoonho Lee, Yunhak Oh, Namkyeong Lee, Sukwon Yun, Junseok Lee, Sein Kim, Carl Yang, Chanyoung Park
-  venue: ICLR 2025
-  venue_full: The Thirteenth International Conference on Learning Representations
-  year: 2025
-  pdf_url: https://openreview.net/forum?id=cH65nS5sOz
   code_url: https://dsail.kaist.ac.kr/publications_conference/
   
 - title: Self-Supervised Diffusion Models for Electron-Aware Molecular Representation Learning
