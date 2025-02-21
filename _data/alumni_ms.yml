@@ -1,57 +1,69 @@
+- name: Yoonho Lee
+  info: Spring 2025
+  career: KAIST (Ph.D. Student @ DSAIL)
+
+- name: Junghoon Kim
+  info: Spring 2025
+  career: KAIST (Ph.D. Student @ DSAIL)
+
+- name: Heewoong Noh
+  info: Spring 2025
+  career: KAIST (Ph.D. Student @ DSAIL)
+
 - name: Junmo Lee
   photo: junmo.jpg
-  info: Master student
+  info: Spring 2025
   email: bubblego0217 (at) kaist.ac.kr
   career: KAIST (Ph.D. Student)
 
 - name: Jaehyeong Jeon
   photo: Jaehyeong_Jeon.jpg
-  info: Master student
+  info: Spring 2025
   email: wogud405 (at) kaist.ac.kr
-  career: Riiid
+  career: Riiid (Alternative Military Service)
 
 - name: Jihyeong Jung
   photo: Jihyeong_Jung.jpg
   info: Fall 2024
   email: mjajthh1 (at) kaist.ac.kr
-  career: SkyLabs
+  career: SkyLabs (Alternative Military Service)
 
 - name: Seungyoon Choi
   photo: seungyoon.jpg
   info: Spring 2024
   email: csyoon08 (at) kaist.ac.kr
-  career: KAIST (Ph.D. Student)
+  career: KAIST (Ph.D. Student @ DSAIL)
   
 - name: Wonjoong Kim
   photo: wonjoong.jpg
   info: Spring 2024
   email: wjkim (at) kaist.ac.kr
-  career: KAIST (Ph.D. Student)
+  career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: <a href="https://sung-won-kim.github.io" target="_blank">Sungwon Kim</a>
   photo: sungwon.jpg
   info: Spring 2024
   email: swkim (at) kaist.ac.kr
-  career: KAIST (Ph.D. Student)
+  career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: Ki-Bum Kim
   photo: kibum.jpg
   info: Fall 2023
   email: rlqja1107 (at) kaist.ac.kr
-  career: KAIST (Ph.D. Student)
+  career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: Yeonjun In
   photo: Yeonjun_In.jpg
   info: Fall 2023
   email: yeonjun.in (at) kaist.ac.kr
-  career: KAIST (Ph.D. Student)
+  career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: <a href="https://yunhak0.github.io" target="_blank">Yunhak Oh</a>
   photo: Yunhak_Oh.jpg
   info: Fall 2023
   email: yunhak.oh (at) kaist.ac.kr
   # homepage: <a href="https://yunhak0.github.io" target="_blank">[Homepage]</a>
-  career: KAIST (Ph.D. Student)
+  career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: Sanghyun Lee
   photo: Sanghyun.jpg
@@ -77,13 +89,13 @@
   info: Spring 2023
   email: namkyeong96 (at) kaist.ac.kr
   # homepage: <a href="https://namkyeong.github.io" target="_blank">[Homepage]</a>
-  career: KAIST (Ph.D. Student)
+  career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: <a href="https://Junseok0207.github.io/" target="_blank">Junseok Lee</a>
   photo: junseok.jpg
   info: Spring 2023
   email: junseoklee (at) kaist.ac.kr
-  career: KAIST (Ph.D. Student)
+  career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: Junyoung Ryu
   photo: junyoung.png
