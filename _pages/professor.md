@@ -25,12 +25,12 @@ permalink: /professor/
 {% endfor %}
 
 ### About
-- I am an assistant professor in the [Department of Industrial Engineering and Systems](https://ie.kaist.ac.kr/){:target="_blank"} and also affiliated with the [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"} at [KAIST](http://kaist.ac.kr/){:target="_blank"}. 
+- I am an associate professor in the [Department of Industrial Engineering and Systems](https://ie.kaist.ac.kr/){:target="_blank"} and also affiliated with the [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"} at [KAIST](http://kaist.ac.kr/){:target="_blank"}. 
 - Before joining KAIST, I was a postdoctoral research fellow in Computer Science at University of Illinois at Urbana-Champaign. I obtained my Ph.D degree in Computer Science and Engineering from Pohang University of Science and Technology (POSTECH), and B.S. in Computer Science from Sogang University.
 
 ### Research Interest
 <!-- #### (Click [here](https://kaist-dsail.github.io/files/research.pdf){:target="_blank"} for more detail) -->
-- <b>Data-Centric AI, Model-Centric AI, Multimodal Data Mining, AI for Science</b>
+- <b>Data-Centric AI, AI for Science, Graph Neural Networks, Multimodal Data Mining</b>
   - Mining meaningful knowledge from multimodal data to develop artificial intelligence solutions for various real-world applications across different disciplines.
 <!--   - Keywords: Multimodal user behavior analysis, Machine learning for graphs, Graph neural network, Graph representation learning, AI for Science -->
   - <b>Application domains</b>: 
@@ -77,7 +77,11 @@ permalink: /professor/
 
 ### Work Experience
 - <b>KAIST (Korea Advanced Institute of Science and Technology)</b>, Daejeon, South Korea
-  + Assistant Professor (2020.11 - Present)
+  + Associate Professor (2025.03 - Present)
+  + Assistant Professor (2020.11 - 2025.02)
+- <b>University of California San Diego</b>, CA, USA 
+  + Visiting Scholar in Computer Science and Engineering Department (2025.01 - Present)
+  + Host: [Prof. Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/){:target="_blank"}
 - <b>University of Illinois at Urbana-Champaign</b>, IL, USA 
   + Postdoctoral Research Fellow in Computer Science Department (2019.3 - 2020.10)
   + Host: [Prof. Jiawei Han](http://hanj.cs.illinois.edu/){:target="_blank"}
