@@ -1,3 +1,17 @@
+- title: Lost in Sequence&#58; Do Large Language Models Understand Sequential Recommendation?
+  authors: Sein Kim, Hongseok Kang, Kibum Kim, Jiwan Kim, Donghyun Kim, Minchul Yang, Kwangjin Oh, Julian McAuley, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2502.13909
+  code_url: https://github.com/Sein-Kim/LLM-SRec
+
+- title: Is Safety Standard Same for Everyone? User-Specific Safety Evaluation of Large Language Models
+  authors: Yeonjun In, Wonjoong Kim, Kanghoon Yoon, Sungchul Kim, Mehrab Tanjim, Kibum Kim, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2502.15086
+  code_url: https://github.com/yeonjun-in/U-SafeBench
+
+- title: RAG-Enhanced Collaborative LLM Agents for Drug Discovery
+  authors: Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Chanyoung Park, Gabriele Scalia
+  pdf_url: https://arxiv.org/pdf/2502.17506
+
 - title: 3D Interaction Geometric Pre-training for Molecular Relational Learning
   authors: Namkyeong Lee, Yunhak Oh, Heewoong Noh, Gyoung S. Na, Tianfan Fu, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2412.02957
