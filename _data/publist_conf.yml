@@ -70,6 +70,18 @@
   pdf_url: https://arxiv.org/abs/2411.12775v1
   code_url: https://github.com/LeeJunmo/DAWN
 
+- title: RAG-Enhanced Collaborative LLM Agents for Drug Discovery
+  authors: Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Tommaso Biancalani, Chanyoung Park, Gabriele Scalia
+  venue: ICLR 2025 Workshop on Machine Learning for Genomics Explorations (MLGenX) <FONT COLOR="#ff0000">(Spotlight)</FONT>
+  venue_full: The Thirteenth International Conference on Learning Representations
+  year: 2025
+
+- title: Capturing functional context of genetic pathways through hyperedge disentanglement
+  authors: Yoonho Lee, Junseok Lee, Sangwoo Seo, Sungwon Kim, Yeongmin Kim, Chanyoung Park
+  venue: ICLR 2025 Workshop on Machine Learning for Genomics Explorations (MLGenX)
+  venue_full: The Thirteenth International Conference on Learning Representations
+  year: 2025
+
 - title: Retrieval-Retro&#58; Retrieval-based Inorganic Retrosynthesis with Expert Knowledge
   authors: Heewoong Noh, Namkyeong Lee, Gyoung S. Na, Chanyoung Park
   venue: NeurIPS 2024
