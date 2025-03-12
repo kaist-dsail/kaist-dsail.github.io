@@ -1,3 +1,8 @@
+- title: Image is All You Need&#58; Towards Efficient and Effective Large Language Model-Based Recommender Systems
+  authors: Kibum Kim, Sein Kim, Hongseok Kang, Jiwan Kim, Heewoong Noh, Yeonjun In, Kanghoon Yoon, Jinoh Oh, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2503.06238
+  code_url: https://github.com/rlqja1107/torch-I-LLMRec
+
 - title: Training Robust Graph Neural Networks by Modeling Noise Dependencies
   authors: Yeonjun In, Kanghoon Yoon, Sukwon Yun, Kibum Kim, Sungchul Kim, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2502.19670
