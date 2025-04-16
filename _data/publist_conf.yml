@@ -84,6 +84,7 @@
   year: 2025
   pdf_url: https://arxiv.org/abs/2411.12775v1
   code_url: https://github.com/LeeJunmo/DAWN
+  slide_url: https://kaist-dsail.github.io/files/WSDM25_DAWN_slide.pdf
 
 - title: RAG-Enhanced Collaborative LLM Agents for Drug Discovery
   authors: Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Tommaso Biancalani, Chanyoung Park, Gabriele Scalia
