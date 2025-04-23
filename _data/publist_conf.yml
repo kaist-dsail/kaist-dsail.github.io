@@ -17,7 +17,7 @@
 - title: Subgraph Federated Learning for Local Generalization
   authors: Sungwon Kim, Yoonho Lee, Yunhak Oh, Namkyeong Lee, Sukwon Yun, Junseok Lee, Sein Kim, Carl Yang, Chanyoung Park
   venue: ICLR 2025 <FONT COLOR="#ff0000">(Oral)</FONT>
-  venue_full: The Thirteenth International Conference on Learning Representations
+  venue_full: International Conference on Learning Representations
   year: 2025
   pdf_url: https://openreview.net/forum?id=cH65nS5sOz
   code_url: https://github.com/sung-won-kim/FedLoG
@@ -25,7 +25,7 @@
 - title: Weakly Supervised Video Scene Graph Generation via Natural Language Supervision
   authors: Kibum Kim, Kanghoon Yoon, Yeonjun In, Jaehyeong Jeon, Jinyoung Moon, Donghyun Kim, Chanyoung Park
   venue: ICLR 2025
-  venue_full: The Thirteenth International Conference on Learning Representations
+  venue_full: International Conference on Learning Representations
   year: 2025
   pdf_url: https://openreview.net/forum?id=GQgPj1H4pO
   code_url: https://github.com/rlqja1107/NL-VSGG
@@ -33,7 +33,7 @@
 - title: Self-Supervised Diffusion Models for Electron-Aware Molecular Representation Learning
   authors: Gyoung S. Na, Chanyoung Park
   venue: ICLR 2025
-  venue_full: The Thirteenth International Conference on Learning Representations
+  venue_full: International Conference on Learning Representations
   year: 2025
   pdf_url: https://openreview.net/forum?id=UQ0RqfhgCk
   code_url: https://dsail.kaist.ac.kr/publications_conference/
@@ -89,13 +89,13 @@
 - title: RAG-Enhanced Collaborative LLM Agents for Drug Discovery
   authors: Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Tommaso Biancalani, Chanyoung Park, Gabriele Scalia
   venue: ICLR 2025 Workshop on Machine Learning for Genomics Explorations (MLGenX) <FONT COLOR="#ff0000">(Spotlight)</FONT>
-  venue_full: The Thirteenth International Conference on Learning Representations
+  venue_full: International Conference on Learning Representations
   year: 2025
   
 - title: Capturing functional context of genetic pathways through hyperedge disentanglement
   authors: Yoonho Lee, Junseok Lee, Sangwoo Seo, Sungwon Kim, Yeongmin Kim, Chanyoung Park
   venue: ICLR 2025 Workshop on Machine Learning for Genomics Explorations (MLGenX)
-  venue_full: The Thirteenth International Conference on Learning Representations
+  venue_full: International Conference on Learning Representations
   year: 2025
 
 - title: Retrieval-Retro&#58; Retrieval-based Inorganic Retrosynthesis with Expert Knowledge
