@@ -3,16 +3,16 @@
   venue: SIGIR 2025
   venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval
   year: 2025
-  pdf_url: https://dsail.kaist.ac.kr/
-  code_url: https://dsail.kaist.ac.kr/
+  pdf_url: https://arxiv.org/abs/2504.16352
+  code_url: https://github.com/ptkjw1997/DGMRec
 
 - title: Dynamic Time-aware Continual User Representation Learning
   authors: Seungyoon Choi, Sein Kim, Hongseok Kang, Wonjoong Kim, Chanyoung Park
   venue: SIGIR 2025
   venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval
   year: 2025
-  pdf_url: https://dsail.kaist.ac.kr/
-  code_url: https://dsail.kaist.ac.kr/
+  pdf_url: https://arxiv.org/abs/2504.16501
+  code_url: https://github.com/seungyoon-Choi/DITTO_official
 
 - title: Subgraph Federated Learning for Local Generalization
   authors: Sungwon Kim, Yoonho Lee, Yunhak Oh, Namkyeong Lee, Sukwon Yun, Junseok Lee, Sein Kim, Carl Yang, Chanyoung Park
