@@ -1,3 +1,27 @@
+- title: Thickness-aware E(3)-Equivariant Mesh Neural Networks
+  authors: Sungwon Kim, Namkyeong Lee, Yunyoung Doh, Seungmin Shin, Guimok Cho, Seung-Won Jeon, Sangkook Kim, Chanyoung Park
+  venue: ICML 2025
+  venue_full: International Conference on Machine Learning
+  year: 2025
+  pdf_url: https://dsail.kaist.ac.kr
+  code_url: https://dsail.kaist.ac.kr
+
+- title: Global Context-aware Representation Learning for Spatially Resolved Transcriptomics
+  authors: Yunhak Oh&#42;, Junseok Lee&#42;, Yeongmin Kim, Sangwoo Seo, Namkyeong Lee, Chanyoung Park
+  venue: ICML 2025
+  venue_full: International Conference on Machine Learning
+  year: 2025
+  pdf_url: https://dsail.kaist.ac.kr
+  code_url: https://dsail.kaist.ac.kr
+
+- title: Global Context-aware Representation Learning for Spatially Resolved Transcriptomics
+  authors: Yunhak Oh, Junseok Lee, Yeongmin Kim, Sangwoo Seo, Namkyeong Lee, Chanyoung Park
+  venue: ICML 2025
+  venue_full: International Conference on Machine Learning
+  year: 2025
+  pdf_url: https://dsail.kaist.ac.kr
+  code_url: https://dsail.kaist.ac.kr
+
 - title: Disentangling and Generating Modalities for Recommendation in Missing Modality Scenarios 
   authors: Jiwan Kim, Hongseok Kang, Sein Kim, Kibum Kim, Chanyoung Park 
   venue: SIGIR 2025
