@@ -1,3 +1,35 @@
+- title: Lost in Sequence&#58; Do Large Language Models Understand Sequential Recommendation?
+  authors: Sein Kim&#42;, Hongseok Kang&#42;, Kibum Kim, Jiwan Kim, Donghyun Kim, Minchul Yang, Kwangjin Oh, Julian McAuley, Chanyoung Park
+  venue: KDD 2025
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2025
+  pdf_url: https://arxiv.org/abs/2502.13909
+  code_url: https://github.com/Sein-Kim/LLM-SRec
+
+- title: Oldie but Goodie&#58; Re-illuminating Label Propagation on Graphs with Partially Observed Features
+  authors: Sukwon Yun, Xin Liu, Yunhak Oh, Junseok Lee, Tianlong Chen, Tsuyoshi Murata, Chanyoung Park
+  venue: KDD 2025
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2025
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+
+- title: Electron-Informed Coarse-Graining Molecular Representation Learning for Real-World Molecular Physics
+  authors: Gyoung S. Na, Chanyoung Park
+  venue: KDD 2025
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2025
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  
+- title: On Measuring Unnoticeability of Graph Adversarial Attacks&#58; Observations, New Measure, and Applications
+  authors: Hyeonsoo Jo&#42;, Hyunjin Hwang&#42;, Fanchen Bu, Soo Yong Lee, Chanyoung Park, Kijung Shin
+  venue: KDD 2025
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2025
+  pdf_url: https://arxiv.org/abs/2501.05015
+  code_url: https://github.com/HyeonsooJo/Resources-for-HideNSeek
+
 - title: Thickness-aware E(3)-Equivariant Mesh Neural Networks
   authors: Sungwon Kim, Namkyeong Lee, Yunyoung Doh, Seungmin Shin, Guimok Cho, Seung-Won Jeon, Sangkook Kim, Chanyoung Park
   venue: ICML 2025
@@ -76,22 +108,6 @@
   year: 2025
   pdf_url: https://arxiv.org/abs/2412.12788
   code_url: https://github.com/KanghoonYoon/torch-rasgg
-
-- title: Electron-Informed Coarse-Graining Molecular Representation Learning for Real-World Molecular Physics
-  authors: Gyoung S. Na, Chanyoung Park
-  venue: KDD 2025
-  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2025
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
-  
-- title: On Measuring Unnoticeability of Graph Adversarial Attacks&#58; Observations, New Measure, and Applications
-  authors: Hyeonsoo Jo&#42;, Hyunjin Hwang&#42;, Fanchen Bu, Soo Yong Lee, Chanyoung Park, Kijung Shin
-  venue: KDD 2025
-  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  year: 2025
-  pdf_url: https://arxiv.org/abs/2501.05015
-  code_url: https://github.com/HyeonsooJo/Resources-for-HideNSeek
 
 - title: Revisiting Fake News Detection&#58; Towards Temporality-aware Evaluation by Leveraging Engagement Earliness
   authors: Junghoon Kim&#42;, Junmo Lee&#42;, Yeonjun In, Kanghoon Yoon, Chanyoung Park
