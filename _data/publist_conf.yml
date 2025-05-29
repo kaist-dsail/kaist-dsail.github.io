@@ -30,7 +30,7 @@
   pdf_url: https://arxiv.org/abs/2501.05015
   code_url: https://github.com/HyeonsooJo/Resources-for-HideNSeek
 
-- title: Thickness-aware E(3)-Equivariant Mesh Neural Networks
+- title: Thickness-aware E(3)-Equivariant 3D Mesh Neural Networks
   authors: Sungwon Kim, Namkyeong Lee, Yunyoung Doh, Seungmin Shin, Guimok Cho, Seung-Won Jeon, Sangkook Kim, Chanyoung Park
   venue: ICML 2025
   venue_full: International Conference on Machine Learning
