@@ -43,7 +43,7 @@
   venue_full: International Conference on Machine Learning
   year: 2025
   pdf_url: https://dsail.kaist.ac.kr
-  code_url: https://dsail.kaist.ac.kr
+  code_url: https://github.com/yunhak0/Spotscape
 
 - title: Disentangling and Generating Modalities for Recommendation in Missing Modality Scenarios 
   authors: Jiwan Kim, Hongseok Kang, Sein Kim, Kibum Kim, Chanyoung Park 
@@ -91,7 +91,8 @@
   venue_full: Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics
   year: 2025
   pdf_url: https://arxiv.org/abs/2409.02361
-  
+  slide_url: https://kaist-dsail.github.io/files/NAACL25_DIVA_slide.pdf
+
 - title: SIMPLOT&#58; Enhancing Chart Question Answering by Distilling Essentials
   authors: Wonjoong Kim&#42;, Sangwu Park&#42;, Yeonjun In, Seokwon Han, Chanyoung Park
   venue: NAACL 2025 (Findings)
@@ -99,6 +100,7 @@
   year: 2025
   pdf_url: https://arxiv.org/abs/2405.00021
   code_url: https://github.com/sangwu99/Simplot
+  slide_url: https://kaist-dsail.github.io/files/NAACL25_SIMPLOT_slide.pdf
 
 - title: RA-SGG&#58; Retrieval-Augmented Scene Graph Generation Framework via Multi-Prototype Learning
   authors: Kanghoon Yoon, Kibum Kim, Jaehyeong Jeon, Yeonjun In, Donghyun Kim, Chanyoung Park
@@ -107,6 +109,7 @@
   year: 2025
   pdf_url: https://arxiv.org/abs/2412.12788
   code_url: https://github.com/KanghoonYoon/torch-rasgg
+  slide_url: https://kaist-dsail.github.io/files/AAAI25_RASGG_slide.pdf
 
 - title: Revisiting Fake News Detection&#58; Towards Temporality-aware Evaluation by Leveraging Engagement Earliness
   authors: Junghoon Kim&#42;, Junmo Lee&#42;, Yeonjun In, Kanghoon Yoon, Chanyoung Park
