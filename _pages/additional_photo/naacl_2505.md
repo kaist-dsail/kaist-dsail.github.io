@@ -2,7 +2,7 @@
 title: "DSAIL @ KAIST - NAACL Conference 2025 Photo"
 layout: piclay
 excerpt: "DSAIL @ KAIST - Photo"
-permalink: additional_photo/naacl2505/
+permalink: additional_photo/naacl_2505/
 ---
 
 <div class="container-fluid">
