@@ -68,7 +68,8 @@
   year: 2025
   pdf_url: https://openreview.net/forum?id=cH65nS5sOz
   code_url: https://github.com/sung-won-kim/FedLoG
-  
+  slide_url: https://kaist-dsail.github.io/files/ICLR25_FEDLOG_slide.pdf
+
 - title: Weakly Supervised Video Scene Graph Generation via Natural Language Supervision
   authors: Kibum Kim, Kanghoon Yoon, Yeonjun In, Jaehyeong Jeon, Jinyoung Moon, Donghyun Kim, Chanyoung Park
   venue: ICLR 2025
