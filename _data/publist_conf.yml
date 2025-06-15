@@ -85,6 +85,7 @@
   year: 2025
   pdf_url: https://openreview.net/forum?id=UQ0RqfhgCk
   code_url: https://dsail.kaist.ac.kr/publications_conference/
+  news_url: https://n.news.naver.com/mnews/article/001/0015449991?sid=105
 
 - title: Diversify-verify-adapt&#58; Efficient and Robust Retrieval-Augmented Ambiguous Question Answering
   authors: Yeonjun In, Sungchul Kim, Ryan A. Rossi, Mehrab Tanjim, Tong Yu, Ritwik Sinha, Chanyoung Park
@@ -127,7 +128,7 @@
   venue_full: International Conference on Learning Representations
   year: 2025
   
-- title: Capturing functional context of genetic pathways through hyperedge disentanglement
+- title: Capturing Functional Context of Genetic Pathways Through Hyperedge Disentanglement
   authors: Yoonho Lee, Junseok Lee, Sangwoo Seo, Sungwon Kim, Yeongmin Kim, Chanyoung Park
   venue: ICLR 2025 Workshop on Machine Learning for Genomics Explorations (MLGenX)
   venue_full: International Conference on Learning Representations
@@ -142,6 +143,7 @@
   code_url: https://github.com/HeewoongNoh/Retrieval-Retro
   slide_url: https://kaist-dsail.github.io/files/NeurIPS24_RetrievalRetro_slide.pdf
   video_url: https://slideslive.com/39028754/retrievalretro-retrievalbased-inorganic-retrosynthesis-with-expert-knowledge?ref=speaker-100700
+  news_url: https://n.news.naver.com/mnews/article/421/0008016817?sid=102
 
 - title: Debiased Graph Poisoning Attack via Contrastive Surrogate Objective 
   authors: Kanghoon Yoon, Yeonjun In, Namkyeong Lee, Kibum Kim, Chanyoung Park 
@@ -188,6 +190,7 @@
   pdf_url: https://arxiv.org/abs/2404.11343
   code_url: https://github.com/ghdtjr/A-LLMRec
   slide_url: https://kaist-dsail.github.io/files/KDD24_ALLMRec_slide.pdf
+  news_url: https://n.news.naver.com/mnews/article/011/0004367520?sid=102
 
 - title: Self-Explainable Temporal Graph Networks based on Graph Information Bottleneck
   authors: Sangwoo Seo, Sungwon Kim, Jihyeong Jung, Yoonho Lee, Chanyoung Park
