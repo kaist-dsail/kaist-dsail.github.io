@@ -77,7 +77,8 @@
   year: 2025
   pdf_url: https://openreview.net/forum?id=GQgPj1H4pO
   code_url: https://github.com/rlqja1107/NL-VSGG
-  
+  slide_url: https://kaist-dsail.github.io/files/ICLR25_NLVSGG_slide.pdf
+
 - title: Self-Supervised Diffusion Models for Electron-Aware Molecular Representation Learning
   authors: Gyoung S. Na, Chanyoung Park
   venue: ICLR 2025
