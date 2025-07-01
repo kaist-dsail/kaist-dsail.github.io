@@ -1,3 +1,11 @@
+- title: Target Circuit Matching in Large-Scale Netlists using GNN-Based Region Prediction
+  authors: Sangwoo Seo, Jimin Seo, Yoonho Lee, Donghyeon Kim, Hyejin Shin, Banghyun Sung, Chanyoung Park
+  venue: ICCAD 2025
+  venue_full: International Conference on Computer-Aided Design
+  year: 2025
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+
 - title: Lost in Sequence&#58; Do Large Language Models Understand Sequential Recommendation?
   authors: Sein Kim&#42;, Hongseok Kang&#42;, Kibum Kim, Jiwan Kim, Donghyun Kim, Minchul Yang, Kwangjin Oh, Julian McAuley, Chanyoung Park
   venue: KDD 2025
