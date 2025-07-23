@@ -132,6 +132,12 @@
   code_url: https://github.com/LeeJunmo/DAWN
   slide_url: https://kaist-dsail.github.io/files/WSDM25_DAWN_slide.pdf
 
+- title: ELASTIC&#58; Event-Tracking Data Synchronization in Soccer Without Annotated Event Locations
+  authors: Hyunsung Kim, Hoyoung Choi, Sangwoo Seo, Tom Boomstra, Jinsung Yoon, Chanyoung Park
+  venue: ECML-PKDD 2025 Workshop on Machine Learning and Data Mining for Sports Analytics (MLSA) <FONT COLOR="#ff0000">(Oral)</FONT>
+  venue_full: European Conference on Machine Learning and Principles and Practice Knowledge Discovery in Databases 
+  year: 2025
+
 - title: RAG-Enhanced Collaborative LLM Agents for Drug Discovery
   authors: Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Tommaso Biancalani, Chanyoung Park, Gabriele Scalia
   venue: ICLR 2025 Workshop on Machine Learning for Genomics Explorations (MLGenX) <FONT COLOR="#ff0000">(Spotlight)</FONT>
