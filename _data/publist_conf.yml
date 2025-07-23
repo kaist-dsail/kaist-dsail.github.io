@@ -396,7 +396,7 @@
   pdf_url: https://arxiv.org/abs/2306.01792
   code_url: https://github.com/Sein-Kim/TERACON
   video_url: https://youtu.be/4oW3Bwy9r6M
-  slide_url: https://kaist-dsail.github.io/files/KDD23_TEG_slide.pdf
+  slide_url: https://kaist-dsail.github.io/files/KDD23_TERACON_slide.pdf
 
 - title: Conditional Graph Information Bottleneck for Molecular Relational Learning
   authors: Namkyeong Lee, Dongmin Hyun, Gyoung S. Na, Sungwon Kim, Junseok Lee, Chanyoung Park
