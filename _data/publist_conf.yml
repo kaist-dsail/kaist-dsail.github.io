@@ -137,18 +137,21 @@
   venue: ECML-PKDD 2025 Workshop on Machine Learning and Data Mining for Sports Analytics (MLSA) <FONT COLOR="#ff0000">(Oral)</FONT>
   venue_full: European Conference on Machine Learning and Principles and Practice Knowledge Discovery in Databases 
   year: 2025
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
 
 - title: RAG-Enhanced Collaborative LLM Agents for Drug Discovery
   authors: Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Tommaso Biancalani, Chanyoung Park, Gabriele Scalia
   venue: ICLR 2025 Workshop on Machine Learning for Genomics Explorations (MLGenX) <FONT COLOR="#ff0000">(Spotlight)</FONT>
   venue_full: International Conference on Learning Representations
   year: 2025
+  pdf_url: https://openreview.net/forum?id=XjxO0Ayj01
   
 - title: Capturing Functional Context of Genetic Pathways Through Hyperedge Disentanglement
   authors: Yoonho Lee, Junseok Lee, Sangwoo Seo, Sungwon Kim, Yeongmin Kim, Chanyoung Park
   venue: ICLR 2025 Workshop on Machine Learning for Genomics Explorations (MLGenX)
   venue_full: International Conference on Learning Representations
   year: 2025
+  pdf_url: https://openreview.net/forum?id=uZ6B53QSHZ&noteId=xvauqIrm7b
 
 - title: Retrieval-Retro&#58; Retrieval-based Inorganic Retrosynthesis with Expert Knowledge
   authors: Heewoong Noh, Namkyeong Lee, Gyoung S. Na, Chanyoung Park
