@@ -3,8 +3,8 @@
   venue: ICCAD 2025
   venue_full: International Conference on Computer-Aided Design
   year: 2025
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://www.arxiv.org/abs/2507.19518
+  code_url: https://github.com/sang-woo-seo/Circuit-matching-GNN
 
 - title: Lost in Sequence&#58; Do Large Language Models Understand Sequential Recommendation?
   authors: Sein Kim&#42;, Hongseok Kang&#42;, Kibum Kim, Jiwan Kim, Donghyun Kim, Minchul Yang, Kwangjin Oh, Julian McAuley, Chanyoung Park
