@@ -29,6 +29,7 @@
   year: 2025
   pdf_url: https://dl.acm.org/doi/10.1145/3690624.3709270
   code_url: https://github.com/ngs00/HEDMoL
+  slide_url: https://kaist-dsail.github.io/files/KDD25_HEDMoL_slide.pdf
   
 - title: On Measuring Unnoticeability of Graph Adversarial Attacks&#58; Observations, New Measure, and Applications
   authors: Hyeonsoo Jo&#42;, Hyunjin Hwang&#42;, Fanchen Bu, Soo Yong Lee, Chanyoung Park, Kijung Shin
