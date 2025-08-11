@@ -13,6 +13,7 @@
   year: 2025
   pdf_url: https://arxiv.org/abs/2502.13909
   code_url: https://github.com/Sein-Kim/LLM-SRec
+  slide_url: https://kaist-dsail.github.io/files/KDD25_LLM-SRec_slide.pdf
 
 - title: Oldie but Goodie&#58; Re-illuminating Label Propagation on Graphs with Partially Observed Features
   authors: Sukwon Yun, Xin Liu, Yunhak Oh, Junseok Lee, Tianlong Chen, Tsuyoshi Murata, Chanyoung Park
@@ -45,7 +46,9 @@
   venue_full: International Conference on Machine Learning
   year: 2025
   pdf_url: https://arxiv.org/abs/2505.21572
+  slide_url: https://kaist-dsail.github.io/files/ICML25_TEMNN_slide.pdf
   news_url: https://www.joongang.co.kr/article/25324013
+
 
 - title: Global Context-aware Representation Learning for Spatially Resolved Transcriptomics
   authors: Yunhak Oh&#42;, Junseok Lee&#42;, Yeongmin Kim, Sangwoo Seo, Namkyeong Lee, Chanyoung Park
@@ -54,6 +57,7 @@
   year: 2025
   pdf_url: http://arxiv.org/abs/2506.15698
   code_url: https://github.com/yunhak0/Spotscape
+  sldie_url: https://kaist-dsail.github.io/files/ICML25_Spotscape_slide.pdf
 
 - title: Disentangling and Generating Modalities for Recommendation in Missing Modality Scenarios 
   authors: Jiwan Kim, Hongseok Kang, Sein Kim, Kibum Kim, Chanyoung Park 
@@ -62,6 +66,7 @@
   year: 2025
   pdf_url: https://arxiv.org/abs/2504.16352
   code_url: https://github.com/ptkjw1997/DGMRec
+  slide_url: https://kaist-dsail.github.io/files/SIGIR25_DGMRec_slide.pdf
 
 - title: Dynamic Time-aware Continual User Representation Learning
   authors: Seungyoon Choi, Sein Kim, Hongseok Kang, Wonjoong Kim, Chanyoung Park
@@ -70,6 +75,7 @@
   year: 2025
   pdf_url: https://arxiv.org/abs/2504.16501
   code_url: https://github.com/seungyoon-Choi/DITTO_official
+  slide_url: https://kaist-dsail.github.io/files/SIGIR25_DITTO_slide.pdf
 
 - title: Subgraph Federated Learning for Local Generalization
   authors: Sungwon Kim, Yoonho Lee, Yunhak Oh, Namkyeong Lee, Sukwon Yun, Junseok Lee, Sein Kim, Carl Yang, Chanyoung Park
