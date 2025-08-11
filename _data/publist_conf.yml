@@ -22,6 +22,7 @@
   year: 2025
   pdf_url: https://www.arxiv.org/abs/2508.01209
   code_url: https://github.com/SukwonYun/GOODIE
+  slide_url: https://kaist-dsail.github.io/files/KDD25_GOODIE_slide.pdf
 
 - title: Electron-Informed Coarse-Graining Molecular Representation Learning for Real-World Molecular Physics
   authors: Gyoung S. Na, Chanyoung Park
