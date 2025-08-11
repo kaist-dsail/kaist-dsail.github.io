@@ -57,7 +57,7 @@
   year: 2025
   pdf_url: http://arxiv.org/abs/2506.15698
   code_url: https://github.com/yunhak0/Spotscape
-  sldie_url: https://kaist-dsail.github.io/files/ICML25_Spotscape_slide.pdf
+  slide_url: https://kaist-dsail.github.io/files/ICML25_Spotscape_slide.pdf
 
 - title: Disentangling and Generating Modalities for Recommendation in Missing Modality Scenarios 
   authors: Jiwan Kim, Hongseok Kang, Sein Kim, Kibum Kim, Chanyoung Park 
