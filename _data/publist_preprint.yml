@@ -3,10 +3,6 @@
   pdf_url: https://arxiv.org/abs/2508.00324
   code_url: https://github.com/yeonjun-in/R1-Act
 
-- title: Disambiguation in Conversational Question Answering in the Era of LLM&#58; A Survey
-  authors: Md Mehrab Tanjim&#42;, Yeonjun In&#42;, Xiang Chen, Victor S. Bursztyn, Ryan A. Rossi, Sungchul Kim, Guang-Jie Ren, Vaishnavi Muppala, Shun Jiang, Yongsung Kim, Chanyoung Park
-  pdf_url: https://arxiv.org/abs/2505.12543
-
 - title: Image is All You Need&#58; Towards Efficient and Effective Large Language Model-Based Recommender Systems
   authors: Kibum Kim, Sein Kim, Hongseok Kang, Jiwan Kim, Heewoong Noh, Yeonjun In, Kanghoon Yoon, Jinoh Oh, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2503.06238
@@ -16,11 +12,6 @@
   authors: Yeonjun In, Kanghoon Yoon, Sukwon Yun, Kibum Kim, Sungchul Kim, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2502.19670
   code_url: https://github.com/yeonjun-in/torch-DA-GNN
-  
-- title: Is Safety Standard Same for Everyone? User-Specific Safety Evaluation of Large Language Models
-  authors: Yeonjun In, Wonjoong Kim, Kanghoon Yoon, Sungchul Kim, Mehrab Tanjim, Kibum Kim, Chanyoung Park
-  pdf_url: https://arxiv.org/abs/2502.15086
-  code_url: https://github.com/yeonjun-in/U-SafeBench
 
 - title: RAG-Enhanced Collaborative LLM Agents for Drug Discovery
   authors: Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Chanyoung Park, Gabriele Scalia
