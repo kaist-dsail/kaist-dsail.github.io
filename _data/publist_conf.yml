@@ -1,3 +1,18 @@
+- title: Is Safety Standard Same for Everyone? User-Specific Safety Evaluation of Large Language Models
+  authors: Yeonjun In, Wonjoong Kim, Kanghoon Yoon, Sungchul Kim, Mehrab Tanjim, Kibum Kim, Chanyoung Park
+  venue: EMNLP 2025 (Findings)
+  venue_full: Conference on Empirical Methods in Natural Language Processing
+  year: 2025
+  pdf_url: https://arxiv.org/abs/2502.15086
+  code_url: https://github.com/yeonjun-in/U-SafeBench
+  
+
+- title: Disambiguation in Conversational Question Answering in the Era of LLM&#58; A Survey
+  authors: Md Mehrab Tanjim&#42;, Yeonjun In&#42;, Xiang Chen, Victor S. Bursztyn, Ryan A. Rossi, Sungchul Kim, Guang-Jie Ren, Vaishnavi Muppala, Shun Jiang, Yongsung Kim, Chanyoung Park
+  venue: EMNLP 2025
+  venue_full: Conference on Empirical Methods in Natural Language Processing
+  pdf_url: https://arxiv.org/abs/2505.12543
+
 - title: Target Circuit Matching in Large-Scale Netlists using GNN-Based Region Prediction
   authors: Sangwoo Seo, Jimin Seo, Yoonho Lee, Donghyeon Kim, Hyejin Shin, Banghyun Sung, Chanyoung Park
   venue: ICCAD 2025
