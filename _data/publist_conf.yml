@@ -160,7 +160,8 @@
   venue: ECML-PKDD 2025 Workshop on Machine Learning and Data Mining for Sports Analytics (MLSA) <FONT COLOR="#ff0000">(Oral)</FONT>
   venue_full: European Conference on Machine Learning and Principles and Practice Knowledge Discovery in Databases 
   year: 2025
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://arxiv.org/abs/2508.09238
+  code_url: https://github.com/hyunsungkim-ds/elastic.git
 
 - title: RAG-Enhanced Collaborative LLM Agents for Drug Discovery
   authors: Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Tommaso Biancalani, Chanyoung Park, Gabriele Scalia

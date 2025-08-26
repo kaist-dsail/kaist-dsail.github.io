@@ -6,7 +6,42 @@ sitemap: false
 permalink: /alumni/
 ---
 
-## Alumni
+## Alumni   
+
+### Ph.D.
+
+
+{% assign number_printed = 0 %}
+{% for member in site.data.alumni_phd %}
+
+{% assign even_odd = number_printed | modulo: 4 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-3 clearfix">
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }}<br>
+    <i>{{ member.career }}<br>
+  <ul style="overflow: hidden">
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 3 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign last_row_check = number_printed | modulo: 4 %}
+{% if last_row_check != 0 %}
+</div>
+{% endif %}
+
+
 ### M.S.
 
 {% assign number_printed = 0 %}
