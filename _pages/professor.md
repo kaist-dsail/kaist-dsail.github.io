@@ -30,7 +30,7 @@ permalink: /professor/
 
 ### Research Interest
 - <b>AI for Scientific Discovery</b>
-  - Materials (e.g., Spectroscopy, Property Prediction), Chemistry (e.g., Retrosynthesis), 
+  - Materials (e.g., Spectroscopy, Property Prediction), Chemistry (e.g., Retrosynthesis, Drug Discovery) 
   - Biology (e.g., Single-cell Foundation Model, Virtual Cell, Sequence Editing, Perturbation)
   - Engineering, Electronic Design Automation (EDA), Circuit Analysis
 - <b>Agentic AI</b>
