@@ -29,12 +29,24 @@ permalink: /professor/
 - Before joining KAIST, I was a postdoctoral research fellow in Computer Science at University of Illinois at Urbana-Champaign. I obtained my Ph.D degree in Computer Science and Engineering from Pohang University of Science and Technology (POSTECH), and B.S. in Computer Science from Sogang University.
 
 ### Research Interest
+- <b>AI for Scientific Discovery</b>
+  - Materials / Chemistry
+  - Biology
+  - Engineering / Electronic Design Automation (EDA) / Circuit Analysis
+- <b>Agentic AI</b>
+- <b>LLM / Multimodal Data Mining</b>
+  - Recommender System, Graph Neural Networks
+  - LLM Safety, Scene Graph Generation, Video Language Model
+  - Anomaly Detection, Time Series Analysis
+- <b>Data-Centric AI</b>
+  - Model Robustness, Adversarial Attack/Defense
+  - Imbalanced Learning, Few-show Learning, Explainable AI
 <!-- #### (Click [here](https://kaist-dsail.github.io/files/research.pdf){:target="_blank"} for more detail) -->
-- <b>Data-Centric AI, AI for Science, Graph Neural Networks, Multimodal Data Mining</b>
-  - Mining meaningful knowledge from multimodal data to develop artificial intelligence solutions for various real-world applications across different disciplines.
+<!-- - <b>Data-Centric AI, AI for Science, Graph Neural Networks, Multimodal Data Mining</b> -->
+  <!-- - Mining meaningful knowledge from multimodal data to develop artificial intelligence solutions for various real-world applications across different disciplines. -->
 <!--   - Keywords: Multimodal user behavior analysis, Machine learning for graphs, Graph neural network, Graph representation learning, AI for Science -->
-  - <b>Application domains</b>: 
-  Recommendation system, AI for Science (Materials science, Chemistry, Bioinformatics), Large Language Model applications, Scene understanding, Social network analysis, Medical image analysis, Fraud/Anomaly detection, Knowledge graph, Sentiment analysis, Purchase/Click prediction, Time-series and spatio-temporal analysis, etc.
+  <!-- - <b>Application domains</b>:  -->
+  <!-- Recommendation system, AI for Science (Materials science, Chemistry, Bioinformatics), Large Language Model applications, Scene understanding, Social network analysis, Medical image analysis, Fraud/Anomaly detection, Knowledge graph, Sentiment analysis, Purchase/Click prediction, Time-series and spatio-temporal analysis, etc. -->
 
 ### Announcements
 <!-- - <mark style='background-color: #ffd33d'><b>I am looking for interns to join our group during this Summer break (8 weeks). </b> -->
