@@ -30,12 +30,12 @@ permalink: /professor/
 
 ### Research Interest
 - <b>AI for Scientific Discovery</b>
-  - Materials (e.g., Spectroscopy, Property Prediction), Chemistry (e.g., Retrosynthesis, Drug Discovery) 
+  - Materials (e.g., Spectroscopy, Property Prediction), Chemistry (e.g., Retrosynthesis, Drug Discovery, Relational Learning) 
   - Biology (e.g., Single-cell Foundation Model, Virtual Cell, Sequence Editing, Perturbation)
   - Engineering, Electronic Design Automation (EDA), Circuit Analysis
 - <b>Agentic AI</b>
   - Various applications including drug discovery, molecular structure elucidation from spectroscopic data, etc
-- <b>(Multimodal) Large Language Models / Multimodal Data Mining / </b>
+- <b>(Multimodal) Large Language Models / Multimodal Data Mining </b>
   - Recommender System, Graph Neural Networks, Anomaly Detection, Time Series Analysis
   - LLM Safety, Scene Graph Generation, Video Language Model 
 - <b>Data-Centric AI</b>
