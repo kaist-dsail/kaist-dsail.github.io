@@ -22,7 +22,6 @@
   pdf_url: https://dsail.kaist.ac.kr/publications_conference/
   code_url: https://dsail.kaist.ac.kr/publications_conference/
   
-
 - title: Is Safety Standard Same for Everyone? User-Specific Safety Evaluation of Large Language Models
   authors: Yeonjun In, Wonjoong Kim, Kanghoon Yoon, Sungchul Kim, Mehrab Tanjim, Kibum Kim, Chanyoung Park
   venue: EMNLP 2025 (Findings)
@@ -31,7 +30,6 @@
   pdf_url: https://arxiv.org/abs/2502.15086
   code_url: https://github.com/yeonjun-in/U-SafeBench
   
-
 - title: Disambiguation in Conversational Question Answering in the Era of LLM&#58; A Survey
   authors: Md Mehrab Tanjim&#42;, Yeonjun In&#42;, Xiang Chen, Victor S. Bursztyn, Ryan A. Rossi, Sungchul Kim, Guang-Jie Ren, Vaishnavi Muppala, Shun Jiang, Yongsung Kim, Chanyoung Park
   venue: EMNLP 2025
