@@ -21,11 +21,6 @@
   authors: Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Chanyoung Park, Gabriele Scalia
   pdf_url: https://arxiv.org/pdf/2502.17506
 
-- title: 3D Interaction Geometric Pre-training for Molecular Relational Learning
-  authors: Namkyeong Lee, Yunhak Oh, Heewoong Noh, Gyoung S. Na, Tianfan Fu, Chanyoung Park
-  pdf_url: https://arxiv.org/abs/2412.02957
-  code_url: https://github.com/Namkyeong/3DMRL
-
 - title: Compositional Representation of Polymorphic Crystalline Materials
   authors: Namkyeong Lee, Heewoong Noh, Gyoung S. Na, Jimeng Sun, Tianfan Fu, Marinka Zitnik, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2312.13289v2

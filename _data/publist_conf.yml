@@ -1,3 +1,28 @@
+- title: 3D Interaction Geometric Pre-training for Molecular Relational Learning
+  authors: Namkyeong Lee, Yunhak Oh, Heewoong Noh, Gyoung S. Na, Minkai Xu, Hanchen, Tianfan Fu, Chanyoung Park
+  venue: NeurIPS 2025 <FONT COLOR="#ff0000">(Spotlight)</FONT>
+  venue_full: The Thirty-Ninth Annual Conference on Neural Information Processing Systems
+  year: 2025
+  pdf_url: https://arxiv.org/abs/2412.02957
+  code_url: https://github.com/Namkyeong/3DMRL
+
+- title: Disentangling Hyperedges through the lens of Category Theory
+  authors: Yoonho Lee, Junseok Lee, Sangwoo Seo, Sungwon Kim, Yeongmin Kim, Chanyoung Park
+  venue: NeurIPS 2025
+  venue_full: The Thirty-Ninth Annual Conference on Neural Information Processing Systems
+  year: 2025
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+
+- title: Training Robust Graph Neural Networks by Modeling Noise Dependencies
+  authors: Yeonjun In, Kanghoon Yoon, Sukwon Yun, Kibum Kim, Sungchul Kim, Chanyoung Park
+  venue: NeurIPS 2025
+  venue_full: The Thirty-Ninth Annual Conference on Neural Information Processing Systems
+  year: 2025
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  
+
 - title: Is Safety Standard Same for Everyone? User-Specific Safety Evaluation of Large Language Models
   authors: Yeonjun In, Wonjoong Kim, Kanghoon Yoon, Sungchul Kim, Mehrab Tanjim, Kibum Kim, Chanyoung Park
   venue: EMNLP 2025 (Findings)
