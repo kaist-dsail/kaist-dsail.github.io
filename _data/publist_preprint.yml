@@ -12,11 +12,6 @@
   pdf_url: https://arxiv.org/abs/2503.06238
   code_url: https://github.com/rlqja1107/torch-I-LLMRec
 
-- title: Training Robust Graph Neural Networks by Modeling Noise Dependencies
-  authors: Yeonjun In, Kanghoon Yoon, Sukwon Yun, Kibum Kim, Sungchul Kim, Chanyoung Park
-  pdf_url: https://arxiv.org/abs/2502.19670
-  code_url: https://github.com/yeonjun-in/torch-DA-GNN
-
 - title: RAG-Enhanced Collaborative LLM Agents for Drug Discovery
   authors: Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Chanyoung Park, Gabriele Scalia
   pdf_url: https://arxiv.org/pdf/2502.17506
