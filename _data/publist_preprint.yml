@@ -1,3 +1,11 @@
+- title: Beyond the Final Answer&#58; Evaluating the Reasoning Trajectories of Tool-Augmented Agents
+  authors: Wonjoong Kim, Sangwu Park, Yeonjun In, Sein Kim, Dongha Lee, Chanyoung Park
+  pdf_url: https://www.arxiv.org/abs/2510.02837
+
+- title: SelfJudge&#58; Faster Speculative Decoding via Self-Supervised Judge Verification
+  authors: Kanghoon Yoon, Minsub Kim, Sungjae Lee, Joonhyung Lee, Sunghyeon Woo, Yeonjun In, Se Jung Kwon, Chanyoung Park, Dongsoo Lee
+  pdf_url: https://www.arxiv.org/abs/2510.02329
+
 - title: IR-Agent&#58; Expert-Inspired LLM Agents for Structure Elucidation from Infrared Spectra
   authors: Heewoong Noh, Namkyeong Lee, Gyoung S. Na, Kibum Kim, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2508.16112
