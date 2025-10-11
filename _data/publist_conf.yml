@@ -102,6 +102,7 @@
   authors: Jiwan Kim, Hongseok Kang, Sein Kim, Kibum Kim, Chanyoung Park 
   venue: SIGIR 2025
   venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval
+  remark: Selected as one of the best-ranked papers of SIGIR 2025 for fast-track journal invitation
   year: 2025
   pdf_url: https://arxiv.org/abs/2504.16352
   code_url: https://github.com/ptkjw1997/DGMRec
@@ -173,6 +174,7 @@
   authors: Junghoon Kim&#42;, Junmo Lee&#42;, Yeonjun In, Kanghoon Yoon, Chanyoung Park
   venue: WSDM 2025 <FONT COLOR="#ff0000">(Oral)</FONT>
   venue_full: The 18th ACM International Conference on Web Search and Data Mining
+  remark: Selected as one of the best-ranked papers of WSDM 2025 for fast-track journal invitation
   year: 2025
   pdf_url: https://arxiv.org/abs/2411.12775v1
   code_url: https://github.com/LeeJunmo/DAWN
