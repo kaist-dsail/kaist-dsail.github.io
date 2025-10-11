@@ -99,7 +99,9 @@ permalink: /publications_conference/
   {% if publi.remark %}
   <font color="green"><em>{{ publi.remark }}</em></font><br />
   {% endif %}
-  {{ resource_links }}
+  {% if resource_links != "" %}
+  {{ resource_links }}<br />
+  {% endif %}
   {% endcapture %}
 
   {{ venue_and_links }}<br />
