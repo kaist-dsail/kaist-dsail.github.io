@@ -96,13 +96,13 @@ permalink: /publications_conference/
   {% capture venue_and_links %}
   <font color="blue"><b>{{ publi.title }}</b></font>{{ publi.authors }}<br />
   <b>{{ publi.venue }}</b> - {{ publi.venue_full }}<br />
-  {% if publi.remark %}
+  {%- if publi.remark -%}
   <font color="green"><em>{{ publi.remark }}</em></font><br />
-  {% endif %}
-  {% if resource_links != "" %}
+  {%- endif -%}
+  {%- if resource_links != "" -%}
   {{ resource_links }}<br />
-  {% endif %}
-  {% endcapture %}
+  {%- endif -%}
+  {%- endcapture -%}
 
   {{ venue_and_links }}<br />
 
