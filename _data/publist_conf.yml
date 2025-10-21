@@ -6,21 +6,21 @@
   pdf_url: https://arxiv.org/abs/2412.02957
   code_url: https://github.com/Namkyeong/3DMRL
 
-- title: Disentangling Hyperedges through the lens of Category Theory
+- title: Disentangling Hyperedges through the Lens of Category Theory
   authors: Yoonho Lee, Junseok Lee, Sangwoo Seo, Sungwon Kim, Yeongmin Kim, Chanyoung Park
   venue: NeurIPS 2025
   venue_full: The Thirty-Ninth Annual Conference on Neural Information Processing Systems
   year: 2025
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://arxiv.org/abs/2510.16289
+  code_url: https://github.com/Yoonho-Lee-AI4Science/Natural-HNN
 
 - title: Training Robust Graph Neural Networks by Modeling Noise Dependencies
   authors: Yeonjun In, Kanghoon Yoon, Sukwon Yun, Kibum Kim, Sungchul Kim, Chanyoung Park
   venue: NeurIPS 2025
   venue_full: The Thirty-Ninth Annual Conference on Neural Information Processing Systems
   year: 2025
-  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  pdf_url: https://arxiv.org/pdf/2502.19670
+  code_url: https://github.com/yeonjun-in/torch-DA-GNN
   
 - title: Is Safety Standard Same for Everyone? User-Specific Safety Evaluation of Large Language Models
   authors: Yeonjun In, Wonjoong Kim, Kanghoon Yoon, Sungchul Kim, Mehrab Tanjim, Kibum Kim, Chanyoung Park
