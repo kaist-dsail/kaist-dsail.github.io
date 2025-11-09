@@ -20,10 +20,6 @@
   pdf_url: https://arxiv.org/abs/2503.06238
   code_url: https://github.com/rlqja1107/torch-I-LLMRec
 
-- title: RAG-Enhanced Collaborative LLM Agents for Drug Discovery
-  authors: Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Chanyoung Park, Gabriele Scalia
-  pdf_url: https://arxiv.org/pdf/2502.17506
-
 - title: Compositional Representation of Polymorphic Crystalline Materials
   authors: Namkyeong Lee, Heewoong Noh, Gyoung S. Na, Jimeng Sun, Tianfan Fu, Marinka Zitnik, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2312.13289v2
