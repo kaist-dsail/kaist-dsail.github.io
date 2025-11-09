@@ -57,7 +57,6 @@ permalink: /professor/
   + If you are interested in joining our lab as a graduate student, I strongly recommend you to do an internship before you apply.
 - There are three ways to join our lab. You can apply through 1) [Department of Industrial Engineering and Systems](https://ie.kaist.ac.kr/){:target="_blank"} or 2) [Graduate School of Data Science](https://gsds.kaist.ac.kr/){:target="_blank"} or 3) [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"}.
 
-
 <!-- ### News
 - (2022.11) A paper got accepted at NeurIPS 2022 GLFrontiers Workshop.
 - (2022.10) A paper got accepted at EMNLP 2022 (Findings).
