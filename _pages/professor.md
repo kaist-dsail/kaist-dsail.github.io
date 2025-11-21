@@ -49,8 +49,8 @@ permalink: /professor/
   <!-- Recommendation system, AI for Science (Materials science, Chemistry, Bioinformatics), Large Language Model applications, Scene understanding, Social network analysis, Medical image analysis, Fraud/Anomaly detection, Knowledge graph, Sentiment analysis, Purchase/Click prediction, Time-series and spatio-temporal analysis, etc. -->
 
 ### Announcements
-- <mark style='background-color: #ffd33d'><b>I am looking for interns to join our group during this Winter break (8 weeks). </b>
-  Click <a href="https://ise.kaist.ac.kr/notices/view/id/3106" target="_blank">here</a> for more detail (Due date&#58;Nov. 6). Apply through the <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuQrYo5NtWHAA4fZ2qRUM2fwjRMvnBy6bWQUfJh-c5fFJLsA/viewform" target="_blank">official link</a> and send an email to cy.park (at) kaist.ac.kr <b>with your CV and transcript</b> to confirm that you have submitted your application.
+<!-- - <mark style='background-color: #ffd33d'><b>I am looking for interns to join our group during this Winter break (8 weeks). </b>
+  Click <a href="https://ise.kaist.ac.kr/notices/view/id/3106" target="_blank">here</a> for more detail (Due date&#58;Nov. 6). Apply through the <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuQrYo5NtWHAA4fZ2qRUM2fwjRMvnBy6bWQUfJh-c5fFJLsA/viewform" target="_blank">official link</a> and send an email to cy.park (at) kaist.ac.kr <b>with your CV and transcript</b> to confirm that you have submitted your application. -->
 - <span style="color:red"><b>I am actively seeking for passionate and self-motivated Ph.D. students, MS students, and postdocs. If you are interested, send me an email with your interests, CV, and transcript.</b></span>  
 - I am also looking for undergraduate students who are interested in doing internship in our lab, which will be open every summer and winter. If you are interested, send me an email with your interests, CV, and transcript. 
   + Interns will get opportunities to study about research topics that our lab is focusing on, and participate in research projects with graduate students.
