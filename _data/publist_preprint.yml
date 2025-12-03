@@ -1,3 +1,7 @@
+- title: CompoDistill&#58; Attention Distillation for Compositional Reasoning in Multimodal LLMs
+  authors: Jiwan Kim, Kibum Kim, Sangwoo Seo, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2510.12184
+
 - title: Adaptive Graph Rewiring to Mitigate Over-Squashing in Mesh-Based GNNs for Fluid Dynamics Simulations
   authors: Sangwoo Seo, Hyunsung Kim, Jiwan Kim, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2511.12709
