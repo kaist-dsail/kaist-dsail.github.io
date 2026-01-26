@@ -1,3 +1,24 @@
+- title: IR-Agent&#58; Expert-Inspired LLM Agents for Structure Elucidation from Infrared Spectra
+  authors: Heewoong Noh, Namkyeong Lee, Gyoung S. Na, Kibum Kim, Chanyoung Park
+  venue: ICLR 2026
+  venue_full: International Conference on Learning Representations
+  year: 2026
+  pdf_url: https://openreview.net/forum?id=6bthH14pD8
+
+- title: CompoDistill&#58; Attention Distillation for Compositional Reasoning in Multimodal LLMs
+  authors: Jiwan Kim, Kibum Kim, Sangwoo Seo, Chanyoung Park
+  venue: ICLR 2026
+  venue_full: International Conference on Learning Representations
+  year: 2026
+  pdf_url: https://openreview.net/forum?id=Wa9Bg9b50B
+
+- title: Image is All You Need&#58; Towards Efficient and Effective Large Language Model-Based Recommender Systems
+  authors: Kibum Kim, Sein Kim, HongSeok Kang, Jiwan Kim, Heewoong Noh, Yeonjun In, Kanghoon Yoon, Jinoh Oh, Julian McAuley, Chanyoung Park
+  venue: ICLR 2026
+  venue_full: International Conference on Learning Representations
+  year: 2026
+  pdf_url: https://openreview.net/forum?id=vizM7B7vuW
+
 - title: PULSE&#58; Socially-Aware User Representation Modeling Toward Parameter-Efficient Graph Collaborative Filtering
   authors: Doyun Choi&#42;, Cheonwoo Lee&#42;, Biniyam Aschalew Tolera, Taewook Ham, Chanyoung Park, Jaemin Yoo
   venue: WWW 2026
