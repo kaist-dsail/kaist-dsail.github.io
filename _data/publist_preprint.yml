@@ -1,7 +1,3 @@
-- title: CompoDistill&#58; Attention Distillation for Compositional Reasoning in Multimodal LLMs
-  authors: Jiwan Kim, Kibum Kim, Sangwoo Seo, Chanyoung Park
-  pdf_url: https://arxiv.org/abs/2510.12184
-
 - title: Adaptive Graph Rewiring to Mitigate Over-Squashing in Mesh-Based GNNs for Fluid Dynamics Simulations
   authors: Sangwoo Seo, Hyunsung Kim, Jiwan Kim, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2511.12709
@@ -14,19 +10,11 @@
   authors: Kanghoon Yoon, Minsub Kim, Sungjae Lee, Joonhyung Lee, Sunghyeon Woo, Yeonjun In, Se Jung Kwon, Chanyoung Park, Dongsoo Lee
   pdf_url: https://www.arxiv.org/abs/2510.02329
 
-- title: IR-Agent&#58; Expert-Inspired LLM Agents for Structure Elucidation from Infrared Spectra
-  authors: Heewoong Noh, Namkyeong Lee, Gyoung S. Na, Kibum Kim, Chanyoung Park
-  pdf_url: https://arxiv.org/abs/2508.16112
 
 - title: R1-ACT&#58; Efficient Reasoning Model Safety Alignment by Activating Safety Knowledge
   authors: Yeonjun In, Wonjoong Kim, Sangwu Park, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2508.00324
   code_url: https://github.com/yeonjun-in/R1-Act
-
-- title: Image is All You Need&#58; Towards Efficient and Effective Large Language Model-Based Recommender Systems
-  authors: Kibum Kim, Sein Kim, Hongseok Kang, Jiwan Kim, Heewoong Noh, Yeonjun In, Kanghoon Yoon, Jinoh Oh, Chanyoung Park
-  pdf_url: https://arxiv.org/abs/2503.06238
-  code_url: https://github.com/rlqja1107/torch-I-LLMRec
 
 - title: Compositional Representation of Polymorphic Crystalline Materials
   authors: Namkyeong Lee, Heewoong Noh, Gyoung S. Na, Jimeng Sun, Tianfan Fu, Marinka Zitnik, Chanyoung Park
