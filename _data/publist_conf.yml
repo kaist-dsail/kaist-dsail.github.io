@@ -19,6 +19,16 @@
   year: 2026
   pdf_url: https://openreview.net/forum?id=vizM7B7vuW
 
+- title: Better Prevent than Tackle&#58; Valuing Defense in Soccer Based on Graph Neural Networks
+  authors: Hyunsung Kim, Sangwoo Seo, Hoyoung Choi, Tom Boomstra, Jinsung Yoon, Chanyoung Park
+  venue: SSAC 2026
+  venue_full: MIT Sloan Sports Analytics Conference
+  year: 2026
+  pdf_url: https://arxiv.org/abs/2512.10355
+  code_url: https://github.com/hyunsungkim-ds/defcon
+  slide_url: https://drive.google.com/file/d/1FmCRKzqUElv5XGV2HV0BnH_Oziy95Np8/view
+
+
 - title: PULSE&#58; Socially-Aware User Representation Modeling Toward Parameter-Efficient Graph Collaborative Filtering
   authors: Doyun Choi&#42;, Cheonwoo Lee&#42;, Biniyam Aschalew Tolera, Taewook Ham, Chanyoung Park, Jaemin Yoo
   venue: WWW 2026
