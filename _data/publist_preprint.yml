@@ -6,6 +6,7 @@
 - title: MSP-LLM&#58; A Unified Large Language Model Framework for Complete Material Synthesis Planning
   authors: Heewoong Noh, Gyoung S. Na, Namkyeong Lee, Chanyoung Park
   pdf_url: https://www.arxiv.org/abs/2602.07543
+  code_url: https://github.com/HeewoongNoh/MSP-LLM-Official
 
 - title: Progressive Multi-Agent Reasoning for Biological Perturbation Prediction
   authors: Hyomin Kim, Sang-Yeon Hwang, Jaechang Lim, Yinhua Piao, Yunhak Oh, Woo Youn Kim, Chanyoung Park, Sungsoo Ahn, Junhyeok Jeon
