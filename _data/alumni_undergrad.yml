@@ -1,264 +1,148 @@
-- name: Jae-Hyun Nam
-  photo: jaehyun.jpg
-  info: UG at SNU IE/Math 
-  duration: Winter 2020 - Spring 2021
-  email: johnnam513 (at) snu.ac.kr
+- name: Jooho Son
+  info: UG at KAIST ISE/CS
+  duration: Winter 2025
 
-- name: Hyojun Kim
-  photo: Hyojun_Kim.jpg
-  info: UG at Kyunghee Univ. IE
-  duration: Summer 2021
-  email: rlagywns0213 (at) naver.com
+- name: Beomjoon Ko
+  info: UG at KAIST CS
+  duration: Winter 2025
 
-- name: Hanbit Lee
-  photo: Hanbit_Lee.jpg
+- name: Yuchan Lee
+  info: UG at SKKU SME
+  duration: Winter 2025
+
+- name: Sihyun Lee
+  info: UG at Korea Univ. IME/DS
+  duration: Winter 2025
+
+- name: Seungjoo Jung
+  info: UG at Ajou Univ. IE
+  duration: Winter 2025
+
+- name: Ilho Shin
   info: UG at KAIST ISE
-  duration: Summer 2021
-  email: hanbitlee (at) kaist.ac.kr
+  duration: Winter 2025
 
-- name: Hyemin Ju
-  photo: Hyemin_Ju.jpg
-  info: UG at KAIST ISE
-  duration: Summer 2021
-  email: hyemin1826 (at) kaist.ac.kr
+- name: Jiyun Kim
+  info: UG at Korea Univ. CS/BCS
+  duration: Winter 2025
 
-- name: Sujin Kim
-  photo: Sujin_Kim.jpg
-  info: UG at KAIST ISE
-  duration: Summer 2021
-  email: ksl5308 (at) kaist.ac.kr
-
-- name: Jaeyoung Lee
-  photo: bio.jpg
-  info: UG at KAIST Math
-  duration: Summer 2021
-  email: dlwodud116 (at) kaist.ac.kr
-
-- name: Han Kim
-  photo: han.jpg
-  info: UG at KAIST ISE
-  duration: Winter 2021
-  email: kjkh0911 (at) kaist.ac.kr
-
-- name: Jongbok Lee
-  photo: bio.jpg
-  info: UG at KAIST ISE
-  duration: Winter 2021
-  email: ljbassa (at) kaist.ac.kr
-
-- name: Jaewon Jung
-  photo: jaewon.jpg
-  info: UG at Postech IE
-  duration: Winter 2021
-  email: wjdwodnjs302 (at) postech.ac.kr
-
-- name: Daeyoung Kim
-  photo: daeyoung.jpg
-  info: UG at Korea IE
-  duration: Winter 2021
-  email: dykim6040 (at) naver.com
-
-- name: Suyeon Lee
-  photo: sooyeon.jpg
-  info: UG at KAIST ISE
-  duration: Winter 2021
-  email: ghrltla1504 (at) kaist.ac.kr
-
-- name: Hoyoung Choi
-  photo: hoyoung.jpg
-  info: UG at KAIST ISE
-  duration: Winter 2021
-  email: chy3724 (at) kaist.ac.kr
-
-- name: Jeehong Kim
-  photo: jeehong.jpg
-  info: UG at Korea IE
-  duration: Summer 2022
-  email: williamkim1010 (at) gmail.com
-
-- name: Kyuhyeok Seo
-  photo: kyuhyeok.jpg
-  info: UG at SNU IE
-  duration: Summer 2022
-  email: 99skh (at) snu.ac.kr
-
-- name: Sangmin Lee
-  photo: sangmin.png
-  info: UG at SNU IE
-  duration: Summer 2022
-  email: smlee18 (at) snu.ac.kr
-
-- name: Jinyoung Hong
-  photo: jinyoung.jpg
-  info: UG at KAIST ISE
-  duration: Summer 2022
-  email: urared (at) kaist.ac.kr
-
-- name: Youngro Kim
-  photo: dsail.png
-  info: UG at KAIST ISE
-  duration: Summer 2022
-  email: yryrysys (at) kaist.ac.kr
-
-- name: Seonghun Hong
-  photo: seonghun.jpg
-  info: UG at KAIST ISE
-  duration: Summer 2022
-  email: hshoon (at) kaist.ac.kr
-
-- name: Juheon Han
-  photo: juheon.jpg
-  info: UG at KAIST ISE
-  duration: Summer 2022
-  email: hunny1123 (at) kaist.ac.kr
-
-- name: Seohyun Lim
-  info: UG at SKKU GLD
-  duration: Winter 2022
-  email: limseo2110 (at) gmail.com
-
-- name: Yisak Kim
-  info: UG at KAIST ISE
-  duration: Winter 2022
-  email: rla94669 (at) kaist.ac.kr
-
-- name: Jihwan Bae
-  info: UG at Korea IE
-  duration: Winter 2022
-  email: clfh2576 (at) korea.ac.kr
-
-- name: Joongchan An
+- name: Yoonki Choi
   info: UG at Hanyang Univ. IE
-  duration: Winter 2022
-  email: ajc0218 (at) naver.com
+  duration: Winter 2025
 
-- name: Taejun Yang
-  info: UG at KAIST ISE
-  duration: Winter 2022
-  email: tj2875 (at) kaist.ac.kr
+- name: Kunhee Lee
+  info: UG at KAIST ISE/CS
+  duration: Winter 2025
 
-- name: Jihwan Oh
-  info: UG at UNIST IE
-  duration: Winter 2022
-  email: dhwlghks00 (at) unist.ac.kr
+- name: Juho Song
+  info: UG at KAIST Math/CS
+  duration: Winter 2025
 
-- name: Jungwoo Lee
-  info: UG at KAIST ISE
-  duration: Winter 2022
-  email: jungwoo9535 (at) kaist.ac.kr
+- name: Chaehyun Kim
+  info: UG at Yonsei Stat/CS
+  duration: Winter 2025
 
-- name: Sanha Jang
-  info: UG at KAIST College of Business
-  duration: Winter 2022
-  email: jsh0319 (at) kaist.ac.kr
+- name: Seheon Kim
+  info: UG at KAIST EE/ISE
+  duration: Summer 2025
 
-- name: Inseon Ji
+- name: Hyeonseong Park
+  info: UG at KAIST ISE/CS
+  duration: Summer 2025
+
+- name: Yunseul Kim
+  info: UG at KAIST ISE/CS
+  duration: Summer 2025
+
+- name: Nahyun Kwon
+  info: UG at KAIST CS
+  duration: Summer 2025
+
+- name: Nayoung Ahn
+  info: UG at SKKU Univ SME/Software
+  duration: Summer 2025
+
+- name: Minhee Hong
   info: UG at KAIST Math
-  duration: Winter 2022
-  email: jis7711 (at) kaist.ac.kr
+  duration: Summer 2025
 
-- name: Jinhyeok Park
-  info: UG at Hanyang Univ. IE
-  duration: Summer 2023
-  email: david9pjh (at) gmail.com
+- name: Kangjin Lee
+  info: UG at Hanyang Univ. IE/CS
+  duration: Summer 2025
 
-- name: Hyewon Ryu
-  info: UG at Korea Univ. IE
-  duration: Summer 2023
-  email: abc67432 (at) korea.ac.kr
+- name: Hayeon Park
+  info: UG at SNU Animal Biotech/IE
+  duration: Summer 2025
 
-- name: Sangmin Park
-  info: UG at KAIST CS
-  duration: Summer 2023
-  email: qkrtkdals (at) kaist.ac.kr
-
-- name: Seoung Choi
-  info: UG at KAIST CS
-  duration: Summer 2023
-  email: choisw0823 (at) kaist.ac.kr
-
-- name: Geonwoo Kim
-  info: UG at KAIST EE
-  duration: Summer 2023
-  email: kzwoo (at) kaist.ac.kr
-
-- name: Jiwan Kim
-  info: SNU Stat/CS
-  duration: Summer 2023
-  email: ptkjw1997 (at) snu.ac.kr
-
-- name: Hyunchul Kim
-  info: UG at Sogang Univ. CSE
-  duration: Summer 2023
-  email: rlaguscjf0902 (at) gmail.com
-
-- name: Sangwu Park
-  info: UG at CAU Applied Statistics
-  duration: Summer 2023
-  email: sangwu0420 (at) gmail.com
-
-- name: Chaemin Jang
-  info: UG at KAIST CS
-  duration: Winter 2022 - Summer 2023
-  email: jchaemin (at) kaist.ac.kr
-
-- name: Jimin Seo
-  info: UG at SNU CS
-  duration: Winter 2023
-
-- name: Junyoung Kim
-  duration: Winter 2023
-
-- name: Seokwon Han
-  info: UG at KAIST CS
-  email: dulwich10 (at) kaist.ac.kr
-  duration: Winter 2023
-
-- name: Suchan Lee
-  info: UG at POSTECH IME
-  duration: Winter 2023
-
-- name: Jonggeun Lee
-  info: UG at Korea Univ IME
-  duration: Winter 2023
-
-- name: Minseok Yun
-  info: UG at SKKU AE
-  duration: Winter 2023
-
-- name: Haejoon Lee
-  info: UG at KAIST CS
-  duration: Winter 2023
-
-- name: Seungan Jung
-  info: UG at KAIST CS
-  duration: Winter 2023
-
-- name: Jaemin Han
-  info: UG at KAIST Mathsci
-  duration: Winter 2023
-
-- name: Eunhak Choi
-  info: UG at Hanyang Univ IE
-  duration: Winter 2023
-
-- name: Hongseok Kang 
-  info: UG at KAIST CS
-  duration: Winter 2022 - Winter 2023
-
-- name: Yeongmin Kim
-  info: UG at KAIST CS
-  duration: Winter 2022 - Winter 2023
-  
-- name: Bonwoo Koo
-  info: UG at KAIST ISE
-  duration: Winter 2022 - Winter 2023
+- name: Myeongjun Oh
+  info: UG at Hanyang Univ. Chemical Engineering
+  duration: Summer 2025
 
 - name: Sangoh Kim
   info: UG at KAIST CS
-  duration: Summer 2024  
+  duration: Summer 2024 - Summer 2025
 
-- name: Sejong Kim
+- name: Haneul Park
+  info: UG at Yonsei ISE
+  duration: Winter 2024
+
+- name: Dojun Hwang
+  info: UG at Korea CS/Stat
+  duration: Winter 2024
+
+- name: Youngmin Park
+  info: UG at KAIST BCS
+  duration: Winter 2024
+
+- name: Yoonsol Jung
+  info: UG at KAIST CS
+  duration: Winter 2024
+
+- name: Wontae Jeong
+  info: UG at PNU Stat/Math
+  duration: Winter 2024
+
+- name: Chaehyun Kim
+  info: UG at Yonsei Stat/CS
+  duration: Winter 2024
+
+- name: Minseok Kim
+  info: UG at KAIST ISE
+  duration: Winter 2024
+
+- name: Sunwoo Hwang
+  info: UG at SKKU AAI
+  duration: Winter 2024
+
+- name: Seunghyun Baek
+  info: UG at UOS CS/Stat
+  duration: Winter 2024
+
+- name: Jaehyeon Shin
+  info: UG at KHU AM/CSE
+  duration: Winter 2024
+
+- name: Sangoh Kim
+  info: UG at KAIST CS
+  duration: Winter 2024
+
+- name: Soohwa Kwon
+  info: UG at SKKU DS
+  duration: Summer 2024
+
+- name: Hyunkyu Kang
+  info: UG at Korea Univ Statstics
+  duration: Summer 2024
+
+- name: Woocheol Shin
+  info: UG at UNIST CSE
+  duration: Summer 2024
+
+- name: Yeonwoo Kim
+  info: UG at POSTECH Math
+  duration: Summer 2024
+
+- name: Minjun Park
   info: UG at KAIST ISE
   duration: Summer 2024
 
@@ -266,114 +150,266 @@
   info: UG at KAIST CS
   duration: Summer 2024
 
-- name: Minjun Park
+- name: Sejong Kim
   info: UG at KAIST ISE
   duration: Summer 2024
 
-- name: Yeonwoo Kim
-  info: UG at POSTECH Math
-  duration: Summer 2024
-  
-- name: Woocheol Shin
-  info: UG at UNIST CSE
-  duration: Summer 2024
-
-- name: Hyunkyu Kang
-  info: UG at Korea Univ Statstics
-  duration: Summer 2024
-
-- name: Soohwa Kwon
-  info: UG at SKKU DS
-  duration: Summer 2024
-
-
 - name: Sangoh Kim
-  info: UG at KAIST CS 
-  duration: Winter 2024
+  info: UG at KAIST CS
+  duration: Summer 2024
 
-- name: Jaehyeon Shin
-  info: UG at KHU AM/CSE
-  duration: Winter 2024
-  
-- name: Seunghyun Baek
-  info: UG at UOS CS/Stat
-  duration: Winter 2024
-
-- name: Sunwoo Hwang
-  info: UG at SKKU AAI
-  duration: Winter 2024
-
-- name: Minseok Kim
+- name: Bonwoo Koo
   info: UG at KAIST ISE
-  duration: Winter 2024
+  duration: Winter 2022 - Winter 2023
 
-- name: Chaehyun Kim
-  info: UG at Yonsei Stat/CS
-  duration: Winter 2024
-
-- name: Wontae Jeong
-  info: UG at PNU Stat/Math
-  duration: Winter 2024
-  
-- name: Yoonsol Jung
+- name: Yeongmin Kim
   info: UG at KAIST CS
-  duration: Winter 2024
+  duration: Winter 2022 - Winter 2023
 
-- name: Youngmin Park
-  info: UG at KAIST BCS
-  duration: Winter 2024
-
-- name: Dojun Hwang
-  info: UG at Korea CS/Stat
-  duration: Winter 2024
-
-- name: Haneul Park
-  info: UG at Yonsei ISE
-  duration: Winter 2024
-
-- name: Sangoh Kim
+- name: Hongseok Kang 
   info: UG at KAIST CS
-  duration: Summer 2024 - Summer 2025
+  duration: Winter 2022 - Winter 2023
 
-- name: Myeongjun Oh
-  info: UG at Hanyang Univ. Chemical Engineering
-  duration: Summer 2025
+- name: Eunhak Choi
+  info: UG at Hanyang Univ IE
+  duration: Winter 2023
 
-- name: Hayeon Park
-  info: UG at SNU Animal Biotech/IE
-  duration: Summer 2025
+- name: Jaemin Han
+  info: UG at KAIST Mathsci
+  duration: Winter 2023
 
-- name: Kangjin Lee
-  info: UG at Hanyang Univ. IE/CS
-  duration: Summer 2025
+- name: Seungan Jung
+  info: UG at KAIST CS
+  duration: Winter 2023
 
-- name: Minhee Hong
+- name: Haejoon Lee
+  info: UG at KAIST CS
+  duration: Winter 2023
+
+- name: Minseok Yun
+  info: UG at SKKU AE
+  duration: Winter 2023
+
+- name: Jonggeun Lee
+  info: UG at Korea Univ IME
+  duration: Winter 2023
+
+- name: Suchan Lee
+  info: UG at POSTECH IME
+  duration: Winter 2023
+
+- name: Seokwon Han
+  info: UG at KAIST CS
+  email: dulwich10 (at) kaist.ac.kr
+  duration: Winter 2023
+
+- name: Junyoung Kim
+  duration: Winter 2023
+
+- name: Jimin Seo
+  info: UG at SNU CS
+  duration: Winter 2023
+
+- name: Chaemin Jang
+  info: UG at KAIST CS
+  duration: Winter 2022 - Summer 2023
+  email: jchaemin (at) kaist.ac.kr
+
+- name: Sangwu Park
+  info: UG at CAU Applied Statistics
+  duration: Summer 2023
+  email: sangwu0420 (at) gmail.com
+
+- name: Hyunchul Kim
+  info: UG at Sogang Univ. CSE
+  duration: Summer 2023
+  email: rlaguscjf0902 (at) gmail.com
+
+- name: Jiwan Kim
+  info: SNU Stat/CS
+  duration: Summer 2023
+  email: ptkjw1997 (at) snu.ac.kr
+
+- name: Geonwoo Kim
+  info: UG at KAIST EE
+  duration: Summer 2023
+  email: kzwoo (at) kaist.ac.kr
+
+- name: Seoung Choi
+  info: UG at KAIST CS
+  duration: Summer 2023
+  email: choisw0823 (at) kaist.ac.kr
+
+- name: Sangmin Park
+  info: UG at KAIST CS
+  duration: Summer 2023
+  email: qkrtkdals (at) kaist.ac.kr
+
+- name: Hyewon Ryu
+  info: UG at Korea Univ. IE
+  duration: Summer 2023
+  email: abc67432 (at) korea.ac.kr
+
+- name: Jinhyeok Park
+  info: UG at Hanyang Univ. IE
+  duration: Summer 2023
+  email: david9pjh (at) gmail.com
+
+- name: Inseon Ji
   info: UG at KAIST Math
-  duration: Summer 2025
+  duration: Winter 2022
+  email: jis7711 (at) kaist.ac.kr
 
-- name: Nayoung Ahn
-  info: UG at SKKU Univ SME/Software
-  duration: Summer 2025
+- name: Sanha Jang
+  info: UG at KAIST College of Business
+  duration: Winter 2022
+  email: jsh0319 (at) kaist.ac.kr
 
-- name: Nahyun Kwon
-  info: UG at KAIST CS
-  duration: Summer 2025
+- name: Jungwoo Lee
+  info: UG at KAIST ISE
+  duration: Winter 2022
+  email: jungwoo9535 (at) kaist.ac.kr
 
-- name: Yunseul Kim
-  info: UG at KAIST ISE/CS
-  duration: Summer 2025
+- name: Jihwan Oh
+  info: UG at UNIST IE
+  duration: Winter 2022
+  email: dhwlghks00 (at) unist.ac.kr
 
-- name: Hyeonseong Park
-  info: UG at KAIST ISE/CS
-  duration: Summer 2025
+- name: Taejun Yang
+  info: UG at KAIST ISE
+  duration: Winter 2022
+  email: tj2875 (at) kaist.ac.kr
 
-- name: Seheon Kim
-  info: UG at KAIST EE/ISE
-  duration: Summer 2025
+- name: Joongchan An
+  info: UG at Hanyang Univ. IE
+  duration: Winter 2022
+  email: ajc0218 (at) naver.com
 
+- name: Jihwan Bae
+  info: UG at Korea IE
+  duration: Winter 2022
+  email: clfh2576 (at) korea.ac.kr
 
+- name: Yisak Kim
+  info: UG at KAIST ISE
+  duration: Winter 2022
+  email: rla94669 (at) kaist.ac.kr
 
+- name: Seohyun Lim
+  info: UG at SKKU GLD
+  duration: Winter 2022
+  email: limseo2110 (at) gmail.com
 
+- name: Juheon Han
+  photo: juheon.jpg
+  info: UG at KAIST ISE
+  duration: Summer 2022
+  email: hunny1123 (at) kaist.ac.kr
 
+- name: Seonghun Hong
+  photo: seonghun.jpg
+  info: UG at KAIST ISE
+  duration: Summer 2022
+  email: hshoon (at) kaist.ac.kr
 
+- name: Youngro Kim
+  photo: dsail.png
+  info: UG at KAIST ISE
+  duration: Summer 2022
+  email: yryrysys (at) kaist.ac.kr
 
+- name: Jinyoung Hong
+  photo: jinyoung.jpg
+  info: UG at KAIST ISE
+  duration: Summer 2022
+  email: urared (at) kaist.ac.kr
+
+- name: Sangmin Lee
+  photo: sangmin.png
+  info: UG at SNU IE
+  duration: Summer 2022
+  email: smlee18 (at) snu.ac.kr
+
+- name: Kyuhyeok Seo
+  photo: kyuhyeok.jpg
+  info: UG at SNU IE
+  duration: Summer 2022
+  email: 99skh (at) snu.ac.kr
+
+- name: Jeehong Kim
+  photo: jeehong.jpg
+  info: UG at Korea IE
+  duration: Summer 2022
+  email: williamkim1010 (at) gmail.com
+
+- name: Hoyoung Choi
+  photo: hoyoung.jpg
+  info: UG at KAIST ISE
+  duration: Winter 2021
+  email: chy3724 (at) kaist.ac.kr
+
+- name: Suyeon Lee
+  photo: sooyeon.jpg
+  info: UG at KAIST ISE
+  duration: Winter 2021
+  email: ghrltla1504 (at) kaist.ac.kr
+
+- name: Daeyoung Kim
+  photo: daeyoung.jpg
+  info: UG at Korea IE
+  duration: Winter 2021
+  email: dykim6040 (at) naver.com
+
+- name: Jaewon Jung
+  photo: jaewon.jpg
+  info: UG at Postech IE
+  duration: Winter 2021
+  email: wjdwodnjs302 (at) postech.ac.kr
+
+- name: Jongbok Lee
+  photo: bio.jpg
+  info: UG at KAIST ISE
+  duration: Winter 2021
+  email: ljbassa (at) kaist.ac.kr
+
+- name: Han Kim
+  photo: han.jpg
+  info: UG at KAIST ISE
+  duration: Winter 2021
+  email: kjkh0911 (at) kaist.ac.kr
+
+- name: Jaeyoung Lee
+  photo: bio.jpg
+  info: UG at KAIST Math
+  duration: Summer 2021
+  email: dlwodud116 (at) kaist.ac.kr
+
+- name: Sujin Kim
+  photo: Sujin_Kim.jpg
+  info: UG at KAIST ISE
+  duration: Summer 2021
+  email: ksl5308 (at) kaist.ac.kr
+
+- name: Hyemin Ju
+  photo: Hyemin_Ju.jpg
+  info: UG at KAIST ISE
+  duration: Summer 2021
+  email: hyemin1826 (at) kaist.ac.kr
+
+- name: Hanbit Lee
+  photo: Hanbit_Lee.jpg
+  info: UG at KAIST ISE
+  duration: Summer 2021
+  email: hanbitlee (at) kaist.ac.kr
+
+- name: Hyojun Kim
+  photo: Hyojun_Kim.jpg
+  info: UG at Kyunghee Univ. IE
+  duration: Summer 2021
+  email: rlagywns0213 (at) naver.com
+
+- name: Jae-Hyun Nam
+  photo: jaehyun.jpg
+  info: UG at SNU IE/Math 
+  duration: Winter 2020 - Spring 2021
+  email: johnnam513 (at) snu.ac.kr
