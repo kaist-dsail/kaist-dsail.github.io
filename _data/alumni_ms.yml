@@ -1,104 +1,118 @@
+- name: Hyunchul Kim
+  photo: Hyunchul_Kim.jpg
+  info: Feb. 2026
+  career: KAIST (Ph.D. Student @ DSAIL)
+
+- name: Jiwan Kim
+  photo: Kim_Jiwan.jpg
+  info: Feb. 2026
+  career: KAIST (Ph.D. Student @ DSAIL)
+
+- name: Hoyoung Choi
+  info: Feb. 2026
+  career: KAIST (Ph.D. Student @ DSAIL)
+
 - name: Yoonho Lee
-  info: Spring 2025
+  info: Feb. 2025
   career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: Junghoon Kim
-  info: Spring 2025
+  info: Feb. 2025
   career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: Heewoong Noh
-  info: Spring 2025
+  info: Feb. 2025
   career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: Junmo Lee
   photo: junmo.jpg
-  info: Spring 2025
+  info: Feb. 2025
   email: bubblego0217 (at) kaist.ac.kr
   career: KAIST (Ph.D. Student)
 
 - name: Jaehyeong Jeon
   photo: Jaehyeong_Jeon.jpg
-  info: Spring 2025
+  info: Feb. 2025
   email: wogud405 (at) kaist.ac.kr
   career: Riiid (Alternative Military Service)
 
 - name: Jihyeong Jung
   photo: Jihyeong_Jung.jpg
-  info: Fall 2024
+  info: Aug. 2024
   email: mjajthh1 (at) kaist.ac.kr
   career: SkyLabs (Alternative Military Service)
 
 - name: Seungyoon Choi
   photo: seungyoon.jpg
-  info: Spring 2024
+  info: Feb. 2024
   email: csyoon08 (at) kaist.ac.kr
   career: KAIST (Ph.D. Student @ DSAIL)
   
 - name: Wonjoong Kim
   photo: wonjoong.jpg
-  info: Spring 2024
+  info: Feb. 2024
   email: wjkim (at) kaist.ac.kr
   career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: <a href="https://sung-won-kim.github.io" target="_blank">Sungwon Kim</a>
   photo: sungwon.jpg
-  info: Spring 2024
+  info: Feb. 2024
   email: swkim (at) kaist.ac.kr
   career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: Ki-Bum Kim
   photo: kibum.jpg
-  info: Fall 2023
+  info: Aug. 2023
   email: rlqja1107 (at) kaist.ac.kr
   career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: Yeonjun In
   photo: Yeonjun_In.jpg
-  info: Fall 2023
+  info: Aug. 2023
   email: yeonjun.in (at) kaist.ac.kr
   career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: <a href="https://yunhak0.github.io" target="_blank">Yunhak Oh</a>
   photo: Yunhak_Oh.jpg
-  info: Fall 2023
+  info: Aug. 2023
   email: yunhak.oh (at) kaist.ac.kr
   # homepage: <a href="https://yunhak0.github.io" target="_blank">[Homepage]</a>
   career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: Sanghyun Lee
   photo: Sanghyun.jpg
-  info: Fall 2023
+  info: Aug. 2023
   email: ragdoll1762 (at) kaist.ac.kr
   career: 
 
 - name: Junghurn Kim
   photo: junghurn.jpg
-  info: Fall 2023
+  info: Aug. 2023
   email: jnghrn.j.kim (at) kaist.ac.kr
   career: 
 
 - name: <a href="https://sukwonyun.github.io/" target="_blank">Sukwon Yun</a>
   photo: sukwon.jpg
-  info: Fall 2023
+  info: Aug. 2023
   email: swyun (at) kaist.ac.kr
   # homepage: <a href="https://sukwonyun.github.io/" target="_blank">[Homepage]</a>
   career: UNC Chapel Hill (Ph.D. Student)
 
 - name: <a href="https://namkyeong.github.io" target="_blank">Namkyeong Lee</a>
   photo: namkyeong.jpg
-  info: Spring 2023
+  info: Feb. 2023
   email: namkyeong96 (at) kaist.ac.kr
   # homepage: <a href="https://namkyeong.github.io" target="_blank">[Homepage]</a>
   career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: <a href="https://Junseok0207.github.io/" target="_blank">Junseok Lee</a>
   photo: junseok.jpg
-  info: Spring 2023
+  info: Feb. 2023
   email: junseoklee (at) kaist.ac.kr
   career: KAIST (Ph.D. Student @ DSAIL)
 
 - name: Junyoung Ryu
   photo: junyoung.png
-  info: Spring 2023
+  info: Feb. 2023
   email: zxop0327 (at) kaist.ac.kr
   career:  

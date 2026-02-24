@@ -10,12 +10,6 @@
   email: rlatpdlsgns (at) kaist.ac.kr
   homepage: <a href="https://sein-kim.github.io/" target="_blank">[Homepage]</a>
 
-- name: Namkyeong Lee
-  photo: namkyeong.jpg
-  info: Ph.D. student
-  email: namkyeong96 (at) kaist.ac.kr
-  homepage: <a href="https://namkyeong.github.io" target="_blank">[Homepage]</a>
-
 - name: Junseok Lee
   photo: junseok.jpg
   info: Ph.D. student
@@ -80,7 +74,22 @@
   email: heewoongnoh (at) kaist.ac.kr
   homepage: <a href="https://heewoong-noh.github.io/" target="_blank">[Homepage]</a>
 
-- name: Kyoungseok Na
+- name: Gyoungseok Na
   photo: ngs.jpg
   info: Ph.D. student
   email: ngs0726 (at) kaist.ac.kr
+
+- name: Hyunchul Kim
+  photo: Hyunchul_Kim.jpg
+  info: Ph.D. student
+  email: khchul (at) kaist.ac.kr
+
+- name: Jiwan Kim
+  photo: Kim_Jiwan.jpg
+  info: Ph.D. student
+  email: kim.jiwan (at) kaist.ac.kr 
+
+- name: Hoyoung Choi
+  photo: Hoyoung_Choi.jpg
+  info: Ph.D. student
+  email: chy3724 (at) kaist.ac.kr
