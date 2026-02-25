@@ -186,7 +186,7 @@
   venue_full: International Conference on Learning Representations
   year: 2025
   pdf_url: https://openreview.net/forum?id=UQ0RqfhgCk
-  code_url: https://dsail.kaist.ac.kr/publications_conference/
+  code_url: https://github.com/ngs00/DELID
   news_url: https://n.news.naver.com/mnews/article/001/0015449991?sid=105
 
 - title: Diversify-verify-adapt&#58; Efficient and Robust Retrieval-Augmented Ambiguous Question Answering
