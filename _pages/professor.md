@@ -92,7 +92,7 @@ permalink: /professor/
   + Associate Professor (2025.03 - Present)
   + Assistant Professor (2020.11 - 2025.02)
 - <b>University of California San Diego</b>, CA, USA 
-  + Visiting Scholar in Computer Science and Engineering Department (2025.01 - Present)
+  + Visiting Scholar in Computer Science and Engineering Department (2025.01 - 2026.01)
   + Host: [Prof. Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/){:target="_blank"}
 - <b>University of Illinois at Urbana-Champaign</b>, IL, USA 
   + Postdoctoral Research Fellow in Computer Science Department (2019.3 - 2020.10)
