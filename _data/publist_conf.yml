@@ -12,7 +12,7 @@
   year: 2026
   pdf_url: https://openreview.net/forum?id=Wa9Bg9b50B
 
-- title: Image is All You Need&#58; Towards Efficient and Effective Large Language Model-Based Recommender Systems
+- title: Token-Efficient Item Representation via Images for LLM Recommender Systems
   authors: Kibum Kim, Sein Kim, HongSeok Kang, Jiwan Kim, Heewoong Noh, Yeonjun In, Kanghoon Yoon, Jinoh Oh, Julian McAuley, Chanyoung Park
   venue: ICLR 2026
   venue_full: International Conference on Learning Representations
