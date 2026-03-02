@@ -45,7 +45,7 @@
 
 - title: EqGINO&#58; Equivariant Geometry-Informed Fourier Neural Operators for 3D PDEs
   authors: Sungwon Kim, Juho Song, Seungmin Shin, Guimok Cho, Sangkook Kim, Chanyoung Park
-  venue: ICLR 2026 Workshop on AI and Partial Differential Equations (ICLR 2026 Workshop)
+  venue: ICLR 2026 Workshop on AI and Partial Differential Equations <FONT COLOR="#ff0000">(Oral)</FONT> (ICLR 2026 Workshop)
   venue_full: International Conference on Learning Representations
   year: 2026
   pdf_url: https://openreview.net/forum?id=rY6mQMW8nS
