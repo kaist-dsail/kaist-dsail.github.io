@@ -50,6 +50,13 @@
   year: 2026
   pdf_url: https://openreview.net/forum?id=rY6mQMW8nS
 
+- title: Self-EvolveRec&#58; Self-Evolving Recommender Systems with LLM-based Directional Feedback
+  authors: Sein Kim, Sangwu Park, HongSeok Kang, Wonjoong Kim, Jimin Seo, Yeonjun In, Kanghoon Yoon, Chanyoung Park
+  venue: ICLR 2026 Workshop on AI with Recursive Self-Improvement (RSI 2026) (ICLR 2026 Workshop)
+  venue_full: International Conference on Learning Representations
+  year: 2026
+  pdf_url: https://openreview.net/forum?id=KCcpSuocz0
+
 - title: MSP-LLM&#58; A Unified Large Language Model Framework for Complete Material Synthesis Planning
   authors: Heewoong Noh, Gyoung S. Na, Namkyeong Lee, Chanyoung Park
   venue: AI4Mat&#58; AI for Accelerated Materials Design (ICLR 2026 Workshop)
@@ -70,6 +77,13 @@
   venue_full: International Conference on Learning Representations
   year: 2026
   pdf_url: https://openreview.net/forum?id=VV24znSbUv
+
+- title: Learning Adaptive Perturbation-Conditioned Contexts for Robust Transcriptional Response Prediction
+  authors: Yinhua Piao, Hyomin Kim, Seonghwan Kim, Yunhak Oh, Junhyeok Jeon, Sang-Yeon Hwang, Jaechang Lim, Woo Youn Kim, Chanyoung Park, Sungsoo Ahn
+  venue: ICLR 2026 Workshop on Generative and Experimental Perspectives for Biomolecular Design (ICLR 2026 Workshop)
+  venue_full: International Conference on Learning Representations
+  year: 2026
+  pdf_url: https://openreview.net/forum?id=Vnx6ZyV6cw
 
 - title: 3D Interaction Geometric Pre-training for Molecular Relational Learning
   authors: Namkyeong Lee, Yunhak Oh, Heewoong Noh, Gyoung S. Na, Minkai Xu, Hanchen Wang, Tianfan Fu, Chanyoung Park
