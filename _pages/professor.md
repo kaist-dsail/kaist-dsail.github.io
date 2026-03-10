@@ -152,11 +152,12 @@ permalink: /professor/
 - Top 1.1% in RecSys Challenge (2015)
 
 ### Selected Talks
-- <b>멀티모달 시계열 분석</b><a href="https://kaist-dsail.github.io/files/mmts2026.pdf" target="_blank">[Slide]</a>
+- <b>Agentic AI for Materials Design</b><a href="https://kaist-dsail.github.io/files/agent4mat2026.pdf" target="_blank">[Slide]</a> @ SAIT
+- <b>멀티모달 시계열 분석</b><a href="https://kaist-dsail.github.io/files/mmts2026.pdf" target="_blank">[Slide]</a> @ ETRI
 - <b>인공지능 기반 scRNA-seq Data 분석</b><a href="https://kaist-dsail.github.io/files/scrnaseq2025.pdf" target="_blank">[Slide1]</a><a href="https://kaist-dsail.github.io/files/kogo2026.pdf" target="_blank">[Slide2]</a>
 - <b>Learning on Graph and its Application to Biomedical Data</b> [[Slide]](https://kaist-dsail.github.io/files/LOG2024.pdf){:target="_blank"} @ 
 <a href="https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20240101&CpPage=231#CONF" target="_blank">2024 한국인공지능학회 동계단기강좌</a>
-- <b>그래프 신경망 기반 화학/소재분야 연구 동향 (Out-of-Distribution 문제를 중심으로)</b> <a href="https://kaist-dsail.github.io/files/SAIT2023.pdf" target="_blank">[Slide]</a> @ 삼성전자 종합기술원, 삼성전자 DS
+- <b>그래프 신경망 기반 화학/소재분야 연구 동향 (Out-of-Distribution 문제를 중심으로)</b> <a href="https://kaist-dsail.github.io/files/SAIT2023.pdf" target="_blank">[Slide]</a> @ SAIT, 삼성전자 DS
 - <b>Universal User Representation Learning based on Continual Learning</b> <a href="https://kaist-dsail.github.io/files/NAVER_Techtalk2023.pdf" target="_blank">[Slide]</a> @ NAVER Techtalk
 - <b>그래프 신경망 기반 화학/소재분야 연구 동향</b> <a href="https://kaist-dsail.github.io/files/KCC2023.pdf" target="_blank">[Slide]</a> @ <a href="https://www.kiise.or.kr/conference/main/getContent.do?CC=KCC&CS=2023&PARENT_ID=011500&content_no=1795" target="_blank">KCC 2023</a>, 
 <a href="https://www.materic.or.kr/v2/mchannel/view.asp?id=6269&type=webinar" target="_blank">메릭웨비나</a> 
