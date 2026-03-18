@@ -1,3 +1,10 @@
+- title: Physics-Embedded Graph Neural Operator for Interaction-Controlled Colloidal Aggregation
+  authors: Yongjoon Choe&#42;, Sungwon Kim&#42;, Susan E. Burns, Chanyoung Park
+  venue: Water Research
+  year: 2026
+  pdf_url: https://dsail.kaist.ac.kr/
+  code_url: https://github.com/sung-won-kim/GNOPB
+
 - title: Single-cell RNA Sequencing Data Imputation Using Bi-level Feature Propagation
   authors: Junseok Lee&#42;, Sukwon Yun&#42;, Yeongmin Kim, Tianlong Chen, Manolis Kellis, Chanyoung Park
   venue: Briefings in Bioinformatics <FONT COLOR="#ff0000">(KAIST Graduate Student Outstanding Paper Award)</FONT>
