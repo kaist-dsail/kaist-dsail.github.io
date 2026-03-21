@@ -39,6 +39,8 @@ Our current active research interests emphasize <b>AI for Science</b>, <b>Agenti
 <i style="margin-left:12px;">- single-cell modeling, molecular property prediction, protein&ndash;ligand interaction, generative molecule design, spectra-to-structure reasoning, scientific AI agents, materials discovery</i><br>
 &bull; <b>Recommender Systems &amp; User Modeling</b><br>
 <i style="margin-left:12px;">- graph-based recommendation, sequential modeling, LLM-based recommendation</i><br>
+&bull; <b>AI for Engineering (Fluid Dynamics &amp; PDEs, EDA)</b><br>
+<i style="margin-left:12px;">- neural operators, physics-informed learning, simulation acceleration, design optimization</i><br>
 &bull; <b>Graph-based Real-world Data Intelligence</b><br>
 <i style="margin-left:12px;">- social networks, knowledge graphs, relational data mining</i><br>
 &bull; <b>Fraud &amp; Anomaly Detection</b><br>
