@@ -16,7 +16,7 @@ Our goal is to mine meaningful knowledge from complex multimodal data and develo
 
 2. <b><em>Reasoning & Agentic Fusion</em></b>: How can AI agents logically synthesize extracted knowledge to reason, plan, and execute complex tasks? We focus on customizing these reasoning trajectories to facilitate autonomous problem-solving in underlying target applications.
 
-Our current active research interests emphasize <b>AI for Science</b>, <b>Agentic AI</b>, <b>(Multimodal) Large Language Models<b>, and <b>Data-centric AI</b>, expanding into the following core foundations and applications:
+Our current active research interests emphasize <b>AI for Science</b>, <b>Agentic AI</b>, <b>(Multimodal) Large Language Models</b>, and <b>Data-centric AI</b>, expanding into the following core foundations and applications:
 
 <h4 style="margin-bottom:8px; margin-top:20px;">AI Foundations</h4>
 <p>
