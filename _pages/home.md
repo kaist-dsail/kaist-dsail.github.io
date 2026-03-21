@@ -20,10 +20,7 @@ We tackle fundamental challenges along three key dimensions:
 
 ## Research Areas
 
-<table style="width:100%; border-collapse:collapse; margin-top:10px; table-layout:fixed;">
-<tr>
-<td style="vertical-align:top; padding:5px 15px 5px 0; width:50%;">
-<b>AI Foundations</b><br>
+<p><b>AI Foundations</b><br>
 &bull; Foundation Models for Structured &amp; Relational Data (Graph, Molecular, Scientific ML)<br>
 &bull; Multimodal Foundation Models (Text, Graph, Sequence, Spectra, Vision)<br>
 &bull; Large Language Models &amp; Scientific LLMs (Reasoning, Tool Use)<br>
@@ -31,10 +28,9 @@ We tackle fundamental challenges along three key dimensions:
 &bull; Generative Models &amp; Inverse Design (Diffusion, Optimization)<br>
 &bull; Trustworthy &amp; Interpretable AI (Explainability, Robustness, Reliability)<br>
 &bull; Continual &amp; Adaptive Learning (Lifelong Learning, Distribution Shift)<br>
-&bull; Causal &amp; Data-centric AI
-</td>
-<td style="vertical-align:top; padding:5px 0 5px 15px; width:50%;">
-<b>Applications</b><br>
+&bull; Causal &amp; Data-centric AI</p>
+
+<p><b>Applications</b><br>
 &bull; AI for Scientific Discovery (Biology, Chemistry, Materials)<br>
 &bull; Molecular Design &amp; Drug Discovery (Protein&ndash;Ligand Interaction, Generative Design)<br>
 &bull; Autonomous Scientific Agents (AI-driven Experimentation &amp; Discovery)<br>
@@ -44,10 +40,7 @@ We tackle fundamental challenges along three key dimensions:
 &bull; Time-series &amp; Spatio-temporal Modeling<br>
 &bull; Healthcare &amp; Biomedical AI (Single-cell, Clinical Data)<br>
 &bull; Industrial &amp; Manufacturing AI (Materials &amp; Process Optimization)<br>
-&bull; Multimodal Understanding &amp; Scene Reasoning
-</td>
-</tr>
-</table>
+&bull; Multimodal Understanding &amp; Scene Reasoning</p>
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/vV_tNynSJg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
