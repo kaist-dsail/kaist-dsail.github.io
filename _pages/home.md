@@ -36,7 +36,7 @@ Our current active research interests emphasize <b>AI for Science</b>, <b>Agenti
 <h4 style="margin-bottom:8px; margin-top:20px;">Applications</h4>
 <p>
 &bull; <b>AI for Science (Biology, Chemistry, Materials)</b><br>
-<i style="margin-left:12px;">- single-cell modeling, molecular property prediction, protein&ndash;ligand interaction, generative molecule design, spectra-to-structure reasoning, scientific AI agents, materials discovery</i><br>
+<i style="margin-left:12px;">- single-cell modeling, virtual cell, perturbation, molecular property prediction, protein&ndash;ligand interaction, generative molecule design, spectra-to-structure reasoning, scientific AI agents, materials discovery</i><br>
 &bull; <b>Recommender Systems &amp; User Modeling</b><br>
 <i style="margin-left:12px;">- graph-based recommendation, sequential modeling, LLM-based recommendation</i><br>
 &bull; <b>AI for Engineering (Fluid Dynamics &amp; PDEs, EDA)</b><br>
