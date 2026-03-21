@@ -8,39 +8,43 @@ permalink: /
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/dsail_logo2.png" alt="DSAIL character" width ="100%" />
 
-## Welcome!
 We are the <b>Data Science & Artificial Intelligence Lab (DSAIL) at KAIST</b>, led by [Prof. Chanyoung Park](https://kaist-dsail.github.io/professor/){:target="_blank"}.
 
-Our research aims to push the frontier of AI by developing foundation models and agentic systems that can understand, reason, and act over complex, structured, and multimodal data. We are particularly interested in learning from relational data such as graphs, molecules, and dynamic systems, and enabling AI to move beyond prediction toward reasoning, decision-making, and scientific discovery.
+Our goal is to mine meaningful knowledge from complex multimodal data and develop robust, scalable AI solutions to solve real-world challenges across diverse scientific and engineering disciplines. Moving beyond traditional machine learning, two underlying themes of our current research are:
 
-We tackle fundamental challenges along three key dimensions:
-1. <em>Representation</em>: Learning expressive and unified representations from heterogeneous data sources—including graphs, molecules, sequences, and multimodal signals—while capturing their underlying relational structures.
-2. <em>Reasoning</em>: Enabling AI systems to perform compositional and cross-modal reasoning over structured and multimodal data.
-3. <em>Decision-Making</em>: Developing agentic AI systems that can plan, optimize, and interact with environments to solve complex real-world and scientific problems.
+1. <b><em>Representation & Alignment</em></b>: How can we extract and align knowledge from diverse modalities (e.g., texts, graphs, molecules, videos) into unified representations, bridging the gap between domain-specific data and Large Foundation Models (e.g., LLMs) to capture deep semantic relationships?
 
-## Research Areas
+2. <b><em>Reasoning & Agentic Fusion</em></b>: How can AI agents logically synthesize extracted knowledge to reason, plan, and execute complex tasks? We focus on customizing these reasoning trajectories to facilitate autonomous problem-solving in underlying target applications.
 
-<p><b>AI Foundations</b><br>
-&bull; Foundation Models for Structured &amp; Relational Data (Graph, Molecular, Scientific ML)<br>
-&bull; Multimodal Foundation Models (Text, Graph, Sequence, Spectra, Vision)<br>
-&bull; Large Language Models &amp; Scientific LLMs (Reasoning, Tool Use)<br>
-&bull; Agentic AI &amp; Decision-Making Systems (LLM Agents, Planning, Multi-agent Systems)<br>
-&bull; Generative Models &amp; Inverse Design (Diffusion, Optimization)<br>
-&bull; Trustworthy &amp; Interpretable AI (Explainability, Robustness, Reliability)<br>
-&bull; Continual &amp; Adaptive Learning (Lifelong Learning, Distribution Shift)<br>
-&bull; Causal &amp; Data-centric AI</p>
+Our current active research interests emphasize <b>AI for Science</b>, <b>Agentic AI</b>, <b>(Multimodal) Large Language Models<b>, and <b>Data-centric AI</b>, expanding into the following core foundations and applications:
 
-<p><b>Applications</b><br>
-&bull; AI for Scientific Discovery (Biology, Chemistry, Materials)<br>
-&bull; Molecular Design &amp; Drug Discovery (Protein&ndash;Ligand Interaction, Generative Design)<br>
-&bull; Autonomous Scientific Agents (AI-driven Experimentation &amp; Discovery)<br>
-&bull; Recommender Systems &amp; Personalization<br>
-&bull; Graph-based Real-world Intelligence (Social Networks, Knowledge Graphs)<br>
-&bull; Fraud Detection &amp; Anomaly Detection<br>
-&bull; Time-series &amp; Spatio-temporal Modeling<br>
-&bull; Healthcare &amp; Biomedical AI (Single-cell, Clinical Data)<br>
-&bull; Industrial &amp; Manufacturing AI (Materials &amp; Process Optimization)<br>
-&bull; Multimodal Understanding &amp; Scene Reasoning</p>
+<h4 style="margin-bottom:8px; margin-top:20px;">AI Foundations</h4>
+<p>
+&bull; <b>Large Language Models &amp; Scientific LLMs</b><br>
+<i style="margin-left:12px;">- multimodal LLMs, scientific reasoning, tool use</i><br>
+&bull; <b>Graph Neural Networks &amp; Relational Learning</b><br>
+<i style="margin-left:12px;">- self-supervised graph learning, molecular graphs, relational representation learning</i><br>
+&bull; <b>Multimodal Representation Learning</b><br>
+<i style="margin-left:12px;">- graph&ndash;text&ndash;sequence integration, cross-modal alignment, structured multimodal data</i><br>
+&bull; <b>Agentic AI &amp; Reasoning Systems</b><br>
+<i style="margin-left:12px;">- LLM agents, planning, multi-step reasoning, tool-augmented learning</i><br>
+&bull; <b>Generative Models &amp; Inverse Design</b><br>
+<i style="margin-left:12px;">- molecular generation, diffusion models, design optimization</i><br>
+&bull; <b>Robust &amp; Interpretable Machine Learning</b><br>
+<i style="margin-left:12px;">- explainability, out-of-distribution generalization, reliable AI</i></p>
+
+<h4 style="margin-bottom:8px; margin-top:20px;">Applications</h4>
+<p>
+&bull; <b>AI for Science (Biology, Chemistry, Materials)</b><br>
+<i style="margin-left:12px;">- single-cell modeling, molecular property prediction, protein&ndash;ligand interaction, generative molecule design, spectra-to-structure reasoning, scientific AI agents, materials discovery</i><br>
+&bull; <b>Recommender Systems &amp; User Modeling</b><br>
+<i style="margin-left:12px;">- graph-based recommendation, sequential modeling, LLM-based recommendation</i><br>
+&bull; <b>Graph-based Real-world Data Intelligence</b><br>
+<i style="margin-left:12px;">- social networks, knowledge graphs, relational data mining</i><br>
+&bull; <b>Fraud &amp; Anomaly Detection</b><br>
+<i style="margin-left:12px;">- financial fraud, graph anomaly detection, risk modeling</i><br>
+&bull; <b>Time-series &amp; Spatio-temporal Modeling</b><br>
+<i style="margin-left:12px;">- dynamic systems, temporal graph learning</i></p>
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/vV_tNynSJg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
