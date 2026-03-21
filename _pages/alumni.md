@@ -10,24 +10,28 @@ permalink: /alumni/
 
 ### Ph.D.
 
-{% for member in site.data.alumni_phd %}
-{{ member.name }}, {{ member.info }}. {{ member.career }}
+<p style="line-height:1.8">
+{% for member in site.data.alumni_phd %}{{ member.name }}, {{ member.info }}. {{ member.career }}<br>
 {% endfor %}
+</p>
 
 ### M.S.
 
-{% for member in site.data.alumni_ms %}
-{{ member.name }}, {{ member.info }}. {{ member.career }}
+<p style="line-height:1.8">
+{% for member in site.data.alumni_ms %}{{ member.name }}, {{ member.info }}. {{ member.career }}<br>
 {% endfor %}
+</p>
 
 ### Visitor
 
-{% for member in site.data.alumni_visitor %}
-{{ member.name }}, {{ member.info }}. {{ member.career }}
+<p style="line-height:1.8">
+{% for member in site.data.alumni_visitor %}{{ member.name }}, {{ member.info }}. {{ member.career }}<br>
 {% endfor %}
+</p>
 
 ### Undergraduate Student
 
-{% for member in site.data.alumni_undergrad %}
-{{ member.name }}, {{ member.info }}. {{ member.duration }}
+<p style="line-height:1.8">
+{% for member in site.data.alumni_undergrad %}{{ member.name }}, {{ member.info }}. {{ member.duration }}<br>
 {% endfor %}
+</p>
