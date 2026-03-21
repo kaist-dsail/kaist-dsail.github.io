@@ -21,11 +21,11 @@ Our current active research interests emphasize <b>AI for Science</b>, <b>Agenti
 <h4 style="margin-bottom:8px; margin-top:20px;">AI Foundations</h4>
 <p>
 &bull; <b>Large Language Models &amp; Scientific LLMs</b><br>
-<i style="margin-left:12px;">- multimodal LLMs, scientific reasoning, tool use</i><br>
+<i style="margin-left:12px;">- multimodal LLMs, scientific reasoning, tool use, distillation, video LLMs</i><br>
 &bull; <b>Graph Neural Networks &amp; Relational Learning</b><br>
 <i style="margin-left:12px;">- self-supervised graph learning, molecular graphs, relational representation learning</i><br>
 &bull; <b>Multimodal Representation Learning</b><br>
-<i style="margin-left:12px;">- graph&ndash;text&ndash;sequence integration, cross-modal alignment, structured multimodal data</i><br>
+<i style="margin-left:12px;">- graph&ndash;text&ndash;sequence integration, cross-modal alignment, Relational multimodal data</i><br>
 &bull; <b>Agentic AI &amp; Reasoning Systems</b><br>
 <i style="margin-left:12px;">- LLM agents, planning, multi-step reasoning, tool-augmented learning, memory</i><br>
 &bull; <b>Generative Models &amp; Inverse Design</b><br>
