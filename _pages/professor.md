@@ -28,26 +28,6 @@ permalink: /professor/
 - I am an associate professor in the [Department of Industrial Engineering and Systems](https://ie.kaist.ac.kr/){:target="_blank"} and also affiliated with the [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"} at [KAIST](http://kaist.ac.kr/){:target="_blank"}. 
 - Before joining KAIST, I was a postdoctoral research fellow in Computer Science at University of Illinois at Urbana-Champaign. I obtained my Ph.D degree in Computer Science and Engineering from Pohang University of Science and Technology (POSTECH), and B.S. in Computer Science from Sogang University.
 
-### Research Interest
-- <b>AI for Scientific Discovery</b>
-  - Materials (e.g., Spectroscopy, Property Prediction), Chemistry (e.g., Retrosynthesis, Drug Discovery, Relational Learning) 
-  - Biology (e.g., Single-cell Foundation Model, Virtual Cell, Sequence Editing, Perturbation)
-  - Engineering, Electronic Design Automation (EDA), Circuit Analysis
-- <b>Agentic AI</b>
-  - Various applications including drug discovery, molecular structure elucidation from spectroscopic data, etc
-- <b>(Multimodal) Large Language Models / Multimodal Data Mining </b>
-  - Recommender System, Graph Neural Networks, Anomaly Detection, Time Series Analysis
-  - LLM Safety, Scene Graph Generation, Video Language Model 
-- <b>Data-Centric AI</b>
-  - Model Robustness, Adversarial Attack/Defense
-  - Imbalanced Learning, Few-show Learning, Explainable AI
-<!-- #### (Click [here](https://kaist-dsail.github.io/files/research.pdf){:target="_blank"} for more detail) -->
-<!-- - <b>Data-Centric AI, AI for Science, Graph Neural Networks, Multimodal Data Mining</b> -->
-  <!-- - Mining meaningful knowledge from multimodal data to develop artificial intelligence solutions for various real-world applications across different disciplines. -->
-<!--   - Keywords: Multimodal user behavior analysis, Machine learning for graphs, Graph neural network, Graph representation learning, AI for Science -->
-  <!-- - <b>Application domains</b>:  -->
-  <!-- Recommendation system, AI for Science (Materials science, Chemistry, Bioinformatics), Large Language Model applications, Scene understanding, Social network analysis, Medical image analysis, Fraud/Anomaly detection, Knowledge graph, Sentiment analysis, Purchase/Click prediction, Time-series and spatio-temporal analysis, etc. -->
-
 ### Announcements
 <!-- - <mark style='background-color: #ffd33d'><b>I am looking for interns to join our group during this Winter break (8 weeks). </b>
   Click <a href="https://ise.kaist.ac.kr/notices/view/id/3106" target="_blank">here</a> for more detail (Due date&#58;Nov. 6). Apply through the <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuQrYo5NtWHAA4fZ2qRUM2fwjRMvnBy6bWQUfJh-c5fFJLsA/viewform" target="_blank">official link</a> and send an email to cy.park (at) kaist.ac.kr <b>with your CV and transcript</b> to confirm that you have submitted your application. -->
@@ -116,23 +96,6 @@ permalink: /professor/
   <!-- + Graduated with Honors (Magma Cum Laude) -->
 
 
-### Teaching
-- <b>DS535: Recommender System and Machine Learning on Graphs</b>
-  + Fall 2021, 2022, 2023, 2024
-
-- <b>CoE202: Basics of Artificial Intelligence</b>
-  + Fall 2021
-
-- <b>IE343: Statistical Machine Learning</b>
-  + Spring 2021, 2022, 2023, 2024
-
-- <b>DS503: Machine Learning for Data Science</b>
-  + Spring 2023, 2024
-
-- <b>KSE527: Deep Learning</b>
-  + Spring 2022
-
-
 ### Awards
 - Impact Research Award (Achievement Award), KAIST (2025)
 - Best Academic Award, ISE KAIST (2025)
@@ -151,9 +114,25 @@ permalink: /professor/
 - Naver Ph.D Fellowship (2016)
 - Top 1.1% in RecSys Challenge (2015)
 
+### Teaching
+- <b>DS535: Recommender System and Machine Learning on Graphs</b>
+  + Fall 2021, 2022, 2023, 2024
+
+- <b>CoE202: Basics of Artificial Intelligence</b>
+  + Fall 2021
+
+- <b>IE343: Statistical Machine Learning</b>
+  + Spring 2021, 2022, 2023, 2024
+
+- <b>DS503: Machine Learning for Data Science</b>
+  + Spring 2023, 2024
+
+- <b>KSE527: Deep Learning</b>
+  + Spring 2022
+
 ### Selected Talks
 - <b>Agentic AI for Materials Design</b> <a href="https://kaist-dsail.github.io/files/agent4mat2026.pdf" target="_blank">[Slide]</a> @ SAIT
-- <b>멀티모달 시계열 분석</b><a href="https://kaist-dsail.github.io/files/mmts2026.pdf" target="_blank">[Slide]</a> @ ETRI
+- <b>멀티모달 시계열 분석 </b><a href="https://kaist-dsail.github.io/files/mmts2026.pdf" target="_blank">[Slide]</a> @ ETRI
 - <b>인공지능 기반 scRNA-seq Data 분석</b> <a href="https://kaist-dsail.github.io/files/scrnaseq2025.pdf" target="_blank">[Slide1]</a><a href="https://kaist-dsail.github.io/files/kogo2026.pdf" target="_blank">[Slide2]</a>
 - <b>Learning on Graph and its Application to Biomedical Data</b> [[Slide]](https://kaist-dsail.github.io/files/LOG2024.pdf){:target="_blank"} @ 
 <a href="https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20240101&CpPage=231#CONF" target="_blank">2024 한국인공지능학회 동계단기강좌</a>
