@@ -35,35 +35,7 @@ permalink: /professor/
 - I am also looking for undergraduate students who are interested in doing internship in our lab, which will be open every summer and winter. If you are interested, send me an email with your interests, CV, and transcript. 
   + Interns will get opportunities to study about research topics that our lab is focusing on, and participate in research projects with graduate students.
   + If you are interested in joining our lab as a graduate student, I strongly recommend you to do an internship before you apply.
-- There are three ways to join our lab. You can apply through 1) [Department of Industrial Engineering and Systems](https://ie.kaist.ac.kr/){:target="_blank"} or 2) [Graduate School of Data Science](https://gsds.kaist.ac.kr/){:target="_blank"} or 3) [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"}.
-
-<!-- ### News
-- (2022.11) A paper got accepted at NeurIPS 2022 GLFrontiers Workshop.
-- (2022.10) A paper got accepted at EMNLP 2022 (Findings).
-- (2022.09) A paper got accepted at ICDM 2022.
-- (2022.08) I gave a tutorial at <a href="https://sites.google.com/view/dbsummerschool2022" target="_blank">2022 데이터베이스 소사이어티 여름학교</a>.
-- (2022.08) Three papers got accepted at CIKM 2022.
-- (2022.05) A paper got accepted at KDD 2022.
-- (2022.04) Two papers got accepted at SIGIR 2022.
-- (2021.12) A paper got accepted at AAAI 2022.
-- (2021.09) A paper got accepted at ICDM 2021.
-- (2021.07) Call For Paper: Frontiers in Artificial Intelligence [(Graph representation learning: Methods and Applications)](https://www.frontiersin.org/research-topics/22665/graph-representation-learning-methods-and-applications#overview){:target="_blank"}
-- (2021.06) I gave a tutorial at <a href="http://kiie.org/wp/2021a/online.asp" target="_blank">2021 대한산업공학회 춘계학술대회</a>.
-- (2021.04) A paper got accepted at SIGIR 2021.
-- (2021.02) I gave a tutorial at [2021 한국인공지능학회 동계단기강좌](http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF){:target="_blank"} [[Slide]](https://kaist-dsail.github.io/files/MLGraph2021.pdf){:target="_blank"}.
-- (2021.01) A paper got accepted at WWW 2021.
-- (2020.11) I joined KAIST as an assistant professor.
-- (2020.09) A paper got accepted at ICDM 2020.
-- (2020.02) A paper got accepted at KDD 2020 (research track).
-- (2019.11) A paper got accepted at AAAI 2020.
-- (2019.05) Two papers got accepted at CIKM 2019.
-- (2019.01) I joined University of Illinois at Urbana-Champaign as a postdoctoral research fellow.
-- (2018.10) I successfully defended Ph.D thesis. -->
-
-<!-- ### Selected Presentation Slide
-- <b>Recent Advancement in Machine Learning on Graph 2</b> [[Slide]](https://kaist-dsail.github.io/files/MLGraph2022.pdf){:target="_blank"} ([2022 데이터베이스 소사이어티 여름학교](https://sites.google.com/view/dbsummerschool2022){:target="_blank"})
-- <b>Recent Advancement in Machine Learning on Graph 1</b> [[Slide]](https://kaist-dsail.github.io/files/MLGraph2021.pdf){:target="_blank"} ([2021 한국인공지능학회 동계단기강좌](http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF){:target="_blank"}) 
--->
+- There are three ways to join our lab. You can apply through 1) [Department of Industrial Engineering and Systems](https://ie.kaist.ac.kr/){:target="_blank"} or 2) [Graduate School of Data Science](https://gsds.kaist.ac.kr/){:target="_blank"} or 3) [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"} or 4) [Department of AX (College of AI)](https://ax.kaist.ac.kr/).
 
 
 
@@ -90,10 +62,10 @@ permalink: /professor/
 - <b>POSTECH (Pohang University of Science and Technology)</b>
   + Ph.D. in Computer Science and Engineering (2019)
   + Dissertation: Recommendation Framework via Matrix Factorization and Translation
-  <!-- + Advisor: [Prof. Hwanjo Yu](http://hwanjoyu.org/){:target="_blank"} -->
+
 - <b>Sogang University</b>
   + B.S. in Computer Science and Engineering (2014)
-  <!-- + Graduated with Honors (Magma Cum Laude) -->
+
 
 
 ### Awards
@@ -122,7 +94,7 @@ permalink: /professor/
   + Fall 2021
 
 - <b>IE343: Statistical Machine Learning</b>
-  + Spring 2021, 2022, 2023, 2024
+  + Spring 2021, 2022, 2023, 2024, 2026
 
 - <b>DS503: Machine Learning for Data Science</b>
   + Spring 2023, 2024
