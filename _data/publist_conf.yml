@@ -4,6 +4,7 @@
   venue_full: International Conference on Learning Representations
   year: 2026
   pdf_url: https://openreview.net/forum?id=6bthH14pD8
+  code_url: https://github.com/HeewoongNoh/IR-Agent
 
 - title: CompoDistill&#58; Attention Distillation for Compositional Reasoning in Multimodal LLMs
   authors: Jiwan Kim, Kibum Kim, Sangwoo Seo, Chanyoung Park
@@ -11,6 +12,7 @@
   venue_full: International Conference on Learning Representations
   year: 2026
   pdf_url: https://openreview.net/forum?id=Wa9Bg9b50B
+  code_url: https://github.com/ptkjw1997/CompoDistill
 
 - title: Token-Efficient Item Representation via Images for LLM Recommender Systems
   authors: Kibum Kim, Sein Kim, HongSeok Kang, Jiwan Kim, Heewoong Noh, Yeonjun In, Kanghoon Yoon, Jinoh Oh, Julian McAuley, Chanyoung Park
@@ -18,6 +20,7 @@
   venue_full: International Conference on Learning Representations
   year: 2026
   pdf_url: https://openreview.net/forum?id=vizM7B7vuW
+  code_url: https://github.com/rlqja1107/torch-I-LLMRec
 
 - title: Better Prevent than Tackle&#58; Valuing Defense in Soccer Based on Graph Neural Networks
   authors: Hyunsung Kim, Sangwoo Seo, Hoyoung Choi, Tom Boomstra, Jinsung Yoon, Chanyoung Park
@@ -42,6 +45,7 @@
   venue_full: The 40th Annual AAAI Conference on Artificial Intelligence
   year: 2026
   pdf_url: https://arxiv.org/pdf/2502.17506
+  code_url: https://github.com/Genentech/CLADD
 
 - title: EqGINO&#58; Equivariant Geometry-Informed Fourier Neural Operators for 3D PDEs
   authors: Sungwon Kim, Juho Song, Seungmin Shin, Guimok Cho, Sangkook Kim, Chanyoung Park
