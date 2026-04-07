@@ -87,6 +87,8 @@ permalink: /publications_conference/
 
   {% if publi.pdf_url %}[[PDF]]({{ publi.pdf_url }}){:target="_blank"}{% endif %}
   {% if publi.code_url %}[[Code]]({{ publi.code_url }}){:target="_blank"}{% endif %}
+  {% if publi.model_url %}[[Model]]({{ publi.model_url }}){:target="_blank"}{% endif %}
+  {% if publi.dataset_url %}[[Dataset]]({{ publi.dataset_url }}){:target="_blank"}{% endif %}
   {% if publi.slide_url %}[[Slide]]({{ publi.slide_url }}){:target="_blank"}{% endif %}
   {% if publi.video_url %}[[Video]]({{ publi.video_url }}){:target="_blank"}{% endif %}
   {% if publi.news_url %}[[News]]({{ publi.news_url }}){:target="_blank"}{% endif %}
