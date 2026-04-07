@@ -28,11 +28,6 @@
   authors: Kanghoon Yoon, Minsub Kim, Sungjae Lee, Joonhyung Lee, Sunghyeon Woo, Yeonjun In, Se Jung Kwon, Chanyoung Park, Dongsoo Lee
   pdf_url: https://www.arxiv.org/abs/2510.02329
 
-- title: R1-ACT&#58; Efficient Reasoning Model Safety Alignment by Activating Safety Knowledge
-  authors: Yeonjun In, Wonjoong Kim, Sangwu Park, Chanyoung Park
-  pdf_url: https://arxiv.org/abs/2508.00324
-  code_url: https://github.com/yeonjun-in/R1-Act
-
 - title: Compositional Representation of Polymorphic Crystalline Materials
   authors: Namkyeong Lee, Heewoong Noh, Gyoung S. Na, Jimeng Sun, Tianfan Fu, Marinka Zitnik, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2312.13289v2
