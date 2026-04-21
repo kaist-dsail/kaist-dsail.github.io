@@ -69,6 +69,7 @@ permalink: /professor/
 
 
 ### Awards
+- Google Research award, Google (2026)
 - Impact Research Award (Achievement Award), KAIST (2025)
 - Best Academic Award, ISE KAIST (2025)
 - Song-Am Distinguished Research Award, KAIST (2024)
