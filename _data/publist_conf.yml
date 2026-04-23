@@ -3,7 +3,7 @@
   venue: ACL 2026
   venue_full: The 64th Annual Meeting of the Association for Computational Linguistics
   year: 2026
-  pdf_url: https://arxiv.org/abs/2508.00324
+  pdf_url: https://arxiv.org/abs/2604.18946
   model_url: https://huggingface.co/collections/Yeonjun/r1-act-688c42ce9eb0d8dccda38b4f
   dataset_url: https://huggingface.co/datasets/Yeonjun/R1-Act-train
   code_url: https://github.com/yeonjun-in/R1-Alt
