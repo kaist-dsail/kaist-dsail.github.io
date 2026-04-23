@@ -1,12 +1,21 @@
+- title: Rethinking Failure Attribution in Multi-Agent Systems&#58; A Multi-Perspective Benchmark and Evaluation
+  authors: Yeonjun In, Mehrab Tanjim, Jayakumar Subramanian, Sungchul Kim, Uttaran Bhattacharya, Wonjoong Kim, Sangwu Park, Somdeb Sarkhel, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2603.25001
+  code_url: https://github.com/yeonjun-in/MP-Bench
+
 - title: Why and When Visual Token Pruning Fails? A Study on Relevant Visual Information Shift in MLLMs Decoding
   authors: Jiwan Kim, Kibum Kim, Wonjoong Kim, Byung-Kwan Lee, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2604.12358
-  
 
 - title: Self-EvolveRec&#58; Self-Evolving Recommender Systems with LLM-based Directional Feedback
   authors: Sein Kim, Sangwu Park, Hongseok Kang, Wonjoong Kim, Jimin Seo, Yeonjun In, Kanghoon Yoon, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2602.12612
   code_url: https://github.com/Sein-Kim/self_evolverec
+
+- title: PathCRF&#58; Ball-Free Soccer Event Detection via Possession Path Inference from Player Trajectories
+  authors: Hyunsung Kim, Kunhee Lee, Sangwoo Seo, Sang-Ki Ko, Jinsung Yoon, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2602.12080
+  code_url: https://github.com/hyunsungkim-ds/pathcrf
 
 - title: MSP-LLM&#58; A Unified Large Language Model Framework for Complete Material Synthesis Planning
   authors: Heewoong Noh, Gyoung S. Na, Namkyeong Lee, Chanyoung Park
