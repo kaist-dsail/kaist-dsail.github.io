@@ -1,3 +1,10 @@
+- title: A New DAWN for Fake News Detection&#58; Leveraging Engagement Earliness for Temporality-aware Evaluation
+  authors: Junghoon Kim&#42;, Junmo Lee&#42;, Yeonjun In, Kanghoon Yoon, Chanyoung Park
+  venue: ACM Transactions on Intelligent Systems and Technology
+  year: 2026
+  pdf_url: https://dsail.kaist.ac.kr/
+  code_url: https://github.com/LeeJunmo/DAWN
+
 - title: Physics-Embedded Graph Neural Operator for Interaction-Controlled Colloidal Aggregation
   authors: Yongjoon Choe&#42;, Sungwon Kim&#42;, Susan E. Burns, Chanyoung Park
   venue: Water Research
