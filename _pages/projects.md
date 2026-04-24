@@ -19,6 +19,7 @@ permalink: /projects.html
 - 납축전지 성능 예측 AI 시스템 개발
 - 유동영역 3D AI Simulation 기술 개발
 - 금속 소재 거대 AI 파운데이션 개발 (소재 특화 파운데이션 모델의 최적화 및 경량화 기술 개발)
+- Coordinate-Invariant Neural Operators for Geometry-Transferable 3D PDE Solving
 
 #### Done
 - 빅데이터 기반 범용 의사결정 지원 시스템
