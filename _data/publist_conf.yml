@@ -1,3 +1,41 @@
+
+- title: EqGINO&#58; Equivariant Geometry-Informed Fourier Neural Operators for 3D Partial Differential Equations
+  authors: Sungwon Kim, Juho Song, Seungmin Shin, Guimok Cho, Sangkook Kim, Chanyoung Park
+  venue: ICML 2026
+  venue_full: International Conference on Machine Learning
+  year: 2026
+  pdf_url: https://dsail.kaist.ac.kr/
+  code_url: https://github.com/sung-won-kim/EqGINO
+
+- title: Beyond the Final Answer&#58; Evaluating the Reasoning Trajectories of Tool-Augmented Agents
+  authors: Wonjoong Kim, Sangwu Park, Yeonjun In, Sein Kim, Dongha Lee, Chanyoung Park
+  venue: ICML 2026
+  venue_full: International Conference on Machine Learning
+  year: 2026
+  pdf_url: https://arxiv.org/abs/2510.02837
+  code_url: https://github.com/wonjoong-kim/TRACE
+
+- title: Learning Adaptive Perturbation-Conditioned Contexts for Robust Transcriptional Response Prediction
+  authors: Yinhua Piao, Hyomin Kim, Seonghwan Kim, Yunhak Oh, Junhyeok Jeon, Sang-Yeon Hwang, Jaechang Lim, Woo Youn Kim, Chanyoung Park, Sungsoo Ahn
+  venue: ICML 2026
+  venue_full: International Conference on Machine Learning
+  year: 2026
+  pdf_url: https://arxiv.org/abs/2602.18885
+
+- title: Time-PEFT&#58; Temporal and Multichannel Complexity-Based Fine-Tuning for Time-Series Foundation Models
+  authors: Jihye Na, Patara Trirat, Chanyoung Park, Jae-Gil Lee
+  venue: ICML 2026
+  venue_full: International Conference on Machine Learning
+  year: 2026
+  pdf_url: https://dsail.kaist.ac.kr/
+
+- title: SelfJudge&#58; Faster Speculative Decoding via Self-Supervised Judge Verification
+  authors: Kanghoon Yoon, Minsub Kim, Sungjae Lee, Joonhyung Lee, Sunghyeon Woo, Yeonjun In, Se Jung Kwon, Chanyoung Park, Dongsoo Lee
+  venue: ICML 2026
+  venue_full: International Conference on Machine Learning
+  year: 2026
+  pdf_url: https://arxiv.org/abs/2510.02329
+
 - title: Reasoning Structure Matters for Safety Alignment of Reasoning Models
   authors: Yeonjun In, Wonjoong Kim, Sangwu Park, Chanyoung Park
   venue: ACL 2026
