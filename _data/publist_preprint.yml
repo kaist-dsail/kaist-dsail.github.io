@@ -1,3 +1,8 @@
+- title: Sink-Token-Aware Pruning for Fine-Grained Video Understanding in Efficient Video LLMs
+  authors: Kibum Kim, Jiwan Kim, Kyle Min, Yueqi Wang, Jinyoung Moon, Julian McAuley, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2604.20937
+  code_url: https://github.com/rlqja1107/SToP
+
 - title: Rethinking Failure Attribution in Multi-Agent Systems&#58; A Multi-Perspective Benchmark and Evaluation
   authors: Yeonjun In, Mehrab Tanjim, Jayakumar Subramanian, Sungchul Kim, Uttaran Bhattacharya, Wonjoong Kim, Sangwu Park, Somdeb Sarkhel, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2603.25001
