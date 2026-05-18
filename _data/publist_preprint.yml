@@ -1,3 +1,12 @@
+- title: Machine Collective Intelligence for Explainable Scientific Discovery
+  authors: Gyoung S. Na, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2604.27297
+  code_url: https://github.com/ngs00/mci
+
+- title: Test-Time Training for Visual Foresight Vision-Language-Action Models
+  authors: Sangwu Park, Wonjoong Kim, Yeonjun In, Sein Kim, Hongseok Kang, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2605.08215
+
 - title: Sink-Token-Aware Pruning for Fine-Grained Video Understanding in Efficient Video LLMs
   authors: Kibum Kim, Jiwan Kim, Kyle Min, Yueqi Wang, Jinyoung Moon, Julian McAuley, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2604.20937
