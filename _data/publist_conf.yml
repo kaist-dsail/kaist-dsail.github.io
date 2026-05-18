@@ -14,7 +14,7 @@
   pdf_url: https://arxiv.org/abs/2312.13289v2
   code_url: https://github.com/Namkyeong/PCRL
 
-- title: EqGINO&#58; Equivariant Geometry-Informed Fourier Neural Operators for 3D Partial Differential Equations
+- title: EqGINO&#58; Equivariant Geometry-Informed Fourier Neural Operators for 3D PDEs
   authors: Sungwon Kim, Juho Song, Seungmin Shin, Guimok Cho, Sangkook Kim, Chanyoung Park
   venue: ICML 2026
   venue_full: International Conference on Machine Learning
