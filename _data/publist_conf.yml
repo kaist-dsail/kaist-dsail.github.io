@@ -1,3 +1,18 @@
+- title: PathCRF&#58; Ball-Free Soccer Event Detection via Possession Path Inference from Player Trajectories
+  authors: Hyunsung Kim, Kunhee Lee, Sangwoo Seo, Sang-Ki Ko, Jinsung Yoon, Chanyoung Park
+  venue: KDD 2026
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2026
+  pdf_url: https://arxiv.org/abs/2602.12080
+  code_url: https://github.com/hyunsungkim-ds/pathcrf
+
+- title: Learning Probabilistic Compositional Representation of Crystalline Materials
+  authors: Namkyeong Lee, Heewoong Noh, Gyoung S. Na, Jimeng Sun, Tianfan Fu, Marinka Zitnik, Chanyoung Park
+  venue: KDD 2026 (AI for Science Track)
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2026
+  pdf_url: https://arxiv.org/abs/2312.13289v2
+  code_url: https://github.com/Namkyeong/PCRL
 
 - title: EqGINO&#58; Equivariant Geometry-Informed Fourier Neural Operators for 3D Partial Differential Equations
   authors: Sungwon Kim, Juho Song, Seungmin Shin, Guimok Cho, Sangkook Kim, Chanyoung Park
