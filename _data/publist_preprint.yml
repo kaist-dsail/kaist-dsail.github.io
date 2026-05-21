@@ -1,3 +1,8 @@
+- title: PAIR&#58; Prefix-Aware Internal Reward Model for Multi-Turn Agent Optimization
+  authors: Wonjoong Kim, Yeonjun In, Sangwu Park, Dongha Lee, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2605.17877
+  code_url: https://github.com/wonjoong-kim/PAIR
+
 - title: Machine Collective Intelligence for Explainable Scientific Discovery
   authors: Gyoung S. Na, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2604.27297
