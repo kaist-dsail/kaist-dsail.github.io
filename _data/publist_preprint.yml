@@ -8,41 +8,18 @@
   pdf_url: https://arxiv.org/abs/2604.27297
   code_url: https://github.com/ngs00/mci
 
-- title: Test-Time Training for Visual Foresight Vision-Language-Action Models
-  authors: Sangwu Park, Wonjoong Kim, Yeonjun In, Sein Kim, Hongseok Kang, Chanyoung Park
-  pdf_url: https://arxiv.org/abs/2605.08215
-
 - title: Sink-Token-Aware Pruning for Fine-Grained Video Understanding in Efficient Video LLMs
   authors: Kibum Kim, Jiwan Kim, Kyle Min, Yueqi Wang, Jinyoung Moon, Julian McAuley, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2604.20937
   code_url: https://github.com/rlqja1107/SToP
 
-- title: Rethinking Failure Attribution in Multi-Agent Systems&#58; A Multi-Perspective Benchmark and Evaluation
-  authors: Yeonjun In, Mehrab Tanjim, Jayakumar Subramanian, Sungchul Kim, Uttaran Bhattacharya, Wonjoong Kim, Sangwu Park, Somdeb Sarkhel, Chanyoung Park
-  pdf_url: https://arxiv.org/abs/2603.25001
-  code_url: https://github.com/yeonjun-in/MP-Bench
-
 - title: Why and When Visual Token Pruning Fails? A Study on Relevant Visual Information Shift in MLLMs Decoding
   authors: Jiwan Kim, Kibum Kim, Wonjoong Kim, Byung-Kwan Lee, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2604.12358
 
-- title: Self-EvolveRec&#58; Self-Evolving Recommender Systems with LLM-based Directional Feedback
-  authors: Sein Kim, Sangwu Park, Hongseok Kang, Wonjoong Kim, Jimin Seo, Yeonjun In, Kanghoon Yoon, Chanyoung Park
-  pdf_url: https://arxiv.org/abs/2602.12612
-  code_url: https://github.com/Sein-Kim/self_evolverec
-
-- title: MSP-LLM&#58; A Unified Large Language Model Framework for Complete Material Synthesis Planning
-  authors: Heewoong Noh, Gyoung S. Na, Namkyeong Lee, Chanyoung Park
-  pdf_url: https://www.arxiv.org/abs/2602.07543
-  code_url: https://github.com/HeewoongNoh/MSP-LLM-Official
-
 - title: Adaptive Graph Rewiring to Mitigate Over-Squashing in Mesh-Based GNNs for Fluid Dynamics Simulations
   authors: Sangwoo Seo, Hyunsung Kim, Jiwan Kim, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2511.12709
-
-- title: Progressive Multi-Agent Reasoning for Biological Perturbation Prediction
-  authors: Hyomin Kim, Sang-Yeon Hwang, Jaechang Lim, Yinhua Piao, Yunhak Oh, Woo Youn Kim, Chanyoung Park, Sungsoo Ahn, Junhyeok Jeon
-  pdf_url: https://arxiv.org/abs/2602.07408
   
 - title: Continual Traffic Forecasting via Mixture of Experts
   authors: Sanghyun Lee, Chanyoung Park

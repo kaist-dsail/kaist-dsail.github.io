@@ -94,7 +94,6 @@
   code_url: https://github.com/hyunsungkim-ds/defcon
   slide_url: https://drive.google.com/file/d/1FmCRKzqUElv5XGV2HV0BnH_Oziy95Np8/view
 
-
 - title: PULSE&#58; Socially-Aware User Representation Modeling Toward Parameter-Efficient Graph Collaborative Filtering
   authors: Doyun Choi&#42;, Cheonwoo Lee&#42;, Biniyam Aschalew Tolera, Taewook Ham, Chanyoung Park, Jaemin Yoo
   venue: WWW 2026
@@ -109,6 +108,49 @@
   year: 2026
   pdf_url: https://arxiv.org/pdf/2502.17506
   code_url: https://github.com/Genentech/CLADD
+
+- title: Retro-Forge&#58; A Multi-Step Pairwise Retrosynthesis Framework for Solid-State Materials Synthesis
+  authors: Juhan Hong, Hyunsung Jang, Woojin Bae, Jaewon Bae, Chanyoung Park
+  pdf_url: https://openreview.net/pdf?id=AqtQc7KO77
+  year: 2026
+  venue: ICML 2026 AI for Science Workshop
+  venue_full: International Conference on Machine Learning
+
+- title: Periodic Complex Stochastic Processes for Retrieving Atomic Structures of Unknown Matters
+  authors: Gyoung S. Na, Chanyoung Park
+  pdf_url: https://openreview.net/pdf?id=6UlOrnEUHL
+  year: 2026
+  venue: ICML 2026 AI for Science Workshop
+  venue_full: International Conference on Machine Learning
+
+- title: Density of States-Intermediated Crystal Generation for Material Inverse Design
+  authors: Sujong Lee, Jaewon Bae, Seungyun Shin, Heesung Choi, Chanyoung Park
+  pdf_url: https://openreview.net/pdf?id=b39fIYQF3X
+  year: 2026
+  venue: ICML 2026 AI for Science Workshop
+  venue_full: International Conference on Machine Learning
+
+- title: Rethinking Failure Attribution in Multi-Agent Systems&#58; A Multi-Perspective Benchmark and Evaluation
+  authors: Yeonjun In, Mehrab Tanjim, Jayakumar Subramanian, Sungchul Kim, Uttaran Bhattacharya, Wonjoong Kim, Sangwu Park, Somdeb Sarkhel, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2603.25001
+  code_url: https://github.com/yeonjun-in/MP-Bench
+  year: 2026
+  venue: ICML 2026 Workshop on Failure Modes of Agentic AI
+  venue_full: International Conference on Machine Learning
+
+- title: Test-Time Training for Visual Foresight Vision-Language-Action Models
+  authors: Sangwu Park, Wonjoong Kim, Yeonjun In, Sein Kim, Hongseok Kang, Chanyoung Park
+  pdf_url: https://arxiv.org/abs/2605.08215
+  year: 2026
+  venue: ICML 2026 Continual Adaptation at Scale&#58; Towards Sustainable AI Workshop
+  venue_full: International Conference on Machine Learning
+
+- title: Progressive Multi-Agent Reasoning for Biological Perturbation Prediction
+  authors: Hyomin Kim, Sang-Yeon Hwang, Jaechang Lim, Yinhua Piao, Yunhak Oh, Woo Youn Kim, Chanyoung Park, Sungsoo Ahn, Junhyeok Jeon
+  pdf_url: https://arxiv.org/abs/2602.07408
+  year: 2026
+  venue: ICML 2026 Workshop on Generative and Agentic AI for Biology
+  venue_full: International Conference on Machine Learning
 
 - title: EqGINO&#58; Equivariant Geometry-Informed Fourier Neural Operators for 3D PDEs
   authors: Sungwon Kim, Juho Song, Seungmin Shin, Guimok Cho, Sangkook Kim, Chanyoung Park
