@@ -1,3 +1,18 @@
+- title: Sink-Token-Aware Pruning for Fine-Grained Video Understanding in Efficient Video LLMs
+  authors: Kibum Kim, Jiwan Kim, Kyle Min, Yueqi Wang, Jinyoung Moon, Julian McAuley, Chanyoung Park
+  venue: ECCV 2026
+  venue_full: European Conference on Computer Vision
+  year: 2026
+  pdf_url: https://arxiv.org/abs/2604.20937
+  code_url: https://github.com/rlqja1107/SToP
+
+- title: Why and When Visual Token Pruning Fails? A Study on Relevant Visual Information Shift in MLLMs Decoding
+  authors: Jiwan Kim, Kibum Kim, Wonjoong Kim, Byung-Kwan Lee, Chanyoung Park
+  venue: ECCV 2026
+  venue_full: European Conference on Computer Vision
+  year: 2026
+  pdf_url: https://arxiv.org/abs/2604.12358
+
 - title: PathCRF&#58; Ball-Free Soccer Event Detection via Possession Path Inference from Player Trajectories
   authors: Hyunsung Kim, Kunhee Lee, Sangwoo Seo, Sang-Ki Ko, Jinsung Yoon, Chanyoung Park
   venue: KDD 2026

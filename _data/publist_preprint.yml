@@ -17,15 +17,6 @@
   pdf_url: https://arxiv.org/abs/2604.27297
   code_url: https://github.com/ngs00/mci
 
-- title: Sink-Token-Aware Pruning for Fine-Grained Video Understanding in Efficient Video LLMs
-  authors: Kibum Kim, Jiwan Kim, Kyle Min, Yueqi Wang, Jinyoung Moon, Julian McAuley, Chanyoung Park
-  pdf_url: https://arxiv.org/abs/2604.20937
-  code_url: https://github.com/rlqja1107/SToP
-
-- title: Why and When Visual Token Pruning Fails? A Study on Relevant Visual Information Shift in MLLMs Decoding
-  authors: Jiwan Kim, Kibum Kim, Wonjoong Kim, Byung-Kwan Lee, Chanyoung Park
-  pdf_url: https://arxiv.org/abs/2604.12358
-
 - title: Adaptive Graph Rewiring to Mitigate Over-Squashing in Mesh-Based GNNs for Fluid Dynamics Simulations
   authors: Sangwoo Seo, Hyunsung Kim, Jiwan Kim, Chanyoung Park
   pdf_url: https://arxiv.org/abs/2511.12709
