@@ -137,6 +137,7 @@ Korea Military Academy,
 #### Conference Program Committee/Reviewer
 - Regular PC Member/Reviewer in KDD, NeurIPS, ICLR, ICML, AAAI, WWW, SIGIR, WSDM, IJCAI, CIKM, LoG, ECML-PKDD, BigData, etc
 - Area Chair in KDD, ICLR, NeurIPS, ICML (Since 2024)
+- Action Editor in TMLR (Since 2026)
 - Area chair in ICML 2024 AI4Science Workshop, NeurIPS 2023 AI4Science Workshop
 
 <!-- - ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) [2022-present]
