@@ -142,31 +142,31 @@
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
 - title: Why and When Visual Token Pruning Fails? A Study on Relevant Visual Information Shift in MLLMs Decoding
-  authors: Jiwan Kim, Kibum Kim, Wonjoong Kim, Byung-Kwan Lee, Chanyoung Park
-  pdf_url: https://arxiv.org/pdf/2604.12358
-  year: 2026
-  venue: The Fourth International Workshop on Resource-Efficient Learning for Knowledge Discovery (KDD 2026 Workshop)
+  authors: Jiwan Kim, Kibum Kim, Wonjoong Kim, Byung-Kwan Lee, Chanyoung Park
+  pdf_url: https://arxiv.org/pdf/2604.12358
+  year: 2026
+  venue: The Fourth International Workshop on Resource-Efficient Learning for Knowledge Discovery (KDD 2026 Workshop)
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
 - title: Self-EvolveRec&#58; Self-Evolving Recommender Systems with LLM-based Directional Feedback
-  authors: Sein Kim, Sangwu Park, HongSeok Kang, Wonjoon Kim, Jimin Seo, Yeonjun In, Kanghoon Yoon, Hyunsik Jeon, Chanyoung Park
-  pdf_url: https://openreview.net/forum?id=fBLhmZ1aNN
-  year: 2026
-  venue: Workshop on Agentic Software Engineering (KDD 2026 Workshop)
+  authors: Sein Kim, Sangwu Park, HongSeok Kang, Wonjoon Kim, Jimin Seo, Yeonjun In, Kanghoon Yoon, Hyunsik Jeon, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=fBLhmZ1aNN
+  year: 2026
+  venue: Workshop on Agentic Software Engineering (KDD 2026 Workshop)
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
 - title: Rethinking Failure Attribution in Multi-Agent Systems&#58; A Multi-Perspective Benchmark and Evaluation
-  authors: Yeonjun In, Mehrab Tanjim, Jayakumar Subramanian, Sungchul Kim, Uttaran Bhattacharya, Wonjoong Kim, Sangwu Park, Somdeb Sarkhel, Chanyoung Park
-  pdf_url: https://openreview.net/forum?id=oBaY1EFz6z
-  year: 2026
-  venue: Workshop on Agentic Software Engineering (KDD 2026 Workshop)
+  authors: Yeonjun In, Mehrab Tanjim, Jayakumar Subramanian, Sungchul Kim, Uttaran Bhattacharya, Wonjoong Kim, Sangwu Park, Somdeb Sarkhel, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=oBaY1EFz6z
+  year: 2026
+  venue: Workshop on Agentic Software Engineering (KDD 2026 Workshop)
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
 - title: Personalize-then-Store&#58; Benchmarking and Learning Personalized Memory for Long-Horizon Agents
-  authors: Yeonjun In, Wonjoong Kim, Sangwu Park, Kanghoon Yoon, Chanyoung Park
-  pdf_url: https://openreview.net/forum?id=JgufuK0zxh
-  year: 2026
-  venue: Workshop on Personal Intelligence in Agentic AI Era (KDD 2026 Workshop)
+  authors: Yeonjun In, Wonjoong Kim, Sangwu Park, Kanghoon Yoon, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=JgufuK0zxh
+  year: 2026
+  venue: Workshop on Personal Intelligence in Agentic AI Era (KDD 2026 Workshop)
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
 - title: Compositional Spectral Prompts for LLM-based Online Time Series Forecasting
@@ -177,10 +177,10 @@
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
 - title: Beyond the Final Answer&#58; Evaluating the Reasoning Trajectories of Tool-Augmented Agnets
-  authors: Wonjoong Kim, Sangwu Park, Yeonjun In, Sein Kim, Dongha Lee, Chanyoung Park
-  pdf_url: https://openreview.net/forum?id=RJXg6vHOkR
-  year: 2026
-  venue: Workshop on Evaluation and Trustworthiness of Agentic AI (KDD 2026 Workshop)
+  authors: Wonjoong Kim, Sangwu Park, Yeonjun In, Sein Kim, Dongha Lee, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=RJXg6vHOkR
+  year: 2026
+  venue: Workshop on Evaluation and Trustworthiness of Agentic AI (KDD 2026 Workshop)
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
 - title: A Structured LLM Framework for Inorganic Material Synthesis Planning
@@ -504,7 +504,7 @@
 
 - title: ELASTIC&#58; Event-Tracking Data Synchronization in Soccer Without Annotated Event Locations
   authors: Hyunsung Kim, Hoyoung Choi, Sangwoo Seo, Tom Boomstra, Jinsung Yoon, Chanyoung Park
-  venue: ECML-PKDD 2025 Workshop on Machine Learning and Data Mining for Sports Analytics (MLSA) <FONT COLOR="#ff0000">(Oral)</FONT>
+  venue: ECML-PKDD 2025 Workshop on Machine Learning and Data Mining for Sports Analytics (MLSA) <FONT COLOR="#ff0000">(Oral)</FONT>
   venue_full: European Conference on Machine Learning and Principles and Practice Knowledge Discovery in Databases 
   year: 2025
   pdf_url: https://arxiv.org/abs/2508.09238
