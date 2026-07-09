@@ -149,7 +149,7 @@
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
 - title: Self-EvolveRec&#58; Self-Evolving Recommender Systems with LLM-based Directional Feedback
-  authors: Sein Kim, Sangwu Park, HongSeok Kang, Wonjoon Kim, Jimin Seo, Yeonjun In, Kanghoon Yoon, Hyunsik Jeon, Chanyoung Park
+  authors: Sein Kim, Sangwu Park, HongSeok Kang, Wonjoong Kim, Jimin Seo, Yeonjun In, Kanghoon Yoon, Hyunsik Jeon, Chanyoung Park
   pdf_url: https://openreview.net/forum?id=fBLhmZ1aNN
   year: 2026
   venue: Workshop on Agentic Software Engineering (KDD 2026 Workshop)
@@ -176,7 +176,7 @@
   venue: Workshop on Mining and Learning from Time Series (KDD 2026 Workshop)
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
-- title: Beyond the Final Answer&#58; Evaluating the Reasoning Trajectories of Tool-Augmented Agnets
+- title: Beyond the Final Answer&#58; Evaluating the Reasoning Trajectories of Tool-Augmented Agents
   authors: Wonjoong Kim, Sangwu Park, Yeonjun In, Sein Kim, Dongha Lee, Chanyoung Park
   pdf_url: https://openreview.net/forum?id=RJXg6vHOkR
   year: 2026
@@ -186,6 +186,7 @@
 - title: A Structured LLM Framework for Inorganic Material Synthesis Planning
   authors: Heewoong Noh, Gyoung S. Na, Namkyeong Lee, Chanyoung Park
   pdf_url: https://openreview.net/forum?id=4UtSgrJJ8N
+  year: 2026
   venue: Workshop on Agentic AI for Scientific and Societal Advances (KDD 2026 Workshop)
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
@@ -336,6 +337,7 @@
   authors: Md Mehrab Tanjim&#42;, Yeonjun In&#42;, Xiang Chen, Victor S. Bursztyn, Ryan A. Rossi, Sungchul Kim, Guang-Jie Ren, Vaishnavi Muppala, Shun Jiang, Yongsung Kim, Chanyoung Park
   venue: EMNLP 2025
   venue_full: Conference on Empirical Methods in Natural Language Processing
+  year: 2025
   pdf_url: https://arxiv.org/abs/2505.12543
 
 - title: Target Circuit Matching in Large-Scale Netlists using GNN-Based Region Prediction
