@@ -124,6 +124,97 @@
   pdf_url: https://arxiv.org/pdf/2502.17506
   code_url: https://github.com/Genentech/CLADD
 
+
+
+
+- title: Physics-Embedded Graph Neural Operator for Interaction-Controlled Colloidal Aggregation
+  authors: Yongjoon Choe, Sungwon Kim, Susan E. Burns, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=YiazBzWRAU#discussion
+  year: 2026
+  venue: Workshop on Reliable Scientific Foundation Models (KDD 2026 Workshop)
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+
+- title: Revisiting CF-Integrated LLM Recommenders through Dimensional Collapse
+  authors: Jimin Seo, HongSeok Kang, Sein Kim, Jiwan Kim, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=KaBEPwhpgK
+  year: 2026
+  venue: Geometric Space, Architecture and Learning Objectives for Large Pre-Trained Models (KDD 2026 Workshop)
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+
+- title: Why and When Visual Token Pruning Fails? A Study on Relevant Visual Information Shift in MLLMs Decoding
+  authors: Jiwan Kim, Kibum Kim, Wonjoong Kim, Byung-Kwan Lee, Chanyoung Park
+  pdf_url: https://arxiv.org/pdf/2604.12358
+  year: 2026
+  venue: The Fourth International Workshop on Resource-Efficient Learning for Knowledge Discovery (KDD 2026 Workshop)
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+
+- title: Self-EvolveRec&#58; Self-Evolving Recommender Systems with LLM-based Directional Feedback
+  authors: Sein Kim, Sangwu Park, HongSeok Kang, Wonjoon Kim, Jimin Seo, Yeonjun In, Kanghoon Yoon, Hyunsik Jeon, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=fBLhmZ1aNN
+  year: 2026
+  venue: Workshop on Agentic Software Engineering (KDD 2026 Workshop)
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+
+- title: Rethinking Failure Attribution in Multi-Agent Systems&#58; A Multi-Perspective Benchmark and Evaluation
+  authors: Yeonjun In, Mehrab Tanjim, Jayakumar Subramanian, Sungchul Kim, Uttaran Bhattacharya, Wonjoong Kim, Sangwu Park, Somdeb Sarkhel, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=oBaY1EFz6z
+  year: 2026
+  venue: Workshop on Agentic Software Engineering (KDD 2026 Workshop)
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+
+- title: Personalize-then-Store&#58; Benchmarking and Learning Personalized Memory for Long-Horizon Agents
+  authors: Yeonjun In, Wonjoong Kim, Sangwu Park, Kanghoon Yoon, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=JgufuK0zxh
+  year: 2026
+  venue: Workshop on Personal Intelligence in Agentic AI Era (KDD 2026 Workshop)
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+
+- title: Compositional Spectral Prompts for LLM-based Online Time Series Forecasting
+  authors: Seungyoon Choi, Hyunchul Kim, Jae-Gil Lee, Chanyoung Park
+  pdf_url: https://dsail.kaist.ac.kr/
+  year: 2026
+  venue: Workshop on Mining and Learning from Time Series (KDD 2026 Workshop)
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+
+- title: Beyond the Final Answer&#58; Evaluating the Reasoning Trajectories of Tool-Augmented Agnets
+  authors: Wonjoong Kim, Sangwu Park, Yeonjun In, Sein Kim, Dongha Lee, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=RJXg6vHOkR
+  year: 2026
+  venue: Workshop on Evaluation and Trustworthiness of Agentic AI (KDD 2026 Workshop)
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+
+- title: A Structured LLM Framework for Inorganic Material Synthesis Planning
+  authors: Heewoong Noh, Gyoung S. Na, Namkyeong Lee, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=4UtSgrJJ8N
+  venue: Workshop on Agentic AI for Scientific and Societal Advances (KDD 2026 Workshop)
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+
+- title: Adaptive Graph Rewiring to Mitigate Over-Squashing in Mesh-Based GNNs for Fluid Dynamics Simulations
+  authors: Sangwoo Seo, Hyunsung Kim, Jiwan Kim, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=K1tRows2YB
+  year: 2026
+  venue: Workshop on Reliable Scientific Foundation Models (KDD 2026 Workshop)
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+
+- title: Bridging Circuit Graphs and Language&#58; A Cross-Modal Transformer for Netlist-to-Text Alignment and Generation
+  authors: Sangwoo Seo, Hyunsung Kim, Hyunchul Kim, Byeonggon Kang, Rex Ying, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=BEs4vYeGeV
+  year: 2026
+  venue: Workshop on Frontiers in Graph Machine Learning for the Large Model Era (KDD 2026 Workshop)
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+
+- title: Tokenizing Antibody–Antigen Complex Structures via Energy-Based Surrogates
+  authors: Junseok Lee, Yunhak Oh, Namkyeong Lee, Hyunchul Kim, Chanyoung Park
+  pdf_url: https://openreview.net/forum?id=T4NJqDU2Ul
+  year: 2026
+  venue: Workshop on Reliable Scientific Foundation Models (KDD 2026 Workshop)
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+
+
+
+
+
+
 - title: Retro-Forge&#58; A Multi-Step Pairwise Retrosynthesis Framework for Solid-State Materials Synthesis
   authors: Juhan Hong, Hyunsung Jang, Woojin Bae, Jaewon Bae, Chanyoung Park
   pdf_url: https://openreview.net/pdf?id=AqtQc7KO77
