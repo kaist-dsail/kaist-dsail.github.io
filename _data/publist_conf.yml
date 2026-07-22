@@ -34,7 +34,7 @@
   venue: ICML 2026
   venue_full: International Conference on Machine Learning
   year: 2026
-  pdf_url: https://dsail.kaist.ac.kr/
+  pdf_url: https://arxiv.org/abs/2606.03260
   code_url: https://github.com/sung-won-kim/EqGINO
 
 - title: Beyond the Final Answer&#58; Evaluating the Reasoning Trajectories of Tool-Augmented Agents
@@ -57,7 +57,7 @@
   venue: ICML 2026
   venue_full: International Conference on Machine Learning
   year: 2026
-  pdf_url: https://dsail.kaist.ac.kr/
+  pdf_url: https://openreview.net/pdf?id=n8seTOinYs
 
 - title: SelfJudge&#58; Faster Speculative Decoding via Self-Supervised Judge Verification
   authors: Kanghoon Yoon, Minsub Kim, Sungjae Lee, Joonhyung Lee, Sunghyeon Woo, Yeonjun In, Se Jung Kwon, Chanyoung Park, Dongsoo Lee
