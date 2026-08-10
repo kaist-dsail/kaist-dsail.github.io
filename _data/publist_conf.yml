@@ -1,3 +1,17 @@
+- title: Compositional Spectral Prompts for LLM-based Online Time Series Forecasting
+  authors: Seungyoon Choi, Hyunchul Kim, Jae-Gil Lee, Chanyoung Park
+  venue: CIKM 2026
+  venue_full: ACM International Conference on Information and Knowledge Management
+  year: 2026
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+
+- title: ELASTIC&#58; Trajectory-Based Synchronization of Event and Tracking Data in Soccer
+  authors: Hyunsung Kim, Hoyoung Choi, Kunhee Lee, Sangwoo Seo, Tom Boomstra, Jinsung Yoon, Chanyoung Park
+  venue: CIKM 2026
+  venue_full: ACM International Conference on Information and Knowledge Management
+  year: 2026
+  pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+
 - title: DefaultGNN&#58; A Dual-Perspective GNN Framework for Predicting Corporate Default from Buyer-Seller Transaction Networks
   authors: Junghoon Kim, Hyunsung Kim, Seungyoon Choi, Kyoungyong Park, Jihun Lee, Yonggu Ji, Chanyoung Park
   venue: CIKM 2026
@@ -11,6 +25,15 @@
   venue_full: ACM International Conference on Information and Knowledge Management (Short paper)
   year: 2026
   pdf_url: https://dsail.kaist.ac.kr/publications_conference/
+
+
+- title: HUGETIME at eRisk 2026&#58; Bucket-wise Evidence Pruning for Contextualized Early Depression Detection
+  authors: Ilho Shin, Hyunchul Kim and Chanyoung Park
+  venue: CLEF 2026
+  venue_full: The Conference and Labs of the Evaluation Forum
+  remark: Ranked 1st in Task 2&#58; Contextualized Early Detection of Depression at CLEF eRisk 2026
+  year: 2026
+  pdf_url: https://clef-staging.pages.dev/paper141.pdf
 
 - title: Sink-Token-Aware Pruning for Fine-Grained Video Understanding in Efficient Video LLMs
   authors: Kibum Kim, Jiwan Kim, Kyle Min, Yueqi Wang, Jinyoung Moon, Julian McAuley, Chanyoung Park
