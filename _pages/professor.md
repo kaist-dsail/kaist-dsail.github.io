@@ -69,6 +69,8 @@ permalink: /professor/
 
 
 ### Awards
+- Best Paper Award, KDD 2026 Workshop on Reliable Scientific Foundation Models (2026)
+- Best Paper Award, KDD 2026 Workshop on Personal Intelligence in Agentic AI Era (2026)
 - Google Research award, Google (2026)
 - Impact Research Award (Achievement Award), KAIST (2025)
 - Best Academic Award, ISE KAIST (2025)
