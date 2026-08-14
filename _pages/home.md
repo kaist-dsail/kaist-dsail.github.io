@@ -48,7 +48,7 @@ Our current active research interests emphasize <b>AI for Science</b>, <b>Agenti
 &bull; <b>Time-series &amp; Spatio-temporal Modeling</b><br>
 <i style="margin-left:12px;">- dynamic systems, temporal graph learning</i></p>
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/vV_tNynSJg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/vV_tNynSJg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 ## Interested?
 If you’re interested in joining our lab, send an email with your interests, CV, and transcript to cy.park (at) kaist.ac.kr.
