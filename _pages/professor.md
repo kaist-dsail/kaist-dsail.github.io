@@ -91,7 +91,7 @@ permalink: /professor/
 
 ### Teaching
 - <b>DS535: Recommender System and Machine Learning on Graphs</b>
-  + Fall 2021, 2022, 2023, 2024
+  + Fall 2021, 2022, 2023, 2024, 2026
 
 - <b>CoE202: Basics of Artificial Intelligence</b>
   + Fall 2021
@@ -109,33 +109,17 @@ permalink: /professor/
 
 - <b>Change-Aware Graph Learning for Evolving Fraud and Abuse</b> <a href="https://kaist-dsail.github.io/files/kddworkshop2026.pdf" target="_blank">[Slide]</a> @ KDD 2026 Workshop on
 AI for Fraud and Abuse
-- <b>Agentic AI for Materials Design</b> <a href="https://kaist-dsail.github.io/files/agent4mat2026.pdf" target="_blank">[Slide]</a> @ SAIT, ETRI, DI Workshop 2026
-- <b>LLM기반 멀티모달 시계열 분석 </b><a href="https://kaist-dsail.github.io/files/mmts2026.pdf" target="_blank">[Slide]</a> @ ETRI
+- <b>Agentic AI for Materials Design</b> <a href="https://kaist-dsail.github.io/files/agent4mat2026.pdf" target="_blank">[Slide]</a>
+- <b>LLM기반 멀티모달 시계열 분석 </b><a href="https://kaist-dsail.github.io/files/mmts2026.pdf" target="_blank">[Slide]</a> 
 - <b>인공지능 기반 scRNA-seq Data 분석</b> <a href="https://kaist-dsail.github.io/files/scrnaseq2025.pdf" target="_blank">[Slide1]</a><a href="https://kaist-dsail.github.io/files/kogo2026.pdf" target="_blank">[Slide2]</a>
-- <b>Learning on Graph and its Application to Biomedical Data</b> [[Slide]](https://kaist-dsail.github.io/files/LOG2024.pdf){:target="_blank"} @ 
-<a href="https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20240101&CpPage=231#CONF" target="_blank">2024 한국인공지능학회 동계단기강좌</a>
-- <b>그래프 신경망 기반 화학/소재분야 연구 동향 (Out-of-Distribution 문제를 중심으로)</b> <a href="https://kaist-dsail.github.io/files/SAIT2023.pdf" target="_blank">[Slide]</a> @ SAIT, 삼성전자 DS
-- <b>Universal User Representation Learning based on Continual Learning</b> <a href="https://kaist-dsail.github.io/files/NAVER_Techtalk2023.pdf" target="_blank">[Slide]</a> @ NAVER Techtalk
-- <b>그래프 신경망 기반 화학/소재분야 연구 동향</b> <a href="https://kaist-dsail.github.io/files/KCC2023.pdf" target="_blank">[Slide]</a> @ <a href="https://www.kiise.or.kr/conference/main/getContent.do?CC=KCC&CS=2023&PARENT_ID=011500&content_no=1795" target="_blank">KCC 2023</a>, 
-<a href="https://www.materic.or.kr/v2/mchannel/view.asp?id=6269&type=webinar" target="_blank">메릭웨비나</a> 
-- <b>Representation Learning on Graphs</b> [[Slide]](https://kaist-dsail.github.io/files/GRL.pdf){:target="_blank"} @ IBS Data Science Group
-- <b>Recent Advancement in Machine Learning on Graph 2</b> [[Slide]](https://kaist-dsail.github.io/files/MLGraph2022.pdf){:target="_blank"} @ 
-<a href="https://sites.google.com/view/dbsummerschool2022" target="_blank">2022 데이터베이스 소사이어티 여름학교</a>
-- <b>Recent Advancement in Machine Learning on Graph 1</b> [[Slide]](https://kaist-dsail.github.io/files/MLGraph2021.pdf){:target="_blank"} @ 
-<a href="http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF" target="_blank">2021 한국인공지능학회 동계단기강좌</a>,
-KRICT,
-<a href="https://cse.postech.ac.kr/recent-advances-in-machine-learning-on-graphs/?pageds=3&p_id=80&k=&c= " target="_blank">POSTECH CSE</a>,
-<a href="https://cs.sogang.ac.kr/front/cmsboardview.do?currentPage=1&searchField=D.TITLE&searchValue=%EC%84%B8%EB%AF%B8%EB%82%98&searchLowItem=ALL&bbsConfigFK=1905&siteId=cs&pkid=868035" target="_blank">Sogang CSE</a>,
-<a href="http://kiie.org/wp/2021a/online.asp" target="_blank">2021 대한산업공학회 춘계학술대회</a>,
-ETRI,
-NewDB,
-<a href="https://data.seoultech.ac.kr/notice/bbs/?do=view&profboardidx=0&bnum=57140&bidx=511932&cate=7&allboard=false&nowpage=1" target="_blank">SeoulTech Data Science</a>,
-APCTP,
-<a href="http://www.bigcomputing.org/tutorials.html" target="_blank">IEEE BigComp 2022 Tutorial</a>
-- <b>Graph-based Multi-aspect User Behavior Analysis</b> @ 
-<a href="https://www.kiise.or.kr/conference/main/getContent.do?CC=kcc&CS=2021&content_no=1350&PARENT_ID=011400" target="_blank">KCC</a>,
-Korea Military Academy,
-<a href="https://event.dbsj.org/kjdb2021/index.html" target="_blank">KJDB</a>
+- <b>Learning on Graph and its Application to Biomedical Data</b> [[Slide]](https://kaist-dsail.github.io/files/LOG2024.pdf){:target="_blank"} 
+- <b>그래프 신경망 기반 화학/소재분야 연구 동향 (Out-of-Distribution 문제를 중심으로)</b> <a href="https://kaist-dsail.github.io/files/SAIT2023.pdf" target="_blank">[Slide]</a>
+- <b>Universal User Representation Learning based on Continual Learning</b> <a href="https://kaist-dsail.github.io/files/NAVER_Techtalk2023.pdf" target="_blank">[Slide]</a>
+- <b>그래프 신경망 기반 화학/소재분야 연구 동향</b> <a href="https://kaist-dsail.github.io/files/KCC2023.pdf" target="_blank">[Slide]</a>
+- <b>Representation Learning on Graphs</b> [[Slide]](https://kaist-dsail.github.io/files/GRL.pdf){:target="_blank"}
+- <b>Recent Advancement in Machine Learning on Graph 2</b> [[Slide]](https://kaist-dsail.github.io/files/MLGraph2022.pdf){:target="_blank"}
+- <b>Recent Advancement in Machine Learning on Graph 1</b> [[Slide]](https://kaist-dsail.github.io/files/MLGraph2021.pdf){:target="_blank"}
+<!-- - <b>Graph-based Multi-aspect User Behavior Analysis</b>  -->
 
 
 ### Academic Services
