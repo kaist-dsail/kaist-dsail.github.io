@@ -106,6 +106,9 @@ permalink: /professor/
   + Spring 2022
 
 ### Selected Talks
+
+- <b>Detecting Change, Not Just State: Change-Aware Graph Learning for Evolving Fraud and Abuse</b> <a href="https://kaist-dsail.github.io/files/kddworkshop2026.pdf" target="_blank">[Slide]</a> @ KDD 2026 Workshop on
+AI for Fraud and Abuse
 - <b>Agentic AI for Materials Design</b> <a href="https://kaist-dsail.github.io/files/agent4mat2026.pdf" target="_blank">[Slide]</a> @ SAIT, ETRI, DI Workshop 2026
 - <b>멀티모달 시계열 분석 </b><a href="https://kaist-dsail.github.io/files/mmts2026.pdf" target="_blank">[Slide]</a> @ ETRI
 - <b>인공지능 기반 scRNA-seq Data 분석</b> <a href="https://kaist-dsail.github.io/files/scrnaseq2025.pdf" target="_blank">[Slide1]</a><a href="https://kaist-dsail.github.io/files/kogo2026.pdf" target="_blank">[Slide2]</a>
