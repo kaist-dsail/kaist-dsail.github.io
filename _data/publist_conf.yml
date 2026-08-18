@@ -20,7 +20,7 @@
   pdf_url: https://dsail.kaist.ac.kr/publications_conference/
 
 - title: A Behavioral Trait Leaks into Preferences&#58; Diagnosing Trait Interference in LLM User Simulators
-  authors: Chaehyun Kim, Sein Kim, Hongseok Kang and Chanyoung Park
+  authors: Chaehyun Kim, Sein Kim, Hongseok Kang, Chanyoung Park
   venue: CIKM 2026
   venue_full: ACM International Conference on Information and Knowledge Management (Short paper)
   year: 2026
@@ -28,7 +28,7 @@
 
 
 - title: HUGETIME at eRisk 2026&#58; Bucket-wise Evidence Pruning for Contextualized Early Depression Detection
-  authors: Ilho Shin, Hyunchul Kim and Chanyoung Park
+  authors: Ilho Shin, Hyunchul Kim, Chanyoung Park
   venue: CLEF 2026
   venue_full: The Conference and Labs of the Evaluation Forum
   remark: Ranked 1st in Task 2&#58; Contextualized Early Detection of Depression at CLEF eRisk 2026
