@@ -1,3 +1,13 @@
+- name: Jimin Seo
+  photo: jimin_seo.jpg
+  info: Aug. 2026
+  career: SK Hynix
+
+- name: Hongseok Kang
+  photo: hongseok_kang.jpg
+  info: Aug. 2026
+  career: KAIST (Ph.D. Student @ DSAIL)
+
 - name: Hyunchul Kim
   photo: Hyunchul_Kim.jpg
   info: Feb. 2026
