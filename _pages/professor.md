@@ -195,6 +195,7 @@ AI for Fraud and Abuse
 - Frontiers in Big Data -->
 
 #### Event Organizations
+- Organizer, <a href="https://holymollyhao.github.io/ai4science-korea/" target="_blank">Korea AI4Science Gathering @ ICML</a> [2026]
 - Organizer, <a href="https://kdd26scisocllm.github.io/" target="_blank">KDD'26 Workshop on SciSoc Agents & LLMs</a> [2026]
 - General Chair, The ACM International Conference on Information and Knowledge Management (CIKM) [2025]
 - Proceedings Chair, The ACM International Conference on Information and Knowledge Management (CIKM) [2023]
