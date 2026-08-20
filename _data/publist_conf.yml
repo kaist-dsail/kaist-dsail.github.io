@@ -161,14 +161,11 @@
   pdf_url: https://arxiv.org/pdf/2502.17506
   code_url: https://github.com/Genentech/CLADD
 
-
-
-
 - title: Physics-Embedded Graph Neural Operator for Interaction-Controlled Colloidal Aggregation
   authors: Yongjoon Choe, Sungwon Kim, Susan E. Burns, Chanyoung Park
   pdf_url: https://openreview.net/pdf?id=YiazBzWRAU#discussion
   year: 2026
-  venue: Workshop on Reliable Scientific Foundation Models (KDD 2026 Workshop)
+  venue: Workshop on Reliable Scientific Foundation Models (KDD 2026 Workshop) <a href="https://kaist-dsail.github.io/files/RelSciFM2024_award.jpg" target="_blank"><FONT COLOR="#ff0000"><u>(Best Paper Award)</u></FONT></a>
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
 - title: Revisiting CF-Integrated LLM Recommenders through Dimensional Collapse
@@ -203,7 +200,7 @@
   authors: Yeonjun In, Wonjoong Kim, Sangwu Park, Kanghoon Yoon, Chanyoung Park
   pdf_url: https://openreview.net/pdf?id=JgufuK0zxh
   year: 2026
-  venue: Workshop on Personal Intelligence in Agentic AI Era (KDD 2026 Workshop)
+  venue: Workshop on Personal Intelligence in Agentic AI Era (KDD 2026 Workshop) <a href="https://kaist-dsail.github.io/files/PILA2026_award.jpg" target="_blank"><FONT COLOR="#ff0000"><u>(Best Paper Award)</u></FONT></a>
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
 - title: Compositional Spectral Prompts for LLM-based Online Time Series Forecasting
