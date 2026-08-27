@@ -1,3 +1,8 @@
+- title: AutoSaddler&#58; Automatic Harness Optimization with Durable Updates from Agent Execution Traces
+  authors: Sungho Park, Wonjoong Kim, Rongyuan Tan, Jue Zhang, Wook-Shin Han, Pengfei Gao, Chanyoung Park, Yongqiang Yao, Rao Fu, Elsie Nallipogu, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang
+  pdf_url: https://arxiv.org/abs/2608.23041
+  code_url: https://github.com/microsoft/AutoSaddler
+
 - title: Screening Lipid Nanoparticles through Structure-Ratio Alignment
   authors: Yoonho Lee, Yunhak Oh, Hoyoung Choi, Chanyoung Park
   pdf_url: https://www.biorxiv.org/content/10.64898/2026.07.08.737142v1.full
