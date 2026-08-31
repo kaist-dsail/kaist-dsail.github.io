@@ -20,6 +20,12 @@ permalink: /projects.html
 - 유동영역 3D AI Simulation 기술 개발
 - 금속 소재 거대 AI 파운데이션 개발 (소재 특화 파운데이션 모델의 최적화 및 경량화 기술 개발)
 - Coordinate-Invariant Neural Operators for Geometry-Transferable 3D PDE Solving
+- 컴파운드 레시피 개발 프로세스 혁신을 위한 Hierarchical Agentic Hybrid Optimization
+- AI기반 다크팩토리 설계-구축 솔루션 개발
+- AI 기반 소재·소자 수명과학 연구센터
+- 전이학습 기반 복합소재 물성 예측 AI 개발 및 최적화
+- 멀티모달 복합 추론을 통한 재범 위험도 분석 및 추론 연구
+
 
 #### Done
 - 빅데이터 기반 범용 의사결정 지원 시스템
