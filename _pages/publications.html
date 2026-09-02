@@ -296,7 +296,8 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
       const th=tById[p.theme], sub=p.domain?{name:(DOMS.find(x=>x.id===p.domain)||{}).name+(p.sci_llm?' · Scientific LLM':'')}:null;
       const sec=(p.secondary||[]).map(s=>tById[s].name).join(', ');
       const yh=p.year!==prevYear?`<li class="yh"><h3>${p.year}</h3><div class="ystats">${yearStats(p.year)}</div></li>`:''; prevYear=p.year;
-      const extra=Object.entries(p.links||{}).map(([k,u])=>`<a href="${u}" target="_blank" rel="noopener">${{model:'Model',dataset:'Dataset',slide:'Slides',video:'Video',news:'News'}[k]||k}</a>`).join('');
+      const LBL={model:'Model',dataset:'Dataset',slide:'Slides',video:'Video',news:'News'};
+      const extra=Object.entries(p.links||{}).map(([k,u])=>`<a href="${u}" target="_blank" rel="noopener">${LBL[k]||k}</a>`).join('');
       return yh+`<li><div>
         <div class="ttl">${esc(p.title)}</div>
         <div class="meta"><span class="badge">${p.venue}</span>${badge(p)}${p.note?`<span class="badge note">${p.note}</span>`:''}${p.also_in&&p.also_in.length?`<span class="also">also appeared in ${p.also_in.join(', ')}</span>`:''}<span><span class="dot" style="background:${th.color}"></span> ${th.name}${sub?' · '+sub.name:''}${sec?` <span class="muted">+ ${sec}</span>`:''}</span></div>
