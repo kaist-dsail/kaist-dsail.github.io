@@ -52,6 +52,11 @@ header.top nav a.on{border-bottom:2px solid var(--ink);padding-bottom:2px}
 .hero{padding:56px 0 44px;display:grid;grid-template-columns:1fr;gap:40px}
 .hero .lede{font-size:18px;color:var(--ink-2);max-width:44em;margin-top:18px}
 .stats{display:flex;gap:26px;margin-top:30px;flex-wrap:wrap}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.jump{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px;font-size:14px}
+.jump a{text-decoration:none;color:var(--ink-2);border-bottom:1px solid var(--rule);padding-bottom:2px}
+.jump a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+
 .stat b{display:block;font-family:var(--serif);font-weight:500;font-size:32px;line-height:1}
 .stat span{display:block;font-size:12.5px;color:var(--muted);margin-top:6px}
 
@@ -225,14 +230,15 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 <main class="wrap" id="app">
   <div class="hero" id="overview">
     <div>
-      <h1>From representation learning to reasoning and autonomous discovery.</h1>
-      <p class="lede">DSAIL develops AI systems that learn from complex relational, multimodal, time-series, and scientific data, and extends these representations toward personalization, reasoning, agentic decision making, and scientific discovery.</p>
+        <h1>Research</h1>
+        <p class="lede">Our research areas, where they intersect, and where they are applied.</p>
+        <nav class="jump" aria-label="On this page"><a href="#areas">Areas</a><a href="#converge">Intersections</a><a href="#apps">Applications</a><a href="/publications/">All publications →</a></nav>
     </div>
     <div>
-      <div class="landscape" id="landscape" role="img" aria-label="Research landscape: data, representation and learning, reasoning and agents, and outcomes, with the five research areas placed along the way"></div>
+      <div class="landscape" id="landscape" role="img" aria-label="Research landscape: AI for Science and Engineering across the top, and five foundation areas below"></div>
+      <p class="hint">Click an area to jump to it.</p>
     </div>
   </div>
-
 
   <div id="areas"></div>
 
