@@ -379,6 +379,37 @@
    ]
   },
   {
+   "id": "timeseries",
+   "name": "Time-series & Spatio-temporal Modeling",
+   "short": "Time series",
+   "color": "#B5485D",
+   "kind": "area",
+   "definition": "Forecasting and adapting to non-stationary time series — from traffic and sensor streams to time-series foundation models tuned with LLM prompts.",
+   "questions": [
+    "How should time-series foundation models be fine-tuned to new domains with few parameters?",
+    "Can forecasters adapt online as the data distribution drifts?",
+    "How do spatial structure and temporal dynamics combine in traffic and sensor networks?"
+   ],
+   "tags": [
+    "time-series foundation models",
+    "parameter-efficient fine-tuning",
+    "online forecasting",
+    "spectral prompting",
+    "continual forecasting",
+    "traffic forecasting",
+    "temporal graphs",
+    "mixture of experts",
+    "anomaly detection"
+   ],
+   "representative": [
+    "p020",
+    "p008",
+    "p006",
+    "p007",
+    "p074"
+   ]
+  },
+  {
    "id": "applications",
    "name": "Applications",
    "ko": "실세계 응용",
@@ -492,10 +523,11 @@
    "venue": "Preprint",
    "year": 2024,
    "type": "preprint",
-   "theme": "applications",
+   "theme": "timeseries",
    "subtheme": null,
    "secondary": [
-    "graph"
+    "graph",
+    "applications"
    ],
    "pdf": "https://arxiv.org/pdf/2406.03140",
    "code": null,
@@ -510,10 +542,11 @@
    "venue": "Preprint",
    "year": 2024,
    "type": "preprint",
-   "theme": "applications",
+   "theme": "timeseries",
    "subtheme": null,
    "secondary": [
-    "graph"
+    "graph",
+    "applications"
    ],
    "pdf": "https://arxiv.org/abs/2406.02726",
    "code": null,
@@ -528,10 +561,11 @@
    "venue": "CIKM 2026",
    "year": 2026,
    "type": "main",
-   "theme": "applications",
+   "theme": "timeseries",
    "subtheme": null,
    "secondary": [
-    "llm"
+    "llm",
+    "applications"
    ],
    "pdf": null,
    "code": null,
@@ -751,9 +785,11 @@
    "venue": "ICML 2026",
    "year": 2026,
    "type": "main",
-   "theme": "applications",
+   "theme": "timeseries",
    "subtheme": null,
-   "secondary": [],
+   "secondary": [
+    "applications"
+   ],
    "pdf": "https://openreview.net/pdf?id=n8seTOinYs",
    "code": null,
    "note": null,

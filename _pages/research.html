@@ -56,7 +56,7 @@ section{padding:52px 0;border-top:1px solid var(--rule)}
 .section-head p{max-width:46em;color:var(--ink-2)}
 
 /* area strip */
-.strip{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.strip{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
 .strip a{text-decoration:none;border-top:3px solid var(--c);padding:12px 2px 0;display:block}
 .strip a b{display:block;font-weight:600;font-size:15px;line-height:1.3}
 .strip a span{display:block;font-size:13px;color:var(--muted);margin-top:4px}
@@ -256,7 +256,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   }
   const ALL=data.themes, P=data.papers;
   const tById=Object.fromEntries(ALL.map(t=>[t.id,t]));
-  const AREA_ORDER=['ai4sci','llm','graph','recsys','multimodal'];
+  const AREA_ORDER=['ai4sci','llm','graph','recsys','multimodal','timeseries'];
   const AREAS=ALL.filter(t=>t.kind==='area').sort((a,b)=>AREA_ORDER.indexOf(a.id)-AREA_ORDER.indexOf(b.id));
   const subById={}; ALL.forEach(t=>(t.subthemes||[]).forEach(s=>subById[s.id]=s));
   const pById=Object.fromEntries(P.map(p=>[p.id,p]));
@@ -287,7 +287,8 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
     cell('graph',L.x+12,rows.rep[0]+26,180,rows.rep[1]-rows.rep[0]-36,['Graph & Relational','Learning'],'robust, label-efficient GNNs');
     cell('multimodal',L.x+200,rows.rep[0]+26,180,rows.rep[1]-rows.rep[0]-36,['Multimodal','Intelligence'],'vision–language alignment');
     cell('llm',L.x+12,rows.rea[0]+26,368,rows.rea[1]-rows.rea[0]-36,['Agentic AI & Reasoning'],'reasoning · tools · memory · safety');
-    cell('recsys',L.x+12,rows.out[0]+26,368,rows.out[1]-rows.out[0]-36,['Personalized Intelligence & Recommendation'],'LLM-based and self-evolving recommenders');
+    cell('recsys',L.x+12,rows.out[0]+26,232,rows.out[1]-rows.out[0]-36,['Personalized Intelligence'],'LLM-based recommenders');
+    cell('timeseries',L.x+252,rows.out[0]+26,128,rows.out[1]-rows.out[0]-36,['Time series'],'forecasting');
     up(L.x+L.w/2,rows.rea[1]+5); up(L.x+L.w/2,rows.out[1]+5);
     // AI for Science column
     const g=c('ai4sci'), ty=rows.out[0], by=rows.rep[1];
