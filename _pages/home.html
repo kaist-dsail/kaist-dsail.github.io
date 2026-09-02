@@ -208,6 +208,16 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   .reps li{grid-template-columns:1fr;gap:4px}
 }
 
+
+/* research overview figure */
+.overview{margin:0}
+.overview a{display:block}
+.overview img{width:100%;height:auto;display:block}
+@media (max-width:860px){
+  .overview{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .overview img{min-width:1000px}
+}
+
 /* home */
 .hero{padding:64px 0 48px}
 .hero .lede{font-size:19px;max-width:44em}
@@ -261,17 +271,16 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 
   <section id="research">
     <div class="section-head"><h2>Research at a glance</h2><p>Described in full on the <a href="/research/">Research</a> page.</p></div>
-     <div class="agrid"><a class="acard" href="/research/#area-ai4sci" style="--c:#2E8B6E"><h3>AI for Science & Engineering</h3><p>Representations and agents for molecules, materials, cells, physical systems, and circuits — from property prediction to synthesis planning, with LLM agents that read spectra, plan experiments, and run parts of the scientific loop.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-llm" style="--c:#7A4FA8"><h3>Agentic AI & Reasoning</h3><p>LLM agents that reason over multiple steps, use tools and memory, act, and improve from feedback — evaluated on the process, not just the final answer, and aligned to each user's safety needs.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-graph" style="--c:#2F6DB5"><h3>Graph & Relational Learning</h3><p>Learning from relational data — networks, hypergraphs, and interaction structures — with representations that generalize under noise, scarce labels, and distribution shift.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-recsys" style="--c:#C6542B"><h3>Personalized Intelligence & Recommendation</h3><p>Modeling users and items from interaction data, from collaborative filtering to LLM-based and self-evolving recommender systems.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-multimodal" style="--c:#B58A1E"><h3>Multimodal Intelligence</h3><p>Aligning images, video, and language into representations that support fine-grained understanding and compositional reasoning, efficiently.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-timeseries" style="--c:#B5485D"><h3>Time-series & Spatio-temporal Modeling</h3><p>Forecasting and adapting to non-stationary time series — from traffic and sensor streams to time-series foundation models tuned with LLM prompts.</p><span class="more">Read more →</span></a></div><div class="apps-strip"><span class="lbl">Applied to</span><a href="/research/#apps">Sports analytics</a><a href="/research/#apps">Finance</a><a href="/research/#apps">Circuits & EDA</a><a href="/research/#apps">Time series</a><a href="/research/#apps">Social & online media</a><a href="/research/#apps">Healthcare & biology</a><a href="/research/#apps">Drug discovery</a><a href="/research/#apps">Materials</a></div>
-  </section>
-
-  <section id="highlights">
-    <div class="section-head"><h2>Recent highlights</h2></div>
-    <div class="hls"><a class="hl" href="https://www.sciencedirect.com/science/article/pii/S0043135426004550" target="_blank" rel="noopener"><span class="tag">Best Paper Award</span><span class="where">KDD 2026 Workshop on Reliable Scientific Foundation Models</span><span class="what">Physics-embedded graph neural operator for colloidal aggregation, also published in <em>Water Research</em>.</span></a><a class="hl" href="https://arxiv.org/abs/2605.25535" target="_blank" rel="noopener"><span class="tag">Best Paper Award</span><span class="where">KDD 2026 Workshop on Personal Intelligence in the Agentic AI Era</span><span class="what">Personalize-then-Store: benchmarking and learning personalized memory for long-horizon agents.</span></a><a class="hl" href="https://clef-staging.pages.dev/paper141.pdf" target="_blank" rel="noopener"><span class="tag">1st place</span><span class="where">CLEF eRisk 2026, contextualized early detection of depression</span><span class="what">Ilho Shin and Hyunchul Kim, with bucket-wise evidence pruning for early detection.</span></a><a class="hl" href="https://openreview.net/forum?id=cH65nS5sOz" target="_blank" rel="noopener"><span class="tag">Oral</span><span class="where">ICLR 2025</span><span class="what">Subgraph federated learning for local generalization (FedLoG), also Best Paper at the KDD 2024 FedKDD workshop.</span></a><a class="hl" href="https://arxiv.org/abs/2412.02957" target="_blank" rel="noopener"><span class="tag">Spotlight</span><span class="where">NeurIPS 2025</span><span class="what">3D interaction geometric pre-training for molecular relational learning.</span></a></div>
+    <figure class="overview">
+      <a href="/images/research_overview.svg" target="_blank" rel="noopener" title="Open full size">
+        <img src="/images/research_overview_home.svg" alt="DSAIL research overview: complex data → representation learning → specialized intelligence → reasoning &amp; agentic AI, applied to AI for science and diverse domains" loading="lazy">
+      </a>
+    </figure>
   </section>
 
   <section id="news">
     <div class="section-head"><h2>News</h2><p><a href="/news">See all news →</a></p></div>
-    <ul class="news">{% for article in site.data.news limit:6 %}<li><span class="date">{{ article.date }}</span><span class="head">{{ article.headline }}</span></li>{% endfor %}</ul>
+    <ul class="news">{% for article in site.data.news limit:10 %}<li><span class="date">{{ article.date }}</span><span class="head">{{ article.headline }}</span></li>{% endfor %}</ul>
   </section>
 
   <section id="join">
