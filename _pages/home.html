@@ -22,7 +22,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font
 a{color:inherit}
 .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
 h1,h2,h3,h4{font-family:var(--serif);font-weight:500;margin:0;letter-spacing:-.01em}
-h1{font-size:clamp(32px,4vw,48px);line-height:1.08}
+h1{font-size:clamp(32px,4vw,48px);line-height:1.08;max-width:20em}
 h2{font-size:clamp(24px,2.6vw,32px);line-height:1.15}
 h3{font-size:22px;line-height:1.2}
 p{margin:0}
@@ -38,8 +38,8 @@ header.top nav a{text-decoration:none;color:var(--ink-2)}
 header.top nav a:hover{color:var(--ink)}
 
 /* hero */
-.hero{padding:56px 0 44px;display:grid;grid-template-columns:5fr 6fr;gap:48px;align-items:center}
-.hero .lede{font-size:18px;color:var(--ink-2);max-width:34em;margin-top:18px}
+.hero{padding:64px 0 48px}
+.hero .lede{font-size:18px;color:var(--ink-2);max-width:44em;margin-top:18px}
 .stats{display:flex;gap:26px;margin-top:30px;flex-wrap:wrap}
 .stat b{display:block;font-family:var(--serif);font-weight:500;font-size:32px;line-height:1}
 .stat span{display:block;font-size:12.5px;color:var(--muted);margin-top:6px}
@@ -180,7 +180,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   header.top nav{gap:14px;font-size:13px}
   header.top nav a:last-child{display:none}
   .wrap{padding:0 20px}
-  .hero{grid-template-columns:1fr;gap:32px;padding-top:36px}
+  .hero{gap:28px;padding-top:36px}
   .strip{grid-template-columns:1fr 1fr}
   .area-block .grid{grid-template-columns:1fr;gap:24px}
   .stages,.topics{grid-template-columns:1fr}
@@ -200,7 +200,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 
 /* home */
 .hero{padding:64px 0 48px}
-.hero .lede{font-size:19px}
+.hero .lede{font-size:19px;max-width:44em}
 .ctas{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
 .btn{display:inline-block;text-decoration:none;font-size:14.5px;font-weight:500;padding:10px 18px;border-radius:6px;border:1px solid var(--ink);color:var(--ink)}
 .btn.primary{background:var(--ink);color:#fff}
@@ -247,7 +247,6 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
       <p class="lede">We are DSAIL at KAIST, led by <a href="/professor">Prof. Chanyoung Park</a>. We develop AI systems that learn from complex relational, multimodal, time-series, and scientific data, and extend these representations toward personalization, reasoning, agentic decision making, and scientific discovery.</p>
       <div class="ctas"><a class="btn primary" href="/research/">Explore our research</a><a class="btn" href="#join">Join us</a></div>
     </div>
-    <div><div class="landscape" id="landscape"></div></div>
   </div>
 
   <section id="research">
@@ -278,43 +277,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 <script>
 (function(){
   const tById={"ai4sci": {"color": "#2E8B6E"}, "llm": {"color": "#7A4FA8"}, "graph": {"color": "#2F6DB5"}, "recsys": {"color": "#C6542B"}, "multimodal": {"color": "#B58A1E"}, "timeseries": {"color": "#B5485D"}};
-  (function landscape(){
-    const W=600,H=440,F='Inter,system-ui,sans-serif',S='Fraunces,Georgia,serif';
-    const c=id=>tById[id].color;
-    const R={x:0,w:188}, L={x:208,w:392};
-    const rows={out:[30,118],rea:[138,226],rep:[246,366]};   // [top,bottom]
-    let o=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Research landscape: representation learning at the base, reasoning and agents above it, personalization and decision making on top; AI for Science runs through all layers">`;
-    const band=(y0,y1,label)=>{o+=`<rect x="${L.x}" y="${y0}" width="${L.w}" height="${y1-y0}" fill="#f5f4f0" rx="6"/>`;
-      o+=`<text x="${L.x+12}" y="${y0+16}" font-family="${F}" font-size="10.5" font-weight="600" letter-spacing=".08em" fill="#6f6e69">${label.toUpperCase()}</text>`;};
-    const cell=(id,x,y,w,h,lines,sub)=>{const col=c(id);
-      o+=`<a href="/research/#area-${id}"><g><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="6" fill="${col}" fill-opacity=".1" stroke="${col}" stroke-width="1.5"/>`;
-      lines.forEach((t,i)=>o+=`<text x="${x+14}" y="${y+24+i*19}" font-family="${S}" font-size="16.5" fill="#1c1b19">${t}</text>`);
-      if(sub) o+=`<text x="${x+14}" y="${y+h-10}" font-family="${F}" font-size="11.5" fill="#4a4944">${sub}</text>`;
-      o+=`</g></a>`;};
-    const up=(x,y)=>o+=`<path d="M ${x-5} ${y+5} L ${x} ${y} L ${x+5} ${y+5}" fill="none" stroke="#9b988f" stroke-width="1.5"/><line x1="${x}" y1="${y}" x2="${x}" y2="${y+12}" stroke="#9b988f" stroke-width="1.5"/>`;
-    band(rows.rep[0],rows.rep[1],'Representation learning');
-    band(rows.rea[0],rows.rea[1],'Reasoning & action');
-    band(rows.out[0],rows.out[1],'Personalization & decision making');
-    cell('graph',L.x+12,rows.rep[0]+26,180,rows.rep[1]-rows.rep[0]-36,['Graph & Relational','Learning'],'robust, label-efficient GNNs');
-    cell('multimodal',L.x+200,rows.rep[0]+26,180,rows.rep[1]-rows.rep[0]-36,['Multimodal','Intelligence'],'vision–language alignment');
-    cell('llm',L.x+12,rows.rea[0]+26,368,rows.rea[1]-rows.rea[0]-36,['Agentic AI & Reasoning'],'reasoning · tools · memory · safety');
-    cell('recsys',L.x+12,rows.out[0]+26,232,rows.out[1]-rows.out[0]-36,['Personalized Intelligence'],'LLM-based recommenders');
-    cell('timeseries',L.x+252,rows.out[0]+26,128,rows.out[1]-rows.out[0]-36,['Time series'],'forecasting');
-    up(L.x+L.w/2,rows.rea[1]+5); up(L.x+L.w/2,rows.out[1]+5);
-    // AI for Science column
-    const g=c('ai4sci'), ty=rows.out[0], by=rows.rep[1];
-    o+=`<a href="/research/#area-ai4sci"><g><rect x="${R.x}" y="${ty}" width="${R.w}" height="${by-ty}" rx="6" fill="${g}" fill-opacity=".1" stroke="${g}" stroke-width="1.5"/>`;
-    o+=`<text x="${R.x+14}" y="${ty+26}" font-family="${S}" font-size="16.5" fill="#1c1b19">AI for Science</text><text x="${R.x+14}" y="${ty+45}" font-family="${S}" font-size="16.5" fill="#1c1b19">&amp; Engineering</text>`;
-    const steps=['Discover','Design','Predict','Represent'];
-    steps.forEach((t,i)=>{const yy=ty+84+i*60; o+=`<circle cx="${R.x+22}" cy="${yy}" r="4" fill="${g}"/><text x="${R.x+34}" y="${yy+4.5}" font-family="${F}" font-size="12.5" fill="#1c1b19">${t}</text>`; if(i===0) o+=`<text x="${R.x+34}" y="${yy+20}" font-family="${F}" font-size="11" fill="${g}">with scientific LLM agents</text>`;
-      if(i<steps.length-1) o+=`<line x1="${R.x+22}" y1="${yy+8}" x2="${R.x+22}" y2="${yy+52}" stroke="${g}" stroke-opacity=".5" stroke-width="1.5"/>`;});
-    o+=`<text x="${R.x+14}" y="${by-12}" font-family="${F}" font-size="11.5" fill="#4a4944">runs through every layer</text></g></a>`;
-    // data inputs
-    const din=(x,t)=>o+=`<text x="${x}" y="${H-24}" font-family="${F}" font-size="12" fill="#6f6e69" text-anchor="middle">${t}</text><line x1="${x}" y1="${H-40}" x2="${x}" y2="${rows.rep[1]+8}" stroke="#c9c6be" stroke-width="1"/><path d="M ${x-4} ${rows.rep[1]+12} L ${x} ${rows.rep[1]+8} L ${x+4} ${rows.rep[1]+12}" fill="none" stroke="#c9c6be"/>`;
-    din(R.x+R.w/2,'molecules · materials · cells'); din(L.x+102,'relational data'); din(L.x+290,'images · video · text');
-    o+='</svg>';
-    document.getElementById('landscape').innerHTML=o;
-  })();
+
 })();
 </script>
 </body>
