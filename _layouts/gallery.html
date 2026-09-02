@@ -200,7 +200,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 .gal{display:grid;grid-template-columns:1fr 1fr;gap:28px 24px;padding:24px 0 48px}
 .gal figure{margin:0}
 .gal img{width:100%;border-radius:8px;display:block;background:var(--surface)}
-.gal figcaption{margin-top:8px;font-size:14.5px;color:var(--ink-2)}
+.gal figcaption{margin-bottom:8px;font-size:14.5px;color:var(--ink-2)}
 @media (max-width:860px){.gal{grid-template-columns:1fr}}
 
 </style>
@@ -213,7 +213,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 <main class="wrap">
   <div class="phead"><a class="back" href="/photo/">← All photos</a><h1>{{ page.heading }}</h1></div>
   {% assign pics = site.data[page.data] %}
-  <div class="gal">{% for pic in pics %}<figure><img src="/images/activity/{{ page.folder }}/{{ pic.image }}" alt="{{ pic.info }}" loading="lazy">{% if pic.info %}<figcaption>{{ pic.info }}</figcaption>{% endif %}</figure>{% endfor %}</div>
+  <div class="gal">{% for pic in pics %}<figure>{% if pic.info %}<figcaption>{{ pic.info }}</figcaption>{% endif %}<img src="/images/activity/{{ page.folder }}/{{ pic.image }}" alt="{{ pic.info }}" loading="lazy"></figure>{% endfor %}</div>
 </main>
 <footer><div class="wrap">© DSAIL, KAIST. Data Science &amp; Artificial Intelligence Lab.</div></footer>
 </body>
