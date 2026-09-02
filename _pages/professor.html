@@ -1,0 +1,281 @@
+---
+title: "Chanyoung Park @ KAIST"
+layout: null
+sitemap: true
+permalink: /professor/
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chanyoung Park — DSAIL @ KAIST</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--surface:#f5f4f0;--ink:#1c1b19;--ink-2:#4a4944;--muted:#6f6e69;--rule:#e2e0da;
+  --serif:"Fraunces",Georgia,serif;--sans:"Inter",system-ui,-apple-system,sans-serif;--max:1140px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;margin:0;letter-spacing:-.01em}
+h1{font-size:clamp(32px,4vw,48px);line-height:1.08}
+h2{font-size:clamp(24px,2.6vw,32px);line-height:1.15}
+h3{font-size:22px;line-height:1.2}
+p{margin:0}
+.muted{color:var(--muted)}
+button{font:inherit;cursor:pointer}
+
+header.top{border-bottom:1px solid var(--rule)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+header.top .brand{display:flex;align-items:center;text-decoration:none}
+header.top .brand img{height:38px;width:auto;display:block}
+header.top nav{display:flex;gap:22px;font-size:14px}
+header.top nav a{text-decoration:none;color:var(--ink-2)}
+header.top nav a:hover{color:var(--ink)}
+
+/* hero */
+.hero{padding:56px 0 44px;display:grid;grid-template-columns:5fr 6fr;gap:48px;align-items:center}
+.hero .lede{font-size:18px;color:var(--ink-2);max-width:34em;margin-top:18px}
+.stats{display:flex;gap:26px;margin-top:30px;flex-wrap:wrap}
+.stat b{display:block;font-family:var(--serif);font-weight:500;font-size:32px;line-height:1}
+.stat span{display:block;font-size:12.5px;color:var(--muted);margin-top:6px}
+
+/* landscape figure */
+.landscape svg{width:100%;height:auto;display:block}
+.landscape a{text-decoration:none}
+.landscape a:hover rect{fill-opacity:.2}
+.hint{font-size:13px;color:var(--muted);margin-top:14px}
+
+section{padding:52px 0;border-top:1px solid var(--rule)}
+.section-head{display:flex;justify-content:space-between;align-items:baseline;gap:24px;flex-wrap:wrap;margin-bottom:24px}
+.section-head p{max-width:46em;color:var(--ink-2)}
+
+/* area strip */
+.strip{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.strip a{text-decoration:none;border-top:3px solid var(--c);padding:12px 2px 0;display:block}
+.strip a b{display:block;font-weight:600;font-size:15px;line-height:1.3}
+.strip a span{display:block;font-size:13px;color:var(--muted);margin-top:4px}
+
+/* areas */
+.area-block{padding:44px 0;border-top:1px solid var(--rule);scroll-margin-top:24px}
+.area-block .grid{display:grid;grid-template-columns:5fr 7fr;gap:40px}
+.lead{border-left:4px solid var(--c);padding-left:20px}
+.lead .count{font-size:13px;color:var(--muted);margin-top:8px}
+.lead .def{margin-top:12px;color:var(--ink-2);font-size:17px}
+.lead .tags-h{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:22px}
+.lead .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.lead .tags span{font-size:12.5px;color:var(--ink-2);background:var(--surface);border-radius:999px;padding:4px 10px}
+.lead .goto{display:inline-block;margin-top:18px;font-size:14px;color:var(--c);text-decoration:none;border-bottom:1px solid transparent}
+.lead .goto:hover{border-bottom-color:var(--c)}
+.qs{margin:0 0 22px;padding-left:20px;color:var(--ink-2)}
+.qs li{margin-bottom:6px}
+.qs li::marker{color:var(--c)}
+.reps-h{font-family:var(--serif);font-weight:500;font-size:18px;margin:0 0 8px}
+.reps{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.reps li{display:grid;grid-template-columns:108px 1fr;gap:14px;padding:10px 0;border-bottom:1px solid var(--rule);font-size:15px}
+.reps .v{font-size:12.5px;color:var(--ink);font-weight:600;padding-top:3px}
+.reps .v small{display:block;font-weight:400;color:var(--muted);font-size:11.5px;line-height:1.3;margin-top:2px}
+.reps .t{line-height:1.4}
+.reps .t a{text-decoration:none;border-bottom:1px solid var(--rule)}
+.reps .t a:hover{border-bottom-color:var(--ink)}
+.reps .a{font-size:13px;color:var(--muted);margin-top:2px}
+
+/* AI4Sci pipeline */
+.pipe{margin-top:34px;padding-top:26px;border-top:1px dashed var(--rule)}
+.pipe h4{font-size:20px}
+.pipe>p{color:var(--muted);font-size:14px;margin:4px 0 18px}
+.stages{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.stage{padding:16px 18px;border-left:1px solid var(--rule);position:relative;background:#fff}
+.stage:first-child{border-left:0}
+.topics{grid-template-columns:repeat(5,1fr)}
+.topics .stage::after{display:none}
+.topics .stage{padding:14px 14px}
+.topics .stage .sname{font-size:14px}
+.stage:not(:last-child)::after{content:'';position:absolute;right:-7px;top:22px;width:12px;height:12px;border-top:1px solid var(--rule);border-right:1px solid var(--rule);transform:rotate(45deg);background:#fff;z-index:1}
+.stage .sname{font-weight:600;font-size:15px;color:var(--c)}
+.stage .sq{font-size:13px;color:var(--muted);margin:4px 0 12px;line-height:1.4}
+.stage ul{list-style:none;margin:0;padding:0;font-size:13.5px}
+.stage li{padding:4px 0;border-top:1px solid var(--rule);line-height:1.35}
+.stage li a{text-decoration:none;border-bottom:1px solid var(--rule)}
+.stage li a:hover{border-bottom-color:var(--ink)}
+
+/* convergence */
+.conv{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.conv .cell{border:1px solid var(--rule);border-radius:8px;padding:18px 20px}
+.conv .pair{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);margin-bottom:8px}
+.conv .pair .sw{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:-1px}
+.conv h4{font-size:19px}
+.conv p{color:var(--ink-2);font-size:15.5px;line-height:1.5;margin:8px 0 16px}
+.conv .sel{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.conv ul{list-style:none;margin:0;padding:0;font-size:13px}
+.conv li{padding:5px 0;border-top:1px solid var(--rule);line-height:1.35}
+.conv li:first-child{border-top:0}
+.conv li a{color:var(--ink-2)}
+.conv li a{text-decoration:none;border-bottom:1px solid var(--rule)}
+.conv li a:hover{border-bottom-color:var(--ink)}
+
+/* applications */
+.apps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.apps .cell{background:var(--surface);border-radius:8px;padding:16px 18px}
+.apps h4{font-size:17px;margin-bottom:8px}
+.apps ul{list-style:none;margin:0;padding:0;font-size:13.5px}
+.apps li{padding:4px 0;line-height:1.35}
+.apps li a{text-decoration:none;border-bottom:1px solid #d9d6ce}
+.apps li a:hover{border-bottom-color:var(--ink)}
+.apps li span{color:var(--muted)}
+
+/* trend (appendix) */
+.trend{display:grid;grid-template-columns:1fr 200px;gap:28px;align-items:start}
+.trend svg{width:100%;height:auto;display:block}
+.trend .axis text{font-family:var(--sans);font-size:12px;fill:var(--muted)}
+.trend .axis line,.trend .axis path{stroke:var(--rule)}
+.legend{font-size:14px;display:flex;flex-direction:column;gap:10px;padding-top:8px}
+.legend button{display:flex;align-items:center;gap:10px;background:none;border:0;padding:4px 6px;margin:-4px -6px;text-align:left;border-radius:4px;color:var(--ink-2)}
+.legend button:hover,.legend button:focus-visible{background:var(--surface);outline:none}
+.sw{width:12px;height:12px;border-radius:3px;flex:none}
+.trend .bar{transition:opacity .15s}
+.trend .bar.dim{opacity:.25}
+
+/* badges + list */
+.badge{display:inline-block;font-size:11.5px;font-weight:600;padding:2px 7px;border-radius:4px;background:var(--surface);color:var(--ink-2);white-space:nowrap;vertical-align:middle}
+.badge.ws{background:#fff;border:1px solid var(--rule);font-weight:500}
+.badge.pre{background:#fff;border:1px dashed var(--rule);font-weight:500}
+.badge.note{background:transparent;color:var(--muted);font-weight:500;padding-left:0}
+.controls{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+.controls input,.controls select{font:inherit;font-size:14px;padding:8px 10px;border:1px solid var(--rule);border-radius:6px;background:#fff;color:var(--ink)}
+.controls input{min-width:260px;flex:1}
+.controls input:focus,.controls select:focus{outline:2px solid var(--ink);outline-offset:1px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--rule);background:#fff;border-radius:999px;padding:5px 12px;font-size:13px;color:var(--ink-2);display:flex;align-items:center;gap:7px}
+.chip .sw{width:9px;height:9px;border-radius:50%}
+.chip[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.chips[hidden]{display:none}
+.chips.sub{margin-top:8px;padding-left:14px;border-left:2px solid var(--rule)}
+.chips.sub .chip{font-size:12.5px;padding:4px 10px}
+.chip:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.count-line{font-size:14px;color:var(--muted);margin:14px 0 10px}
+.paperlist{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.paperlist li{display:grid;grid-template-columns:52px 1fr auto;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:start}
+.paperlist .yr{font-size:14px;color:var(--muted);padding-top:2px;font-variant-numeric:tabular-nums}
+.paperlist .ttl{font-size:15.5px;line-height:1.4}
+.paperlist .ttl a{text-decoration:none}
+.paperlist .ttl a:hover{text-decoration:underline}
+.paperlist .meta{font-size:13px;color:var(--muted);margin-top:4px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.paperlist .also{color:var(--muted);font-style:italic}
+.paperlist .dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none;vertical-align:middle}
+.paperlist .links{font-size:13px;white-space:nowrap;padding-top:3px}
+.paperlist .links a{color:var(--ink-2);text-decoration:none;margin-left:10px;border-bottom:1px solid var(--rule)}
+.paperlist .links a:hover{border-bottom-color:var(--ink)}
+.empty{padding:28px 0;color:var(--muted)}
+footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px solid var(--rule)}
+.err{background:var(--surface);padding:24px;border-radius:8px;margin:40px 0;color:var(--ink-2)}
+
+@media (max-width:860px){
+  header.top .wrap{height:auto;padding:10px 20px;gap:12px}
+  header.top .brand img{height:30px}
+  header.top nav{gap:14px;font-size:13px}
+  header.top nav a:last-child{display:none}
+  .wrap{padding:0 20px}
+  .hero{grid-template-columns:1fr;gap:32px;padding-top:36px}
+  .strip{grid-template-columns:1fr 1fr}
+  .area-block .grid{grid-template-columns:1fr;gap:24px}
+  .stages,.topics{grid-template-columns:1fr}
+  .stage{border-left:0;border-top:1px solid var(--rule)}
+  .stage:first-child{border-top:0}
+  .stage:not(:last-child)::after{display:none}
+  .conv{grid-template-columns:1fr}
+  .apps{grid-template-columns:1fr 1fr}
+  .trend{grid-template-columns:1fr}
+  .legend{flex-direction:row;flex-wrap:wrap;gap:8px 16px}
+  .paperlist li{grid-template-columns:1fr}
+  .paperlist .yr{display:none}
+  .paperlist .links{padding-top:0}
+  .paperlist .links a:first-child{margin-left:0}
+  .reps li{grid-template-columns:1fr;gap:4px}
+}
+
+.phero{display:grid;grid-template-columns:260px 1fr;gap:44px;padding:56px 0 44px;align-items:start}
+.phero .photo{width:100%;border-radius:8px;display:block}
+.phero h1{font-size:clamp(30px,3.6vw,44px)}
+.phero h1 .ko{font-size:.55em;color:var(--muted);font-weight:400;margin-left:10px}
+.phero .role{font-size:17px;margin-top:8px}
+.phero .affil{font-size:14px;color:var(--ink-2);margin-top:6px;line-height:1.6}
+.phero .affil a{text-decoration:none;border-bottom:1px solid var(--rule)}
+.phero .bio{margin-top:18px;color:var(--ink-2);max-width:40em;font-size:16.5px}
+.phero .meta{font-size:13.5px;color:var(--muted);margin-top:14px}
+.ctas{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;font-size:14px;font-weight:500;padding:9px 16px;border-radius:6px;border:1px solid var(--ink);color:var(--ink)}
+.btn.primary{background:var(--ink);color:#fff} .btn:hover{background:var(--surface)} .btn.primary:hover{background:#333}
+.callout{background:var(--surface);border-radius:10px;padding:26px 28px;max-width:58em}
+.callout h2{font-size:22px}
+.callout p{margin-top:10px;color:var(--ink-2)}
+.callout .small{font-size:14px;color:var(--muted)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.tl{list-style:none;margin:16px 0 0;padding:0}
+.tl>li{padding:12px 0;border-top:1px solid var(--rule)}
+.tl b{display:block;font-weight:600}
+.tl .where{display:block;font-size:13.5px;color:var(--muted);margin-top:2px}
+.tl .where .sub{font-size:12.5px;color:#9a988f}
+.tl ul{margin:6px 0 0;padding-left:18px;font-size:14.5px;color:var(--ink-2)}
+.tl ul li{margin:2px 0}
+.aw{list-style:none;margin:16px 0 0;padding:0;font-size:14.5px}
+.aw li{display:grid;grid-template-columns:52px 1fr;gap:12px;padding:8px 0;border-top:1px solid var(--rule);color:var(--ink-2)}
+.aw .yr{color:var(--muted);font-variant-numeric:tabular-nums}
+.talks{list-style:none;margin:16px 0 0;padding:0;max-width:60em}
+.talks li{padding:10px 0;border-top:1px solid var(--rule);font-size:15px;line-height:1.5}
+.talks .t{font-weight:500}
+.talks .where{color:var(--muted);font-size:13.5px}
+.talks a{font-size:13px;color:var(--ink-2);margin-left:8px;text-decoration:none;border-bottom:1px solid var(--rule)}
+@media (max-width:860px){.phero{grid-template-columns:1fr} .phero .photo{max-width:220px} .two{grid-template-columns:1fr;gap:36px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="/"><img src="/images/logopic/dsail_logo2.png" alt="DSAIL — Data Science &amp; Artificial Intelligence Lab, KAIST"></a>
+  <nav><a href="/">Home</a><a href="/members/" class="on">Team</a><a href="/news">News</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/projects">Projects</a><a href="/photo">Photo</a></nav>
+</div></header>
+
+<main class="wrap">
+  <div class="phero">
+    <img class="photo" src="/images/teampic/faculty.jpg" alt="Chanyoung Park">
+    <div>
+      <h1>Chanyoung Park <span class="ko">박찬영</span></h1>
+      <p class="role">Associate Professor, KAIST</p>
+      <p class="affil"><a href="https://ie.kaist.ac.kr/" target="_blank" rel="noopener">Department of Industrial and Systems Engineering</a> · <a href="http://gsai.kaist.ac.kr/" target="_blank" rel="noopener">Graduate School of AI</a> · <a href="http://gsds.kaist.ac.kr/" target="_blank" rel="noopener">Graduate School of Data Science</a> · <a href="https://ax.kaist.ac.kr/" target="_blank" rel="noopener">Department of AX</a><br>Director, <a href="/">Data Science &amp; Artificial Intelligence Lab (DSAIL)</a></p>
+      <p class="bio">I work on representation learning for graphs, molecules, and multimodal data, and on LLM agents that reason and act — increasingly in the service of scientific discovery. Before KAIST, I was a postdoctoral fellow at the University of Illinois Urbana-Champaign and received my Ph.D. from POSTECH.</p>
+      <div class="ctas"><a class="btn primary" href="https://kaist-dsail.github.io/files/CV.pdf" target="_blank" rel="noopener">CV</a><a class="btn" href="https://scholar.google.com/citations?user=lWk2LtQAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a><a class="btn" href="/research/">Lab research</a></div>
+      <p class="meta">cy.park (at) kaist.ac.kr · Tel +82-42-350-3137 · Room 4104, E2-2, KAIST</p>
+    </div>
+  </div>
+
+  <section id="join">
+    <div class="callout">
+      <h2>Prospective students</h2>
+      <p>I am actively seeking passionate and self-motivated Ph.D. students, M.S. students, and postdocs. Undergraduate internships are open every summer and winter, and an internship is the best way to prepare for applying as a graduate student. If you are interested, send me an email with your interests, CV, and transcript.</p>
+      <p class="small">You can join the lab through the <a href="https://ie.kaist.ac.kr/" target="_blank" rel="noopener">Department of Industrial and Systems Engineering</a>, the <a href="https://gsds.kaist.ac.kr/" target="_blank" rel="noopener">Graduate School of Data Science</a>, the <a href="http://gsai.kaist.ac.kr/" target="_blank" rel="noopener">Graduate School of AI</a>, or the <a href="https://ax.kaist.ac.kr/" target="_blank" rel="noopener">Department of AX (College of AI)</a>.</p>
+    </div>
+  </section>
+
+  <section class="two">
+    <div>
+      <h2>Experience</h2><ul class="tl"><li><b>KAIST</b><span class="where">Daejeon, South Korea</span><ul><li>Associate Professor, 2025 – present</li><li>Assistant Professor, 2020 – 2025</li></ul></li><li><b>University of California San Diego</b><span class="where">La Jolla, CA, USA</span><ul><li>Visiting Scholar, Computer Science and Engineering, 2025 – 2026 · host: <a href='https://cseweb.ucsd.edu/~jmcauley/' target='_blank' rel='noopener'>Prof. Julian McAuley</a></li></ul></li><li><b>University of Illinois Urbana-Champaign</b><span class="where">IL, USA</span><ul><li>Postdoctoral Research Fellow, Computer Science, 2019 – 2020 · host: <a href='http://hanj.cs.illinois.edu/' target='_blank' rel='noopener'>Prof. Jiawei Han</a></li></ul></li><li><b>Microsoft Research</b><span class="where">Beijing, China</span><ul><li>Research Intern, Social Computing Group, 2017 · host: <a href='https://www.microsoft.com/en-us/research/people/xingx/' target='_blank' rel='noopener'>Dr. Xing Xie</a></li></ul></li><li><b>NAVER</b><span class="where">Seongnam, South Korea</span><ul><li>Research Intern, NAVER Shopping, 2017 · host: Dr. Jung-Tae Lee</li></ul></li></ul>
+      <h2 style="margin-top:40px">Education</h2><ul class="tl"><li><b>POSTECH</b><span class="where">Ph.D. in Computer Science and Engineering, 2019</span><ul><li>Dissertation: Recommendation Framework via Matrix Factorization and Translation</li></ul></li><li><b>Sogang University</b><span class="where">B.S. in Computer Science and Engineering, 2014</span></li></ul>
+    </div>
+    <div><h2>Awards</h2><ul class="aw"><li><span class="yr">2026</span><span>Best Paper Award, KDD 2026 Workshop on Reliable Scientific Foundation Models</span></li><li><span class="yr">2026</span><span>Best Paper Award, KDD 2026 Workshop on Personal Intelligence in the Agentic AI Era</span></li><li><span class="yr">2026</span><span>Google Research Award</span></li><li><span class="yr">2025</span><span>Impact Research Award (Achievement Award), KAIST</span></li><li><span class="yr">2025</span><span>Best Academic Award, ISE KAIST</span></li><li><span class="yr">2024</span><span>Song-Am Distinguished Research Award, KAIST</span></li><li><span class="yr">2024</span><span>Best Academic Award, ISE KAIST</span></li><li><span class="yr">2024</span><span>Best Paper Award, KDD 2024 Workshop on Federated Learning (FedKDD)</span></li><li><span class="yr">2024</span><span>Best Paper Award, KDD 2024 Workshop on Human-Interpretable AI</span></li><li><span class="yr">2024</span><span>Gold Prize, 30th Samsung Humantech Paper Award</span></li><li><span class="yr">2023</span><span>Technology Innovation Award, College of Engineering, KAIST</span></li><li><span class="yr">2023</span><span>Top Reviewer, NeurIPS 2023</span></li><li><span class="yr">2023</span><span>Best Paper Award, ICML 2023 Workshop on Computational Biology</span></li><li><span class="yr">2023</span><span>KAIST Excellence in Teaching Award (2022)</span></li><li><span class="yr">2022</span><span>Best Teaching Award, ISE KAIST</span></li><li><span class="yr">2018</span><span>ICDM 2018 Travel Award</span></li><li><span class="yr">2017</span><span>Award of Excellence, Microsoft Research Asia Internship Program</span></li><li><span class="yr">2016</span><span>NAVER Ph.D. Fellowship</span></li><li><span class="yr">2015</span><span>Top 1.1%, RecSys Challenge</span></li></ul></div>
+  </section>
+
+  <section class="two">
+    <div><h2>Teaching</h2><ul class="tl"><li><b>DS535 · Recommender System and Machine Learning on Graphs</b><span class="where">Fall 2021 – 2024, 2026</span></li><li><b>IE343 · Statistical Machine Learning</b><span class="where">Spring 2021 – 2024, 2026</span></li><li><b>DS503 · Machine Learning for Data Science</b><span class="where">Spring 2023, 2024</span></li><li><b>KSE527 · Deep Learning</b><span class="where">Spring 2022</span></li><li><b>CoE202 · Basics of Artificial Intelligence</b><span class="where">Fall 2021</span></li></ul></div>
+    <div><h2>Academic service</h2><ul class="tl"><li><b>Area Chair</b><span class="where">KDD, ICLR, NeurIPS, ICML, AAAI</span></li><li><b>Action Editor</b><span class="where">Transactions on Machine Learning Research (since 2026)</span></li><li><b>General Chair</b><span class="where">CIKM 2025</span></li><li><b>Proceedings Chair</b><span class="where">CIKM 2023</span></li><li><b>Organizer</b><span class="where">Korea AI4Science Gathering @ ICML 2026; KDD 2026 Workshop on SciSoc Agents &amp; LLMs</span></li><li><b>Reviewer / PC</b><span class="where">KDD, NeurIPS, ICLR, ICML, AAAI, WWW, SIGIR, WSDM, IJCAI, CIKM, LoG, ECML-PKDD, and others</span></li></ul></div>
+  </section>
+
+  <section><h2>Selected talks</h2><ul class="talks"><li><span class="t">Change-Aware Graph Learning for Evolving Fraud and Abuse</span> <span class="where">KDD 2026 Workshop on AI for Fraud and Abuse</span> <a href="https://kaist-dsail.github.io/files/kddworkshop2026.pdf" target="_blank" rel="noopener">Slides</a></li><li><span class="t">Agentic AI for Materials Design</span> <span class="where">2026</span> <a href="https://kaist-dsail.github.io/files/agent4mat2026.pdf" target="_blank" rel="noopener">Slides</a></li><li><span class="t">LLM기반 멀티모달 시계열 분석</span> <span class="where">2026</span> <a href="https://kaist-dsail.github.io/files/mmts2026.pdf" target="_blank" rel="noopener">Slides</a></li><li><span class="t">인공지능 기반 scRNA-seq Data 분석</span> <span class="where">2025–2026</span> <a href="https://kaist-dsail.github.io/files/scrnaseq2025.pdf" target="_blank" rel="noopener">Slides 1</a> <a href="https://kaist-dsail.github.io/files/kogo2026.pdf" target="_blank" rel="noopener">Slides 2</a></li><li><span class="t">Learning on Graph and its Application to Biomedical Data</span> <span class="where">2024</span> <a href="https://kaist-dsail.github.io/files/LOG2024.pdf" target="_blank" rel="noopener">Slides</a></li><li><span class="t">그래프 신경망 기반 화학/소재분야 연구 동향 (Out-of-Distribution 문제를 중심으로)</span> <span class="where">SAIT, 2023</span> <a href="https://kaist-dsail.github.io/files/SAIT2023.pdf" target="_blank" rel="noopener">Slides</a></li><li><span class="t">Universal User Representation Learning based on Continual Learning</span> <span class="where">NAVER Tech Talk, 2023</span> <a href="https://kaist-dsail.github.io/files/NAVER_Techtalk2023.pdf" target="_blank" rel="noopener">Slides</a></li><li><span class="t">그래프 신경망 기반 화학/소재분야 연구 동향</span> <span class="where">KCC 2023</span> <a href="https://kaist-dsail.github.io/files/KCC2023.pdf" target="_blank" rel="noopener">Slides</a></li><li><span class="t">Representation Learning on Graphs</span> <a href="https://kaist-dsail.github.io/files/GRL.pdf" target="_blank" rel="noopener">Slides</a></li><li><span class="t">Recent Advancement in Machine Learning on Graph 2</span> <span class="where">2022</span> <a href="https://kaist-dsail.github.io/files/MLGraph2022.pdf" target="_blank" rel="noopener">Slides</a></li><li><span class="t">Recent Advancement in Machine Learning on Graph 1</span> <span class="where">2021</span> <a href="https://kaist-dsail.github.io/files/MLGraph2021.pdf" target="_blank" rel="noopener">Slides</a></li></ul></section>
+</main>
+
+<footer><div class="wrap">© DSAIL, KAIST. Data Science &amp; Artificial Intelligence Lab.</div></footer>
+</body>
+</html>
