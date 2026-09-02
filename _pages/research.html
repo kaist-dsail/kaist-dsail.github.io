@@ -338,6 +338,18 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   // ---------- applications ----------
   document.getElementById('appsGrid').innerHTML=data.applications.map(a=>`<div class="cell"><h4>${a.name}</h4><ul>${a.papers.map(id=>{const p=pById[id];return `<li>${link(p,a.short&&a.short[id])} <span>· ${shortVenue(p)}</span></li>`}).join('')}</ul></div>`).join('');
 
+  // ---------- deferred hash ----------
+  // The blocks above are rendered after papers.json loads, so the browser has
+  // already given up on the incoming #area-… fragment. Re-apply it here.
+  let landed=null;
+  const jump=()=>{const el=location.hash&&document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if(!el) return; el.scrollIntoView(); landed=Math.round(window.scrollY);};
+  jump();
+  // Webfonts land after this and reflow everything above the target, so redo the
+  // jump once they are in — unless the reader has scrolled away in the meantime.
+  document.fonts.ready.then(()=>{if(landed!==null&&Math.abs(window.scrollY-landed)<2) jump();});
+  window.addEventListener('hashchange',jump);
+
 })();
 </script>
 </body>
