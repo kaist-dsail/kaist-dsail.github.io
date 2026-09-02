@@ -212,6 +212,13 @@ section h2{margin-bottom:20px}
 .pi img{width:100%;border-radius:8px;display:block}
 .pi h3{font-size:24px}
 .pi p{color:var(--ink-2);font-size:15px;margin-top:6px}
+.pi .role{color:var(--ink);font-size:16px;margin-top:4px}
+.pi .affil{list-style:none;margin:9px 0 0;padding:0;font-size:14px;color:var(--ink-2);line-height:1.5}
+.pi .affil li{position:relative;padding-left:13px}
+.pi .affil li::before{content:'';position:absolute;left:0;top:.6em;width:4px;height:4px;border-radius:50%;background:#c3c0b8}
+.pi .affil a{text-decoration:none;border-bottom:1px solid var(--rule)}
+.pi .affil a:hover{border-bottom-color:var(--ink)}
+.pi .mail{font-size:14px;margin-top:11px}
 .pi a.more{display:inline-block;margin-top:12px;font-size:14px;text-decoration:none;border-bottom:1px solid var(--rule)}
 .people{display:grid;grid-template-columns:repeat(4,1fr);gap:26px 22px}
 .person img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px;display:block;background:var(--surface)}
@@ -235,7 +242,7 @@ section h2{margin-bottom:20px}
 
   <div class="phead"><h1>Team</h1><p>Students and researchers at DSAIL. See also our <a href="/alumni/">alumni</a>.</p></div>
   <section id="professor"><h2>Professor</h2>
-    <div class="pi"><img src="/images/teampic/faculty.jpg" alt="Chanyoung Park"><div><h3>Chanyoung Park</h3><p>Associate Professor, Department of Industrial and Systems Engineering · Graduate School of AI · Graduate School of Data Science, KAIST</p><p>cy.park (at) kaist.ac.kr</p><a class="more" href="/professor/">Profile, awards, and talks →</a></div></div>
+    <div class="pi"><img src="/images/teampic/faculty.jpg" alt="Chanyoung Park"><div><h3>Chanyoung Park</h3><p class="role">Associate Professor, KAIST</p><ul class="affil"><li><a href="https://ie.kaist.ac.kr/" target="_blank" rel="noopener">Department of Industrial and Systems Engineering</a></li><li><a href="http://gsai.kaist.ac.kr/" target="_blank" rel="noopener">Graduate School of AI</a></li><li><a href="http://gsds.kaist.ac.kr/" target="_blank" rel="noopener">Graduate School of Data Science</a></li></ul><p class="mail">cy.park (at) kaist.ac.kr</p><a class="more" href="/professor/">Profile, awards, and talks →</a></div></div>
   </section>
   <section id="phd"><h2>Ph.D. students</h2><div class="people">{% for m in site.data.current_phd %}<div class="person"><img src="/images/teampic/{{ m.photo }}" alt="{{ m.name }}" loading="lazy"><h3>{{ m.name }}</h3><div class="info">{{ m.info }}</div><div class="links">{% if m.email %}<a href="#" onclick="return false">{{ m.email }}</a>{% endif %}{{ m.homepage }}</div></div>{% endfor %}</div></section>
   <section id="ms"><h2>M.S. students</h2><div class="people">{% for m in site.data.current_masters %}<div class="person"><img src="/images/teampic/{{ m.photo }}" alt="{{ m.name }}" loading="lazy"><h3>{{ m.name }}</h3><div class="info">{{ m.info }}</div><div class="links">{% if m.email %}<a href="#" onclick="return false">{{ m.email }}</a>{% endif %}{{ m.homepage }}</div></div>{% endfor %}</div></section>
