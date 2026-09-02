@@ -1,0 +1,235 @@
+---
+title: "DSAIL @ KAIST - Projects"
+layout: null
+sitemap: true
+permalink: /projects.html
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DSAIL @ KAIST - Projects</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--surface:#f5f4f0;--ink:#1c1b19;--ink-2:#4a4944;--muted:#6f6e69;--rule:#e2e0da;
+  --serif:"Fraunces",Georgia,serif;--sans:"Inter",system-ui,-apple-system,sans-serif;--max:1140px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;margin:0;letter-spacing:-.01em}
+h1{font-size:clamp(32px,4vw,48px);line-height:1.08}
+h2{font-size:clamp(24px,2.6vw,32px);line-height:1.15}
+h3{font-size:22px;line-height:1.2}
+p{margin:0}
+.muted{color:var(--muted)}
+button{font:inherit;cursor:pointer}
+
+header.top{border-bottom:1px solid var(--rule)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+header.top .brand{display:flex;align-items:center;text-decoration:none}
+header.top .brand img{height:38px;width:auto;display:block}
+header.top nav{display:flex;gap:22px;font-size:14px}
+header.top nav a{text-decoration:none;color:var(--ink-2)}
+header.top nav a:hover{color:var(--ink)}
+
+/* hero */
+.hero{padding:56px 0 44px;display:grid;grid-template-columns:5fr 6fr;gap:48px;align-items:center}
+.hero .lede{font-size:18px;color:var(--ink-2);max-width:34em;margin-top:18px}
+.stats{display:flex;gap:26px;margin-top:30px;flex-wrap:wrap}
+.stat b{display:block;font-family:var(--serif);font-weight:500;font-size:32px;line-height:1}
+.stat span{display:block;font-size:12.5px;color:var(--muted);margin-top:6px}
+
+/* landscape figure */
+.landscape svg{width:100%;height:auto;display:block}
+.landscape a{text-decoration:none}
+.landscape a:hover rect{fill-opacity:.2}
+.hint{font-size:13px;color:var(--muted);margin-top:14px}
+
+section{padding:52px 0;border-top:1px solid var(--rule)}
+.section-head{display:flex;justify-content:space-between;align-items:baseline;gap:24px;flex-wrap:wrap;margin-bottom:24px}
+.section-head p{max-width:46em;color:var(--ink-2)}
+
+/* area strip */
+.strip{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.strip a{text-decoration:none;border-top:3px solid var(--c);padding:12px 2px 0;display:block}
+.strip a b{display:block;font-weight:600;font-size:15px;line-height:1.3}
+.strip a span{display:block;font-size:13px;color:var(--muted);margin-top:4px}
+
+/* areas */
+.area-block{padding:44px 0;border-top:1px solid var(--rule);scroll-margin-top:24px}
+.area-block .grid{display:grid;grid-template-columns:5fr 7fr;gap:40px}
+.lead{border-left:4px solid var(--c);padding-left:20px}
+.lead .count{font-size:13px;color:var(--muted);margin-top:8px}
+.lead .def{margin-top:12px;color:var(--ink-2);font-size:17px}
+.lead .tags-h{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:22px}
+.lead .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.lead .tags span{font-size:12.5px;color:var(--ink-2);background:var(--surface);border-radius:999px;padding:4px 10px}
+.lead .goto{display:inline-block;margin-top:18px;font-size:14px;color:var(--c);text-decoration:none;border-bottom:1px solid transparent}
+.lead .goto:hover{border-bottom-color:var(--c)}
+.qs{margin:0 0 22px;padding-left:20px;color:var(--ink-2)}
+.qs li{margin-bottom:6px}
+.qs li::marker{color:var(--c)}
+.reps-h{font-family:var(--serif);font-weight:500;font-size:18px;margin:0 0 8px}
+.reps{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.reps li{display:grid;grid-template-columns:108px 1fr;gap:14px;padding:10px 0;border-bottom:1px solid var(--rule);font-size:15px}
+.reps .v{font-size:12.5px;color:var(--ink);font-weight:600;padding-top:3px}
+.reps .v small{display:block;font-weight:400;color:var(--muted);font-size:11.5px;line-height:1.3;margin-top:2px}
+.reps .t{line-height:1.4}
+.reps .t a{text-decoration:none;border-bottom:1px solid var(--rule)}
+.reps .t a:hover{border-bottom-color:var(--ink)}
+.reps .a{font-size:13px;color:var(--muted);margin-top:2px}
+
+/* AI4Sci pipeline */
+.pipe{margin-top:34px;padding-top:26px;border-top:1px dashed var(--rule)}
+.pipe h4{font-size:20px}
+.pipe>p{color:var(--muted);font-size:14px;margin:4px 0 18px}
+.stages{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.stage{padding:16px 18px;border-left:1px solid var(--rule);position:relative;background:#fff}
+.stage:first-child{border-left:0}
+.topics{grid-template-columns:repeat(5,1fr)}
+.topics .stage::after{display:none}
+.topics .stage{padding:14px 14px}
+.topics .stage .sname{font-size:14px}
+.stage:not(:last-child)::after{content:'';position:absolute;right:-7px;top:22px;width:12px;height:12px;border-top:1px solid var(--rule);border-right:1px solid var(--rule);transform:rotate(45deg);background:#fff;z-index:1}
+.stage .sname{font-weight:600;font-size:15px;color:var(--c)}
+.stage .sq{font-size:13px;color:var(--muted);margin:4px 0 12px;line-height:1.4}
+.stage ul{list-style:none;margin:0;padding:0;font-size:13.5px}
+.stage li{padding:4px 0;border-top:1px solid var(--rule);line-height:1.35}
+.stage li a{text-decoration:none;border-bottom:1px solid var(--rule)}
+.stage li a:hover{border-bottom-color:var(--ink)}
+
+/* convergence */
+.conv{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.conv .cell{border:1px solid var(--rule);border-radius:8px;padding:18px 20px}
+.conv .pair{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);margin-bottom:8px}
+.conv .pair .sw{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:-1px}
+.conv h4{font-size:19px}
+.conv p{color:var(--ink-2);font-size:15.5px;line-height:1.5;margin:8px 0 16px}
+.conv .sel{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.conv ul{list-style:none;margin:0;padding:0;font-size:13px}
+.conv li{padding:5px 0;border-top:1px solid var(--rule);line-height:1.35}
+.conv li:first-child{border-top:0}
+.conv li a{color:var(--ink-2)}
+.conv li a{text-decoration:none;border-bottom:1px solid var(--rule)}
+.conv li a:hover{border-bottom-color:var(--ink)}
+
+/* applications */
+.apps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.apps .cell{background:var(--surface);border-radius:8px;padding:16px 18px}
+.apps h4{font-size:17px;margin-bottom:8px}
+.apps ul{list-style:none;margin:0;padding:0;font-size:13.5px}
+.apps li{padding:4px 0;line-height:1.35}
+.apps li a{text-decoration:none;border-bottom:1px solid #d9d6ce}
+.apps li a:hover{border-bottom-color:var(--ink)}
+.apps li span{color:var(--muted)}
+
+/* trend (appendix) */
+.trend{display:grid;grid-template-columns:1fr 200px;gap:28px;align-items:start}
+.trend svg{width:100%;height:auto;display:block}
+.trend .axis text{font-family:var(--sans);font-size:12px;fill:var(--muted)}
+.trend .axis line,.trend .axis path{stroke:var(--rule)}
+.legend{font-size:14px;display:flex;flex-direction:column;gap:10px;padding-top:8px}
+.legend button{display:flex;align-items:center;gap:10px;background:none;border:0;padding:4px 6px;margin:-4px -6px;text-align:left;border-radius:4px;color:var(--ink-2)}
+.legend button:hover,.legend button:focus-visible{background:var(--surface);outline:none}
+.sw{width:12px;height:12px;border-radius:3px;flex:none}
+.trend .bar{transition:opacity .15s}
+.trend .bar.dim{opacity:.25}
+
+/* badges + list */
+.badge{display:inline-block;font-size:11.5px;font-weight:600;padding:2px 7px;border-radius:4px;background:var(--surface);color:var(--ink-2);white-space:nowrap;vertical-align:middle}
+.badge.ws{background:#fff;border:1px solid var(--rule);font-weight:500}
+.badge.pre{background:#fff;border:1px dashed var(--rule);font-weight:500}
+.badge.note{background:transparent;color:var(--muted);font-weight:500;padding-left:0}
+.controls{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+.controls input,.controls select{font:inherit;font-size:14px;padding:8px 10px;border:1px solid var(--rule);border-radius:6px;background:#fff;color:var(--ink)}
+.controls input{min-width:260px;flex:1}
+.controls input:focus,.controls select:focus{outline:2px solid var(--ink);outline-offset:1px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--rule);background:#fff;border-radius:999px;padding:5px 12px;font-size:13px;color:var(--ink-2);display:flex;align-items:center;gap:7px}
+.chip .sw{width:9px;height:9px;border-radius:50%}
+.chip[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.chips[hidden]{display:none}
+.chips.sub{margin-top:8px;padding-left:14px;border-left:2px solid var(--rule)}
+.chips.sub .chip{font-size:12.5px;padding:4px 10px}
+.chip:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.count-line{font-size:14px;color:var(--muted);margin:14px 0 10px}
+.paperlist{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.paperlist li{display:grid;grid-template-columns:1fr auto;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:start}
+.paperlist li.yh{display:block;padding:34px 0 8px;border-bottom:1px solid var(--ink)}
+.paperlist li.yh:first-child{padding-top:8px}
+.paperlist li.yh{display:flex;align-items:baseline;gap:20px;flex-wrap:wrap}
+.paperlist li.yh h3{font-size:26px}
+.paperlist .ystats{font-size:13px;color:var(--muted)}
+.paperlist .ystats b{font-weight:600;color:var(--ink-2)}
+.paperlist .ystats .sep{margin:0 7px;color:#c9c6be}
+.paperlist .yr{font-size:14px;color:var(--muted);padding-top:2px;font-variant-numeric:tabular-nums}
+.paperlist .ttl{font-size:15.5px;line-height:1.4}
+.paperlist .ttl a{text-decoration:none}
+.paperlist .ttl a:hover{text-decoration:underline}
+.paperlist .meta{font-size:13px;color:var(--muted);margin-top:4px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.paperlist .also{color:var(--muted);font-style:italic}
+.paperlist .dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none;vertical-align:middle}
+.paperlist .links{font-size:13px;padding-top:3px;text-align:right;max-width:220px}
+.paperlist .links a{color:var(--ink-2);text-decoration:none;margin-left:10px;border-bottom:1px solid var(--rule);white-space:nowrap}
+.paperlist .links a:hover{border-bottom-color:var(--ink)}
+.empty{padding:28px 0;color:var(--muted)}
+footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px solid var(--rule)}
+.err{background:var(--surface);padding:24px;border-radius:8px;margin:40px 0;color:var(--ink-2)}
+
+@media (max-width:860px){
+  header.top .wrap{height:auto;padding:10px 20px;gap:12px}
+  header.top .brand img{height:30px}
+  header.top nav{gap:14px;font-size:13px}
+  header.top nav a:last-child{display:none}
+  .wrap{padding:0 20px}
+  .hero{grid-template-columns:1fr;gap:32px;padding-top:36px}
+  .strip{grid-template-columns:1fr 1fr}
+  .area-block .grid{grid-template-columns:1fr;gap:24px}
+  .stages,.topics{grid-template-columns:1fr}
+  .stage{border-left:0;border-top:1px solid var(--rule)}
+  .stage:first-child{border-top:0}
+  .stage:not(:last-child)::after{display:none}
+  .conv{grid-template-columns:1fr}
+  .apps{grid-template-columns:1fr 1fr}
+  .trend{grid-template-columns:1fr}
+  .legend{flex-direction:row;flex-wrap:wrap;gap:8px 16px}
+  .paperlist li{grid-template-columns:1fr}
+    .paperlist .links{padding-top:0}
+  .paperlist .links a:first-child{margin-left:0}
+  .reps li{grid-template-columns:1fr;gap:4px}
+}
+
+
+.phead{padding:56px 0 8px}
+.phead p{color:var(--ink-2);max-width:40em;margin-top:10px}
+.pgrid{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.pgrid h2{margin-bottom:12px}
+.pl{list-style:none;margin:0;padding:0}
+.pl li{padding:10px 0;border-top:1px solid var(--rule);font-size:15px;line-height:1.5;color:var(--ink-2)}
+.pl.done li{color:var(--muted);font-size:14.5px}
+@media (max-width:860px){.pgrid{grid-template-columns:1fr;gap:36px}}
+
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="/"><img src="/images/logopic/dsail_logo2.png" alt="DSAIL — Data Science &amp; Artificial Intelligence Lab, KAIST"></a>
+  <nav><a href="/">Home</a><a href="/members/">Team</a><a href="/news">News</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/projects" class="on">Projects</a><a href="/photo/">Photo</a></nav>
+</div></header>
+<main class="wrap">
+
+  <div class="phead"><h1>Projects</h1><p>Funded research projects and industry collaborations.</p></div>
+  <section><div class="pgrid">
+    <div><h2>Ongoing</h2><ul class="pl"><li>그래프 파운데이션 모델: 다양한 모달리티 및 도메인에적용 가능한 그래프 기반 기계 학습</li><li>그래프 빅데이터를 위한 파운데이션 모델 개발</li><li>강건하고 공정하며 확장 가능한 데이터 중심의 연속 학습</li><li>이종데이터기반 상식 추출, 이해, 추론을 위한 인공지능 기술개발</li><li>시각 데이터 기억을 위한 장면 그래프 생성 기술 연구</li><li>사람처럼 개념적으로 이해/추론이 가능한 복합인공지능 원천기술 연구</li><li>지식 체계 확장 가능한 AI 추론 모델 개발과 바이오의료응용</li><li>FDC Trace 센서 데이터 기반 PM 이상탐지 AI 모델 고도화</li><li>자율행동체를 위한 온디바이스 자연어 처리 고속 작업 명세 생성 기술 개발</li><li>납축전지 성능 예측 AI 시스템 개발</li><li>유동영역 3D AI Simulation 기술 개발</li><li>금속 소재 거대 AI 파운데이션 개발 (소재 특화 파운데이션 모델의 최적화 및 경량화 기술 개발)</li><li>Coordinate-Invariant Neural Operators for Geometry-Transferable 3D PDE Solving</li><li>컴파운드 레시피 개발 프로세스 혁신을 위한 Hierarchical Agentic Hybrid Optimization</li><li>AI기반 다크팩토리 설계-구축 솔루션 개발</li><li>AI 기반 소재·소자 수명과학 연구센터</li><li>전이학습 기반 복합소재 물성 예측 AI 개발 및 최적화</li><li>멀티모달 복합 추론을 통한 재범 위험도 분석 및 추론 연구</li></ul></div>
+    <div><h2>Completed</h2><ul class="pl done"><li>빅데이터 기반 범용 의사결정 지원 시스템</li><li>무기물의 역합성 과정을 예측하는 인공지능 모델 개발</li><li>그래프 마이닝 기법을 통한 전자상거래 플랫폼 사용자 행위 모델링</li><li>연속학습을 통한 사용자의 일반적인 표현 모델 연구개발</li><li>화학 물질간의 상호작용을 통한 물성 예측 인공지능 모델 개발</li><li>멀티 모달 데이터 기반 상품 카테고리 분류 체계 구축 및 확장</li><li>그래프 임베딩 기반 금융상품 추천시스템</li><li>인공지능 기반 보험금 지급 예측 모델</li><li>검색시스템을 위한 지식그래프 구축</li><li>시각 지식 그래프를 이용한 영상의 맥락 이해</li><li>소재 구조-물성 예측 인공지능 모델 개발</li><li>향상된 추천 시스템을 위한 대형언어모델 통합 연구개발</li><li>대형언어모델 및 OCR을 활용한 PDF 텍스트 마이닝</li><li>설계DB 내 유사회로 탐색을 위한 Circuit Recognition</li><li>사출성형 성능예측을 위한 3D 형상 기반 Graph Networks 모델 개발</li><li>AI를 활용한 거래 관계망 신용 평가 모형 개발</li><li>공학 시뮬레이션을 위한 3D 형상 기반 Graph Neural Networks 모델 개발</li><li>추천시스템을 위한 멀티모달 LLM 연구</li><li>복합소재 물성 예측 AI의 인공신경망 구조 최적화</li><li>FDC Trace 센서데이터 기반 이상탐지 모델 개발</li></ul></div>
+  </div></section>
+
+</main>
+<footer><div class="wrap">© DSAIL, KAIST. Data Science &amp; Artificial Intelligence Lab.</div></footer>
+</body>
+</html>

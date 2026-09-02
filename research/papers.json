@@ -1,0 +1,3033 @@
+{
+ "lab": "DSAIL @ KAIST",
+ "updated": "2026-09-02",
+ "themes": [
+  {
+   "id": "graph",
+   "name": "Graph & Relational Learning",
+   "ko": "그래프 표현 학습",
+   "color": "#2F6DB5",
+   "definition": "Learning from relational data — networks, hypergraphs, and interaction structures — with representations that generalize under noise, scarce labels, and distribution shift.",
+   "definition_ko": "라벨·구조·분포가 불완전한 그래프에서 강건하고 일반화되는 표현을 학습합니다.",
+   "questions": [
+    "How do graph models stay reliable under structural noise and adversarial attacks?",
+    "What can be learned when only a handful of labels are available?",
+    "How should graph learning extend to distributed clients, continual streams, and higher-order structure?"
+   ],
+   "representative": [
+    "p105",
+    "p086",
+    "p081",
+    "p060",
+    "p048"
+   ],
+   "short": "Graph",
+   "flow": [
+    "Relational data",
+    "Graph representation",
+    "Generalization",
+    "Reasoning"
+   ],
+   "kind": "area",
+   "tags": [
+    "self-supervised learning",
+    "contrastive learning",
+    "robustness",
+    "adversarial attacks & defenses",
+    "few-label & few-shot learning",
+    "label propagation",
+    "federated graph learning",
+    "continual graph learning",
+    "hypergraphs",
+    "temporal graphs",
+    "heterogeneous & multiplex networks",
+    "bipartite graphs",
+    "interpretability",
+    "anomaly detection",
+    "graph augmentation"
+   ]
+  },
+  {
+   "id": "recsys",
+   "name": "Personalized Intelligence & Recommendation",
+   "ko": "추천 시스템",
+   "color": "#C6542B",
+   "definition": "Modeling users and items from interaction data, from collaborative filtering to LLM-based and self-evolving recommender systems.",
+   "definition_ko": "협업 필터링부터 LLM 기반 추천까지, 사용자·아이템 표현 학습을 다룹니다.",
+   "questions": [
+    "Do large language models actually understand collaborative and sequential signals?",
+    "How should long-tail users, items, and missing modalities be handled?",
+    "How can user representations and the recommender itself evolve over time?"
+   ],
+   "representative": [
+    "p089",
+    "p091",
+    "p073",
+    "p052",
+    "p025"
+   ],
+   "short": "Personalization",
+   "flow": [
+    "User interactions",
+    "Preference representation",
+    "LLM / generative rec",
+    "Personalization"
+   ],
+   "kind": "area",
+   "tags": [
+    "collaborative filtering",
+    "LLM-based recommendation",
+    "sequential recommendation",
+    "long-tail users & items",
+    "multimodal recommendation",
+    "missing modalities",
+    "continual user modeling",
+    "interest drift",
+    "self-evolving recommenders",
+    "user simulators",
+    "music recommendation",
+    "review & social signals",
+    "efficiency & scalability"
+   ]
+  },
+  {
+   "id": "multimodal",
+   "name": "Multimodal Intelligence",
+   "ko": "멀티모달 학습",
+   "color": "#B58A1E",
+   "definition": "Aligning images, video, and language into representations that support fine-grained understanding and compositional reasoning, efficiently.",
+   "definition_ko": "Scene graph 생성부터 효율적인 멀티모달 LLM까지 vision-language 이해를 다룹니다.",
+   "questions": [
+    "Can scene graphs be learned from weak or natural-language supervision?",
+    "When can visual tokens be pruned from a multimodal LLM without losing information?",
+    "How do models acquire compositional visual reasoning?"
+   ],
+   "representative": [
+    "p093",
+    "p076",
+    "p061",
+    "p024",
+    "p013"
+   ],
+   "short": "Multimodal",
+   "flow": [
+    "Image / video / text",
+    "Alignment",
+    "Multimodal representation",
+    "Reasoning"
+   ],
+   "kind": "area",
+   "tags": [
+    "scene graph generation",
+    "video scene graphs",
+    "weak & natural-language supervision",
+    "unbiased & long-tail relations",
+    "multimodal LLMs",
+    "visual token pruning",
+    "video understanding",
+    "compositional reasoning",
+    "attention distillation",
+    "chart understanding",
+    "vision-language-action",
+    "test-time adaptation",
+    "medical & biological images"
+   ]
+  },
+  {
+   "id": "llm",
+   "name": "Agentic AI & Reasoning",
+   "ko": "LLM 에이전트·안전성",
+   "color": "#7A4FA8",
+   "definition": "LLM agents that reason over multiple steps, use tools and memory, act, and improve from feedback — evaluated on the process, not just the final answer, and aligned to each user's safety needs.",
+   "definition_ko": "도구 사용 에이전트의 평가·최적화와 사용자 맞춤 안전성을 다룹니다.",
+   "questions": [
+    "How should an agent's reasoning trajectory, not just its final answer, be evaluated?",
+    "Which agent is responsible when a multi-agent system fails, and how should agents remember users?",
+    "Is one safety standard right for every user?"
+   ],
+   "representative": [
+    "p004",
+    "p049",
+    "p018",
+    "p022",
+    "p033"
+   ],
+   "short": "Agents",
+   "flow": [
+    "Task",
+    "Reasoning",
+    "Memory / tools",
+    "Action",
+    "Feedback"
+   ],
+   "kind": "area",
+   "tags": [
+    "LLM safety & alignment",
+    "user-specific safety",
+    "reasoning trajectories",
+    "tool-augmented agents",
+    "agent memory & personalization",
+    "multi-agent systems",
+    "failure attribution",
+    "reward modeling",
+    "agent harness optimization",
+    "embodied agents",
+    "speculative decoding",
+    "retrieval-augmented QA",
+    "ambiguous questions",
+    "benchmarks & evaluation"
+   ]
+  },
+  {
+   "id": "ai4sci",
+   "name": "AI for Science & Engineering",
+   "ko": "과학을 위한 AI",
+   "color": "#2E8B6E",
+   "definition": "Representations and agents for molecules, materials, cells, physical systems, and circuits — from property prediction to synthesis planning, with LLM agents that read spectra, plan experiments, and run parts of the scientific loop.",
+   "definition_ko": "분자·소재·생물 시스템·물리 시뮬레이션의 학습 기반 모델링을 다룹니다.",
+   "questions": [
+    "How should atomic and crystal structures be represented for property prediction and synthesis planning?",
+    "Can sparse single-cell and protein data be modeled reliably?",
+    "How do equivariant models learn 3D physical systems such as meshes and PDEs?"
+   ],
+   "subthemes": [
+    {
+     "id": "molecules-materials",
+     "name": "Molecules & Materials",
+     "ko": "분자·소재",
+     "color": "#2E8B6E",
+     "representative": [
+      "p090",
+      "p082",
+      "p068",
+      "p046",
+      "p023"
+     ]
+    },
+    {
+     "id": "biology-physics",
+     "name": "Biology & Physical Simulation",
+     "ko": "생물·물리 시뮬레이션",
+     "color": "#5FAE8F",
+     "representative": [
+      "p095",
+      "p057",
+      "p056",
+      "p017",
+      "p028"
+     ]
+    }
+   ],
+   "representative": [
+    "p090",
+    "p082",
+    "p068",
+    "p095",
+    "p057"
+   ],
+   "short": "AI for Science",
+   "flow": [
+    "Scientific data",
+    "Representation",
+    "Prediction",
+    "Design",
+    "Autonomous discovery"
+   ],
+   "kind": "area",
+   "topics": [
+    {
+     "name": "Materials",
+     "question": "Crystal representation, electronic-structure prediction, and inorganic synthesis planning.",
+     "papers": [
+      "p082",
+      "p016",
+      "p068",
+      "p043",
+      "p040"
+     ],
+     "short": {
+      "p082": "Density-of-states prediction for crystals",
+      "p016": "Probabilistic compositional crystal representation",
+      "p068": "Retrieval-based inorganic retrosynthesis",
+      "p043": "LLM-based complete synthesis planning",
+      "p040": "DOS-guided crystal generation"
+     },
+     "id": "materials"
+    },
+    {
+     "name": "Molecules & chemistry",
+     "question": "Molecular relational learning, electron-aware representations, and agents for spectroscopy and drug discovery.",
+     "papers": [
+      "p090",
+      "p046",
+      "p054",
+      "p023",
+      "p028"
+     ],
+     "short": {
+      "p090": "Molecular relational learning with information bottleneck",
+      "p046": "3D interaction pre-training for molecules",
+      "p054": "Electron-informed coarse-grained molecular representation",
+      "p023": "Structure elucidation from IR spectra with LLM agents",
+      "p028": "Collaborative LLM agents for drug discovery"
+     },
+     "id": "molecules"
+    },
+    {
+     "name": "Biology",
+     "question": "Single-cell and spatial transcriptomics, perturbation response, and protein structure.",
+     "papers": [
+      "p095",
+      "p057",
+      "p019",
+      "p037",
+      "p042"
+     ],
+     "short": {
+      "p095": "Single-cell imputation via feature propagation",
+      "p057": "Spatially resolved transcriptomics",
+      "p019": "Perturbation-conditioned response prediction",
+      "p037": "Antibody–antigen structure tokenization",
+      "p042": "Multi-agent perturbation reasoning"
+     },
+     "id": "biology"
+    },
+    {
+     "name": "Engineering & physical simulation",
+     "question": "Equivariant and physics-embedded models for meshes, PDEs, and particle systems, and graph learning for circuit design.",
+     "papers": [
+      "p056",
+      "p017",
+      "p029",
+      "p035",
+      "p051",
+      "p036"
+     ],
+     "short": {
+      "p056": "E(3)-equivariant 3D mesh networks",
+      "p017": "Equivariant neural operators for 3D PDEs",
+      "p029": "Physics-embedded neural operator for colloidal aggregation",
+      "p035": "Mesh rewiring for fluid simulation",
+      "p051": "Subcircuit matching in large netlists",
+      "p036": "Netlist-to-text alignment with LLMs"
+     },
+     "id": "engineering"
+    },
+    {
+     "id": "scillm",
+     "name": "Scientific LLMs & agents",
+     "question": "Language models and agents that read spectra, plan synthesis, and reason about molecules and cells.",
+     "papers": [
+      "p023",
+      "p043",
+      "p034",
+      "p028",
+      "p070",
+      "p042",
+      "p005"
+     ],
+     "short": {
+      "p023": "Structure elucidation from IR spectra with LLM agents",
+      "p043": "LLM-based complete synthesis planning",
+      "p034": "Structured LLM planner for inorganic synthesis",
+      "p028": "Collaborative LLM agents for drug discovery",
+      "p070": "Augmentation strategies for molecule language models",
+      "p042": "Multi-agent reasoning for perturbation prediction",
+      "p005": "Machine collective intelligence for explainable discovery"
+     }
+    }
+   ],
+   "tags": [
+    "molecules",
+    "crystalline materials",
+    "electronic structure & DOS",
+    "retrosynthesis & synthesis planning",
+    "crystal generation",
+    "spectroscopy",
+    "drug discovery",
+    "single-cell & spatial omics",
+    "proteins & antibodies",
+    "perturbation prediction",
+    "equivariant models",
+    "meshes & PDEs",
+    "physics-embedded learning",
+    "circuits & EDA",
+    "scientific agents",
+    "materials foundation models"
+   ],
+   "domains": [
+    {
+     "id": "materials",
+     "name": "Materials"
+    },
+    {
+     "id": "molecules",
+     "name": "Molecules & chemistry"
+    },
+    {
+     "id": "biology",
+     "name": "Biology"
+    },
+    {
+     "id": "engineering",
+     "name": "Engineering & physical simulation"
+    },
+    {
+     "id": "scillm",
+     "name": "Scientific LLMs & agents"
+    }
+   ]
+  },
+  {
+   "id": "applications",
+   "name": "Applications",
+   "ko": "실세계 응용",
+   "color": "#6B7280",
+   "definition": "Domain-specific data mining for sports, circuits, time series, finance, and social media.",
+   "definition_ko": "스포츠·회로·시계열·금융·소셜 데이터에 대한 도메인 특화 데이터 마이닝입니다.",
+   "questions": [
+    "Can match events be recovered from player tracking data alone?",
+    "How can subcircuits be matched in million-node netlists?",
+    "How should forecasting models adapt online to non-stationary time series?"
+   ],
+   "representative": [
+    "p066",
+    "p051",
+    "p015",
+    "p010",
+    "p020"
+   ],
+   "short": "Applications",
+   "kind": "application"
+  }
+ ],
+ "papers": [
+  {
+   "title": "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces",
+   "authors": "Sungho Park, Wonjoong Kim, Rongyuan Tan, Jue Zhang, Wook-Shin Han, Pengfei Gao, Chanyoung Park, Yongqiang Yao, Rao Fu, Elsie Nallipogu, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang",
+   "venue": "Preprint",
+   "year": 2026,
+   "type": "preprint",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2608.23041",
+   "code": "https://github.com/microsoft/AutoSaddler",
+   "note": null,
+   "also_in": [],
+   "id": "p001",
+   "sci_llm": false
+  },
+  {
+   "title": "Screening Lipid Nanoparticles through Structure-Ratio Alignment",
+   "authors": "Yoonho Lee, Yunhak Oh, Hoyoung Choi, Chanyoung Park",
+   "venue": "Preprint",
+   "year": 2026,
+   "type": "preprint",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [],
+   "pdf": "https://www.biorxiv.org/content/10.64898/2026.07.08.737142v1.full",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p002",
+   "domain": "molecules",
+   "sci_llm": false
+  },
+  {
+   "title": "Personalizing Embodied Multimodal Large Language Model Agents over Long-term User Interactions",
+   "authors": "Jeongeun Lee, Chanyoung Park, Dongha Lee",
+   "venue": "Preprint",
+   "year": 2026,
+   "type": "preprint",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [
+    "multimodal"
+   ],
+   "pdf": "https://arxiv.org/abs/2605.26256v1",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p003",
+   "sci_llm": false
+  },
+  {
+   "title": "PAIR: Prefix-Aware Internal Reward Model for Multi-Turn Agent Optimization",
+   "authors": "Wonjoong Kim, Yeonjun In, Sangwu Park, Dongha Lee, Chanyoung Park",
+   "venue": "Preprint",
+   "year": 2026,
+   "type": "preprint",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2605.17877",
+   "code": "https://github.com/wonjoong-kim/PAIR",
+   "note": null,
+   "also_in": [],
+   "id": "p004",
+   "sci_llm": false
+  },
+  {
+   "title": "Machine Collective Intelligence for Explainable Scientific Discovery",
+   "authors": "Gyoung S. Na, Chanyoung Park",
+   "venue": "Preprint",
+   "year": 2026,
+   "type": "preprint",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2604.27297",
+   "code": "https://github.com/ngs00/mci",
+   "note": null,
+   "also_in": [],
+   "id": "p005",
+   "domain": "materials",
+   "sci_llm": true
+  },
+  {
+   "title": "Continual Traffic Forecasting via Mixture of Experts",
+   "authors": "Sanghyun Lee, Chanyoung Park",
+   "venue": "Preprint",
+   "year": 2024,
+   "type": "preprint",
+   "theme": "applications",
+   "subtheme": null,
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://arxiv.org/pdf/2406.03140",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p006",
+   "sci_llm": false
+  },
+  {
+   "title": "Temporal Graph Learning Recurrent Neural Network for Traffic Forecasting",
+   "authors": "Sanghyun Lee, Chanyoung Park",
+   "venue": "Preprint",
+   "year": 2024,
+   "type": "preprint",
+   "theme": "applications",
+   "subtheme": null,
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://arxiv.org/abs/2406.02726",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p007",
+   "sci_llm": false
+  },
+  {
+   "title": "Compositional Spectral Prompts for LLM-based Online Time Series Forecasting",
+   "authors": "Seungyoon Choi, Hyunchul Kim, Jae-Gil Lee, Chanyoung Park",
+   "venue": "CIKM 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "applications",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": null,
+   "code": null,
+   "note": null,
+   "also_in": [
+    "KDD 2026 Workshop (MiLeTS)"
+   ],
+   "id": "p008",
+   "sci_llm": false
+  },
+  {
+   "title": "ELASTIC: Trajectory-Based Synchronization of Event and Tracking Data in Soccer",
+   "authors": "Hyunsung Kim, Hoyoung Choi, Kunhee Lee, Sangwoo Seo, Tom Boomstra, Jinsung Yoon, Chanyoung Park",
+   "venue": "CIKM 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "applications",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2508.09238",
+   "code": "https://github.com/hyunsungkim-ds/elastic.git",
+   "note": null,
+   "also_in": [
+    "ECML-PKDD 2025 Workshop (MLSA, Oral)"
+   ],
+   "id": "p009",
+   "sci_llm": false
+  },
+  {
+   "title": "DefaultGNN: A Dual-Perspective GNN Framework for Predicting Corporate Default from Buyer-Seller Transaction Networks",
+   "authors": "Junghoon Kim, Hyunsung Kim, Seungyoon Choi, Kyoungyong Park, Jihun Lee, Yonggu Ji, Chanyoung Park",
+   "venue": "CIKM 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "applications",
+   "subtheme": null,
+   "secondary": [
+    "graph"
+   ],
+   "pdf": null,
+   "code": null,
+   "note": "Applied Research Track",
+   "also_in": [],
+   "id": "p010",
+   "sci_llm": false
+  },
+  {
+   "title": "A Behavioral Trait Leaks into Preferences: Diagnosing Trait Interference in LLM User Simulators",
+   "authors": "Chaehyun Kim, Sein Kim, Hongseok Kang, Chanyoung Park",
+   "venue": "CIKM 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": null,
+   "code": null,
+   "note": "Short paper",
+   "also_in": [],
+   "id": "p011",
+   "sci_llm": false
+  },
+  {
+   "title": "HUGETIME at eRisk 2026: Bucket-wise Evidence Pruning for Contextualized Early Depression Detection",
+   "authors": "Ilho Shin, Hyunchul Kim, Chanyoung Park",
+   "venue": "CLEF 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "applications",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://clef-staging.pages.dev/paper141.pdf",
+   "code": null,
+   "note": "Ranked 1st, eRisk Task 2",
+   "also_in": [],
+   "id": "p012",
+   "sci_llm": false
+  },
+  {
+   "title": "Sink-Token-Aware Pruning for Fine-Grained Video Understanding in Efficient Video LLMs",
+   "authors": "Kibum Kim, Jiwan Kim, Kyle Min, Yueqi Wang, Jinyoung Moon, Julian McAuley, Chanyoung Park",
+   "venue": "ECCV 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/abs/2604.20937",
+   "code": "https://github.com/rlqja1107/SToP",
+   "note": null,
+   "also_in": [],
+   "id": "p013",
+   "sci_llm": false
+  },
+  {
+   "title": "Why and When Visual Token Pruning Fails? A Study on Relevant Visual Information Shift in MLLMs Decoding",
+   "authors": "Jiwan Kim, Kibum Kim, Wonjoong Kim, Byung-Kwan Lee, Chanyoung Park",
+   "venue": "ECCV 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/abs/2604.12358",
+   "code": null,
+   "note": null,
+   "also_in": [
+    "KDD 2026 Workshop (RelKD)"
+   ],
+   "id": "p014",
+   "sci_llm": false
+  },
+  {
+   "title": "PathCRF: Ball-Free Soccer Event Detection via Possession Path Inference from Player Trajectories",
+   "authors": "Hyunsung Kim, Kunhee Lee, Sangwoo Seo, Sang-Ki Ko, Jinsung Yoon, Chanyoung Park",
+   "venue": "KDD 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "applications",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2602.12080",
+   "code": "https://github.com/hyunsungkim-ds/pathcrf",
+   "note": null,
+   "also_in": [],
+   "id": "p015",
+   "sci_llm": false
+  },
+  {
+   "title": "Learning Probabilistic Compositional Representation of Crystalline Materials",
+   "authors": "Namkyeong Lee, Heewoong Noh, Gyoung S. Na, Jimeng Sun, Tianfan Fu, Marinka Zitnik, Chanyoung Park",
+   "venue": "KDD 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2312.13289v2",
+   "code": "https://github.com/Namkyeong/PCRL",
+   "note": "AI for Science Track",
+   "also_in": [
+    "NeurIPS 2023 AI4Science Workshop (as PolySRL)"
+   ],
+   "id": "p016",
+   "domain": "materials",
+   "sci_llm": false
+  },
+  {
+   "title": "EqGINO: Equivariant Geometry-Informed Fourier Neural Operators for 3D PDEs",
+   "authors": "Sungwon Kim, Juho Song, Seungmin Shin, Guimok Cho, Sangkook Kim, Chanyoung Park",
+   "venue": "ICML 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://arxiv.org/abs/2606.03260",
+   "code": "https://github.com/sung-won-kim/EqGINO",
+   "note": null,
+   "also_in": [
+    "ICLR 2026 Workshop AI4PDE (Oral)"
+   ],
+   "id": "p017",
+   "domain": "engineering",
+   "sci_llm": false
+  },
+  {
+   "title": "Beyond the Final Answer: Evaluating the Reasoning Trajectories of Tool-Augmented Agents",
+   "authors": "Wonjoong Kim, Sangwu Park, Yeonjun In, Sein Kim, Dongha Lee, Chanyoung Park",
+   "venue": "ICML 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2510.02837",
+   "code": "https://github.com/wonjoong-kim/TRACE",
+   "note": null,
+   "also_in": [
+    "KDD 2026 Workshop (Agentic AI Evaluation)"
+   ],
+   "id": "p018",
+   "sci_llm": false
+  },
+  {
+   "title": "Learning Adaptive Perturbation-Conditioned Contexts for Robust Transcriptional Response Prediction",
+   "authors": "Yinhua Piao, Hyomin Kim, Seonghwan Kim, Yunhak Oh, Junhyeok Jeon, Sang-Yeon Hwang, Jaechang Lim, Woo Youn Kim, Chanyoung Park, Sungsoo Ahn",
+   "venue": "ICML 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2602.18885",
+   "code": null,
+   "note": null,
+   "also_in": [
+    "ICLR 2026 Workshop (GEM)"
+   ],
+   "id": "p019",
+   "domain": "biology",
+   "sci_llm": false
+  },
+  {
+   "title": "Time-PEFT: Temporal and Multichannel Complexity-Based Fine-Tuning for Time-Series Foundation Models",
+   "authors": "Jihye Na, Patara Trirat, Chanyoung Park, Jae-Gil Lee",
+   "venue": "ICML 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "applications",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=n8seTOinYs",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p020",
+   "sci_llm": false
+  },
+  {
+   "title": "SelfJudge: Faster Speculative Decoding via Self-Supervised Judge Verification",
+   "authors": "Kanghoon Yoon, Minsub Kim, Sungjae Lee, Joonhyung Lee, Sunghyeon Woo, Yeonjun In, Se Jung Kwon, Chanyoung Park, Dongsoo Lee",
+   "venue": "ICML 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2510.02329",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p021",
+   "sci_llm": false
+  },
+  {
+   "title": "Reasoning Structure Matters for Safety Alignment of Reasoning Models",
+   "authors": "Yeonjun In, Wonjoong Kim, Sangwu Park, Chanyoung Park",
+   "venue": "ACL 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2604.18946",
+   "code": "https://github.com/yeonjun-in/R1-Alt",
+   "note": null,
+   "also_in": [],
+   "id": "p022",
+   "sci_llm": false,
+   "links": {
+    "model": "https://huggingface.co/collections/Yeonjun/r1-act-688c42ce9eb0d8dccda38b4f",
+    "dataset": "https://huggingface.co/datasets/Yeonjun/R1-Act-train"
+   }
+  },
+  {
+   "title": "IR-Agent: Expert-Inspired LLM Agents for Structure Elucidation from Infrared Spectra",
+   "authors": "Heewoong Noh, Namkyeong Lee, Gyoung S. Na, Kibum Kim, Chanyoung Park",
+   "venue": "ICLR 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://openreview.net/forum?id=6bthH14pD8",
+   "code": "https://github.com/HeewoongNoh/IR-Agent",
+   "note": null,
+   "also_in": [],
+   "id": "p023",
+   "domain": "molecules",
+   "sci_llm": true
+  },
+  {
+   "title": "CompoDistill: Attention Distillation for Compositional Reasoning in Multimodal LLMs",
+   "authors": "Jiwan Kim, Kibum Kim, Sangwoo Seo, Chanyoung Park",
+   "venue": "ICLR 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://openreview.net/forum?id=Wa9Bg9b50B",
+   "code": "https://github.com/ptkjw1997/CompoDistill",
+   "note": null,
+   "also_in": [],
+   "id": "p024",
+   "sci_llm": false
+  },
+  {
+   "title": "Token-Efficient Item Representation via Images for LLM Recommender Systems",
+   "authors": "Kibum Kim, Sein Kim, HongSeok Kang, Jiwan Kim, Heewoong Noh, Yeonjun In, Kanghoon Yoon, Jinoh Oh, Julian McAuley, Chanyoung Park",
+   "venue": "ICLR 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [
+    "llm",
+    "multimodal"
+   ],
+   "pdf": "https://openreview.net/forum?id=vizM7B7vuW",
+   "code": "https://github.com/rlqja1107/torch-I-LLMRec",
+   "note": null,
+   "also_in": [],
+   "id": "p025",
+   "sci_llm": false
+  },
+  {
+   "title": "Better Prevent than Tackle: Valuing Defense in Soccer Based on Graph Neural Networks",
+   "authors": "Hyunsung Kim, Sangwoo Seo, Hoyoung Choi, Tom Boomstra, Jinsung Yoon, Chanyoung Park",
+   "venue": "SSAC 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "applications",
+   "subtheme": null,
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://arxiv.org/abs/2512.10355",
+   "code": "https://github.com/hyunsungkim-ds/defcon",
+   "note": null,
+   "also_in": [],
+   "id": "p026",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://drive.google.com/file/d/1FmCRKzqUElv5XGV2HV0BnH_Oziy95Np8/view"
+   }
+  },
+  {
+   "title": "PULSE: Socially-Aware User Representation Modeling Toward Parameter-Efficient Graph Collaborative Filtering",
+   "authors": "Doyun Choi, Cheonwoo Lee, Biniyam Aschalew Tolera, Taewook Ham, Chanyoung Park, Jaemin Yoo",
+   "venue": "WWW 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://arxiv.org/abs/2601.14720",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p027",
+   "sci_llm": false
+  },
+  {
+   "title": "RAG-Enhanced Collaborative LLM Agents for Drug Discovery",
+   "authors": "Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Tommaso Biancalani, Chanyoung Park, Gabriele Scalia",
+   "venue": "AAAI 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/pdf/2502.17506",
+   "code": "https://github.com/Genentech/CLADD",
+   "note": null,
+   "also_in": [
+    "NeurIPS 2025 AI4Science Workshop",
+    "ICLR 2025 MLGenX Workshop (Spotlight)"
+   ],
+   "id": "p028",
+   "domain": "molecules",
+   "sci_llm": true
+  },
+  {
+   "title": "Physics-Embedded Graph Neural Operator for Interaction-Controlled Colloidal Aggregation",
+   "authors": "Yongjoon Choe, Sungwon Kim, Susan E. Burns, Chanyoung Park",
+   "venue": "Water Research 2026",
+   "year": 2026,
+   "type": "journal",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://www.sciencedirect.com/science/article/pii/S0043135426004550",
+   "code": "https://github.com/sung-won-kim/GNOPB",
+   "note": null,
+   "also_in": [
+    "KDD 2026 Workshop (RelSciFM, Best Paper Award)"
+   ],
+   "id": "p029",
+   "domain": "engineering",
+   "sci_llm": false
+  },
+  {
+   "title": "Revisiting CF-Integrated LLM Recommenders through Dimensional Collapse",
+   "authors": "Jimin Seo, HongSeok Kang, Sein Kim, Jiwan Kim, Chanyoung Park",
+   "venue": "KDD 2026 Workshop (GSALO)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://openreview.net/pdf?id=KaBEPwhpgK",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p030",
+   "sci_llm": false
+  },
+  {
+   "title": "Self-EvolveRec: Self-Evolving Recommender Systems with LLM-based Directional Feedback",
+   "authors": "Sein Kim, Sangwu Park, HongSeok Kang, Wonjoong Kim, Jimin Seo, Yeonjun In, Kanghoon Yoon, Hyunsik Jeon, Chanyoung Park",
+   "venue": "KDD 2026 Workshop (Agentic SE)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://openreview.net/pdf?id=fBLhmZ1aNN",
+   "code": null,
+   "note": null,
+   "also_in": [
+    "ICLR 2026 Workshop (RSI)"
+   ],
+   "id": "p031",
+   "sci_llm": false
+  },
+  {
+   "title": "Rethinking Failure Attribution in Multi-Agent Systems: A Multi-Perspective Benchmark and Evaluation",
+   "authors": "Yeonjun In, Mehrab Tanjim, Jayakumar Subramanian, Sungchul Kim, Uttaran Bhattacharya, Wonjoong Kim, Sangwu Park, Somdeb Sarkhel, Chanyoung Park",
+   "venue": "ICML 2026 Workshop (Failure Modes of Agentic AI)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2603.25001",
+   "code": "https://github.com/yeonjun-in/MP-Bench",
+   "note": null,
+   "also_in": [
+    "KDD 2026 Workshop (Agentic SE)"
+   ],
+   "id": "p032",
+   "sci_llm": false
+  },
+  {
+   "title": "Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-Horizon Agents",
+   "authors": "Yeonjun In, Wonjoong Kim, Sangwu Park, Kanghoon Yoon, Chanyoung Park",
+   "venue": "KDD 2026 Workshop (PILA)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2605.25535",
+   "code": "https://github.com/yeonjun-in/PerMemBench",
+   "note": "Best Paper Award",
+   "also_in": [],
+   "id": "p033",
+   "sci_llm": false
+  },
+  {
+   "title": "A Structured LLM Framework for Inorganic Material Synthesis Planning",
+   "authors": "Heewoong Noh, Gyoung S. Na, Namkyeong Lee, Chanyoung Park",
+   "venue": "KDD 2026 Workshop (Agentic AI for Science)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://openreview.net/pdf?id=4UtSgrJJ8N",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p034",
+   "domain": "materials",
+   "sci_llm": true
+  },
+  {
+   "title": "Adaptive Graph Rewiring to Mitigate Over-Squashing in Mesh-Based GNNs for Fluid Dynamics Simulations",
+   "authors": "Sangwoo Seo, Hyunsung Kim, Jiwan Kim, Chanyoung Park",
+   "venue": "KDD 2026 Workshop (RelSciFM)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://arxiv.org/abs/2511.12709",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p035",
+   "domain": "engineering",
+   "sci_llm": false
+  },
+  {
+   "title": "Bridging Circuit Graphs and Language: A Cross-Modal Transformer for Netlist-to-Text Alignment and Generation",
+   "authors": "Sangwoo Seo, Hyunsung Kim, Hyunchul Kim, Byeonggon Kang, Rex Ying, Chanyoung Park",
+   "venue": "KDD 2026 Workshop (Graph ML for Large Models)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph",
+    "llm",
+    "applications"
+   ],
+   "pdf": "https://openreview.net/pdf?id=BEs4vYeGeV",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p036",
+   "sci_llm": true,
+   "domain": "engineering"
+  },
+  {
+   "title": "Tokenizing Antibody-Antigen Complex Structures via Energy-Based Surrogates",
+   "authors": "Junseok Lee, Yunhak Oh, Namkyeong Lee, Hyunchul Kim, Chanyoung Park",
+   "venue": "KDD 2026 Workshop (RelSciFM)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=T4NJqDU2Ul",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p037",
+   "domain": "biology",
+   "sci_llm": false
+  },
+  {
+   "title": "Retro-Forge: A Multi-Step Pairwise Retrosynthesis Framework for Solid-State Materials Synthesis",
+   "authors": "Juhan Hong, Hyunsung Jang, Woojin Bae, Jaewon Bae, Chanyoung Park",
+   "venue": "ICML 2026 AI for Science Workshop",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=AqtQc7KO77",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p038",
+   "domain": "materials",
+   "sci_llm": false
+  },
+  {
+   "title": "Periodic Complex Stochastic Processes for Retrieving Atomic Structures of Unknown Matters",
+   "authors": "Gyoung S. Na, Chanyoung Park",
+   "venue": "ICML 2026 AI for Science Workshop",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=6UlOrnEUHL",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p039",
+   "domain": "materials",
+   "sci_llm": false
+  },
+  {
+   "title": "Density of States-Intermediated Crystal Generation for Material Inverse Design",
+   "authors": "Sujong Lee, Jaewon Bae, Seungyun Shin, Heesung Choi, Chanyoung Park",
+   "venue": "ICML 2026 AI for Science Workshop",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=b39fIYQF3X",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p040",
+   "domain": "materials",
+   "sci_llm": false
+  },
+  {
+   "title": "Test-Time Training for Visual Foresight Vision-Language-Action Models",
+   "authors": "Sangwu Park, Wonjoong Kim, Yeonjun In, Sein Kim, Hongseok Kang, Chanyoung Park",
+   "venue": "ICML 2026 Workshop (Continual Adaptation at Scale)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/abs/2605.08215",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p041",
+   "sci_llm": false
+  },
+  {
+   "title": "Progressive Multi-Agent Reasoning for Biological Perturbation Prediction",
+   "authors": "Hyomin Kim, Sang-Yeon Hwang, Jaechang Lim, Yinhua Piao, Yunhak Oh, Woo Youn Kim, Chanyoung Park, Sungsoo Ahn, Junhyeok Jeon",
+   "venue": "ICML 2026 Workshop (GenBio)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/abs/2602.07408",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p042",
+   "domain": "biology",
+   "sci_llm": true
+  },
+  {
+   "title": "MSP-LLM: A Unified Large Language Model Framework for Complete Material Synthesis Planning",
+   "authors": "Heewoong Noh, Gyoung S. Na, Namkyeong Lee, Chanyoung Park",
+   "venue": "ICLR 2026 Workshop (AI4Mat)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://openreview.net/forum?id=O2irXCLp3q",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p043",
+   "domain": "materials",
+   "sci_llm": true
+  },
+  {
+   "title": "Synergistic Multi-Task Learning for Electronic Density of States Prediction",
+   "authors": "Kunmin Jang, Dongik Park, Jaewon Bae, Chanyoung Park",
+   "venue": "ICLR 2026 Workshop (AI4Mat)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://openreview.net/forum?id=80O5IRJ8Yb",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p044",
+   "domain": "materials",
+   "sci_llm": false
+  },
+  {
+   "title": "Learning k-Resolved Electronic Structure via Soft Energy Occupancy Prediction",
+   "authors": "Dongik Park, Kunmin Jang, Jaewon Bae, Dongin Kim, Chanyoung Park",
+   "venue": "ICLR 2026 Workshop (AI4Mat)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://openreview.net/forum?id=VV24znSbUv",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p045",
+   "domain": "materials",
+   "sci_llm": false
+  },
+  {
+   "title": "3D Interaction Geometric Pre-training for Molecular Relational Learning",
+   "authors": "Namkyeong Lee, Yunhak Oh, Heewoong Noh, Gyoung S. Na, Minkai Xu, Hanchen Wang, Tianfan Fu, Chanyoung Park",
+   "venue": "NeurIPS 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2412.02957",
+   "code": "https://github.com/Namkyeong/3DMRL",
+   "note": "Spotlight",
+   "also_in": [
+    "NeurIPS 2024 Workshop (AIDrugX)"
+   ],
+   "id": "p046",
+   "domain": "molecules",
+   "sci_llm": false
+  },
+  {
+   "title": "Disentangling Hyperedges through the Lens of Category Theory",
+   "authors": "Yoonho Lee, Junseok Lee, Sangwoo Seo, Sungwon Kim, Yeongmin Kim, Chanyoung Park",
+   "venue": "NeurIPS 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [
+    "ai4sci"
+   ],
+   "pdf": "https://arxiv.org/abs/2510.16289",
+   "code": "https://github.com/Yoonho-Lee-AI4Science/Natural-HNN",
+   "note": null,
+   "also_in": [
+    "ICLR 2025 MLGenX Workshop"
+   ],
+   "id": "p047",
+   "sci_llm": false
+  },
+  {
+   "title": "Training Robust Graph Neural Networks by Modeling Noise Dependencies",
+   "authors": "Yeonjun In, Kanghoon Yoon, Sukwon Yun, Kibum Kim, Sungchul Kim, Chanyoung Park",
+   "venue": "NeurIPS 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/pdf/2502.19670",
+   "code": "https://github.com/yeonjun-in/torch-DA-GNN",
+   "note": null,
+   "also_in": [
+    "WWW 2024 DCAI Workshop (Oral)"
+   ],
+   "id": "p048",
+   "sci_llm": false
+  },
+  {
+   "title": "Is Safety Standard Same for Everyone? User-Specific Safety Evaluation of Large Language Models",
+   "authors": "Yeonjun In, Wonjoong Kim, Kanghoon Yoon, Sungchul Kim, Mehrab Tanjim, Kibum Kim, Chanyoung Park",
+   "venue": "EMNLP 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2502.15086",
+   "code": "https://github.com/yeonjun-in/U-SafeBench",
+   "note": "Findings",
+   "also_in": [
+    "NeurIPS 2025 Workshop (Reliable ML)"
+   ],
+   "id": "p049",
+   "sci_llm": false
+  },
+  {
+   "title": "Disambiguation in Conversational Question Answering in the Era of LLM: A Survey",
+   "authors": "Md Mehrab Tanjim, Yeonjun In, Xiang Chen, Victor S. Bursztyn, Ryan A. Rossi, Sungchul Kim, Guang-Jie Ren, Vaishnavi Muppala, Shun Jiang, Yongsung Kim, Chanyoung Park",
+   "venue": "EMNLP 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2505.12543",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p050",
+   "sci_llm": false
+  },
+  {
+   "title": "Target Circuit Matching in Large-Scale Netlists using GNN-Based Region Prediction",
+   "authors": "Sangwoo Seo, Jimin Seo, Yoonho Lee, Donghyeon Kim, Hyejin Shin, Banghyun Sung, Chanyoung Park",
+   "venue": "ICCAD 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph",
+    "applications"
+   ],
+   "pdf": "https://www.arxiv.org/abs/2507.19518",
+   "code": "https://github.com/sang-woo-seo/Circuit-matching-GNN",
+   "note": null,
+   "also_in": [],
+   "id": "p051",
+   "sci_llm": false,
+   "domain": "engineering"
+  },
+  {
+   "title": "Lost in Sequence: Do Large Language Models Understand Sequential Recommendation?",
+   "authors": "Sein Kim, Hongseok Kang, Kibum Kim, Jiwan Kim, Donghyun Kim, Minchul Yang, Kwangjin Oh, Julian McAuley, Chanyoung Park",
+   "venue": "KDD 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/abs/2502.13909",
+   "code": "https://github.com/Sein-Kim/LLM-SRec",
+   "note": null,
+   "also_in": [],
+   "id": "p052",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/KDD25_LLM-SRec_slide.pdf"
+   }
+  },
+  {
+   "title": "Oldie but Goodie: Re-illuminating Label Propagation on Graphs with Partially Observed Features",
+   "authors": "Sukwon Yun, Xin Liu, Yunhak Oh, Junseok Lee, Tianlong Chen, Tsuyoshi Murata, Chanyoung Park",
+   "venue": "KDD 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://www.arxiv.org/abs/2508.01209",
+   "code": "https://github.com/SukwonYun/GOODIE",
+   "note": null,
+   "also_in": [],
+   "id": "p053",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/KDD25_GOODIE_slide.pdf"
+   }
+  },
+  {
+   "title": "Electron-Informed Coarse-Graining Molecular Representation Learning for Real-World Molecular Physics",
+   "authors": "Gyoung S. Na, Chanyoung Park",
+   "venue": "KDD 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://dl.acm.org/doi/10.1145/3690624.3709270",
+   "code": "https://github.com/ngs00/HEDMoL",
+   "note": null,
+   "also_in": [
+    "NeurIPS 2023 AI4Science Workshop"
+   ],
+   "id": "p054",
+   "domain": "molecules",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/KDD25_HEDMoL_slide.pdf"
+   }
+  },
+  {
+   "title": "On Measuring Unnoticeability of Graph Adversarial Attacks: Observations, New Measure, and Applications",
+   "authors": "Hyeonsoo Jo, Hyunjin Hwang, Fanchen Bu, Soo Yong Lee, Chanyoung Park, Kijung Shin",
+   "venue": "KDD 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2501.05015",
+   "code": "https://github.com/HyeonsooJo/Resources-for-HideNSeek",
+   "note": null,
+   "also_in": [],
+   "id": "p055",
+   "sci_llm": false
+  },
+  {
+   "title": "Thickness-aware E(3)-Equivariant 3D Mesh Neural Networks",
+   "authors": "Sungwon Kim, Namkyeong Lee, Yunyoung Doh, Seungmin Shin, Guimok Cho, Seung-Won Jeon, Sangkook Kim, Chanyoung Park",
+   "venue": "ICML 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://arxiv.org/abs/2505.21572",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p056",
+   "domain": "engineering",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/ICML25_TEMNN_slide.pdf",
+    "news": "https://www.joongang.co.kr/article/25324013"
+   }
+  },
+  {
+   "title": "Global Context-aware Representation Learning for Spatially Resolved Transcriptomics",
+   "authors": "Yunhak Oh, Junseok Lee, Yeongmin Kim, Sangwoo Seo, Namkyeong Lee, Chanyoung Park",
+   "venue": "ICML 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "http://arxiv.org/abs/2506.15698",
+   "code": "https://github.com/yunhak0/Spotscape",
+   "note": null,
+   "also_in": [],
+   "id": "p057",
+   "domain": "biology",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/ICML25_Spotscape_slide.pdf"
+   }
+  },
+  {
+   "title": "Disentangling and Generating Modalities for Recommendation in Missing Modality Scenarios",
+   "authors": "Jiwan Kim, Hongseok Kang, Sein Kim, Kibum Kim, Chanyoung Park",
+   "venue": "SIGIR 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [
+    "multimodal"
+   ],
+   "pdf": "https://arxiv.org/abs/2504.16352",
+   "code": "https://github.com/ptkjw1997/DGMRec",
+   "note": "Best-ranked, journal fast-track",
+   "also_in": [],
+   "id": "p058",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/SIGIR25_DGMRec_slide.pdf"
+   }
+  },
+  {
+   "title": "Dynamic Time-aware Continual User Representation Learning",
+   "authors": "Seungyoon Choi, Sein Kim, Hongseok Kang, Wonjoong Kim, Chanyoung Park",
+   "venue": "SIGIR 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2504.16501",
+   "code": "https://github.com/seungyoon-Choi/DITTO_official",
+   "note": null,
+   "also_in": [],
+   "id": "p059",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/SIGIR25_DITTO_slide.pdf"
+   }
+  },
+  {
+   "title": "Subgraph Federated Learning for Local Generalization",
+   "authors": "Sungwon Kim, Yoonho Lee, Yunhak Oh, Namkyeong Lee, Sukwon Yun, Junseok Lee, Sein Kim, Carl Yang, Chanyoung Park",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://openreview.net/forum?id=cH65nS5sOz",
+   "code": "https://github.com/sung-won-kim/FedLoG",
+   "note": "Oral",
+   "also_in": [
+    "KDD 2024 FedKDD Workshop (Best Paper Award)"
+   ],
+   "id": "p060",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/ICLR25_FEDLOG_slide.pdf",
+    "news": "https://www.lecturernews.com/news/articleView.html?idxno=188721"
+   }
+  },
+  {
+   "title": "Weakly Supervised Video Scene Graph Generation via Natural Language Supervision",
+   "authors": "Kibum Kim, Kanghoon Yoon, Yeonjun In, Jaehyeong Jeon, Jinyoung Moon, Donghyun Kim, Chanyoung Park",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://openreview.net/forum?id=GQgPj1H4pO",
+   "code": "https://github.com/rlqja1107/NL-VSGG",
+   "note": null,
+   "also_in": [],
+   "id": "p061",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/ICLR25_NLVSGG_slide.pdf"
+   }
+  },
+  {
+   "title": "Self-Supervised Diffusion Models for Electron-Aware Molecular Representation Learning",
+   "authors": "Gyoung S. Na, Chanyoung Park",
+   "venue": "ICLR 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://openreview.net/forum?id=UQ0RqfhgCk",
+   "code": "https://github.com/ngs00/DELID",
+   "note": null,
+   "also_in": [],
+   "id": "p062",
+   "domain": "molecules",
+   "sci_llm": false,
+   "links": {
+    "news": "https://n.news.naver.com/mnews/article/001/0015449991?sid=105"
+   }
+  },
+  {
+   "title": "Diversify-verify-adapt: Efficient and Robust Retrieval-Augmented Ambiguous Question Answering",
+   "authors": "Yeonjun In, Sungchul Kim, Ryan A. Rossi, Mehrab Tanjim, Tong Yu, Ritwik Sinha, Chanyoung Park",
+   "venue": "NAACL 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2409.02361",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p063",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/NAACL25_DIVA_slide.pdf"
+   }
+  },
+  {
+   "title": "SIMPLOT: Enhancing Chart Question Answering by Distilling Essentials",
+   "authors": "Wonjoong Kim, Sangwu Park, Yeonjun In, Seokwon Han, Chanyoung Park",
+   "venue": "NAACL 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/abs/2405.00021",
+   "code": "https://github.com/sangwu99/Simplot",
+   "note": "Findings",
+   "also_in": [],
+   "id": "p064",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/NAACL25_SIMPLOT_slide.pdf"
+   }
+  },
+  {
+   "title": "RA-SGG: Retrieval-Augmented Scene Graph Generation Framework via Multi-Prototype Learning",
+   "authors": "Kanghoon Yoon, Kibum Kim, Jaehyeong Jeon, Yeonjun In, Donghyun Kim, Chanyoung Park",
+   "venue": "AAAI 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2412.12788",
+   "code": "https://github.com/KanghoonYoon/torch-rasgg",
+   "note": null,
+   "also_in": [],
+   "id": "p065",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/AAAI25_RASGG_slide.pdf"
+   }
+  },
+  {
+   "title": "Revisiting Fake News Detection: Towards Temporality-aware Evaluation by Leveraging Engagement Earliness",
+   "authors": "Junghoon Kim, Junmo Lee, Yeonjun In, Kanghoon Yoon, Chanyoung Park",
+   "venue": "WSDM 2025",
+   "year": 2025,
+   "type": "main",
+   "theme": "applications",
+   "subtheme": null,
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://arxiv.org/abs/2411.12775v1",
+   "code": "https://github.com/LeeJunmo/DAWN",
+   "note": "Oral; best-ranked, journal fast-track",
+   "also_in": [
+    "ACM TIST 2026 (journal version)"
+   ],
+   "id": "p066",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/WSDM25_DAWN_slide.pdf"
+   }
+  },
+  {
+   "title": "Data Scaling Isn't Enough: Towards Improving Compositional Reasoning in Video-Language Models",
+   "authors": "Kibum Kim, Kyle Min, Chanyoung Park",
+   "venue": "NeurIPS 2025 Workshop (MAR)",
+   "year": 2025,
+   "type": "workshop",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=WUy1igCXOA",
+   "code": null,
+   "note": "Spotlight",
+   "also_in": [],
+   "id": "p067",
+   "sci_llm": false
+  },
+  {
+   "title": "Retrieval-Retro: Retrieval-based Inorganic Retrosynthesis with Expert Knowledge",
+   "authors": "Heewoong Noh, Namkyeong Lee, Gyoung S. Na, Chanyoung Park",
+   "venue": "NeurIPS 2024",
+   "year": 2024,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://arxiv.org/pdf/2410.21341",
+   "code": "https://github.com/HeewoongNoh/Retrieval-Retro",
+   "note": null,
+   "also_in": [],
+   "id": "p068",
+   "domain": "materials",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/NeurIPS24_RetrievalRetro_slide.pdf",
+    "video": "https://slideslive.com/39028754/retrievalretro-retrievalbased-inorganic-retrosynthesis-with-expert-knowledge?ref=speaker-100700",
+    "news": "https://n.news.naver.com/mnews/article/421/0008016817?sid=102"
+   }
+  },
+  {
+   "title": "Debiased Graph Poisoning Attack via Contrastive Surrogate Objective",
+   "authors": "Kanghoon Yoon, Yeonjun In, Namkyeong Lee, Kibum Kim, Chanyoung Park",
+   "venue": "CIKM 2024",
+   "year": 2024,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/pdf/2407.19155",
+   "code": "https://github.com/KanghoonYoon/torch-metacon",
+   "note": null,
+   "also_in": [],
+   "id": "p069",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/CIKM24_metacon_slide.pdf"
+   }
+  },
+  {
+   "title": "Vision Language Model is NOT All You Need: Augmentation Strategies for Molecule Language Models",
+   "authors": "Namkyeong Lee, Siddhartha Laghuvarapu, Chanyoung Park, Jimeng Sun",
+   "venue": "CIKM 2024",
+   "year": 2024,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/abs/2407.09043",
+   "code": "https://github.com/Namkyeong/AMOLE",
+   "note": null,
+   "also_in": [
+    "ACL 2024 Language+Molecules Workshop"
+   ],
+   "id": "p070",
+   "domain": "molecules",
+   "sci_llm": true,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/CIKM24_AMOLE_slide.pdf"
+   }
+  },
+  {
+   "title": "Semantic Diversity-aware Prototype-based Learning for Unbiased Scene Graph Generation",
+   "authors": "Jaehyeong Jeon, Kibum Kim, Kanghoon Yoon, Chanyoung Park",
+   "venue": "ECCV 2024",
+   "year": 2024,
+   "type": "main",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2407.15396",
+   "code": "https://github.com/JeonJaeHyeong/DPL",
+   "note": null,
+   "also_in": [],
+   "id": "p071",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/ECCV24_DPL_slide.pdf",
+    "video": "https://www.youtube.com/watch?v=tZekI9hQwUs"
+   }
+  },
+  {
+   "title": "Mew: Multiplexed Immunofluorescence Image Analysis through an Efficient Multiplex Network",
+   "authors": "Sukwon Yun, Jie Peng, Alexandro Trevino, Chanyoung Park, Tianlong Chen",
+   "venue": "ECCV 2024",
+   "year": 2024,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph",
+    "multimodal"
+   ],
+   "pdf": "https://arxiv.org/abs/2407.17857",
+   "code": "https://github.com/UNITES-Lab/Mew",
+   "note": null,
+   "also_in": [],
+   "id": "p072",
+   "domain": "biology",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/ECCV24_Mew_slide.pdf"
+   }
+  },
+  {
+   "title": "Large Language Models meet Collaborative Filtering: An Efficient All-round LLM-based Recommender System",
+   "authors": "Sein Kim, Hongseok Kang, Seungyoon Choi, Donghyun Kim, Minchul Yang, Chanyoung Park",
+   "venue": "KDD 2024",
+   "year": 2024,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/abs/2404.11343",
+   "code": "https://github.com/ghdtjr/A-LLMRec",
+   "note": null,
+   "also_in": [],
+   "id": "p073",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/KDD24_ALLMRec_slide.pdf",
+    "news": "https://n.news.naver.com/mnews/article/011/0004367520?sid=102"
+   }
+  },
+  {
+   "title": "Self-Explainable Temporal Graph Networks based on Graph Information Bottleneck",
+   "authors": "Sangwoo Seo, Sungwon Kim, Jihyeong Jung, Yoonho Lee, Chanyoung Park",
+   "venue": "KDD 2024",
+   "year": 2024,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2406.13214",
+   "code": "https://github.com/sang-woo-seo/TGIB",
+   "note": null,
+   "also_in": [],
+   "id": "p074",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/KDD24_TGIB_slide.pdf"
+   }
+  },
+  {
+   "title": "Unsupervised Episode Generation for Graph Meta-learning",
+   "authors": "Jihyeong Jung, Sangwoo Seo, Sungwon Kim, Chanyoung Park",
+   "venue": "ICML 2024",
+   "year": 2024,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2306.15217",
+   "code": "https://github.com/JhngJng/NaQ-PyTorch",
+   "note": null,
+   "also_in": [],
+   "id": "p075",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/ICML24_NaQ_slide.pdf",
+    "video": "https://www.youtube.com/watch?v=FYqX7bf99r4"
+   }
+  },
+  {
+   "title": "LLM4SGG: Large Language Models for Weakly Supervised Scene Graph Generation",
+   "authors": "Kibum Kim, Kanghoon Yoon, Jaehyeong Jeon, Yeonjun In, Jinyoung Moon, Donghyun Kim, Chanyoung Park",
+   "venue": "CVPR 2024",
+   "year": 2024,
+   "type": "main",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/abs/2310.10404",
+   "code": "https://github.com/rlqja1107/torch-LLM4SGG",
+   "note": null,
+   "also_in": [],
+   "id": "p076",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/CVPR24_LLM4SGG_slide.pdf"
+   }
+  },
+  {
+   "title": "Self-guided Robust Graph Structure Refinement",
+   "authors": "Yeonjun In, Kanghoon Yoon, Kibum Kim, Kijung Shin, Chanyoung Park",
+   "venue": "WWW 2024",
+   "year": 2024,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2402.11837",
+   "code": "https://github.com/yeonjun-in/torch-SG-GSR",
+   "note": "Oral",
+   "also_in": [],
+   "id": "p077",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/WWW24_SGGSR_slide.pdf",
+    "video": "https://www.youtube.com/watch?v=o8b710SeuXk"
+   }
+  },
+  {
+   "title": "DSLR: Diversity Enhancement and Structure Learning for Rehearsal-based Graph Continual Learning",
+   "authors": "Seungyoon Choi, Wonjoong Kim, Sungwon Kim, Yeonjun In, Sein Kim, Chanyoung Park",
+   "venue": "WWW 2024",
+   "year": 2024,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "http://arxiv.org/abs/2402.13711",
+   "code": "https://github.com/seungyoon-Choi/DSLR_official",
+   "note": "Oral",
+   "also_in": [],
+   "id": "p078",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/WWW24_DSLR_slide.pdf",
+    "video": "https://www.youtube.com/watch?v=9NPN7Nj1xD8"
+   }
+  },
+  {
+   "title": "Adaptive Self-training Framework for Fine-grained Scene Graph Generation",
+   "authors": "Kibum Kim, Kanghoon Yoon, Yeonjun In, Jinyoung Moon, Donghyun Kim, Chanyoung Park",
+   "venue": "ICLR 2024",
+   "year": 2024,
+   "type": "main",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=WipsLtH77t",
+   "code": "https://github.com/rlqja1107/torch-ST-SGG",
+   "note": null,
+   "also_in": [],
+   "id": "p079",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/ICLR24_STSGG_slide.pdf"
+   }
+  },
+  {
+   "title": "Sterling: Synergistic Representation Learning on Bipartite Graphs",
+   "authors": "Baoyu Jing, Yuchen Yan, Kaize Ding, Chanyoung Park, Yada Zhu, Huan Liu, Hanghang Tong",
+   "venue": "AAAI 2024",
+   "year": 2024,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2302.05428",
+   "code": null,
+   "note": "Oral",
+   "also_in": [],
+   "id": "p080",
+   "sci_llm": false
+  },
+  {
+   "title": "Interpretable Prototype-based Graph Information Bottleneck",
+   "authors": "Sangwoo Seo, Sungwon Kim, Chanyoung Park",
+   "venue": "NeurIPS 2023",
+   "year": 2023,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=icWwBKyVMs",
+   "code": "https://github.com/sang-woo-seo/PGIB",
+   "note": "Gold Prize, Samsung Humantech",
+   "also_in": [
+    "KDD 2024 HIAI Workshop (Oral, Best Paper Award)"
+   ],
+   "id": "p081",
+   "sci_llm": false,
+   "links": {
+    "video": "https://neurips.cc/virtual/2023/poster/70730"
+   }
+  },
+  {
+   "title": "Density of States Prediction of Crystalline Materials via Prompt-guided Multi-Modal Transformer",
+   "authors": "Namkyeong Lee, Heewoong Noh, Sungwon Kim, Dongmin Hyun, Gyoung S. Na, Chanyoung Park",
+   "venue": "NeurIPS 2023",
+   "year": 2023,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=2lWh1G1W1I",
+   "code": "https://github.com/HeewoongNoh/DOSTransformer",
+   "note": null,
+   "also_in": [
+    "ICLR 2023 ML4Materials Workshop"
+   ],
+   "id": "p082",
+   "domain": "materials",
+   "sci_llm": false,
+   "links": {
+    "video": "https://slideslive.com/39010914/density-of-states-prediction-of-crystalline-materials-via-promptguided-multimodal-transformer?ref=speaker-100700"
+   }
+  },
+  {
+   "title": "MUSE: Music Recommender System with Shuffle Play Recommendation Enhancement",
+   "authors": "Yunhak Oh, Sukwon Yun, Dongmin Hyun, Sein Kim, Chanyoung Park",
+   "venue": "CIKM 2023",
+   "year": 2023,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2308.09649",
+   "code": "https://github.com/yunhak0/MUSE",
+   "note": null,
+   "also_in": [],
+   "id": "p083",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/CIKM23_MUSE_slide.pdf"
+   }
+  },
+  {
+   "title": "Class Label-aware Graph Anomaly Detection",
+   "authors": "Junghoon Kim, Yeonjun In, Kanghoon Yoon, Junmo Lee, Chanyoung Park",
+   "venue": "CIKM 2023",
+   "year": 2023,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2308.11669",
+   "code": "https://github.com/jhkim611/CLAD",
+   "note": "Short paper",
+   "also_in": [],
+   "id": "p084",
+   "sci_llm": false
+  },
+  {
+   "title": "Structural Mixup for Graph Neural Networks",
+   "authors": "Junghurn Kim, Sukwon Yun, Chanyoung Park",
+   "venue": "CIKM 2023",
+   "year": 2023,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2308.08097",
+   "code": "https://github.com/SukwonYun/S-Mixup",
+   "note": "Short paper",
+   "also_in": [],
+   "id": "p085",
+   "sci_llm": false
+  },
+  {
+   "title": "Similarity Preserving Adversarial Graph Contrastive Learning",
+   "authors": "Yeonjun In, Kanghoon Yoon, Chanyoung Park",
+   "venue": "KDD 2023",
+   "year": 2023,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2306.13854",
+   "code": "https://github.com/yeonjun-in/torch-SP-AGCL",
+   "note": null,
+   "also_in": [],
+   "id": "p086",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/KDD23_SPAGCL_slide.pdf",
+    "video": "https://youtu.be/hqJG4_iCYMM"
+   }
+  },
+  {
+   "title": "Shift-Robust Molecular Relational Learning with Causal Substructure",
+   "authors": "Namkyeong Lee, Kanghoon Yoon, Gyoung S. Na, Sein Kim, Chanyoung Park",
+   "venue": "KDD 2023",
+   "year": 2023,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://arxiv.org/abs/2305.18451",
+   "code": "https://github.com/Namkyeong/CMRL",
+   "note": null,
+   "also_in": [],
+   "id": "p087",
+   "domain": "molecules",
+   "sci_llm": false,
+   "links": {
+    "video": "https://youtu.be/KVhbwicqh5c"
+   }
+  },
+  {
+   "title": "Task-Equivariant Graph Few-shot Learning",
+   "authors": "Sungwon Kim, Junseok Lee, Namkyeong Lee, Wonjoong Kim, Seungyoon Choi, Chanyoung Park",
+   "venue": "KDD 2023",
+   "year": 2023,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2305.18758",
+   "code": "https://github.com/sung-won-kim/TEG",
+   "note": null,
+   "also_in": [],
+   "id": "p088",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/KDD23_TEG_slide.pdf",
+    "video": "https://youtu.be/zfn4gi9cVic"
+   }
+  },
+  {
+   "title": "Task Relation-aware Continual User Representation Learning",
+   "authors": "Sein Kim, Namkyeong Lee, Donghyun Kim, Min-Chul Yang, Chanyoung Park",
+   "venue": "KDD 2023",
+   "year": 2023,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2306.01792",
+   "code": "https://github.com/Sein-Kim/TERACON",
+   "note": null,
+   "also_in": [],
+   "id": "p089",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/KDD23_TERACON_slide.pdf",
+    "video": "https://youtu.be/4oW3Bwy9r6M"
+   }
+  },
+  {
+   "title": "Conditional Graph Information Bottleneck for Molecular Relational Learning",
+   "authors": "Namkyeong Lee, Dongmin Hyun, Gyoung S. Na, Sungwon Kim, Junseok Lee, Chanyoung Park",
+   "venue": "ICML 2023",
+   "year": 2023,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://arxiv.org/abs/2305.01520",
+   "code": "https://github.com/Namkyeong/CGIB",
+   "note": null,
+   "also_in": [],
+   "id": "p090",
+   "domain": "molecules",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/ICML23_CGIB_slide.pdf",
+    "video": "https://slideslive.com/39003694/conditional-graph-information-bottleneck-for-molecular-relational-learning?ref=search-presentations-Conditional+Graph+Information+Bottleneck+for+Molecular+Relational+Learning",
+    "news": "https://n.news.naver.com/mnews/article/016/0002171153?sid=105"
+   }
+  },
+  {
+   "title": "MELT: Mutual Enhancement of Long-Tailed User and Item for Sequential Recommendation",
+   "authors": "Kibum Kim, Dongmin Hyun, Sukwon Yun, Chanyoung Park",
+   "venue": "SIGIR 2023",
+   "year": 2023,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2304.08382",
+   "code": "https://github.com/rlqja1107/MELT",
+   "note": null,
+   "also_in": [],
+   "id": "p091",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/SIGIR23_MELT_slide.pdf"
+   }
+  },
+  {
+   "title": "Heterogeneous Graph Learning for Multi-modal Medical Data Analysis",
+   "authors": "Sein Kim, Namkyeong Lee, Junseok Lee, Dongmin Hyun, Chanyoung Park",
+   "venue": "AAAI 2023",
+   "year": 2023,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph",
+    "multimodal"
+   ],
+   "pdf": "https://arxiv.org/abs/2211.15158",
+   "code": "https://github.com/Sein-Kim/Multimodal-Medical",
+   "note": "Oral; KAIST Breakthrough",
+   "also_in": [],
+   "id": "p092",
+   "domain": "biology",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/AAAI23_HetMed_slide.pdf",
+    "video": "https://youtu.be/NxXhc90dIZs"
+   }
+  },
+  {
+   "title": "Unbiased Heterogeneous Scene Graph Generation with Relation-aware Message Passing Neural Network",
+   "authors": "Kanghoon Yoon, Kibum Kim, Jinyoung Moon, Chanyoung Park",
+   "venue": "AAAI 2023",
+   "year": 2023,
+   "type": "main",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://arxiv.org/abs/2212.00443",
+   "code": "https://github.com/KanghoonYoon/hetsgg-torch",
+   "note": null,
+   "also_in": [],
+   "id": "p093",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/AAAI23_HetSGG_slide.pdf",
+    "video": "https://youtu.be/bfr4iFVN7Jk"
+   }
+  },
+  {
+   "title": "Deep single-cell RNA-seq data clustering with graph prototypical contrastive learning",
+   "authors": "Junseok Lee, Sungwon Kim, Dongmin Hyun, Namkyeong Lee, Yejin Kim, Chanyoung Park",
+   "venue": "Bioinformatics 2023",
+   "year": 2023,
+   "type": "journal",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://doi.org/10.1093/bioinformatics/btad342",
+   "code": "https://github.com/Junseok0207/scGPCL",
+   "note": null,
+   "also_in": [
+    "ICML 2023 Workshop (CompBio)"
+   ],
+   "id": "p094",
+   "domain": "biology",
+   "sci_llm": false
+  },
+  {
+   "title": "Single-cell RNA-seq data imputation using Feature Propagation",
+   "authors": "Sukwon Yun, Junseok Lee, Chanyoung Park",
+   "venue": "ICML 2023 Workshop (CompBio)",
+   "year": 2023,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://arxiv.org/abs/2307.10037",
+   "code": "https://github.com/Junseok0207/scFP",
+   "note": "Contributed Talk, Best Paper Award",
+   "also_in": [],
+   "id": "p095",
+   "domain": "biology",
+   "sci_llm": false
+  },
+  {
+   "title": "Shift-Robust Node Classification via Graph Adversarial Clustering",
+   "authors": "Qi Zhu, Chao Zhang, Chanyoung Park, Carl Yang, Jiawei Han",
+   "venue": "NeurIPS 2022 Workshop (GLFrontiers)",
+   "year": 2022,
+   "type": "workshop",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2203.15802",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p096",
+   "sci_llm": false
+  },
+  {
+   "title": "Generating Multiple-Length Summaries via Reinforcement Learning for Unsupervised Sentence Summarization",
+   "authors": "Dongmin Hyun, Xiting Wang, Chanyoung Park, Xing Xie, Hwanjo Yu",
+   "venue": "EMNLP 2022",
+   "year": 2022,
+   "type": "main",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2212.10843",
+   "code": "https://github.com/dmhyun/MSRP",
+   "note": "Findings",
+   "also_in": [],
+   "id": "p097",
+   "sci_llm": false
+  },
+  {
+   "title": "Set2Box: Similarity Preserving Representation Learning for Sets",
+   "authors": "Geon Lee, Chanyoung Park, Kijung Shin",
+   "venue": "ICDM 2022",
+   "year": 2022,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2210.03282",
+   "code": "https://github.com/geon0325/Set2Box",
+   "note": null,
+   "also_in": [],
+   "id": "p098",
+   "sci_llm": false
+  },
+  {
+   "title": "LTE4G: Long-Tail Experts for Graph Neural Networks",
+   "authors": "Sukwon Yun, Kibum Kim, Kanghoon Yoon, Chanyoung Park",
+   "venue": "CIKM 2022",
+   "year": 2022,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2208.10205",
+   "code": "https://github.com/SukwonYun/LTE4G",
+   "note": null,
+   "also_in": [],
+   "id": "p099",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/CIKM22_LTE4G_slide.pdf"
+   }
+  },
+  {
+   "title": "Relational Self-Supervised Learning on Graphs",
+   "authors": "Namkyeong Lee, Dongmin Hyun, Junseok Lee, Chanyoung Park",
+   "venue": "CIKM 2022",
+   "year": 2022,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2208.10493",
+   "code": "https://github.com/Namkyeong/RGRL",
+   "note": null,
+   "also_in": [],
+   "id": "p100",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/CIKM22_RGRL_slide.pdf",
+    "news": "https://n.news.naver.com/mnews/article/016/0002057050?sid=105"
+   }
+  },
+  {
+   "title": "Beyond Learning from Next Item: Sequential Recommendation via Personalized Interest Sustainability",
+   "authors": "Dongmin Hyun, Chanyoung Park, Junsu Cho, Hwanjo Yu",
+   "venue": "CIKM 2022",
+   "year": 2022,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2209.06644",
+   "code": "https://github.com/dmhyun/peris",
+   "note": null,
+   "also_in": [],
+   "id": "p101",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/CIKM22_PERIS_slide.pdf"
+   }
+  },
+  {
+   "title": "Nonlinearity Encoding for Extrapolation of Neural Networks",
+   "authors": "Gyoung S. Na, Chanyoung Park",
+   "venue": "KDD 2022",
+   "year": 2022,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://kaist-dsail.github.io/files/KDD22.pdf",
+   "code": "https://github.com/ngs00/ane",
+   "note": null,
+   "also_in": [],
+   "id": "p102",
+   "domain": "materials",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/KDD22_slide.pdf"
+   }
+  },
+  {
+   "title": "GraFN: Semi-Supervised Node Classification on Graph with Few Labels via Non-Parametric Distribution Assignment",
+   "authors": "Junseok Lee, Yunhak Oh, Yeonjun In, Namkyeong Lee, Dongmin Hyun, Chanyoung Park",
+   "venue": "SIGIR 2022",
+   "year": 2022,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2204.01303",
+   "code": "https://github.com/LJS-Student/GraFN",
+   "note": "Short paper",
+   "also_in": [],
+   "id": "p103",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/SIGIR22_GraFN_slide.pdf"
+   }
+  },
+  {
+   "title": "AHP: Learning to Negative Sample for Hyperedge Prediction",
+   "authors": "Hyunjin Hwang, Seungwoo Lee, Chanyoung Park, Kijung Shin",
+   "venue": "SIGIR 2022",
+   "year": 2022,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2204.06353",
+   "code": "https://github.com/HyunjinHwn/SIGIR22-AHP",
+   "note": "Short paper",
+   "also_in": [],
+   "id": "p104",
+   "sci_llm": false
+  },
+  {
+   "title": "Augmentation-Free Self-Supervised Learning on Graphs",
+   "authors": "Namkyeong Lee, Junseok Lee, Chanyoung Park",
+   "venue": "AAAI 2022",
+   "year": 2022,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2112.02472",
+   "code": "https://github.com/Namkyeong/AFGRL",
+   "note": null,
+   "also_in": [],
+   "id": "p105",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://namkyeong.github.io/assets/pdf/slides_AFGRL.pdf"
+   }
+  },
+  {
+   "title": "Learnable Structural Semantic Readout for Graph Classification",
+   "authors": "Dongha Lee, Su Kim, Seonghyeon Lee, Chanyoung Park, Hwanjo Yu",
+   "venue": "ICDM 2021",
+   "year": 2021,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2111.11523",
+   "code": "https://github.com/donalee/ssread",
+   "note": null,
+   "also_in": [],
+   "id": "p106",
+   "sci_llm": false
+  },
+  {
+   "title": "Bootstrapping User and Item Representations for One-Class Collaborative Filtering",
+   "authors": "Dongha Lee, Seongku Kang, Hyunjun Ju, Chanyoung Park, Hwanjo Yu",
+   "venue": "SIGIR 2021",
+   "year": 2021,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2105.06323",
+   "code": "https://github.com/donalee/BUIR",
+   "note": null,
+   "also_in": [],
+   "id": "p107",
+   "sci_llm": false
+  },
+  {
+   "title": "HDMI: High-order Deep Multiplex Infomax",
+   "authors": "Baoyu Jing, Chanyoung Park, Hanghang Tong",
+   "venue": "WWW 2021",
+   "year": 2021,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/pdf/2102.07810.pdf",
+   "code": "https://github.com/baoyujing/HDMI",
+   "note": null,
+   "also_in": [],
+   "id": "p108",
+   "sci_llm": false,
+   "links": {
+    "video": "https://www.youtube.com/watch?v=2iW6uFlttJU"
+   }
+  },
+  {
+   "title": "Interest Sustainability-Aware Recommender System",
+   "authors": "Dongmin Hyun, Junsu Cho, Chanyoung Park, Hwanjo Yu",
+   "venue": "ICDM 2020",
+   "year": 2020,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://kaist-dsail.github.io/files/ICDM20.pdf",
+   "code": "https://github.com/dmhyun/CRIS",
+   "note": null,
+   "also_in": [],
+   "id": "p109",
+   "sci_llm": false
+  },
+  {
+   "title": "Unsupervised Differentiable Multi-aspect Network Embedding",
+   "authors": "Chanyoung Park, Carl Yang, Qi Zhu, Donghyun Kim, Hwanjo Yu, Jiawei Han",
+   "venue": "KDD 2020",
+   "year": 2020,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2006.04239",
+   "code": "https://github.com/pcy1302/asp2vec",
+   "note": null,
+   "also_in": [],
+   "id": "p110",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/KDD20_slide.pdf",
+    "video": "https://youtu.be/DOdRmz1gLdc"
+   }
+  },
+  {
+   "title": "Unsupervised Attributed Multiplex Network Embedding",
+   "authors": "Chanyoung Park, Donghyun Kim, Jiawei Han, Hwanjo Yu",
+   "venue": "AAAI 2020",
+   "year": 2020,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/1911.06750",
+   "code": "https://github.com/pcy1302/DMGI",
+   "note": null,
+   "also_in": [],
+   "id": "p111",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/AAAI20_slide.pdf"
+   }
+  },
+  {
+   "title": "Task-Guided Pair Embedding in Heterogeneous Network",
+   "authors": "Chanyoung Park, Donghyun Kim, Qi Zhu, Jiawei Han, Hwanjo Yu",
+   "venue": "CIKM 2019",
+   "year": 2019,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/pdf/1906.01546.pdf",
+   "code": "https://github.com/pcy1302/TapEM",
+   "note": null,
+   "also_in": [],
+   "id": "p112",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/CIKM19_slide.pdf"
+   }
+  },
+  {
+   "title": "BHIN2vec: Balancing the Type of Relation in Heterogeneous Information Network",
+   "authors": "Seonghyun Lee, Chanyoung Park, Hwanjo Yu",
+   "venue": "CIKM 2019",
+   "year": 2019,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://kaist-dsail.github.io/files/CIKM19.pdf",
+   "code": "https://github.com/sh0416/BHIN2VEC",
+   "note": null,
+   "also_in": [],
+   "id": "p113",
+   "sci_llm": false
+  },
+  {
+   "title": "Action Space Learning for Heterogeneous User Behavior Prediction",
+   "authors": "Dongha Lee, Chanyoung Park, Hyunjun Ju, Junyoung Hwang, Hwanjo Yu",
+   "venue": "IJCAI 2019",
+   "year": 2019,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://kaist-dsail.github.io/files/IJCAI19_2.pdf",
+   "code": "https://github.com/donalee/metas",
+   "note": null,
+   "also_in": [],
+   "id": "p114",
+   "sci_llm": false
+  },
+  {
+   "title": "Sequential and Diverse Recommendation with Long Tail",
+   "authors": "Yejin Kim, Kwangseob Kim, Chanyoung Park, Hwanjo Yu",
+   "venue": "IJCAI 2019",
+   "year": 2019,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://kaist-dsail.github.io/files/IJCAI19_1.pdf",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p115",
+   "sci_llm": false
+  },
+  {
+   "title": "Collaborative Translational Metric Learning",
+   "authors": "Chanyoung Park, Donghyun Kim, Xing Xie, Hwanjo Yu",
+   "venue": "ICDM 2018",
+   "year": 2018,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://kaist-dsail.github.io/files/ICDM18.pdf",
+   "code": "https://github.com/pcy1302/TransCF",
+   "note": null,
+   "also_in": [],
+   "id": "p116",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/ICDM18_slide.pdf"
+   }
+  },
+  {
+   "title": "Review Sentiment-Guided Scalable Deep Recommender System",
+   "authors": "Dongmin Hyun, Chanyoung Park, Min-Chul Yang, Ilhyeon Song, Jung-Tae Lee, Hwanjo Yu",
+   "venue": "SIGIR 2018",
+   "year": 2018,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://kaist-dsail.github.io/files/SIGIR18.pdf",
+   "code": null,
+   "note": "Short paper",
+   "also_in": [],
+   "id": "p117",
+   "sci_llm": false
+  },
+  {
+   "title": "Do \"Also-Viewed\" Products Help User Rating Prediction?",
+   "authors": "Chanyoung Park, Donghyun Kim, Jinoh Oh, Hwanjo Yu",
+   "venue": "WWW 2017",
+   "year": 2017,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://kaist-dsail.github.io/files/WWW17.pdf",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p118",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/WWW17_slide.pdf"
+   }
+  },
+  {
+   "title": "Convolutional Matrix Factorization for Document Context-Aware Recommendation",
+   "authors": "Donghyun Kim, Chanyoung Park, Jinoh Oh, Seungyong Lee, Hwanjo Yu",
+   "venue": "RecSys 2016",
+   "year": 2016,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://kaist-dsail.github.io/files/RecSys16.pdf",
+   "code": "https://github.com/cartopy/ConvMF-1.0.0",
+   "note": null,
+   "also_in": [],
+   "id": "p119",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/RecSys16_slide.pdf"
+   }
+  },
+  {
+   "title": "TRecSo: Enhancing Top-k Recommendation With Social Information",
+   "authors": "Chanyoung Park, Donghyun Kim, Jinoh Oh, Hwanjo Yu",
+   "venue": "WWW 2016",
+   "year": 2016,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://kaist-dsail.github.io/files/WWW16.pdf",
+   "code": null,
+   "note": "Poster",
+   "also_in": [],
+   "id": "p120",
+   "sci_llm": false
+  },
+  {
+   "title": "Predicting User Purchase in E-commerce by Comprehensive Feature Engineering and Decision Boundary Focused Under-Sampling",
+   "authors": "Chanyoung Park, Donghyun Kim, Jinoh Oh, Hwanjo Yu",
+   "venue": "RecSys Challenge 2015",
+   "year": 2015,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "http://dx.doi.org/10.1145/2813448.2813517",
+   "code": null,
+   "note": "10th place, top 1.1%",
+   "also_in": [],
+   "id": "p121",
+   "sci_llm": false,
+   "links": {
+    "slide": "https://kaist-dsail.github.io/files/RecSysChallenge15_slide.pdf"
+   }
+  },
+  {
+   "id": "p122",
+   "title": "Single-cell RNA Sequencing Data Imputation Using Bi-level Feature Propagation",
+   "authors": "Junseok Lee, Sukwon Yun, Yeongmin Kim, Tianlong Chen, Manolis Kellis, Chanyoung Park",
+   "venue": "Briefings in Bioinformatics 2024",
+   "year": 2024,
+   "type": "journal",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://academic.oup.com/bib/article/25/3/bbae209/7665119",
+   "code": "https://github.com/Junseok0207/scBFP",
+   "note": "KAIST Graduate Student Outstanding Paper Award",
+   "also_in": [],
+   "domain": "biology",
+   "sci_llm": false
+  },
+  {
+   "id": "p123",
+   "title": "Self-Supervised Graph Representation Learning via Positive Mining",
+   "authors": "Namkyeong Lee, Junseok Lee, Chanyoung Park",
+   "venue": "Information Sciences 2022",
+   "year": 2022,
+   "type": "journal",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://doi.org/10.1016/j.ins.2022.08.063",
+   "code": "https://github.com/Namkyeong/AFGRL",
+   "note": null,
+   "also_in": [],
+   "sci_llm": false
+  },
+  {
+   "id": "p124",
+   "title": "Learning to Utilize Auxiliary Reviews for Recommendation",
+   "authors": "Dongmin Hyun, Chanyoung Park, Junsu Cho, Hwanjo Yu",
+   "venue": "Information Sciences 2021",
+   "year": 2021,
+   "type": "journal",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://www.sciencedirect.com/science/article/pii/S0020025520309348",
+   "code": null,
+   "note": null,
+   "also_in": []
+  },
+  {
+   "id": "p125",
+   "title": "Deep Multiplex Graph Infomax: Attentive Multiplex Network Embedding using Global Information",
+   "authors": "Chanyoung Park, Jiawei Han, Hwanjo Yu",
+   "venue": "Knowledge-Based Systems 2020",
+   "year": 2020,
+   "type": "journal",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://doi.org/10.1016/j.knosys.2020.105861",
+   "code": "https://github.com/pcy1302/DMGI",
+   "note": null,
+   "also_in": []
+  },
+  {
+   "id": "p126",
+   "title": "Improved prediction of miRNA–disease associations based on matrix completion with network regularization",
+   "authors": "Jihwan Ha, Chihyun Park, Chanyoung Park, Sanghyun Park",
+   "venue": "Cells 2020",
+   "year": 2020,
+   "type": "journal",
+   "theme": "ai4sci",
+   "subtheme": null,
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://www.mdpi.com/2073-4409/9/4/881",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "domain": "biology",
+   "sci_llm": false
+  },
+  {
+   "id": "p127",
+   "title": "Click-aware Purchase Prediction with Push at the Top",
+   "authors": "Chanyoung Park, Donghyun Kim, Min-Chul Yang, Jung-Tae Lee, Hwanjo Yu",
+   "venue": "Information Sciences 2020",
+   "year": 2020,
+   "type": "journal",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://doi.org/10.1016/j.ins.2020.02.062",
+   "code": null,
+   "note": null,
+   "also_in": []
+  },
+  {
+   "id": "p128",
+   "title": "IMIPMF: Inferring miRNA-disease interactions using probabilistic matrix factorization",
+   "authors": "Jihwan Ha, Chihyun Park, Chanyoung Park, Sanghyun Park",
+   "venue": "Journal of Biomedical Informatics 2020",
+   "year": 2020,
+   "type": "journal",
+   "theme": "ai4sci",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S1532046419302783",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "domain": "biology",
+   "sci_llm": false
+  },
+  {
+   "id": "p129",
+   "title": "An Encoder-Decoder Switch Network for Purchase Prediction",
+   "authors": "Chanyoung Park, Donghyun Kim, Hwanjo Yu",
+   "venue": "Knowledge-Based Systems 2019",
+   "year": 2019,
+   "type": "journal",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://doi.org/10.1016/j.knosys.2019.104932",
+   "code": null,
+   "note": null,
+   "also_in": []
+  },
+  {
+   "id": "p130",
+   "title": "Target-Aware Convolutional Neural Network for Target-Level Sentiment Analysis",
+   "authors": "Dongmin Hyun, Chanyoung Park, Min-Chul Yang, Ilhyeon Song, Jung-Tae Lee, Hwanjo Yu",
+   "venue": "Information Sciences 2019",
+   "year": 2019,
+   "type": "journal",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://www.sciencedirect.com/science/article/pii/S0020025519302877",
+   "code": null,
+   "note": null,
+   "also_in": []
+  },
+  {
+   "id": "p131",
+   "title": "Deep Hybrid Recommender Systems via Exploiting Document Context and Statistics of Items",
+   "authors": "Donghyun Kim, Chanyoung Park, Jinoh Oh, Hwanjo Yu",
+   "venue": "Information Sciences 2017",
+   "year": 2017,
+   "type": "journal",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://doi.org/10.1016/j.ins.2017.06.026",
+   "code": "https://github.com/cartopy/ConvMF-1.0.0",
+   "note": null,
+   "also_in": []
+  },
+  {
+   "id": "p132",
+   "title": "Improving top-K recommendation with truster and trustee relationship in user trust network",
+   "authors": "Chanyoung Park, Donghyun Kim, Jinoh Oh, Hwanjo Yu",
+   "venue": "Information Sciences 2016",
+   "year": 2016,
+   "type": "journal",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://www.sciencedirect.com/science/article/pii/S0020025516308301",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "links": {
+    "slide": "https://pcy1302.github.io/data/InforSci16_slide.pdf"
+   }
+  }
+ ],
+ "convergence": [
+  {
+   "a": "graph",
+   "b": "ai4sci",
+   "name": "Scientific foundation models",
+   "blurb": "Graph and equivariant learning applied to molecules, meshes, and cells.",
+   "papers": [
+    "p090",
+    "p056",
+    "p017",
+    "p047",
+    "p087",
+    "p095",
+    "p057",
+    "p035"
+   ]
+  },
+  {
+   "a": "recsys",
+   "b": "llm",
+   "name": "Personalized agents",
+   "blurb": "Agents that remember users and recommenders that improve themselves.",
+   "papers": [
+    "p031",
+    "p033",
+    "p003",
+    "p011",
+    "p073",
+    "p052",
+    "p025",
+    "p030"
+   ]
+  },
+  {
+   "a": "multimodal",
+   "b": "llm",
+   "name": "Multimodal & embodied agents",
+   "blurb": "Vision-language models that act, and agents that read charts and video.",
+   "papers": [
+    "p041",
+    "p064",
+    "p013",
+    "p024",
+    "p014",
+    "p003",
+    "p076"
+   ]
+  },
+  {
+   "a": "llm",
+   "b": "ai4sci",
+   "name": "Scientific LLMs & agents",
+   "blurb": "LLMs and agents that read spectra, plan synthesis, and reason about molecules and cells — toward autonomous discovery.",
+   "papers": [
+    "p023",
+    "p028",
+    "p043",
+    "p042",
+    "p034",
+    "p005",
+    "p070"
+   ]
+  }
+ ],
+ "applications": [
+  {
+   "name": "Sports analytics",
+   "papers": [
+    "p015",
+    "p026",
+    "p009"
+   ],
+   "short": {
+    "p015": "Ball-free soccer event detection from tracking data",
+    "p026": "Valuing defensive actions in soccer",
+    "p009": "Synchronizing event and tracking data"
+   }
+  },
+  {
+   "name": "Finance",
+   "papers": [
+    "p010"
+   ],
+   "short": {
+    "p010": "Corporate default prediction from transaction networks"
+   }
+  },
+  {
+   "name": "Circuits & EDA",
+   "papers": [
+    "p051",
+    "p036"
+   ],
+   "short": {
+    "p051": "Subcircuit matching in large netlists",
+    "p036": "Netlist-to-text alignment"
+   }
+  },
+  {
+   "name": "Time series",
+   "papers": [
+    "p020",
+    "p008",
+    "p006"
+   ],
+   "short": {
+    "p020": "Fine-tuning time-series foundation models",
+    "p008": "Spectral prompts for online forecasting",
+    "p006": "Continual traffic forecasting"
+   }
+  },
+  {
+   "name": "Social & online media",
+   "papers": [
+    "p066",
+    "p012"
+   ],
+   "short": {
+    "p066": "Temporality-aware fake news detection",
+    "p012": "Early depression detection (eRisk, 1st place)"
+   }
+  },
+  {
+   "name": "Healthcare & biology",
+   "papers": [
+    "p092",
+    "p072",
+    "p057"
+   ],
+   "short": {
+    "p092": "Multimodal medical data as heterogeneous graphs",
+    "p072": "Multiplexed immunofluorescence image analysis",
+    "p057": "Spatially resolved transcriptomics"
+   }
+  },
+  {
+   "name": "Drug discovery",
+   "papers": [
+    "p028",
+    "p046",
+    "p002"
+   ],
+   "short": {
+    "p028": "Collaborative LLM agents for drug discovery",
+    "p046": "3D interaction pre-training for molecules",
+    "p002": "Lipid nanoparticle screening"
+   }
+  },
+  {
+   "name": "Materials",
+   "papers": [
+    "p068",
+    "p043",
+    "p082"
+   ],
+   "short": {
+    "p068": "Retrieval-based inorganic retrosynthesis",
+    "p043": "LLM-based material synthesis planning",
+    "p082": "Density-of-states prediction for crystals"
+   }
+  }
+ ]
+}

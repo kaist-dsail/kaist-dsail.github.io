@@ -1,0 +1,316 @@
+---
+title: "DSAIL @ KAIST - Home"
+layout: null
+sitemap: true
+permalink: /
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DSAIL @ KAIST</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--surface:#f5f4f0;--ink:#1c1b19;--ink-2:#4a4944;--muted:#6f6e69;--rule:#e2e0da;
+  --serif:"Fraunces",Georgia,serif;--sans:"Inter",system-ui,-apple-system,sans-serif;--max:1140px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;margin:0;letter-spacing:-.01em}
+h1{font-size:clamp(32px,4vw,48px);line-height:1.08}
+h2{font-size:clamp(24px,2.6vw,32px);line-height:1.15}
+h3{font-size:22px;line-height:1.2}
+p{margin:0}
+.muted{color:var(--muted)}
+button{font:inherit;cursor:pointer}
+
+header.top{border-bottom:1px solid var(--rule)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+header.top .brand{display:flex;align-items:center;text-decoration:none}
+header.top .brand img{height:38px;width:auto;display:block}
+header.top nav{display:flex;gap:22px;font-size:14px}
+header.top nav a{text-decoration:none;color:var(--ink-2)}
+header.top nav a:hover{color:var(--ink)}
+
+/* hero */
+.hero{padding:56px 0 44px;display:grid;grid-template-columns:5fr 6fr;gap:48px;align-items:center}
+.hero .lede{font-size:18px;color:var(--ink-2);max-width:34em;margin-top:18px}
+.stats{display:flex;gap:26px;margin-top:30px;flex-wrap:wrap}
+.stat b{display:block;font-family:var(--serif);font-weight:500;font-size:32px;line-height:1}
+.stat span{display:block;font-size:12.5px;color:var(--muted);margin-top:6px}
+
+/* landscape figure */
+.landscape svg{width:100%;height:auto;display:block}
+.landscape a{text-decoration:none}
+.landscape a:hover rect{fill-opacity:.2}
+.hint{font-size:13px;color:var(--muted);margin-top:14px}
+
+section{padding:52px 0;border-top:1px solid var(--rule)}
+.section-head{display:flex;justify-content:space-between;align-items:baseline;gap:24px;flex-wrap:wrap;margin-bottom:24px}
+.section-head p{max-width:46em;color:var(--ink-2)}
+
+/* area strip */
+.strip{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.strip a{text-decoration:none;border-top:3px solid var(--c);padding:12px 2px 0;display:block}
+.strip a b{display:block;font-weight:600;font-size:15px;line-height:1.3}
+.strip a span{display:block;font-size:13px;color:var(--muted);margin-top:4px}
+
+/* areas */
+.area-block{padding:44px 0;border-top:1px solid var(--rule);scroll-margin-top:24px}
+.area-block .grid{display:grid;grid-template-columns:5fr 7fr;gap:40px}
+.lead{border-left:4px solid var(--c);padding-left:20px}
+.lead .count{font-size:13px;color:var(--muted);margin-top:8px}
+.lead .def{margin-top:12px;color:var(--ink-2);font-size:17px}
+.lead .tags-h{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:22px}
+.lead .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.lead .tags span{font-size:12.5px;color:var(--ink-2);background:var(--surface);border-radius:999px;padding:4px 10px}
+.lead .goto{display:inline-block;margin-top:18px;font-size:14px;color:var(--c);text-decoration:none;border-bottom:1px solid transparent}
+.lead .goto:hover{border-bottom-color:var(--c)}
+.qs{margin:0 0 22px;padding-left:20px;color:var(--ink-2)}
+.qs li{margin-bottom:6px}
+.qs li::marker{color:var(--c)}
+.reps-h{font-family:var(--serif);font-weight:500;font-size:18px;margin:0 0 8px}
+.reps{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.reps li{display:grid;grid-template-columns:108px 1fr;gap:14px;padding:10px 0;border-bottom:1px solid var(--rule);font-size:15px}
+.reps .v{font-size:12.5px;color:var(--ink);font-weight:600;padding-top:3px}
+.reps .v small{display:block;font-weight:400;color:var(--muted);font-size:11.5px;line-height:1.3;margin-top:2px}
+.reps .t{line-height:1.4}
+.reps .t a{text-decoration:none;border-bottom:1px solid var(--rule)}
+.reps .t a:hover{border-bottom-color:var(--ink)}
+.reps .a{font-size:13px;color:var(--muted);margin-top:2px}
+
+/* AI4Sci pipeline */
+.pipe{margin-top:34px;padding-top:26px;border-top:1px dashed var(--rule)}
+.pipe h4{font-size:20px}
+.pipe>p{color:var(--muted);font-size:14px;margin:4px 0 18px}
+.stages{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.stage{padding:16px 18px;border-left:1px solid var(--rule);position:relative;background:#fff}
+.stage:first-child{border-left:0}
+.topics{grid-template-columns:repeat(5,1fr)}
+.topics .stage::after{display:none}
+.topics .stage{padding:14px 14px}
+.topics .stage .sname{font-size:14px}
+.stage:not(:last-child)::after{content:'';position:absolute;right:-7px;top:22px;width:12px;height:12px;border-top:1px solid var(--rule);border-right:1px solid var(--rule);transform:rotate(45deg);background:#fff;z-index:1}
+.stage .sname{font-weight:600;font-size:15px;color:var(--c)}
+.stage .sq{font-size:13px;color:var(--muted);margin:4px 0 12px;line-height:1.4}
+.stage ul{list-style:none;margin:0;padding:0;font-size:13.5px}
+.stage li{padding:4px 0;border-top:1px solid var(--rule);line-height:1.35}
+.stage li a{text-decoration:none;border-bottom:1px solid var(--rule)}
+.stage li a:hover{border-bottom-color:var(--ink)}
+
+/* convergence */
+.conv{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.conv .cell{border:1px solid var(--rule);border-radius:8px;padding:18px 20px}
+.conv .pair{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);margin-bottom:8px}
+.conv .pair .sw{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:-1px}
+.conv h4{font-size:19px}
+.conv p{color:var(--ink-2);font-size:15.5px;line-height:1.5;margin:8px 0 16px}
+.conv .sel{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.conv ul{list-style:none;margin:0;padding:0;font-size:13px}
+.conv li{padding:5px 0;border-top:1px solid var(--rule);line-height:1.35}
+.conv li:first-child{border-top:0}
+.conv li a{color:var(--ink-2)}
+.conv li a{text-decoration:none;border-bottom:1px solid var(--rule)}
+.conv li a:hover{border-bottom-color:var(--ink)}
+
+/* applications */
+.apps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.apps .cell{background:var(--surface);border-radius:8px;padding:16px 18px}
+.apps h4{font-size:17px;margin-bottom:8px}
+.apps ul{list-style:none;margin:0;padding:0;font-size:13.5px}
+.apps li{padding:4px 0;line-height:1.35}
+.apps li a{text-decoration:none;border-bottom:1px solid #d9d6ce}
+.apps li a:hover{border-bottom-color:var(--ink)}
+.apps li span{color:var(--muted)}
+
+/* trend (appendix) */
+.trend{display:grid;grid-template-columns:1fr 200px;gap:28px;align-items:start}
+.trend svg{width:100%;height:auto;display:block}
+.trend .axis text{font-family:var(--sans);font-size:12px;fill:var(--muted)}
+.trend .axis line,.trend .axis path{stroke:var(--rule)}
+.legend{font-size:14px;display:flex;flex-direction:column;gap:10px;padding-top:8px}
+.legend button{display:flex;align-items:center;gap:10px;background:none;border:0;padding:4px 6px;margin:-4px -6px;text-align:left;border-radius:4px;color:var(--ink-2)}
+.legend button:hover,.legend button:focus-visible{background:var(--surface);outline:none}
+.sw{width:12px;height:12px;border-radius:3px;flex:none}
+.trend .bar{transition:opacity .15s}
+.trend .bar.dim{opacity:.25}
+
+/* badges + list */
+.badge{display:inline-block;font-size:11.5px;font-weight:600;padding:2px 7px;border-radius:4px;background:var(--surface);color:var(--ink-2);white-space:nowrap;vertical-align:middle}
+.badge.ws{background:#fff;border:1px solid var(--rule);font-weight:500}
+.badge.pre{background:#fff;border:1px dashed var(--rule);font-weight:500}
+.badge.note{background:transparent;color:var(--muted);font-weight:500;padding-left:0}
+.controls{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+.controls input,.controls select{font:inherit;font-size:14px;padding:8px 10px;border:1px solid var(--rule);border-radius:6px;background:#fff;color:var(--ink)}
+.controls input{min-width:260px;flex:1}
+.controls input:focus,.controls select:focus{outline:2px solid var(--ink);outline-offset:1px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--rule);background:#fff;border-radius:999px;padding:5px 12px;font-size:13px;color:var(--ink-2);display:flex;align-items:center;gap:7px}
+.chip .sw{width:9px;height:9px;border-radius:50%}
+.chip[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.chips[hidden]{display:none}
+.chips.sub{margin-top:8px;padding-left:14px;border-left:2px solid var(--rule)}
+.chips.sub .chip{font-size:12.5px;padding:4px 10px}
+.chip:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.count-line{font-size:14px;color:var(--muted);margin:14px 0 10px}
+.paperlist{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.paperlist li{display:grid;grid-template-columns:52px 1fr auto;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:start}
+.paperlist .yr{font-size:14px;color:var(--muted);padding-top:2px;font-variant-numeric:tabular-nums}
+.paperlist .ttl{font-size:15.5px;line-height:1.4}
+.paperlist .ttl a{text-decoration:none}
+.paperlist .ttl a:hover{text-decoration:underline}
+.paperlist .meta{font-size:13px;color:var(--muted);margin-top:4px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.paperlist .also{color:var(--muted);font-style:italic}
+.paperlist .dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none;vertical-align:middle}
+.paperlist .links{font-size:13px;white-space:nowrap;padding-top:3px}
+.paperlist .links a{color:var(--ink-2);text-decoration:none;margin-left:10px;border-bottom:1px solid var(--rule)}
+.paperlist .links a:hover{border-bottom-color:var(--ink)}
+.empty{padding:28px 0;color:var(--muted)}
+footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px solid var(--rule)}
+.err{background:var(--surface);padding:24px;border-radius:8px;margin:40px 0;color:var(--ink-2)}
+
+@media (max-width:860px){
+  header.top .wrap{height:auto;padding:10px 20px;gap:12px}
+  header.top .brand img{height:30px}
+  header.top nav{gap:14px;font-size:13px}
+  header.top nav a:last-child{display:none}
+  .wrap{padding:0 20px}
+  .hero{grid-template-columns:1fr;gap:32px;padding-top:36px}
+  .strip{grid-template-columns:1fr 1fr}
+  .area-block .grid{grid-template-columns:1fr;gap:24px}
+  .stages,.topics{grid-template-columns:1fr}
+  .stage{border-left:0;border-top:1px solid var(--rule)}
+  .stage:first-child{border-top:0}
+  .stage:not(:last-child)::after{display:none}
+  .conv{grid-template-columns:1fr}
+  .apps{grid-template-columns:1fr 1fr}
+  .trend{grid-template-columns:1fr}
+  .legend{flex-direction:row;flex-wrap:wrap;gap:8px 16px}
+  .paperlist li{grid-template-columns:1fr}
+  .paperlist .yr{display:none}
+  .paperlist .links{padding-top:0}
+  .paperlist .links a:first-child{margin-left:0}
+  .reps li{grid-template-columns:1fr;gap:4px}
+}
+
+/* home */
+.hero{padding:64px 0 48px}
+.hero .lede{font-size:19px}
+.ctas{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;font-size:14.5px;font-weight:500;padding:10px 18px;border-radius:6px;border:1px solid var(--ink);color:var(--ink)}
+.btn.primary{background:var(--ink);color:#fff}
+.btn:hover{background:var(--surface)} .btn.primary:hover{background:#333}
+.hero-logo{display:block;width:100%;max-width:440px;height:auto;margin-bottom:28px}
+.agrid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.acard{text-decoration:none;border-top:3px solid var(--c);padding:14px 0 0;display:block}
+.acard h3{font-size:19px;line-height:1.2}
+.acard p{font-size:13.5px;color:var(--ink-2);margin-top:8px;line-height:1.5}
+.acard .more{display:block;margin-top:10px;font-size:13px;color:var(--c)}
+.hls{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.hl{text-decoration:none;background:var(--surface);border-radius:8px;padding:16px 16px 18px;display:flex;flex-direction:column;gap:6px}
+.hl:hover{background:#eeece6}
+.hl .tag{font-family:var(--serif);font-size:20px}
+.hl .where{font-size:12.5px;color:var(--muted);line-height:1.35}
+.hl .what{font-size:13.5px;color:var(--ink-2);margin-top:4px;line-height:1.45}
+.news{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule);max-width:46em}
+.news li{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule);font-size:15px}
+.news .date{color:var(--muted);font-size:13.5px;padding-top:2px}
+.news a{text-decoration:underline}
+.join{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.join p{color:var(--ink-2);max-width:34em}
+.contact{font-size:14.5px;color:var(--ink-2);line-height:1.7}
+.contact b{color:var(--ink)}
+.logos{display:flex;gap:22px;align-items:center;margin-top:16px}
+.logos img{height:26px;opacity:.85}
+@media (max-width:860px){.agrid,.hls{grid-template-columns:1fr 1fr} .join{grid-template-columns:1fr} .news li{grid-template-columns:1fr;gap:2px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="/"><img src="/images/logopic/dsail_logo2.png" alt="DSAIL — Data Science &amp; Artificial Intelligence Lab, KAIST"></a>
+  <nav><a href="/" class="on">Home</a><a href="/members/">Team</a><a href="/news">News</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/projects">Projects</a><a href="/photo">Photo</a></nav>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <div>
+      <h1>From representation learning to reasoning and autonomous discovery.</h1>
+      <p class="lede">We are DSAIL at KAIST, led by <a href="/professor">Prof. Chanyoung Park</a>. We develop AI systems that learn from complex relational, multimodal, and scientific data, and extend these representations toward personalization, reasoning, agentic decision making, and scientific discovery.</p>
+      <div class="ctas"><a class="btn primary" href="/research/">Explore our research</a><a class="btn" href="#join">Join us</a></div>
+    </div>
+    <div><div class="landscape" id="landscape"></div></div>
+  </div>
+
+  <section id="research">
+    <div class="section-head"><h2>Research at a glance</h2><p>Five areas, described in full on the <a href="/research/">Research</a> page.</p></div>
+    <div class="agrid"><a class="acard" href="/research/#area-ai4sci" style="--c:#2E8B6E"><h3>AI for Science & Engineering</h3><p>Representations and agents for molecules, materials, cells, physical systems, and circuits — from property prediction to synthesis planning, with LLM agents that read spectra, plan experiments, and run parts of the scientific loop.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-llm" style="--c:#7A4FA8"><h3>Agentic AI & Reasoning</h3><p>LLM agents that reason over multiple steps, use tools and memory, act, and improve from feedback — evaluated on the process, not just the final answer, and aligned to each user's safety needs.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-graph" style="--c:#2F6DB5"><h3>Graph & Relational Learning</h3><p>Learning from relational data — networks, hypergraphs, and interaction structures — with representations that generalize under noise, scarce labels, and distribution shift.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-recsys" style="--c:#C6542B"><h3>Personalized Intelligence & Recommendation</h3><p>Modeling users and items from interaction data, from collaborative filtering to LLM-based and self-evolving recommender systems.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-multimodal" style="--c:#B58A1E"><h3>Multimodal Intelligence</h3><p>Aligning images, video, and language into representations that support fine-grained understanding and compositional reasoning, efficiently.</p><span class="more">Read more →</span></a></div>
+  </section>
+
+  <section id="highlights">
+    <div class="section-head"><h2>Recent highlights</h2></div>
+    <div class="hls"><a class="hl" href="https://www.sciencedirect.com/science/article/pii/S0043135426004550" target="_blank" rel="noopener"><span class="tag">Best Paper Award</span><span class="where">KDD 2026 Workshop on Reliable Scientific Foundation Models</span><span class="what">Physics-embedded graph neural operator for colloidal aggregation, also published in <em>Water Research</em>.</span></a><a class="hl" href="https://arxiv.org/abs/2605.25535" target="_blank" rel="noopener"><span class="tag">Best Paper Award</span><span class="where">KDD 2026 Workshop on Personal Intelligence in the Agentic AI Era</span><span class="what">Personalize-then-Store: benchmarking and learning personalized memory for long-horizon agents.</span></a><a class="hl" href="https://clef-staging.pages.dev/paper141.pdf" target="_blank" rel="noopener"><span class="tag">1st place</span><span class="where">CLEF eRisk 2026, contextualized early detection of depression</span><span class="what">Ilho Shin and Hyunchul Kim, with bucket-wise evidence pruning for early detection.</span></a><a class="hl" href="https://openreview.net/forum?id=cH65nS5sOz" target="_blank" rel="noopener"><span class="tag">Oral</span><span class="where">ICLR 2025</span><span class="what">Subgraph federated learning for local generalization (FedLoG), also Best Paper at the KDD 2024 FedKDD workshop.</span></a><a class="hl" href="https://arxiv.org/abs/2412.02957" target="_blank" rel="noopener"><span class="tag">Spotlight</span><span class="where">NeurIPS 2025</span><span class="what">3D interaction geometric pre-training for molecular relational learning.</span></a></div>
+  </section>
+
+  <section id="news">
+    <div class="section-head"><h2>News</h2><p><a href="/news">See all news →</a></p></div>
+    <ul class="news">{% for article in site.data.news limit:6 %}<li><span class="date">{{ article.date }}</span><span class="head">{{ article.headline }}</span></li>{% endfor %}</ul>
+  </section>
+
+  <section id="join">
+    <div class="join">
+      <div><h2>Join us</h2><p style="margin-top:12px">We are always looking for students who want to work at the intersection of representation learning, agents, and science. If you are interested in joining the lab, send an email with your research interests, CV, and transcript.</p><div class="ctas"><a class="btn" href="mailto:cy.park@kaist.ac.kr">cy.park (at) kaist.ac.kr</a></div></div>
+      <div class="contact"><b>Contact</b><br>cy.park (at) kaist.ac.kr<br>Tel: +82-42-350-3177<br><br><b>Address</b><br>DSAIL, Room 4124, E2-2, KAIST<br>291 Daehak-ro, Yuseong-gu, Daejeon, Republic of Korea
+        <div class="logos"><a href="http://kaist.ac.kr/"><img src="/images/logopic/kaist_logo.png" alt="KAIST"></a><a href="https://ie.kaist.ac.kr/"><img src="/images/logopic/kaist_isyse_logo.png" alt="KAIST ISysE"></a></div></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© DSAIL, KAIST. Data Science &amp; Artificial Intelligence Lab.</div></footer>
+
+<script>
+(function(){
+  const tById={"ai4sci": {"color": "#2E8B6E"}, "llm": {"color": "#7A4FA8"}, "graph": {"color": "#2F6DB5"}, "recsys": {"color": "#C6542B"}, "multimodal": {"color": "#B58A1E"}};
+  (function landscape(){
+    const W=600,H=440,F='Inter,system-ui,sans-serif',S='Fraunces,Georgia,serif';
+    const c=id=>tById[id].color;
+    const R={x:0,w:188}, L={x:208,w:392};
+    const rows={out:[30,118],rea:[138,226],rep:[246,366]};   // [top,bottom]
+    let o=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Research landscape: representation learning at the base, reasoning and agents above it, personalization and decision making on top; AI for Science runs through all layers">`;
+    const band=(y0,y1,label)=>{o+=`<rect x="${L.x}" y="${y0}" width="${L.w}" height="${y1-y0}" fill="#f5f4f0" rx="6"/>`;
+      o+=`<text x="${L.x+12}" y="${y0+16}" font-family="${F}" font-size="10.5" font-weight="600" letter-spacing=".08em" fill="#6f6e69">${label.toUpperCase()}</text>`;};
+    const cell=(id,x,y,w,h,lines,sub)=>{const col=c(id);
+      o+=`<a href="/research/#area-${id}"><g><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="6" fill="${col}" fill-opacity=".1" stroke="${col}" stroke-width="1.5"/>`;
+      lines.forEach((t,i)=>o+=`<text x="${x+14}" y="${y+24+i*19}" font-family="${S}" font-size="16.5" fill="#1c1b19">${t}</text>`);
+      if(sub) o+=`<text x="${x+14}" y="${y+h-10}" font-family="${F}" font-size="11.5" fill="#4a4944">${sub}</text>`;
+      o+=`</g></a>`;};
+    const up=(x,y)=>o+=`<path d="M ${x-5} ${y+5} L ${x} ${y} L ${x+5} ${y+5}" fill="none" stroke="#9b988f" stroke-width="1.5"/><line x1="${x}" y1="${y}" x2="${x}" y2="${y+12}" stroke="#9b988f" stroke-width="1.5"/>`;
+    band(rows.rep[0],rows.rep[1],'Representation learning');
+    band(rows.rea[0],rows.rea[1],'Reasoning & action');
+    band(rows.out[0],rows.out[1],'Personalization & decision making');
+    cell('graph',L.x+12,rows.rep[0]+26,180,rows.rep[1]-rows.rep[0]-36,['Graph & Relational','Learning'],'robust, label-efficient GNNs');
+    cell('multimodal',L.x+200,rows.rep[0]+26,180,rows.rep[1]-rows.rep[0]-36,['Multimodal','Intelligence'],'vision–language alignment');
+    cell('llm',L.x+12,rows.rea[0]+26,368,rows.rea[1]-rows.rea[0]-36,['Agentic AI & Reasoning'],'reasoning · tools · memory · safety');
+    cell('recsys',L.x+12,rows.out[0]+26,368,rows.out[1]-rows.out[0]-36,['Personalized Intelligence & Recommendation'],'LLM-based and self-evolving recommenders');
+    up(L.x+L.w/2,rows.rea[1]+5); up(L.x+L.w/2,rows.out[1]+5);
+    // AI for Science column
+    const g=c('ai4sci'), ty=rows.out[0], by=rows.rep[1];
+    o+=`<a href="/research/#area-ai4sci"><g><rect x="${R.x}" y="${ty}" width="${R.w}" height="${by-ty}" rx="6" fill="${g}" fill-opacity=".1" stroke="${g}" stroke-width="1.5"/>`;
+    o+=`<text x="${R.x+14}" y="${ty+26}" font-family="${S}" font-size="16.5" fill="#1c1b19">AI for Science</text><text x="${R.x+14}" y="${ty+45}" font-family="${S}" font-size="16.5" fill="#1c1b19">&amp; Engineering</text>`;
+    const steps=['Discover','Design','Predict','Represent'];
+    steps.forEach((t,i)=>{const yy=ty+84+i*60; o+=`<circle cx="${R.x+22}" cy="${yy}" r="4" fill="${g}"/><text x="${R.x+34}" y="${yy+4.5}" font-family="${F}" font-size="12.5" fill="#1c1b19">${t}</text>`; if(i===0) o+=`<text x="${R.x+34}" y="${yy+20}" font-family="${F}" font-size="11" fill="${g}">with scientific LLM agents</text>`;
+      if(i<steps.length-1) o+=`<line x1="${R.x+22}" y1="${yy+8}" x2="${R.x+22}" y2="${yy+52}" stroke="${g}" stroke-opacity=".5" stroke-width="1.5"/>`;});
+    o+=`<text x="${R.x+14}" y="${by-12}" font-family="${F}" font-size="11.5" fill="#4a4944">runs through every layer</text></g></a>`;
+    // data inputs
+    const din=(x,t)=>o+=`<text x="${x}" y="${H-24}" font-family="${F}" font-size="12" fill="#6f6e69" text-anchor="middle">${t}</text><line x1="${x}" y1="${H-40}" x2="${x}" y2="${rows.rep[1]+8}" stroke="#c9c6be" stroke-width="1"/><path d="M ${x-4} ${rows.rep[1]+12} L ${x} ${rows.rep[1]+8} L ${x+4} ${rows.rep[1]+12}" fill="none" stroke="#c9c6be"/>`;
+    din(R.x+R.w/2,'molecules · materials · cells'); din(L.x+102,'relational data'); din(L.x+290,'images · video · text');
+    o+='</svg>';
+    document.getElementById('landscape').innerHTML=o;
+  })();
+})();
+</script>
+</body>
+</html>
