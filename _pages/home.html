@@ -37,8 +37,11 @@ header.top nav{display:flex;gap:22px;font-size:14px}
 header.top nav a{text-decoration:none;color:var(--ink-2)}
 header.top nav a:hover{color:var(--ink)}
 header.top nav .nd{position:relative}
+header.top nav .ndt{background:none;border:0;padding:0;font:inherit;color:var(--ink-2);display:flex;align-items:center;gap:5px}
+header.top nav .ndt::after{content:'';width:0;height:0;border:3.5px solid transparent;border-top-color:currentColor;margin-top:3px}
+header.top nav .ndt:hover,header.top nav .ndt.on,header.top nav .nd.open .ndt{color:var(--ink)}
 header.top nav .nd>.menu{position:absolute;left:-11px;top:100%;padding-top:11px;display:none;z-index:30}
-header.top nav .nd:hover>.menu,header.top nav .nd:focus-within>.menu{display:block}
+header.top nav .nd.open>.menu{display:block}
 header.top nav .nd>.menu ul{list-style:none;margin:0;padding:6px;background:#fff;border:1px solid var(--rule);border-radius:8px;box-shadow:0 8px 22px rgba(28,27,25,.10)}
 header.top nav .nd>.menu a{display:block;padding:7px 11px;border-radius:5px;color:var(--ink-2);white-space:nowrap;border-bottom:0}
 header.top nav .nd>.menu a:hover,header.top nav .nd>.menu a:focus-visible{background:var(--surface);color:var(--ink)}
@@ -244,7 +247,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="/"><img src="/images/logopic/dsail_logo2.png" alt="DSAIL — Data Science &amp; Artificial Intelligence Lab, KAIST"></a>
-  <nav><a href="/" class="on">Home</a><div class="nd"><a href="/members/">Team</a><div class="menu"><ul><li><a href="/members/">Current</a></li><li><a href="/alumni/">Alumni</a></li></ul></div></div><a href="/news">News</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/projects">Projects</a><a href="/photo">Photo</a></nav>
+  <nav><a href="/" class="on">Home</a><div class="nd"><button type="button" class="ndt" aria-haspopup="true" aria-expanded="false">Team</button><div class="menu"><ul><li><a href="/members/">Current</a></li><li><a href="/alumni/">Alumni</a></li></ul></div></div><a href="/news">News</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/projects">Projects</a><a href="/photo">Photo</a></nav>
 </div></header>
 
 <main class="wrap">
@@ -257,7 +260,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   </div>
 
   <section id="research">
-    <div class="section-head"><h2>Research at a glance</h2><p>Six areas, described in full on the <a href="/research/">Research</a> page.</p></div>
+    <div class="section-head"><h2>Research at a glance</h2><p>Described in full on the <a href="/research/">Research</a> page.</p></div>
      <div class="agrid"><a class="acard" href="/research/#area-ai4sci" style="--c:#2E8B6E"><h3>AI for Science & Engineering</h3><p>Representations and agents for molecules, materials, cells, physical systems, and circuits — from property prediction to synthesis planning, with LLM agents that read spectra, plan experiments, and run parts of the scientific loop.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-llm" style="--c:#7A4FA8"><h3>Agentic AI & Reasoning</h3><p>LLM agents that reason over multiple steps, use tools and memory, act, and improve from feedback — evaluated on the process, not just the final answer, and aligned to each user's safety needs.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-graph" style="--c:#2F6DB5"><h3>Graph & Relational Learning</h3><p>Learning from relational data — networks, hypergraphs, and interaction structures — with representations that generalize under noise, scarce labels, and distribution shift.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-recsys" style="--c:#C6542B"><h3>Personalized Intelligence & Recommendation</h3><p>Modeling users and items from interaction data, from collaborative filtering to LLM-based and self-evolving recommender systems.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-multimodal" style="--c:#B58A1E"><h3>Multimodal Intelligence</h3><p>Aligning images, video, and language into representations that support fine-grained understanding and compositional reasoning, efficiently.</p><span class="more">Read more →</span></a><a class="acard" href="/research/#area-timeseries" style="--c:#B5485D"><h3>Time-series & Spatio-temporal Modeling</h3><p>Forecasting and adapting to non-stationary time series — from traffic and sensor streams to time-series foundation models tuned with LLM prompts.</p><span class="more">Read more →</span></a></div><div class="apps-strip"><span class="lbl">Applied to</span><a href="/research/#apps">Sports analytics</a><a href="/research/#apps">Finance</a><a href="/research/#apps">Circuits & EDA</a><a href="/research/#apps">Time series</a><a href="/research/#apps">Social & online media</a><a href="/research/#apps">Healthcare & biology</a><a href="/research/#apps">Drug discovery</a><a href="/research/#apps">Materials</a></div>
   </section>
 
@@ -285,6 +288,15 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 (function(){
   const tById={"ai4sci": {"color": "#2E8B6E"}, "llm": {"color": "#7A4FA8"}, "graph": {"color": "#2F6DB5"}, "recsys": {"color": "#C6542B"}, "multimodal": {"color": "#B58A1E"}, "timeseries": {"color": "#B5485D"}};
 
+})();
+</script>
+<script>
+(function(){var nd=document.querySelector('header.top nav .nd');if(!nd)return;
+  var btn=nd.querySelector('.ndt');
+  var set=function(open){nd.classList.toggle('open',open);btn.setAttribute('aria-expanded',open?'true':'false')};
+  btn.addEventListener('click',function(e){e.stopPropagation();set(!nd.classList.contains('open'))});
+  document.addEventListener('click',function(e){if(!nd.contains(e.target))set(false)});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&nd.classList.contains('open')){set(false);btn.focus()}});
 })();
 </script>
 </body>

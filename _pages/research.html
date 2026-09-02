@@ -37,8 +37,11 @@ header.top nav{display:flex;gap:22px;font-size:14px}
 header.top nav a{text-decoration:none;color:var(--ink-2)}
 header.top nav a:hover,header.top nav a.on{color:var(--ink)}
 header.top nav .nd{position:relative}
+header.top nav .ndt{background:none;border:0;padding:0;font:inherit;color:var(--ink-2);display:flex;align-items:center;gap:5px}
+header.top nav .ndt::after{content:'';width:0;height:0;border:3.5px solid transparent;border-top-color:currentColor;margin-top:3px}
+header.top nav .ndt:hover,header.top nav .ndt.on,header.top nav .nd.open .ndt{color:var(--ink)}
 header.top nav .nd>.menu{position:absolute;left:-11px;top:100%;padding-top:11px;display:none;z-index:30}
-header.top nav .nd:hover>.menu,header.top nav .nd:focus-within>.menu{display:block}
+header.top nav .nd.open>.menu{display:block}
 header.top nav .nd>.menu ul{list-style:none;margin:0;padding:6px;background:#fff;border:1px solid var(--rule);border-radius:8px;box-shadow:0 8px 22px rgba(28,27,25,.10)}
 header.top nav .nd>.menu a{display:block;padding:7px 11px;border-radius:5px;color:var(--ink-2);white-space:nowrap;border-bottom:0}
 header.top nav .nd>.menu a:hover,header.top nav .nd>.menu a:focus-visible{background:var(--surface);color:var(--ink)}
@@ -216,7 +219,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="/"><img src="/images/logopic/dsail_logo2.png" alt="DSAIL — Data Science &amp; Artificial Intelligence Lab, KAIST"></a>
-  <nav><a href="/">Home</a><div class="nd"><a href="/members/">Team</a><div class="menu"><ul><li><a href="/members/">Current</a></li><li><a href="/alumni/">Alumni</a></li></ul></div></div><a href="/news">News</a><a href="/research/" class="on">Research</a><a href="/publications/">Publications</a><a href="/projects">Projects</a><a href="/photo">Photo</a></nav>
+  <nav><a href="/">Home</a><div class="nd"><button type="button" class="ndt" aria-haspopup="true" aria-expanded="false">Team</button><div class="menu"><ul><li><a href="/members/">Current</a></li><li><a href="/alumni/">Alumni</a></li></ul></div></div><a href="/news">News</a><a href="/research/" class="on">Research</a><a href="/publications/">Publications</a><a href="/projects">Projects</a><a href="/photo">Photo</a></nav>
 </div></header>
 
 <main class="wrap" id="app">
@@ -325,6 +328,15 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   // ---------- applications ----------
   document.getElementById('appsGrid').innerHTML=data.applications.map(a=>`<div class="cell"><h4>${a.name}</h4><ul>${a.papers.map(id=>{const p=pById[id];return `<li>${link(p,a.short&&a.short[id])} <span>· ${shortVenue(p)}</span></li>`}).join('')}</ul></div>`).join('');
 
+})();
+</script>
+<script>
+(function(){var nd=document.querySelector('header.top nav .nd');if(!nd)return;
+  var btn=nd.querySelector('.ndt');
+  var set=function(open){nd.classList.toggle('open',open);btn.setAttribute('aria-expanded',open?'true':'false')};
+  btn.addEventListener('click',function(e){e.stopPropagation();set(!nd.classList.contains('open'))});
+  document.addEventListener('click',function(e){if(!nd.contains(e.target))set(false)});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&nd.classList.contains('open')){set(false);btn.focus()}});
 })();
 </script>
 </body>
