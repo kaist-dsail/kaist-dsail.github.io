@@ -36,6 +36,13 @@ header.top .brand img{height:38px;width:auto;display:block}
 header.top nav{display:flex;gap:22px;font-size:14px}
 header.top nav a{text-decoration:none;color:var(--ink-2)}
 header.top nav a:hover{color:var(--ink)}
+header.top nav .nd{position:relative}
+header.top nav .nd>.menu{position:absolute;left:-11px;top:100%;padding-top:11px;display:none;z-index:30}
+header.top nav .nd:hover>.menu,header.top nav .nd:focus-within>.menu{display:block}
+header.top nav .nd>.menu ul{list-style:none;margin:0;padding:6px;background:#fff;border:1px solid var(--rule);border-radius:8px;box-shadow:0 8px 22px rgba(28,27,25,.10)}
+header.top nav .nd>.menu a{display:block;padding:7px 11px;border-radius:5px;color:var(--ink-2);white-space:nowrap;border-bottom:0}
+header.top nav .nd>.menu a:hover,header.top nav .nd>.menu a:focus-visible{background:var(--surface);color:var(--ink)}
+header.top nav .nd>.menu a.on{color:var(--ink);font-weight:600;border-bottom:0;padding-bottom:7px}
 
 /* hero */
 .hero{padding:56px 0 44px;display:grid;grid-template-columns:5fr 6fr;gap:48px;align-items:center}
@@ -178,7 +185,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   header.top .wrap{height:auto;padding:10px 20px;gap:12px}
   header.top .brand img{height:30px}
   header.top nav{gap:14px;font-size:13px}
-  header.top nav a:last-child{display:none}
+  header.top nav>a:last-child{display:none}
   .wrap{padding:0 20px}
   .hero{grid-template-columns:1fr;gap:32px;padding-top:36px}
   .strip{grid-template-columns:1fr 1fr}
@@ -217,7 +224,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="/"><img src="/images/logopic/dsail_logo2.png" alt="DSAIL — Data Science &amp; Artificial Intelligence Lab, KAIST"></a>
-  <nav><a href="/">Home</a><a href="/members/">Team</a><a href="/news" class="on">News</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/projects">Projects</a><a href="/photo">Photo</a></nav>
+  <nav><a href="/">Home</a><div class="nd"><a href="/members/">Team</a><div class="menu"><ul><li><a href="/members/">Current</a></li><li><a href="/alumni/">Alumni</a></li></ul></div></div><a href="/news" class="on">News</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/projects">Projects</a><a href="/photo">Photo</a></nav>
 </div></header>
 <main class="wrap">
   <div class="nhero"><div><h1>News</h1><p>Papers, awards, and people, newest first.</p></div><div class="ynav">{% assign years = "" | split: "" %}{% for article in site.data.news %}{% assign yr = article.date | split: " " | last %}{% unless years contains yr %}{% assign years = years | push: yr %}{% endunless %}{% endfor %}{% for yr in years %}<a href="#y{{ yr }}">{{ yr }}</a>{% endfor %}</div></div>
