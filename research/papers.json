@@ -15,11 +15,14 @@
     "How should graph learning extend to distributed clients, continual streams, and higher-order structure?"
    ],
    "representative": [
-    "p105",
-    "p086",
-    "p081",
+    "p047",
+    "p048",
+    "p055",
     "p060",
-    "p048"
+    "p075",
+    "p081",
+    "p086",
+    "p105"
    ],
    "short": "Graph",
    "flow": [
@@ -60,11 +63,14 @@
     "How can user representations and the recommender itself evolve over time?"
    ],
    "representative": [
-    "p089",
-    "p091",
-    "p073",
+    "p011",
+    "p025",
+    "p027",
     "p052",
-    "p025"
+    "p059",
+    "p073",
+    "p089",
+    "p091"
    ],
    "short": "Personalization",
    "flow": [
@@ -103,11 +109,14 @@
     "How do models acquire compositional visual reasoning?"
    ],
    "representative": [
-    "p093",
-    "p076",
-    "p061",
+    "p013",
+    "p014",
     "p024",
-    "p013"
+    "p061",
+    "p064",
+    "p076",
+    "p079",
+    "p093"
    ],
    "short": "Multimodal",
    "flow": [
@@ -149,11 +158,14 @@
     "Which parts of a large model's computation — tokens, attention, decoding steps — can be dropped without losing what matters?"
    ],
    "representative": [
+    "p018",
+    "p021",
+    "p022",
+    "p033",
+    "p003",
     "p004",
     "p049",
-    "p018",
-    "p022",
-    "p033"
+    "p063"
    ],
    "short": "Agents",
    "flow": [
@@ -189,12 +201,12 @@
    "name": "AI for Science & Engineering",
    "ko": "과학을 위한 AI",
    "color": "#2E8B6E",
-   "definition": "Representations and agents for molecules, materials, cells, physical systems, and circuits — from property prediction to synthesis planning, with LLM agents that read spectra, plan experiments, and run parts of the scientific loop.",
+   "definition": "Representations and agents for molecules, materials, cells, fluids and physical systems, and circuits — from property prediction to synthesis planning and simulation, with LLM agents that read spectra, plan experiments, and run parts of the scientific loop.",
    "definition_ko": "분자·소재·생물 시스템·물리 시뮬레이션의 학습 기반 모델링을 다룹니다.",
    "questions": [
     "How should atomic and crystal structures be represented for property prediction and synthesis planning?",
     "Can sparse single-cell and protein data be modeled reliably?",
-    "How do equivariant models learn 3D physical systems such as meshes and PDEs?"
+    "How do equivariant and physics-embedded models simulate 3D physical systems — fluid flows, meshes, and the PDEs behind them?"
    ],
    "subthemes": [
     {
@@ -225,11 +237,14 @@
     }
    ],
    "representative": [
-    "p090",
-    "p082",
+    "p017",
+    "p023",
+    "p028",
+    "p057",
     "p068",
-    "p095",
-    "p057"
+    "p082",
+    "p090",
+    "p095"
    ],
    "short": "AI for Science",
    "flow": [
@@ -317,7 +332,7 @@
     },
     {
      "name": "Engineering & physical simulation",
-     "question": "Equivariant and physics-embedded models for meshes, PDEs, and particle systems, and graph learning for circuit design.",
+     "question": "Equivariant and physics-embedded models and neural operators for computational fluid dynamics, meshes, and PDEs, plus graph learning for circuit design.",
      "papers": [
       "p056",
       "p017",
@@ -328,9 +343,9 @@
      ],
      "short": {
       "p056": "E(3)-equivariant 3D mesh networks",
-      "p017": "Equivariant neural operators for 3D PDEs",
+      "p017": "Equivariant neural operators for 3D PDEs (CFD)",
       "p029": "Physics-embedded neural operator for colloidal aggregation",
-      "p035": "Mesh rewiring for fluid simulation",
+      "p035": "Mesh rewiring for fluid dynamics simulation",
       "p051": "Subcircuit matching in large netlists",
       "p036": "Netlist-to-text alignment with LLMs"
      },
@@ -372,6 +387,8 @@
     "proteins & antibodies",
     "perturbation prediction",
     "equivariant models",
+    "computational fluid dynamics",
+    "neural operators",
     "meshes & PDEs",
     "physics-embedded learning",
     "circuits & EDA",
@@ -435,11 +452,11 @@
     "anomaly detection"
    ],
    "representative": [
-    "p020",
     "p008",
+    "p020",
+    "p074",
     "p006",
-    "p007",
-    "p074"
+    "p007"
    ]
   },
   {

@@ -96,13 +96,12 @@ section{padding:52px 0;border-top:1px solid var(--rule)}
 .qs li::marker{color:var(--c)}
 .reps-h{font-family:var(--serif);font-weight:500;font-size:18px;margin:0 0 8px}
 .reps{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
-.reps li{display:grid;grid-template-columns:108px 1fr;gap:14px;padding:10px 0;border-bottom:1px solid var(--rule);font-size:15px}
+.reps li{display:grid;grid-template-columns:108px 1fr;gap:14px;padding:9px 0;border-bottom:1px solid var(--rule);font-size:15px;align-items:baseline}
 .reps .v{font-size:12.5px;color:var(--ink);font-weight:600;padding-top:3px}
 .reps .v small{display:block;font-weight:400;color:var(--muted);font-size:11.5px;line-height:1.3;margin-top:2px}
 .reps .t{line-height:1.4}
 .reps .t a{text-decoration:none;border-bottom:1px solid var(--rule)}
 .reps .t a:hover{border-bottom-color:var(--ink)}
-.reps .a{font-size:13px;color:var(--muted);margin-top:2px}
 
 /* AI4Sci pipeline */
 .pipe{margin-top:34px;padding-top:26px;border-top:1px dashed var(--rule)}
@@ -339,7 +338,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   const shortVenue=p=>p.type==='preprint'?'Preprint':p.venue.replace(/ AI for Science Workshop$/,' ws').replace(/ Workshop.*$/,' ws');
   const link=(p,txt)=>p.pdf?`<a href="${p.pdf}" target="_blank" rel="noopener">${esc(txt||p.title)}</a>`:esc(txt||p.title);
   const repList=ids=>`<ul class="reps">${ids.map(id=>{const p=pById[id];
-    return `<li><div class="v">${shortVenue(p)}${p.note?`<small>${p.note}</small>`:''}</div><div><div class="t">${link(p)}</div><div class="a">${p.authors}</div></div></li>`;}).join('')}</ul>`;
+    return `<li><div class="v">${shortVenue(p)}${p.note?`<small>${p.note}</small>`:''}</div><div class="t">${link(p)}</div></li>`;}).join('')}</ul>`;
   document.getElementById('areas').innerHTML=AREAS.map(t=>{
     const subs=t.subthemes||[];
     return `<article class="area-block" id="area-${t.id}" style="--c:${t.color}">
