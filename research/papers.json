@@ -1695,7 +1695,9 @@
    "pdf": "https://arxiv.org/abs/2411.12775v1",
    "code": "https://github.com/LeeJunmo/DAWN",
    "note": "Oral; best-ranked, journal fast-track",
-   "also_in": [],
+   "also_in": [
+    "ACM TIST 2026 (journal version)"
+   ],
    "id": "p066",
    "sci_llm": false,
    "links": {
@@ -2947,6 +2949,434 @@
    ],
    "id": "p133",
    "sci_llm": false
+  },
+  {
+   "title": "Compositional Spectral Prompts for LLM-based Online Time Series Forecasting",
+   "authors": "Seungyoon Choi, Hyunchul Kim, Jae-Gil Lee, Chanyoung Park",
+   "venue": "KDD 2026 Workshop (MiLeTS)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "timeseries",
+   "subtheme": null,
+   "secondary": [
+    "llm",
+    "applications"
+   ],
+   "pdf": null,
+   "code": null,
+   "note": null,
+   "also_in": [
+    "CIKM 2026 (conference version)"
+   ],
+   "id": "p134",
+   "sci_llm": false
+  },
+  {
+   "title": "ELASTIC: Trajectory-Based Synchronization of Event and Tracking Data in Soccer",
+   "authors": "Hyunsung Kim, Hoyoung Choi, Kunhee Lee, Sangwoo Seo, Tom Boomstra, Jinsung Yoon, Chanyoung Park",
+   "venue": "ECML-PKDD 2025 Workshop (MLSA)",
+   "year": 2025,
+   "type": "workshop",
+   "theme": "applications",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2508.09238",
+   "code": "https://github.com/hyunsungkim-ds/elastic.git",
+   "note": "Oral",
+   "also_in": [
+    "CIKM 2026 (conference version)"
+   ],
+   "id": "p135",
+   "sci_llm": false
+  },
+  {
+   "title": "Why and When Visual Token Pruning Fails? A Study on Relevant Visual Information Shift in MLLMs Decoding",
+   "authors": "Jiwan Kim, Kibum Kim, Wonjoong Kim, Byung-Kwan Lee, Chanyoung Park",
+   "venue": "KDD 2026 Workshop (RelKD)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/abs/2604.12358",
+   "code": null,
+   "note": null,
+   "also_in": [
+    "ECCV 2026 (conference version)"
+   ],
+   "id": "p136",
+   "sci_llm": false
+  },
+  {
+   "title": "Learning Probabilistic Compositional Representation of Crystalline Materials",
+   "authors": "Namkyeong Lee, Heewoong Noh, Gyoung S. Na, Jimeng Sun, Tianfan Fu, Marinka Zitnik, Chanyoung Park",
+   "venue": "NeurIPS 2023 AI4Science Workshop",
+   "year": 2023,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2312.13289v2",
+   "code": "https://github.com/Namkyeong/PCRL",
+   "note": "Earlier version, as PolySRL",
+   "also_in": [
+    "KDD 2026 (conference version)"
+   ],
+   "id": "p137",
+   "sci_llm": false,
+   "domain": "materials"
+  },
+  {
+   "title": "EqGINO: Equivariant Geometry-Informed Fourier Neural Operators for 3D PDEs",
+   "authors": "Sungwon Kim, Juho Song, Seungmin Shin, Guimok Cho, Sangkook Kim, Chanyoung Park",
+   "venue": "ICLR 2026 Workshop (AI4PDE)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://arxiv.org/abs/2606.03260",
+   "code": "https://github.com/sung-won-kim/EqGINO",
+   "note": "Oral",
+   "also_in": [
+    "ICML 2026 (conference version)"
+   ],
+   "id": "p138",
+   "sci_llm": false,
+   "domain": "engineering"
+  },
+  {
+   "title": "Beyond the Final Answer: Evaluating the Reasoning Trajectories of Tool-Augmented Agents",
+   "authors": "Wonjoong Kim, Sangwu Park, Yeonjun In, Sein Kim, Dongha Lee, Chanyoung Park",
+   "venue": "KDD 2026 Workshop (Agentic AI Evaluation)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2510.02837",
+   "code": "https://github.com/wonjoong-kim/TRACE",
+   "note": null,
+   "also_in": [
+    "ICML 2026 (conference version)"
+   ],
+   "id": "p139",
+   "sci_llm": false
+  },
+  {
+   "title": "Learning Adaptive Perturbation-Conditioned Contexts for Robust Transcriptional Response Prediction",
+   "authors": "Yinhua Piao, Hyomin Kim, Seonghwan Kim, Yunhak Oh, Junhyeok Jeon, Sang-Yeon Hwang, Jaechang Lim, Woo Youn Kim, Chanyoung Park, Sungsoo Ahn",
+   "venue": "ICLR 2026 Workshop (GEM)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2602.18885",
+   "code": null,
+   "note": null,
+   "also_in": [
+    "ICML 2026 (conference version)"
+   ],
+   "id": "p140",
+   "sci_llm": false,
+   "domain": "biology"
+  },
+  {
+   "title": "RAG-Enhanced Collaborative LLM Agents for Drug Discovery",
+   "authors": "Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Tommaso Biancalani, Chanyoung Park, Gabriele Scalia",
+   "venue": "NeurIPS 2025 AI4Science Workshop",
+   "year": 2025,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/pdf/2502.17506",
+   "code": "https://github.com/Genentech/CLADD",
+   "note": null,
+   "also_in": [
+    "AAAI 2026 (conference version)"
+   ],
+   "id": "p141",
+   "sci_llm": true,
+   "domain": "drugs"
+  },
+  {
+   "title": "RAG-Enhanced Collaborative LLM Agents for Drug Discovery",
+   "authors": "Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Tommaso Biancalani, Chanyoung Park, Gabriele Scalia",
+   "venue": "ICLR 2025 MLGenX Workshop",
+   "year": 2025,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/pdf/2502.17506",
+   "code": "https://github.com/Genentech/CLADD",
+   "note": "Spotlight",
+   "also_in": [
+    "AAAI 2026 (conference version)"
+   ],
+   "id": "p142",
+   "sci_llm": true,
+   "domain": "drugs"
+  },
+  {
+   "title": "Physics-Embedded Graph Neural Operator for Interaction-Controlled Colloidal Aggregation",
+   "authors": "Yongjoon Choe, Sungwon Kim, Susan E. Burns, Chanyoung Park",
+   "venue": "KDD 2026 Workshop (RelSciFM)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://www.sciencedirect.com/science/article/pii/S0043135426004550",
+   "code": "https://github.com/sung-won-kim/GNOPB",
+   "note": "Best Paper Award",
+   "also_in": [
+    "Water Research 2026 (journal version)"
+   ],
+   "id": "p143",
+   "sci_llm": false,
+   "domain": "engineering"
+  },
+  {
+   "title": "Self-EvolveRec: Self-Evolving Recommender Systems with LLM-based Directional Feedback",
+   "authors": "Sein Kim, Sangwu Park, HongSeok Kang, Wonjoong Kim, Jimin Seo, Yeonjun In, Kanghoon Yoon, Hyunsik Jeon, Chanyoung Park",
+   "venue": "ICLR 2026 Workshop (RSI)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://openreview.net/pdf?id=fBLhmZ1aNN",
+   "code": null,
+   "note": null,
+   "also_in": [
+    "KDD 2026 Workshop (Agentic SE) (workshop version)"
+   ],
+   "id": "p144",
+   "sci_llm": false
+  },
+  {
+   "title": "Rethinking Failure Attribution in Multi-Agent Systems: A Multi-Perspective Benchmark and Evaluation",
+   "authors": "Yeonjun In, Mehrab Tanjim, Jayakumar Subramanian, Sungchul Kim, Uttaran Bhattacharya, Wonjoong Kim, Sangwu Park, Somdeb Sarkhel, Chanyoung Park",
+   "venue": "KDD 2026 Workshop (Agentic SE)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2603.25001",
+   "code": "https://github.com/yeonjun-in/MP-Bench",
+   "note": null,
+   "also_in": [
+    "ICML 2026 Workshop (Failure Modes of Agentic AI) (workshop version)"
+   ],
+   "id": "p145",
+   "sci_llm": false
+  },
+  {
+   "title": "3D Interaction Geometric Pre-training for Molecular Relational Learning",
+   "authors": "Namkyeong Lee, Yunhak Oh, Heewoong Noh, Gyoung S. Na, Minkai Xu, Hanchen Wang, Tianfan Fu, Chanyoung Park",
+   "venue": "NeurIPS 2024 Workshop (AIDrugX)",
+   "year": 2024,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2412.02957",
+   "code": "https://github.com/Namkyeong/3DMRL",
+   "note": null,
+   "also_in": [
+    "NeurIPS 2025 (conference version)"
+   ],
+   "id": "p146",
+   "sci_llm": false,
+   "domain": "drugs"
+  },
+  {
+   "title": "Disentangling Hyperedges through the Lens of Category Theory",
+   "authors": "Yoonho Lee, Junseok Lee, Sangwoo Seo, Sungwon Kim, Yeongmin Kim, Chanyoung Park",
+   "venue": "ICLR 2025 MLGenX Workshop",
+   "year": 2025,
+   "type": "workshop",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [
+    "ai4sci"
+   ],
+   "pdf": "https://arxiv.org/abs/2510.16289",
+   "code": "https://github.com/Yoonho-Lee-AI4Science/Natural-HNN",
+   "note": null,
+   "also_in": [
+    "NeurIPS 2025 (conference version)"
+   ],
+   "id": "p147",
+   "sci_llm": false
+  },
+  {
+   "title": "Training Robust Graph Neural Networks by Modeling Noise Dependencies",
+   "authors": "Yeonjun In, Kanghoon Yoon, Sukwon Yun, Kibum Kim, Sungchul Kim, Chanyoung Park",
+   "venue": "WWW 2024 DCAI Workshop",
+   "year": 2024,
+   "type": "workshop",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/pdf/2502.19670",
+   "code": "https://github.com/yeonjun-in/torch-DA-GNN",
+   "note": "Oral",
+   "also_in": [
+    "NeurIPS 2025 (conference version)"
+   ],
+   "id": "p148",
+   "sci_llm": false
+  },
+  {
+   "title": "Is Safety Standard Same for Everyone? User-Specific Safety Evaluation of Large Language Models",
+   "authors": "Yeonjun In, Wonjoong Kim, Kanghoon Yoon, Sungchul Kim, Mehrab Tanjim, Kibum Kim, Chanyoung Park",
+   "venue": "NeurIPS 2025 Workshop (Reliable ML)",
+   "year": 2025,
+   "type": "workshop",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2502.15086",
+   "code": "https://github.com/yeonjun-in/U-SafeBench",
+   "note": null,
+   "also_in": [
+    "EMNLP 2025 (conference version)"
+   ],
+   "id": "p149",
+   "sci_llm": false
+  },
+  {
+   "title": "Electron-Informed Coarse-Graining Molecular Representation Learning for Real-World Molecular Physics",
+   "authors": "Gyoung S. Na, Chanyoung Park",
+   "venue": "NeurIPS 2023 AI4Science Workshop",
+   "year": 2023,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://dl.acm.org/doi/10.1145/3690624.3709270",
+   "code": "https://github.com/ngs00/HEDMoL",
+   "note": null,
+   "also_in": [
+    "KDD 2025 (conference version)"
+   ],
+   "id": "p150",
+   "sci_llm": false,
+   "domain": "molecules"
+  },
+  {
+   "title": "Subgraph Federated Learning for Local Generalization",
+   "authors": "Sungwon Kim, Yoonho Lee, Yunhak Oh, Namkyeong Lee, Sukwon Yun, Junseok Lee, Sein Kim, Carl Yang, Chanyoung Park",
+   "venue": "KDD 2024 FedKDD Workshop",
+   "year": 2024,
+   "type": "workshop",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://openreview.net/forum?id=cH65nS5sOz",
+   "code": "https://github.com/sung-won-kim/FedLoG",
+   "note": "Best Paper Award",
+   "also_in": [
+    "ICLR 2025 (conference version)"
+   ],
+   "id": "p151",
+   "sci_llm": false
+  },
+  {
+   "title": "Vision Language Model is NOT All You Need: Augmentation Strategies for Molecule Language Models",
+   "authors": "Namkyeong Lee, Siddhartha Laghuvarapu, Chanyoung Park, Jimeng Sun",
+   "venue": "ACL 2024 Language+Molecules Workshop",
+   "year": 2024,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/abs/2407.09043",
+   "code": "https://github.com/Namkyeong/AMOLE",
+   "note": null,
+   "also_in": [
+    "CIKM 2024 (conference version)"
+   ],
+   "id": "p152",
+   "sci_llm": true,
+   "domain": "molecules"
+  },
+  {
+   "title": "Interpretable Prototype-based Graph Information Bottleneck",
+   "authors": "Sangwoo Seo, Sungwon Kim, Chanyoung Park",
+   "venue": "KDD 2024 HIAI Workshop",
+   "year": 2024,
+   "type": "workshop",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=icWwBKyVMs",
+   "code": "https://github.com/sang-woo-seo/PGIB",
+   "note": "Oral; Best Paper Award",
+   "also_in": [
+    "NeurIPS 2023 (conference version)"
+   ],
+   "id": "p153",
+   "sci_llm": false
+  },
+  {
+   "title": "Density of States Prediction of Crystalline Materials via Prompt-guided Multi-Modal Transformer",
+   "authors": "Namkyeong Lee, Heewoong Noh, Sungwon Kim, Dongmin Hyun, Gyoung S. Na, Chanyoung Park",
+   "venue": "ICLR 2023 ML4Materials Workshop",
+   "year": 2023,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=2lWh1G1W1I",
+   "code": "https://github.com/HeewoongNoh/DOSTransformer",
+   "note": null,
+   "also_in": [
+    "NeurIPS 2023 (conference version)"
+   ],
+   "id": "p154",
+   "sci_llm": false,
+   "domain": "materials"
+  },
+  {
+   "title": "Deep single-cell RNA-seq data clustering with graph prototypical contrastive learning",
+   "authors": "Junseok Lee, Sungwon Kim, Dongmin Hyun, Namkyeong Lee, Yejin Kim, Chanyoung Park",
+   "venue": "ICML 2023 Workshop (CompBio)",
+   "year": 2023,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://doi.org/10.1093/bioinformatics/btad342",
+   "code": "https://github.com/Junseok0207/scGPCL",
+   "note": null,
+   "also_in": [
+    "Bioinformatics 2023 (journal version)"
+   ],
+   "id": "p155",
+   "sci_llm": false,
+   "domain": "biology"
   }
  ],
  "convergence": [

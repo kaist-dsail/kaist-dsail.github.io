@@ -273,7 +273,10 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   subchips.addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const id=b.dataset.domain;st.domains.has(id)?st.domains.delete(id):st.domains.add(id);render();});
   const APPS=data.applications||[];
   const appSlug=n=>n.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-  const APP_IDS=new Set(); APPS.forEach(a=>a.papers.forEach(id=>APP_IDS.add(id))); P.forEach(p=>{if(p.theme==='applications')APP_IDS.add(p.id);});
+  const byTitle={}; P.forEach(p=>{(byTitle[p.title]=byTitle[p.title]||[]).push(p.id);});
+  // a cited paper stands for all of its versions (workshop / conference / journal)
+  const allVersions=ids=>{const out=new Set();ids.forEach(id=>{const t=(pById[id]||{}).title;(t?byTitle[t]:[id]).forEach(x=>out.add(x));});return out;};
+  const APP_IDS=allVersions(APPS.flatMap(a=>a.papers)); P.forEach(p=>{if(p.theme==='applications')APP_IDS.add(p.id);});
   const appchips=document.getElementById('appchips');
   appchips.innerHTML=APPS.map(a=>`<button class="chip" data-app="${appSlug(a.name)}" aria-pressed="false">${esc(a.name)}</button>`).join('');
   appchips.addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const id=b.dataset.app;st.apps.has(id)?st.apps.delete(id):st.apps.add(id);render();});
@@ -293,7 +296,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
     subchips.querySelectorAll('.chip').forEach(b=>b.setAttribute('aria-pressed',st.domains.has(b.dataset.domain)));
     const appsOn=st.themes.has('applications'); appchips.hidden=!appsOn; if(!appsOn) st.apps.clear();
     appchips.querySelectorAll('.chip').forEach(b=>b.setAttribute('aria-pressed',st.apps.has(b.dataset.app)));
-    const appSel=new Set(); if(st.apps.size) APPS.forEach(a=>{if(st.apps.has(appSlug(a.name))) a.papers.forEach(id=>appSel.add(id));});
+    const appSel=st.apps.size?allVersions(APPS.filter(a=>st.apps.has(appSlug(a.name))).flatMap(a=>a.papers)):new Set();
     const rows=P.filter(p=>
       (!st.themes.size||st.themes.has(p.theme)||(p.secondary||[]).some(s=>st.themes.has(s))||(st.themes.has('applications')&&APP_IDS.has(p.id))) &&
       (!appSel.size||appSel.has(p.id)) &&
