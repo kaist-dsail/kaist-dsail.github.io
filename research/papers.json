@@ -1695,9 +1695,7 @@
    "pdf": "https://arxiv.org/abs/2411.12775v1",
    "code": "https://github.com/LeeJunmo/DAWN",
    "note": "Oral; best-ranked, journal fast-track",
-   "also_in": [
-    "ACM TIST 2026 (journal version)"
-   ],
+   "also_in": [],
    "id": "p066",
    "sci_llm": false,
    "links": {
@@ -2929,6 +2927,26 @@
    "links": {
     "slide": "https://pcy1302.github.io/data/InforSci16_slide.pdf"
    }
+  },
+  {
+   "title": "A New DAWN for Fake News Detection: Leveraging Engagement Earliness for Temporality-aware Evaluation",
+   "authors": "Junghoon Kim, Junmo Lee, Yeonjun In, Kanghoon Yoon, Chanyoung Park",
+   "venue": "ACM TIST 2026",
+   "year": 2026,
+   "type": "journal",
+   "theme": "applications",
+   "subtheme": null,
+   "secondary": [
+    "graph"
+   ],
+   "pdf": "https://dl.acm.org/doi/10.1145/3815193",
+   "code": "https://github.com/LeeJunmo/DAWN",
+   "note": "Best of WSDM 2025 Special Issue",
+   "also_in": [
+    "WSDM 2025 (conference version)"
+   ],
+   "id": "p133",
+   "sci_llm": false
   }
  ],
  "convergence": [
@@ -3047,8 +3065,8 @@
     "p027"
    ],
    "short": {
-    "p066": "Temporality-aware fake news detection",
-    "p027": "Socially-aware user representation modeling"
+    "p027": "Socially-aware user representation modeling",
+    "p066": "Temporality-aware fake news detection"
    }
   },
   {
