@@ -229,6 +229,10 @@ section h2{margin-bottom:16px}
 .al .when{color:var(--muted);font-size:13.5px;padding-top:2px}
 .al .career{color:var(--ink-2)}
 .al a{text-decoration:none;border-bottom:1px solid var(--rule)}
+.al .nm{display:inline-flex;align-items:center;gap:7px}
+.al .hp{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:var(--surface);color:var(--muted);flex:none;text-decoration:none;border-bottom:0;transition:background .15s,color .15s,transform .15s}
+.al .hp:hover,.al .hp:focus-visible{background:var(--ink);color:#fff;transform:translateY(-1px);outline:none}
+.al .hp svg{width:12px;height:12px;display:block}
 .ugl{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px}
 .ugl li{padding:7px 0;border-bottom:1px solid var(--rule);font-size:14.5px}
 .ugl li span{display:block;font-size:12.5px;color:var(--muted)}
@@ -244,9 +248,9 @@ section h2{margin-bottom:16px}
 <main class="wrap">
 
   <div class="phead"><h1>Alumni</h1></div>
-  <section><h2>Ph.D.</h2><ul class="al">{% for m in site.data.alumni_phd %}<li><span class="when">{{ m.info }}</span><span>{{ m.name }}</span><span class="career">{{ m.career }}</span></li>{% endfor %}</ul></section>
-  <section><h2>M.S.</h2><ul class="al">{% for m in site.data.alumni_ms %}<li><span class="when">{{ m.info }}</span><span>{{ m.name }}</span><span class="career">{{ m.career }}</span></li>{% endfor %}</ul></section>
-  <section><h2>Visitors</h2><ul class="al">{% for m in site.data.alumni_visitor %}<li><span class="when">{{ m.info }}</span><span>{{ m.name }}</span><span class="career">{{ m.career }}</span></li>{% endfor %}</ul></section>
+  <section><h2>Ph.D.</h2><ul class="al">{% for m in site.data.alumni_phd %}<li><span class="when">{{ m.info }}</span>{% if m.name contains 'href="' %}{% assign hp = m.name | split: 'href="' | last | split: '"' | first %}{% else %}{% assign hp = "" %}{% endif %}<span class="nm">{{ m.name | strip_html }}{% if hp != "" %}<a class="hp" href="{{ hp }}" target="_blank" rel="noopener" title="Homepage" aria-label="{{ m.name | strip_html }} homepage"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.5 3.8 5.6 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.6-3.8-9S9.5 5.5 12 3z"/></svg></a>{% endif %}</span><span class="career">{{ m.career }}</span></li>{% endfor %}</ul></section>
+  <section><h2>M.S.</h2><ul class="al">{% for m in site.data.alumni_ms %}<li><span class="when">{{ m.info }}</span>{% if m.name contains 'href="' %}{% assign hp = m.name | split: 'href="' | last | split: '"' | first %}{% else %}{% assign hp = "" %}{% endif %}<span class="nm">{{ m.name | strip_html }}{% if hp != "" %}<a class="hp" href="{{ hp }}" target="_blank" rel="noopener" title="Homepage" aria-label="{{ m.name | strip_html }} homepage"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.5 3.8 5.6 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.6-3.8-9S9.5 5.5 12 3z"/></svg></a>{% endif %}</span><span class="career">{{ m.career }}</span></li>{% endfor %}</ul></section>
+  <section><h2>Visitors</h2><ul class="al">{% for m in site.data.alumni_visitor %}<li><span class="when">{{ m.info }}</span>{% if m.name contains 'href="' %}{% assign hp = m.name | split: 'href="' | last | split: '"' | first %}{% else %}{% assign hp = "" %}{% endif %}<span class="nm">{{ m.name | strip_html }}{% if hp != "" %}<a class="hp" href="{{ hp }}" target="_blank" rel="noopener" title="Homepage" aria-label="{{ m.name | strip_html }} homepage"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.5 3.8 5.6 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.6-3.8-9S9.5 5.5 12 3z"/></svg></a>{% endif %}</span><span class="career">{{ m.career }}</span></li>{% endfor %}</ul></section>
   <section><h2>Undergraduate interns</h2><ul class="ugl">{% for m in site.data.alumni_undergrad %}<li>{{ m.name }}<span>{{ m.info }} · {{ m.duration }}</span></li>{% endfor %}</ul></section>
 
 </main>
