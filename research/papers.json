@@ -130,7 +130,9 @@
     "chart understanding",
     "vision-language-action",
     "test-time adaptation",
-    "medical & biological images"
+    "medical & biological images",
+    "efficient multimodal LLMs",
+    "token budget & compression"
    ]
   },
   {
@@ -143,7 +145,8 @@
    "questions": [
     "How should an agent's reasoning trajectory, not just its final answer, be evaluated?",
     "Which agent is responsible when a multi-agent system fails, and how should agents remember users?",
-    "Is one safety standard right for every user?"
+    "Is one safety standard right for every user?",
+    "Which parts of a large model's computation — tokens, attention, decoding steps — can be dropped without losing what matters?"
    ],
    "representative": [
     "p004",
@@ -175,7 +178,10 @@
     "speculative decoding",
     "retrieval-augmented QA",
     "ambiguous questions",
-    "benchmarks & evaluation"
+    "benchmarks & evaluation",
+    "efficient inference",
+    "knowledge distillation",
+    "model compression"
    ]
   },
   {
@@ -3440,6 +3446,22 @@
     "p034",
     "p005",
     "p070"
+   ]
+  },
+  {
+   "a": "llm",
+   "b": "multimodal",
+   "name": "Efficient LLMs & multimodal models",
+   "blurb": "Large models are only useful if they run cheaply — which visual tokens can be dropped, how attention can be distilled into a smaller model, how decoding can be made faster, and how foundation models adapt with few parameters.",
+   "papers": [
+    "p024",
+    "p013",
+    "p021",
+    "p014",
+    "p025",
+    "p020",
+    "p027",
+    "p073"
    ]
   }
  ],
