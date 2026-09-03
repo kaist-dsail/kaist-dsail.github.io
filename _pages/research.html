@@ -234,8 +234,8 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
         <nav class="jump" aria-label="On this page"><a href="#areas">Areas</a><a href="#converge">Intersections</a><a href="#apps">Applications</a><a href="/publications/">All publications →</a></nav>
     </div>
     <div>
-      <div class="landscape" id="landscape" role="img" aria-label="Research landscape: AI for Science and Engineering across the top, and five foundation areas below"></div>
-      <p class="hint">Click an area to jump to it.</p>
+      <div class="landscape" id="landscape" role="img" aria-label="Research landscape: AI for Science and Engineering across the top, five foundation areas below, and the application domains they are used in"></div>
+      <p class="hint">Click an area — or the applications band — to jump to it.</p>
     </div>
   </div>
 
@@ -279,9 +279,10 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   // ---------- landscape ----------
   const pill=id=>{const t=tById[id];return `<a class="area" href="#area-${id}" style="--c:${t.color}"><span class="sw"></span>${t.name}</a>`;};
   (function landscape(){
-    const W=1100,H=178,F='Inter,system-ui,sans-serif',S='Fraunces,Georgia,serif';
+    const W=1100,F='Inter,system-ui,sans-serif',S='Fraunces,Georgia,serif';
+    const AY=80,AH=98;                       // area-card row
     const c=id=>(tById[id]||{color:'#9a988f'}).color;
-    let o=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Six research areas: AI for Science and Engineering across the top, and five foundation areas below">`;
+    let o='';
     const cell=(id,x,y,w,h,title,sub)=>{const col=c(id);
       o+=`<a href="#area-${id}"><g><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="6" fill="${col}" fill-opacity=".1" stroke="${col}" stroke-width="1.5"/>`;
       const lines=Array.isArray(title)?title:[title];
@@ -294,10 +295,27 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
     const doms=['Materials','Molecules &amp; chemistry','Biology','Engineering','+ scientific LLM agents'];
     let dx=W-16; doms.slice().reverse().forEach((t,i)=>{const w=t.replace('&amp;','&').length*7+22; dx-=w; o+=`<rect x="${dx}" y="19" width="${w}" height="24" rx="12" fill="#fff" stroke="${g}" stroke-opacity="${i===0?1:.6}" stroke-width="1"/><text x="${dx+w/2}" y="35" text-anchor="middle" font-family="${F}" font-size="12" fill="${i===0?g:'#1c1b19'}">${t}</text>`; dx-=8;});
     o+=`</g></a>`;
-    const y=80,h=H-y,gap=14,w=(W-gap*4)/5;
+    const gap=14,w=(W-gap*4)/5;
     const items=[['llm',['Agentic AI &amp;','Reasoning'],'reasoning · tools · memory'],['graph',['Graph &amp; Relational','Learning'],'robust, label-efficient GNNs'],['recsys',['Personalized','Intelligence'],'LLM-based recommenders'],['multimodal',['Multimodal','Intelligence'],'vision–language alignment'],['timeseries',['Time-series','Modeling'],'forecasting · spatio-temporal']];
-    items.forEach(([id,t,sub],i)=>cell(id,i*(w+gap),y,w,h,t,sub));
-    o+='</svg>';
+    items.forEach(([id,t,sub],i)=>cell(id,i*(w+gap),AY,w,AH,t,sub));
+
+    // applications band — where the areas above get applied
+    const SHORT={'Sports analytics':'Sports','Social & online media':'Social media','Healthcare & biology':'Healthcare & biology'};
+    const APP='#8a887f',PH=24,PGAP=8,X0=168,X1=W-16;
+    const rows=[[]];let cw=0;
+    (data.applications||[]).forEach(a=>{const t=SHORT[a.name]||a.name,pw=t.length*6.7+24;
+      if(cw>0&&cw+pw>X1-X0){rows.push([]);cw=0;}
+      rows[rows.length-1].push([t,pw]);cw+=pw+PGAP;});
+    const BY=AY+AH+18,BH=rows.length*PH+(rows.length-1)*PGAP+34,H=BY+BH;
+    o+=`<a href="#apps"><g><rect x="0" y="${BY}" width="${W}" height="${BH}" rx="6" fill="#f5f4f0" stroke="#d8d5cd" stroke-width="1.5"/>`;
+    o+=`<text x="16" y="${BY+BH/2+6}" font-family="${S}" font-size="17" fill="#1c1b19">Applications</text>`;
+    rows.forEach((row,ri)=>{const ry=BY+17+ri*(PH+PGAP);
+      let px=X1-row.reduce((s,[,pw])=>s+pw,0)-PGAP*(row.length-1);
+      row.forEach(([t,pw])=>{
+        o+=`<rect x="${px}" y="${ry}" width="${pw}" height="${PH}" rx="12" fill="#fff" stroke="#d8d5cd" stroke-width="1"/><text x="${px+pw/2}" y="${ry+16}" text-anchor="middle" font-family="${F}" font-size="12" fill="#4a4944">${esc(t)}</text>`;
+        px+=pw+PGAP;});});
+    o+=`</g></a>`;
+    o=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Six research areas: AI for Science and Engineering across the top, five foundation areas below, and the application domains they are used in">`+o+'</svg>';
     document.getElementById('landscape').innerHTML=o;
   })();
 
