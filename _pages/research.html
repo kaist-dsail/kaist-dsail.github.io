@@ -107,7 +107,9 @@ section{padding:52px 0;border-top:1px solid var(--rule)}
 .stages{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
 .stage{padding:16px 18px;border-left:1px solid var(--rule);position:relative;background:#fff}
 .stage:first-child{border-left:0}
-.topics{grid-template-columns:repeat(5,1fr)}
+.topics{grid-template-columns:repeat(3,1fr)}
+.topics .stage:nth-child(3n+1){border-left:0}
+.topics .stage:nth-child(n+4){border-top:1px solid var(--rule)}
 .topics .stage::after{display:none}
 .topics .stage{padding:14px 14px}
 .topics .stage .sname{font-size:14px}
@@ -292,15 +294,15 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
     const g=c('ai4sci');
     o+=`<a href="#area-ai4sci"><g><rect x="0" y="0" width="${W}" height="62" rx="6" fill="${g}" fill-opacity=".1" stroke="${g}" stroke-width="1.5"/>`;
     o+=`<text x="16" y="37" font-family="${S}" font-size="17" fill="#1c1b19">AI for Science &amp; Engineering</text>`;
-    const doms=['Materials','Molecules &amp; chemistry','Biology','Engineering','+ scientific LLM agents'];
-    let dx=W-16; doms.slice().reverse().forEach((t,i)=>{const w=t.replace('&amp;','&').length*7+22; dx-=w; o+=`<rect x="${dx}" y="19" width="${w}" height="24" rx="12" fill="#fff" stroke="${g}" stroke-opacity="${i===0?1:.6}" stroke-width="1"/><text x="${dx+w/2}" y="35" text-anchor="middle" font-family="${F}" font-size="12" fill="${i===0?g:'#1c1b19'}">${t}</text>`; dx-=8;});
+    const doms=(tById['ai4sci'].domains||[]).map(d=>d.short||d.name);
+    let dx=W-16; doms.slice().reverse().forEach((t,i)=>{const w=t.length*6.9+22; dx-=w; o+=`<rect x="${dx}" y="19" width="${w}" height="24" rx="12" fill="#fff" stroke="${g}" stroke-opacity="${i===0?1:.6}" stroke-width="1"/><text x="${dx+w/2}" y="35" text-anchor="middle" font-family="${F}" font-size="12" fill="${i===0?g:'#1c1b19'}">${esc(t)}</text>`; dx-=8;});
     o+=`</g></a>`;
     const gap=14,w=(W-gap*4)/5;
     const items=[['llm',['Agentic AI &amp;','Reasoning'],'reasoning · tools · memory'],['graph',['Graph &amp; Relational','Learning'],'robust, label-efficient GNNs'],['recsys',['Personalized','Intelligence'],'LLM-based recommenders'],['multimodal',['Multimodal','Intelligence'],'vision–language alignment'],['timeseries',['Time-series','Modeling'],'forecasting · spatio-temporal']];
     items.forEach(([id,t,sub],i)=>cell(id,i*(w+gap),AY,w,AH,t,sub));
 
     // applications band — where the areas above get applied
-    const SHORT={'Sports analytics':'Sports','Social & online media':'Social media','Healthcare & biology':'Healthcare & biology'};
+    const SHORT={'Sports analytics':'Sports','Social & online media':'Social media','E-commerce & retail':'E-commerce','Search & question answering':'Search & QA','Traffic & mobility':'Traffic'};
     const APP='#8a887f',PH=24,PGAP=8,X0=168,X1=W-16;
     const rows=[[]];let cw=0;
     (data.applications||[]).forEach(a=>{const t=SHORT[a.name]||a.name,pw=t.length*6.7+24;

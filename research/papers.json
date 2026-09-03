@@ -256,22 +256,37 @@
     },
     {
      "name": "Molecules & chemistry",
-     "question": "Molecular relational learning, electron-aware representations, and agents for spectroscopy and drug discovery.",
+     "question": "Molecular relational learning, electron-aware representations, and agents that read spectra.",
      "papers": [
       "p090",
-      "p046",
       "p054",
-      "p023",
-      "p028"
+      "p062",
+      "p023"
      ],
      "short": {
       "p090": "Molecular relational learning with information bottleneck",
-      "p046": "3D interaction pre-training for molecules",
       "p054": "Electron-informed coarse-grained molecular representation",
-      "p023": "Structure elucidation from IR spectra with LLM agents",
-      "p028": "Collaborative LLM agents for drug discovery"
+      "p062": "Electron-aware molecular diffusion pre-training",
+      "p023": "Structure elucidation from IR spectra with LLM agents"
      },
      "id": "molecules"
+    },
+    {
+     "name": "Drug discovery",
+     "question": "Interaction models, delivery-system screening, and collaborative agents for therapeutic design.",
+     "papers": [
+      "p028",
+      "p046",
+      "p087",
+      "p002"
+     ],
+     "short": {
+      "p028": "Collaborative LLM agents for drug discovery",
+      "p046": "3D interaction pre-training for molecular relational learning",
+      "p087": "Shift-robust molecular relational learning",
+      "p002": "Lipid nanoparticle screening"
+     },
+     "id": "drugs"
     },
     {
      "name": "Biology",
@@ -279,6 +294,7 @@
      "papers": [
       "p095",
       "p057",
+      "p072",
       "p019",
       "p037",
       "p042"
@@ -288,7 +304,8 @@
       "p057": "Spatially resolved transcriptomics",
       "p019": "Perturbation-conditioned response prediction",
       "p037": "Antibody–antigen structure tokenization",
-      "p042": "Multi-agent perturbation reasoning"
+      "p042": "Multi-agent perturbation reasoning",
+      "p072": "Multiplexed immunofluorescence image analysis"
      },
      "id": "biology"
     },
@@ -358,23 +375,33 @@
    "domains": [
     {
      "id": "materials",
-     "name": "Materials"
+     "name": "Materials",
+     "short": "Materials"
     },
     {
      "id": "molecules",
-     "name": "Molecules & chemistry"
+     "name": "Molecules & chemistry",
+     "short": "Molecules & chemistry"
+    },
+    {
+     "id": "drugs",
+     "name": "Drug discovery",
+     "short": "Drug discovery"
     },
     {
      "id": "biology",
-     "name": "Biology"
+     "name": "Biology",
+     "short": "Biology"
     },
     {
      "id": "engineering",
-     "name": "Engineering & physical simulation"
+     "name": "Engineering & physical simulation",
+     "short": "Engineering"
     },
     {
      "id": "scillm",
-     "name": "Scientific LLMs & agents"
+     "name": "Scientific LLMs & agents",
+     "short": "+ scientific LLM agents"
     }
    ]
   },
@@ -3003,66 +3030,62 @@
    }
   },
   {
-   "name": "Time series",
+   "name": "Traffic & mobility",
    "papers": [
-    "p020",
-    "p008",
-    "p006"
+    "p006",
+    "p007"
    ],
    "short": {
-    "p020": "Fine-tuning time-series foundation models",
-    "p008": "Spectral prompts for online forecasting",
-    "p006": "Continual traffic forecasting"
+    "p006": "Continual traffic forecasting",
+    "p007": "Temporal graph networks for traffic forecasting"
    }
   },
   {
    "name": "Social & online media",
    "papers": [
     "p066",
-    "p012"
+    "p027"
    ],
    "short": {
     "p066": "Temporality-aware fake news detection",
+    "p027": "Socially-aware user representation modeling"
+   }
+  },
+  {
+   "name": "Healthcare",
+   "papers": [
+    "p092",
+    "p012"
+   ],
+   "short": {
+    "p092": "Multimodal medical data as heterogeneous graphs",
     "p012": "Early depression detection (eRisk, 1st place)"
    }
   },
   {
-   "name": "Healthcare & biology",
+   "name": "E-commerce & retail",
    "papers": [
-    "p092",
-    "p072",
-    "p057"
+    "p121",
+    "p127",
+    "p114"
    ],
    "short": {
-    "p092": "Multimodal medical data as heterogeneous graphs",
-    "p072": "Multiplexed immunofluorescence image analysis",
-    "p057": "Spatially resolved transcriptomics"
+    "p121": "Purchase prediction from clickstreams",
+    "p127": "Click-aware purchase prediction",
+    "p114": "Heterogeneous user behavior prediction"
    }
   },
   {
-   "name": "Drug discovery",
+   "name": "Search & question answering",
    "papers": [
-    "p028",
-    "p046",
-    "p002"
+    "p063",
+    "p064",
+    "p050"
    ],
    "short": {
-    "p028": "Collaborative LLM agents for drug discovery",
-    "p046": "3D interaction pre-training for molecules",
-    "p002": "Lipid nanoparticle screening"
-   }
-  },
-  {
-   "name": "Materials",
-   "papers": [
-    "p068",
-    "p043",
-    "p082"
-   ],
-   "short": {
-    "p068": "Retrieval-based inorganic retrosynthesis",
-    "p043": "LLM-based material synthesis planning",
-    "p082": "Density-of-states prediction for crystals"
+    "p063": "Robust RAG for ambiguous questions",
+    "p064": "Chart question answering",
+    "p050": "Disambiguation in conversational QA (survey)"
    }
   }
  ]
