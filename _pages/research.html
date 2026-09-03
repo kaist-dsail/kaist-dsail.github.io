@@ -298,8 +298,13 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
     let dx=W-16; doms.slice().reverse().forEach((t,i)=>{const w=t.length*6.9+22; dx-=w; o+=`<rect x="${dx}" y="19" width="${w}" height="24" rx="12" fill="#fff" stroke="${g}" stroke-opacity="${i===0?1:.6}" stroke-width="1"/><text x="${dx+w/2}" y="35" text-anchor="middle" font-family="${F}" font-size="12" fill="${i===0?g:'#1c1b19'}">${esc(t)}</text>`; dx-=8;});
     o+=`</g></a>`;
     const gap=14,w=(W-gap*4)/5;
-    const items=[['llm',['Agentic AI &amp;','Reasoning'],'reasoning · tools · memory'],['graph',['Graph &amp; Relational','Learning'],'robust, label-efficient GNNs'],['recsys',['Personalized','Intelligence'],'LLM-based recommenders'],['multimodal',['Multimodal','Intelligence'],'vision–language alignment'],['timeseries',['Time-series','Modeling'],'forecasting · spatio-temporal']];
-    items.forEach(([id,t,sub],i)=>cell(id,i*(w+gap),AY,w,AH,t,sub));
+    // titles come from papers.json; wrapped to the card width so they stay in sync with the sections below
+    const wrapT=(s,maxw)=>{const out=[];let line='';
+      s.split(' ').forEach(word=>{const cand=line?line+' '+word:word;
+        if(line&&cand.length*8.1>maxw){out.push(line);line=word;}else line=cand;});
+      if(line)out.push(line);return out;};
+    const items=[['llm','reasoning · tools · memory'],['graph','robust, label-efficient GNNs'],['recsys','LLM-based recommenders'],['multimodal','vision–language alignment'],['timeseries','forecasting · spatio-temporal']];
+    items.forEach(([id,sub],i)=>cell(id,i*(w+gap),AY,w,AH,wrapT(tById[id].name,w-34).map(esc),sub));
 
     // applications band — where the areas above get applied
     const SHORT={'Sports analytics':'Sports','Social & online media':'Social media','E-commerce & retail':'E-commerce','Search & question answering':'Search & QA','Traffic & mobility':'Traffic'};

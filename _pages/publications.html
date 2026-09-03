@@ -233,6 +233,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
     </div>
     <div class="chips" id="chips" role="group" aria-label="Filter by area"></div>
     <div class="chips sub" id="subchips" role="group" aria-label="Filter by scientific domain" hidden></div>
+    <div class="chips sub" id="appchips" role="group" aria-label="Filter by application domain" hidden></div>
     <p class="count-line" id="countLine"></p>
     <ul class="paperlist" id="list"></ul>
   </section>
@@ -252,7 +253,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   }
   const ALL=data.themes, P=data.papers;
   const tById=Object.fromEntries(ALL.map(t=>[t.id,t]));
-  const AREA_ORDER=['ai4sci','llm','graph','recsys','multimodal'];
+  const AREA_ORDER=['ai4sci','llm','graph','recsys','multimodal','timeseries'];
   const AREAS=ALL.filter(t=>t.kind==='area').sort((a,b)=>AREA_ORDER.indexOf(a.id)-AREA_ORDER.indexOf(b.id));
   const subById={}; ALL.forEach(t=>(t.subthemes||[]).forEach(s=>subById[s.id]=s));
   const pById=Object.fromEntries(P.map(p=>[p.id,p]));
@@ -265,11 +266,17 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   const link=(p,txt)=>p.pdf?`<a href="${p.pdf}" target="_blank" rel="noopener">${esc(txt||p.title)}</a>`:esc(txt||p.title);
   // ---------- list ----------
   const rank={main:0,journal:0,workshop:1,preprint:2};
-  const st={q:'',year:'',type:'',themes:new Set(),domains:new Set()};
+  const st={q:'',year:'',type:'',themes:new Set(),domains:new Set(),apps:new Set()};
   const DOMS=(tById['ai4sci'].domains||[]);
   const subchips=document.getElementById('subchips');
   subchips.innerHTML=DOMS.map(x=>`<button class="chip" data-domain="${x.id}" aria-pressed="false">${x.name}</button>`).join('');
   subchips.addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const id=b.dataset.domain;st.domains.has(id)?st.domains.delete(id):st.domains.add(id);render();});
+  const APPS=data.applications||[];
+  const appSlug=n=>n.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  const APP_IDS=new Set(); APPS.forEach(a=>a.papers.forEach(id=>APP_IDS.add(id))); P.forEach(p=>{if(p.theme==='applications')APP_IDS.add(p.id);});
+  const appchips=document.getElementById('appchips');
+  appchips.innerHTML=APPS.map(a=>`<button class="chip" data-app="${appSlug(a.name)}" aria-pressed="false">${esc(a.name)}</button>`).join('');
+  appchips.addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const id=b.dataset.app;st.apps.has(id)?st.apps.delete(id):st.apps.add(id);render();});
   const ySel=document.getElementById('yearSel');
   years.slice().reverse().forEach(y=>{const o=document.createElement('option');o.value=y;o.textContent=y;ySel.appendChild(o);});
   const chips=document.getElementById('chips');
@@ -278,19 +285,23 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   document.getElementById('q').addEventListener('input',e=>{st.q=e.target.value.trim().toLowerCase();render();});
   ySel.addEventListener('change',e=>{st.year=e.target.value;render();});
   document.getElementById('typeSel').addEventListener('change',e=>{st.type=e.target.value;render();});
-  function filterTo(id){st.themes=new Set([id]);st.domains.clear();st.q='';st.year='';st.type='';document.getElementById('q').value='';ySel.value='';document.getElementById('typeSel').value='';render();}
+  function filterTo(id){st.themes=new Set([id]);st.domains.clear();st.apps.clear();st.q='';st.year='';st.type='';document.getElementById('q').value='';ySel.value='';document.getElementById('typeSel').value='';render();}
   const badge=p=>p.type==='journal'?`<span class="badge ws">Journal</span>`:p.type==='workshop'?`<span class="badge ws">Workshop</span>`:p.type==='preprint'?`<span class="badge pre">Preprint</span>`:'';
   function render(){
     chips.querySelectorAll('.chip').forEach(b=>b.setAttribute('aria-pressed',st.themes.has(b.dataset.theme)));
     const sciOn=st.themes.has('ai4sci'); subchips.hidden=!sciOn; if(!sciOn) st.domains.clear();
     subchips.querySelectorAll('.chip').forEach(b=>b.setAttribute('aria-pressed',st.domains.has(b.dataset.domain)));
+    const appsOn=st.themes.has('applications'); appchips.hidden=!appsOn; if(!appsOn) st.apps.clear();
+    appchips.querySelectorAll('.chip').forEach(b=>b.setAttribute('aria-pressed',st.apps.has(b.dataset.app)));
+    const appSel=new Set(); if(st.apps.size) APPS.forEach(a=>{if(st.apps.has(appSlug(a.name))) a.papers.forEach(id=>appSel.add(id));});
     const rows=P.filter(p=>
-      (!st.themes.size||st.themes.has(p.theme)||(p.secondary||[]).some(s=>st.themes.has(s))) &&
+      (!st.themes.size||st.themes.has(p.theme)||(p.secondary||[]).some(s=>st.themes.has(s))||(st.themes.has('applications')&&APP_IDS.has(p.id))) &&
+      (!appSel.size||appSel.has(p.id)) &&
       (!st.domains.size||st.domains.has(p.domain)||(st.domains.has('scillm')&&p.sci_llm)) &&
       (!st.year||String(p.year)===st.year) && (!st.type||p.type===st.type) &&
       (!st.q||(p.title+' '+p.authors+' '+p.venue).toLowerCase().includes(st.q))
     ).sort((a,b)=>b.year-a.year||rank[a.type]-rank[b.type]||a.id.localeCompare(b.id));
-    const filtered=st.themes.size||st.domains.size||st.year||st.type||st.q; document.getElementById('countLine').textContent=filtered?`${rows.length} matching papers`:'';
+    const filtered=st.themes.size||st.domains.size||st.apps.size||st.year||st.type||st.q; document.getElementById('countLine').textContent=filtered?`${rows.length} matching papers`:'';
     const ul=document.getElementById('list');
     if(!rows.length){ul.innerHTML='<li class="empty">No papers match. Clear a filter to see more.</li>';return;}
     const TIER=['NeurIPS','ICML','ICLR','KDD','AAAI','CVPR','ECCV','ICCV','ACL','EMNLP','NAACL','WWW','SIGIR','WSDM','IJCAI','CIKM','ICDM','RecSys'];

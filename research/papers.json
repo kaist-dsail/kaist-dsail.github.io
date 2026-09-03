@@ -490,7 +490,7 @@
    "note": null,
    "also_in": [],
    "id": "p002",
-   "domain": "molecules",
+   "domain": "drugs",
    "sci_llm": false
   },
   {
@@ -974,7 +974,7 @@
     "ICLR 2025 MLGenX Workshop (Spotlight)"
    ],
    "id": "p028",
-   "domain": "molecules",
+   "domain": "drugs",
    "sci_llm": true
   },
   {
@@ -1303,7 +1303,7 @@
     "NeurIPS 2024 Workshop (AIDrugX)"
    ],
    "id": "p046",
-   "domain": "molecules",
+   "domain": "drugs",
    "sci_llm": false
   },
   {
@@ -2115,7 +2115,7 @@
    "note": null,
    "also_in": [],
    "id": "p087",
-   "domain": "molecules",
+   "domain": "drugs",
    "sci_llm": false,
    "links": {
     "video": "https://youtu.be/KVhbwicqh5c"
