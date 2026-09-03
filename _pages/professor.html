@@ -33,6 +33,10 @@ header.top{border-bottom:1px solid var(--rule)}
 header.top .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
 header.top .brand{display:flex;align-items:center;text-decoration:none}
 header.top .brand img{height:38px;width:auto;display:block}
+header.top .brandbar{display:flex;align-items:center;gap:16px}
+header.top .inst{display:flex;align-items:center;padding-left:16px;border-left:1px solid var(--rule)}
+header.top .inst img{height:36px;width:auto;display:block;opacity:.9;transform:translateY(1px)}
+header.top .inst:hover img{opacity:1}
 header.top nav{display:flex;gap:22px;font-size:14px}
 header.top nav a{text-decoration:none;color:var(--ink-2)}
 header.top nav a:hover{color:var(--ink)}
@@ -61,6 +65,7 @@ header.top nav .nd>.menu a.on{color:var(--ink);font-weight:600;border-bottom:0;p
 .hint{font-size:13px;color:var(--muted);margin-top:14px}
 
 section{padding:52px 0;border-top:1px solid var(--rule)}
+#join{scroll-margin-top:16px}
 .section-head{display:flex;justify-content:space-between;align-items:baseline;gap:24px;flex-wrap:wrap;margin-bottom:24px}
 .section-head p{max-width:46em;color:var(--ink-2)}
 
@@ -187,6 +192,9 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 @media (max-width:860px){
   header.top .wrap{height:auto;padding:10px 20px;gap:10px 12px;flex-wrap:wrap}
   header.top .brand img{height:30px}
+  header.top .brandbar{gap:11px}
+  header.top .inst{padding-left:11px}
+  header.top .inst img{height:28px;transform:translateY(1px)}
   header.top nav{gap:9px 14px;font-size:13px;flex-wrap:wrap}
   .wrap{padding:0 20px}
   .hero{grid-template-columns:1fr;gap:32px;padding-top:36px}
@@ -229,6 +237,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 .callout h2{font-size:22px}
 .callout p{margin-top:10px;color:var(--ink-2)}
 .callout .small{font-size:14px;color:var(--muted)}
+.callout .em{font-weight:600;color:#25705a}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:56px}
 .tl{list-style:none;margin:16px 0 0;padding:0}
 .tl>li{padding:12px 0;border-top:1px solid var(--rule)}
@@ -250,7 +259,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <a class="brand" href="/"><img src="/images/logopic/dsail_logo2.png" alt="DSAIL — Data Science &amp; Artificial Intelligence Lab, KAIST"></a>
+  <div class="brandbar"><a class="brand" href="/"><img src="/images/logopic/dsail_logo2.png" alt="DSAIL — Data Science &amp; Artificial Intelligence Lab, KAIST"></a><a class="inst" href="https://ise.kaist.ac.kr/" target="_blank" rel="noopener" aria-label="KAIST ISE and GSDS"><img src="/images/logopic/kaist_ise_logo_2022.svg" alt="KAIST ISE | GSDS"></a></div>
   <nav><a href="/">Home</a><div class="nd"><button type="button" class="ndt on" aria-haspopup="true" aria-expanded="false">Team</button><div class="menu"><ul><li><a href="/members/" class="on">Current</a></li><li><a href="/alumni/">Alumni</a></li></ul></div></div><a href="/news">News</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/projects">Projects</a><a href="/photo">Photo</a></nav>
 </div></header>
 
@@ -271,7 +280,9 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   <section id="join">
     <div class="callout">
       <h2>Prospective students</h2>
-      <p>I am actively seeking passionate and self-motivated Ph.D. students, M.S. students, and postdocs. Undergraduate internships are open every summer and winter, and an internship is the best way to prepare for applying as a graduate student. If you are interested, send me an email with your interests, CV, and transcript.</p>
+      <p>I am actively seeking passionate and self-motivated Ph.D. students, M.S. students, and postdocs. I am always looking for students who want to work at the intersection of representation learning, agents, and science.</p>
+      <p class="em">In particular, I am actively looking for students interested in AI for Materials, including materials foundation models, multimodal learning, AI agents, and autonomous materials discovery.</p>
+      <p>Undergraduate internships are open every summer and winter, and an internship is the best way to prepare for applying as a graduate student. If you are interested, send me an email with your interests, CV, and transcript.</p>
       <p class="small">You can join the lab through the <a href="https://ie.kaist.ac.kr/" target="_blank" rel="noopener">Department of Industrial and Systems Engineering</a>, the <a href="https://gsds.kaist.ac.kr/" target="_blank" rel="noopener">Graduate School of Data Science</a>, the <a href="http://gsai.kaist.ac.kr/" target="_blank" rel="noopener">Graduate School of AI</a>, or the <a href="https://ax.kaist.ac.kr/" target="_blank" rel="noopener">Department of AX (College of AI)</a>.</p>
     </div>
   </section>
@@ -301,6 +312,11 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   document.addEventListener('click',function(e){if(!nd.contains(e.target))set(false)});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&nd.classList.contains('open')){set(false);btn.focus()}});
 })();
+</script>
+<script>
+(function(){function go(){var h=location.hash;if(!h)return;var el=document.querySelector(h);if(el)el.scrollIntoView({behavior:'auto'});}
+  addEventListener('load',function(){requestAnimationFrame(go);setTimeout(go,250);});
+  addEventListener('hashchange',go);})();
 </script>
 </body>
 </html>

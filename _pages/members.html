@@ -33,6 +33,10 @@ header.top{border-bottom:1px solid var(--rule)}
 header.top .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
 header.top .brand{display:flex;align-items:center;text-decoration:none}
 header.top .brand img{height:38px;width:auto;display:block}
+header.top .brandbar{display:flex;align-items:center;gap:16px}
+header.top .inst{display:flex;align-items:center;padding-left:16px;border-left:1px solid var(--rule)}
+header.top .inst img{height:36px;width:auto;display:block;opacity:.9;transform:translateY(1px)}
+header.top .inst:hover img{opacity:1}
 header.top nav{display:flex;gap:22px;font-size:14px}
 header.top nav a{text-decoration:none;color:var(--ink-2)}
 header.top nav a:hover{color:var(--ink)}
@@ -194,6 +198,9 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 @media (max-width:860px){
   header.top .wrap{height:auto;padding:10px 20px;gap:10px 12px;flex-wrap:wrap}
   header.top .brand img{height:30px}
+  header.top .brandbar{gap:11px}
+  header.top .inst{padding-left:11px}
+  header.top .inst img{height:28px;transform:translateY(1px)}
   header.top nav{gap:9px 14px;font-size:13px;flex-wrap:wrap}
   .wrap{padding:0 20px}
   .hero{grid-template-columns:1fr;gap:32px;padding-top:36px}
@@ -245,7 +252,7 @@ section h2{margin-bottom:20px}
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <a class="brand" href="/"><img src="/images/logopic/dsail_logo2.png" alt="DSAIL — Data Science &amp; Artificial Intelligence Lab, KAIST"></a>
+  <div class="brandbar"><a class="brand" href="/"><img src="/images/logopic/dsail_logo2.png" alt="DSAIL — Data Science &amp; Artificial Intelligence Lab, KAIST"></a><a class="inst" href="https://ise.kaist.ac.kr/" target="_blank" rel="noopener" aria-label="KAIST ISE and GSDS"><img src="/images/logopic/kaist_ise_logo_2022.svg" alt="KAIST ISE | GSDS"></a></div>
   <nav><a href="/">Home</a><div class="nd"><button type="button" class="ndt on" aria-haspopup="true" aria-expanded="false">Team</button><div class="menu"><ul><li><a href="/members/" class="on">Current</a></li><li><a href="/alumni/">Alumni</a></li></ul></div></div><a href="/news">News</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/projects">Projects</a><a href="/photo/">Photo</a></nav>
 </div></header>
 <main class="wrap">

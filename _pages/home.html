@@ -33,6 +33,10 @@ header.top{border-bottom:1px solid var(--rule)}
 header.top .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
 header.top .brand{display:flex;align-items:center;text-decoration:none}
 header.top .brand img{height:38px;width:auto;display:block}
+header.top .brandbar{display:flex;align-items:center;gap:16px}
+header.top .inst{display:flex;align-items:center;padding-left:16px;border-left:1px solid var(--rule)}
+header.top .inst img{height:36px;width:auto;display:block;opacity:.9;transform:translateY(1px)}
+header.top .inst:hover img{opacity:1}
 header.top nav{display:flex;gap:22px;font-size:14px}
 header.top nav a{text-decoration:none;color:var(--ink-2)}
 header.top nav a:hover{color:var(--ink)}
@@ -187,6 +191,9 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 @media (max-width:860px){
   header.top .wrap{height:auto;padding:10px 20px;gap:10px 12px;flex-wrap:wrap}
   header.top .brand img{height:30px}
+  header.top .brandbar{gap:11px}
+  header.top .inst{padding-left:11px}
+  header.top .inst img{height:28px;transform:translateY(1px)}
   header.top nav{gap:9px 14px;font-size:13px;flex-wrap:wrap}
   .wrap{padding:0 20px}
   .hero{gap:28px;padding-top:36px}
@@ -222,6 +229,9 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 .hero .sub{font-size:20.5px;color:var(--ink-2);max-width:41em;margin-top:20px;line-height:1.45}
 .hero .lede{font-size:16.5px;color:var(--muted);max-width:46em;margin-top:16px}
 .ctas{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.hero .join-line{margin-top:16px;font-size:15px;color:var(--muted)}
+.hero .join-line a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--rule)}
+.hero .join-line a:hover{border-bottom-color:var(--ink);color:var(--ink)}
 .btn{display:inline-block;text-decoration:none;font-size:14.5px;font-weight:500;padding:10px 18px;border-radius:6px;border:1px solid var(--ink);color:var(--ink)}
 .btn.primary{background:var(--ink);color:#fff}
 .btn:hover{background:var(--surface)} .btn.primary:hover{background:#333}
@@ -245,18 +255,18 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 .news li{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule);font-size:15px}
 .news .date{color:var(--muted);font-size:13.5px;padding-top:2px}
 .news a{text-decoration:underline}
-.join{display:grid;grid-template-columns:1fr 1fr;gap:40px}
-.join p{color:var(--ink-2);max-width:34em}
-.contact{font-size:14.5px;color:var(--ink-2);line-height:1.7}
+.contact{font-size:14.5px;color:var(--ink-2);line-height:1.7;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr) auto;gap:12px 40px;align-items:center}
+.contact a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--rule)}
+.contact a:hover{color:var(--ink);border-bottom-color:var(--ink)}
 .contact b{color:var(--ink)}
-.logos{display:flex;gap:22px;align-items:center;margin-top:16px}
-.logos img{height:26px;opacity:.85}
-@media (max-width:860px){.agrid{grid-template-columns:1fr} .hls{grid-template-columns:1fr 1fr} .join{grid-template-columns:1fr} .news li{grid-template-columns:1fr;gap:2px}}
+.logos{display:flex;gap:34px;align-items:center;flex-wrap:wrap;justify-self:end}
+.logos img{height:68px;opacity:.9}
+@media (max-width:860px){.contact{grid-template-columns:1fr;gap:18px} .logos{justify-self:start;margin-top:8px;gap:24px} .logos img{height:52px} .agrid{grid-template-columns:1fr} .hls{grid-template-columns:1fr 1fr} .news li{grid-template-columns:1fr;gap:2px}}
 </style>
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <a class="brand" href="/"><img src="/images/logopic/dsail_logo2.png" alt="DSAIL — Data Science &amp; Artificial Intelligence Lab, KAIST"></a>
+  <div class="brandbar"><a class="brand" href="/"><img src="/images/logopic/dsail_logo2.png" alt="DSAIL — Data Science &amp; Artificial Intelligence Lab, KAIST"></a><a class="inst" href="https://ise.kaist.ac.kr/" target="_blank" rel="noopener" aria-label="KAIST ISE and GSDS"><img src="/images/logopic/kaist_ise_logo_2022.svg" alt="KAIST ISE | GSDS"></a></div>
   <nav><a href="/" class="on">Home</a><div class="nd"><button type="button" class="ndt" aria-haspopup="true" aria-expanded="false">Team</button><div class="menu"><ul><li><a href="/members/">Current</a></li><li><a href="/alumni/">Alumni</a></li></ul></div></div><a href="/news">News</a><a href="/research/">Research</a><a href="/publications/">Publications</a><a href="/projects">Projects</a><a href="/photo">Photo</a></nav>
 </div></header>
 
@@ -266,7 +276,8 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
       <h1>Learning, reasoning, and discovery from complex data.</h1>
       <p class="sub">Building AI that understands complex relational, multimodal, and scientific data — and turns representations into reasoning, personalization, and discovery.</p>
       <p class="lede">We are DSAIL at KAIST, led by <a href="/professor">Prof. Chanyoung Park</a>. Our research spans graph and relational learning, personalized recommendation, multimodal intelligence, agentic AI, and AI for science. Across these areas, we study how representations learned from complex data can support generalization, reasoning, decision-making, and discovery.</p>
-      <div class="ctas"><a class="btn primary" href="/research/">Explore our research</a><a class="btn" href="#join">Join us</a></div>
+      <div class="ctas"><a class="btn primary" href="/research/">Explore our research</a></div>
+      <p class="join-line">Looking to join the lab? See <a href="/professor/#join">Prospective students</a>.</p>
     </div>
   </div>
 
@@ -284,11 +295,12 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
     <ul class="news">{% for article in site.data.news limit:10 %}<li><span class="date">{{ article.date }}</span><span class="head">{{ article.headline }}</span></li>{% endfor %}</ul>
   </section>
 
-  <section id="join">
-    <div class="join">
-      <div><h2>Join us</h2><p style="margin-top:12px">We are always looking for students who want to work at the intersection of representation learning, agents, and science. If you are interested in joining the lab, send an email with your research interests, CV, and transcript.</p><div class="ctas"><a class="btn" href="mailto:cy.park@kaist.ac.kr">cy.park (at) kaist.ac.kr</a></div></div>
-      <div class="contact"><b>Contact</b><br>cy.park (at) kaist.ac.kr<br>Tel: +82-42-350-3177<br><br><b>Address</b><br>DSAIL, Room 4124, E2-2, KAIST<br>291 Daehak-ro, Yuseong-gu, Daejeon, Republic of Korea
-        <div class="logos"><a href="http://kaist.ac.kr/"><img src="/images/logopic/kaist_logo.png" alt="KAIST"></a><a href="https://ie.kaist.ac.kr/"><img src="/images/logopic/kaist_isyse_logo.png" alt="KAIST ISysE"></a></div></div>
+  <section id="contact">
+    <div class="section-head"><h2>Contact</h2></div>
+    <div class="contact">
+      <div><b>Email</b><br><a href="mailto:cy.park@kaist.ac.kr">cy.park (at) kaist.ac.kr</a><br>Tel: +82-42-350-3177</div>
+      <div><b>Address</b><br>DSAIL, Room 4124, E2-2, KAIST<br>291 Daehak-ro, Yuseong-gu, Daejeon, Republic of Korea<br><a href="https://maps.google.com/?q=KAIST+E2-2+291+Daehak-ro+Yuseong-gu+Daejeon" target="_blank" rel="noopener">View on map →</a></div>
+      <div class="logos"><a href="https://ise.kaist.ac.kr/" target="_blank" rel="noopener"><img src="/images/logopic/kaist_ise_logo_2022.svg" alt="KAIST ISE | GSDS"></a></div>
     </div>
   </section>
 </main>
