@@ -28,9 +28,9 @@
 <line x1="26" y1="102" x2="326" y2="102" stroke="#D8DFEA"/>
 <g transform="translate(176.0,226)"><circle r="60" fill="none" stroke="#C9D6EE" stroke-width="2"/><path d="M-5,-4.5 L4,0 L-5,4.5 Z" fill="#7F98CF" transform="translate(30.0,-52.0) rotate(30)"/><path d="M-5,-4.5 L4,0 L-5,4.5 Z" fill="#7F98CF" transform="translate(60.0,0.0) rotate(90)"/><path d="M-5,-4.5 L4,0 L-5,4.5 Z" fill="#7F98CF" transform="translate(30.0,52.0) rotate(150)"/><path d="M-5,-4.5 L4,0 L-5,4.5 Z" fill="#7F98CF" transform="translate(-30.0,52.0) rotate(210)"/><path d="M-5,-4.5 L4,0 L-5,4.5 Z" fill="#7F98CF" transform="translate(-60.0,0.0) rotate(270)"/><path d="M-5,-4.5 L4,0 L-5,4.5 Z" fill="#7F98CF" transform="translate(-30.0,-52.0) rotate(330)"/><circle cx="0.0" cy="-60.0" r="6" fill="#3A66C9"/><text x="0.0" y="-82.0" text-anchor="middle" font-size="16" font-weight="600" fill="#1C2B5A">Perceive</text><circle cx="52.0" cy="-30.0" r="6" fill="#3A66C9"/><text x="71.0" y="-36.0" text-anchor="start" font-size="16" font-weight="600" fill="#1C2B5A">Retrieve</text><circle cx="52.0" cy="30.0" r="6" fill="#3A66C9"/><text x="71.0" y="46.0" text-anchor="start" font-size="16" font-weight="600" fill="#1C2B5A">Reason</text><circle cx="0.0" cy="60.0" r="6" fill="#3A66C9"/><text x="0.0" y="88.0" text-anchor="middle" font-size="16" font-weight="600" fill="#1C2B5A">Plan</text><circle cx="-52.0" cy="30.0" r="6" fill="#3A66C9"/><text x="-71.0" y="46.0" text-anchor="end" font-size="16" font-weight="600" fill="#1C2B5A">Act</text><circle cx="-52.0" cy="-30.0" r="6" fill="#3A66C9"/><text x="-71.0" y="-36.0" text-anchor="end" font-size="16" font-weight="600" fill="#1C2B5A">Learn</text></g><g font-size="17.5" fill="#2E3A55" text-anchor="middle"><text x="176.0" y="350">Reasoning · Tool use · Memory</text><text x="176.0" y="377">Multi-agent · Self-improvement</text></g>
 </g>
-<path d="M414.5,337.0 L428.5,350.0 L414.5,363.0 L419.5,350.0 Z" fill="#C3CEE2"/>
-<path d="M793.5,337.0 L807.5,350.0 L793.5,363.0 L798.5,350.0 Z" fill="#C3CEE2"/>
-<path d="M1172.5,337.0 L1186.5,350.0 L1172.5,363.0 L1177.5,350.0 Z" fill="#C3CEE2"/>
+
+
+
 <text x="56" y="594" font-size="15.5" font-weight="700" fill="#8A93A8" letter-spacing="1.5">APPLICATIONS &amp; REAL-WORLD IMPACT</text>
 <g transform="translate(56,608)"><rect width="1488" height="226" rx="16" fill="#F3F7FE" stroke="#B9CDF0" stroke-width="1.5"/>
 <text x="26" y="46" font-size="26" font-weight="700" fill="#1C2B5A">AI for Science &amp; Engineering</text>
