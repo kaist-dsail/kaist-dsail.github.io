@@ -156,7 +156,7 @@ section{padding:52px 0;border-top:1px solid var(--rule)}
 .trend .bar.dim{opacity:.25}
 
 /* badges + list */
-.badge{display:inline-block;font-size:11.5px;font-weight:600;padding:2px 7px;border-radius:4px;background:var(--surface);color:var(--ink-2);white-space:nowrap;vertical-align:middle}
+.badge{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:4px;background:var(--surface);color:var(--ink);white-space:nowrap;vertical-align:middle}
 .badge.ws{background:#fff;border:1px solid var(--rule);font-weight:500}
 .badge.pre{background:#fff;border:1px dashed var(--rule);font-weight:500}
 .badge.note{background:transparent;color:var(--muted);font-weight:500;padding-left:0}
@@ -202,10 +202,14 @@ section{padding:52px 0;border-top:1px solid var(--rule)}
 .linkbtn:hover{color:var(--ink);border-bottom-color:var(--ink)}
 .linkbtn[hidden]{display:none}
 .paperlist .yr{font-size:14px;color:var(--muted);padding-top:2px;font-variant-numeric:tabular-nums}
-.paperlist .ttl{font-size:15.5px;line-height:1.4}
+.paperlist .ttl{font-size:16.5px;font-weight:500;line-height:1.35;color:var(--ink)}
 .paperlist .ttl a{text-decoration:none}
 .paperlist .ttl a:hover{text-decoration:underline}
-.paperlist .meta{font-size:13px;color:var(--muted);margin-top:4px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.paperlist .meta{font-size:13px;color:var(--muted);margin-top:5px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.paperlist .au{font-size:13.5px;color:var(--ink-2)}
+.paperlist .topic{font-size:12.5px;color:#96948d;margin-top:4px}
+.paperlist .topic .muted{color:#a8a69f}
+.paperlist .topic .dot{width:6px;height:6px;opacity:.7}
 .paperlist .also{color:var(--muted);font-style:italic}
 .paperlist .dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none;vertical-align:middle}
 .paperlist .links{font-size:13px;padding-top:3px;text-align:right;max-width:220px}
@@ -375,8 +379,8 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
     return `<li data-venue="${esc(venueKey(p))}"><div>
         <div class="ttl">${esc(p.title)}</div>
         <div class="meta"><span class="badge">${p.venue}</span>${badge(p)}${p.note?`<span class="badge note">${p.note}</span>`:''}${p.also_in&&p.also_in.length?`<span class="also">also appeared in ${p.also_in.join(', ')}</span>`:''}</div>
-        <div class="meta" style="margin-top:3px">${p.authors}</div>
-        <div class="meta" style="margin-top:3px"><span><span class="dot" style="background:${th.color}"></span> ${th.name}${sub?' · '+sub.name:''}${sec?` <span class="muted">+ ${sec}</span>`:''}</span></div>
+        <div class="meta au">${p.authors}</div>
+        <div class="meta topic"><span><span class="dot" style="background:${th.color}"></span> ${th.name}${sub?' · '+sub.name:''}${sec?` <span class="muted">+ ${sec}</span>`:''}</span></div>
       </div><div class="links">${p.pdf?`<a href="${p.pdf}" target="_blank" rel="noopener">Paper</a>`:''}${p.code?`<a href="${p.code}" target="_blank" rel="noopener">Code</a>`:''}${extra}</div></li>`;
   }
   function applyYearState(){
