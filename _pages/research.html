@@ -113,7 +113,6 @@ section{padding:52px 0;border-top:1px solid var(--rule)}
 .pipe[open]>summary::before{transform:rotate(90deg)}
 .pipe>summary:hover h4{text-decoration:underline;text-underline-offset:3px}
 .pipe>summary:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
-.pipe>summary .cnt{font-size:13px;color:var(--muted)}
 .pipe[open]>summary{margin-bottom:2px}
 .stages{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
 .stage{padding:16px 18px;border-left:1px solid var(--rule);position:relative;background:#fff}
@@ -359,7 +358,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
         </div>
         <div><ul class="qs">${t.questions.map(q=>`<li>${q}</li>`).join('')}</ul><h4 class="reps-h">Representative papers</h4>${repList(t.representative)}</div>
       </div>
-      ${t.topics?`<details class="pipe"><summary><h4>Within AI for Science</h4><span class="cnt">${t.topics.length} fields</span></summary><p>By scientific field, plus the scientific LLM and agent work that cuts across all of them.</p>
+      ${t.topics?`<details class="pipe"><summary><h4>Within AI for Science</h4></summary><p>By scientific field, plus the scientific LLM and agent work that cuts across all of them.</p>
         <div class="stages topics">${t.topics.map(st=>`<div class="stage"><div class="sname">${st.name}</div><div class="sq">${st.question}</div><ul>${st.papers.map(id=>{const p=pById[id];return `<li>${link(p,st.short&&st.short[id])}<span class="muted"> · ${shortVenue(p)}</span></li>`}).join('')}</ul></div>`).join('')}</div></details>`:''}
     </article>`;
   }).join('');
