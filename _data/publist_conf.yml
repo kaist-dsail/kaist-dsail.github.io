@@ -165,7 +165,7 @@
   authors: Yongjoon Choe, Sungwon Kim, Susan E. Burns, Chanyoung Park
   pdf_url: https://openreview.net/pdf?id=YiazBzWRAU#discussion
   year: 2026
-  venue: Workshop on Reliable Scientific Foundation Models (KDD 2026 Workshop) <a href="https://kaist-dsail.github.io/files/RelSciFM2024_award.jpg" target="_blank"><FONT COLOR="#ff0000"><u>(Best Paper Award)</u></FONT></a>
+  venue: Workshop on Reliable Scientific Foundation Models (KDD 2026 Workshop) <a href="/files/RelSciFM2024_award.jpg" target="_blank"><FONT COLOR="#ff0000"><u>(Best Paper Award)</u></FONT></a>
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
 - title: Revisiting CF-Integrated LLM Recommenders through Dimensional Collapse
@@ -200,7 +200,7 @@
   authors: Yeonjun In, Wonjoong Kim, Sangwu Park, Kanghoon Yoon, Chanyoung Park
   pdf_url: https://openreview.net/pdf?id=JgufuK0zxh
   year: 2026
-  venue: Workshop on Personal Intelligence in Agentic AI Era (KDD 2026 Workshop) <a href="https://kaist-dsail.github.io/files/PILA2026_award.jpg" target="_blank"><FONT COLOR="#ff0000"><u>(Best Paper Award)</u></FONT></a>
+  venue: Workshop on Personal Intelligence in Agentic AI Era (KDD 2026 Workshop) <a href="/files/PILA2026_award.jpg" target="_blank"><FONT COLOR="#ff0000"><u>(Best Paper Award)</u></FONT></a>
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
 
 - title: Compositional Spectral Prompts for LLM-based Online Time Series Forecasting
@@ -389,7 +389,7 @@
   year: 2025
   pdf_url: https://arxiv.org/abs/2502.13909
   code_url: https://github.com/Sein-Kim/LLM-SRec
-  slide_url: https://kaist-dsail.github.io/files/KDD25_LLM-SRec_slide.pdf
+  slide_url: /files/KDD25_LLM-SRec_slide.pdf
 
 - title: Oldie but Goodie&#58; Re-illuminating Label Propagation on Graphs with Partially Observed Features
   authors: Sukwon Yun, Xin Liu, Yunhak Oh, Junseok Lee, Tianlong Chen, Tsuyoshi Murata, Chanyoung Park
@@ -398,7 +398,7 @@
   year: 2025
   pdf_url: https://www.arxiv.org/abs/2508.01209
   code_url: https://github.com/SukwonYun/GOODIE
-  slide_url: https://kaist-dsail.github.io/files/KDD25_GOODIE_slide.pdf
+  slide_url: /files/KDD25_GOODIE_slide.pdf
 
 - title: Electron-Informed Coarse-Graining Molecular Representation Learning for Real-World Molecular Physics
   authors: Gyoung S. Na, Chanyoung Park
@@ -407,7 +407,7 @@
   year: 2025
   pdf_url: https://dl.acm.org/doi/10.1145/3690624.3709270
   code_url: https://github.com/ngs00/HEDMoL
-  slide_url: https://kaist-dsail.github.io/files/KDD25_HEDMoL_slide.pdf
+  slide_url: /files/KDD25_HEDMoL_slide.pdf
   
 - title: On Measuring Unnoticeability of Graph Adversarial Attacks&#58; Observations, New Measure, and Applications
   authors: Hyeonsoo Jo&#42;, Hyunjin Hwang&#42;, Fanchen Bu, Soo Yong Lee, Chanyoung Park, Kijung Shin
@@ -423,7 +423,7 @@
   venue_full: International Conference on Machine Learning
   year: 2025
   pdf_url: https://arxiv.org/abs/2505.21572
-  slide_url: https://kaist-dsail.github.io/files/ICML25_TEMNN_slide.pdf
+  slide_url: /files/ICML25_TEMNN_slide.pdf
   news_url: https://www.joongang.co.kr/article/25324013
 
 
@@ -434,7 +434,7 @@
   year: 2025
   pdf_url: http://arxiv.org/abs/2506.15698
   code_url: https://github.com/yunhak0/Spotscape
-  slide_url: https://kaist-dsail.github.io/files/ICML25_Spotscape_slide.pdf
+  slide_url: /files/ICML25_Spotscape_slide.pdf
 
 - title: Disentangling and Generating Modalities for Recommendation in Missing Modality Scenarios 
   authors: Jiwan Kim, Hongseok Kang, Sein Kim, Kibum Kim, Chanyoung Park 
@@ -444,7 +444,7 @@
   year: 2025
   pdf_url: https://arxiv.org/abs/2504.16352
   code_url: https://github.com/ptkjw1997/DGMRec
-  slide_url: https://kaist-dsail.github.io/files/SIGIR25_DGMRec_slide.pdf
+  slide_url: /files/SIGIR25_DGMRec_slide.pdf
 
 - title: Dynamic Time-aware Continual User Representation Learning
   authors: Seungyoon Choi, Sein Kim, Hongseok Kang, Wonjoong Kim, Chanyoung Park
@@ -453,7 +453,7 @@
   year: 2025
   pdf_url: https://arxiv.org/abs/2504.16501
   code_url: https://github.com/seungyoon-Choi/DITTO_official
-  slide_url: https://kaist-dsail.github.io/files/SIGIR25_DITTO_slide.pdf
+  slide_url: /files/SIGIR25_DITTO_slide.pdf
 
 - title: Subgraph Federated Learning for Local Generalization
   authors: Sungwon Kim, Yoonho Lee, Yunhak Oh, Namkyeong Lee, Sukwon Yun, Junseok Lee, Sein Kim, Carl Yang, Chanyoung Park
@@ -462,7 +462,7 @@
   year: 2025
   pdf_url: https://openreview.net/forum?id=cH65nS5sOz
   code_url: https://github.com/sung-won-kim/FedLoG
-  slide_url: https://kaist-dsail.github.io/files/ICLR25_FEDLOG_slide.pdf
+  slide_url: /files/ICLR25_FEDLOG_slide.pdf
   news_url: https://www.lecturernews.com/news/articleView.html?idxno=188721
 
 - title: Weakly Supervised Video Scene Graph Generation via Natural Language Supervision
@@ -472,7 +472,7 @@
   year: 2025
   pdf_url: https://openreview.net/forum?id=GQgPj1H4pO
   code_url: https://github.com/rlqja1107/NL-VSGG
-  slide_url: https://kaist-dsail.github.io/files/ICLR25_NLVSGG_slide.pdf
+  slide_url: /files/ICLR25_NLVSGG_slide.pdf
 
 - title: Self-Supervised Diffusion Models for Electron-Aware Molecular Representation Learning
   authors: Gyoung S. Na, Chanyoung Park
@@ -489,7 +489,7 @@
   venue_full: Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics
   year: 2025
   pdf_url: https://arxiv.org/abs/2409.02361
-  slide_url: https://kaist-dsail.github.io/files/NAACL25_DIVA_slide.pdf
+  slide_url: /files/NAACL25_DIVA_slide.pdf
 
 - title: SIMPLOT&#58; Enhancing Chart Question Answering by Distilling Essentials
   authors: Wonjoong Kim&#42;, Sangwu Park&#42;, Yeonjun In, Seokwon Han, Chanyoung Park
@@ -498,7 +498,7 @@
   year: 2025
   pdf_url: https://arxiv.org/abs/2405.00021
   code_url: https://github.com/sangwu99/Simplot
-  slide_url: https://kaist-dsail.github.io/files/NAACL25_SIMPLOT_slide.pdf
+  slide_url: /files/NAACL25_SIMPLOT_slide.pdf
 
 - title: RA-SGG&#58; Retrieval-Augmented Scene Graph Generation Framework via Multi-Prototype Learning
   authors: Kanghoon Yoon, Kibum Kim, Jaehyeong Jeon, Yeonjun In, Donghyun Kim, Chanyoung Park
@@ -507,7 +507,7 @@
   year: 2025
   pdf_url: https://arxiv.org/abs/2412.12788
   code_url: https://github.com/KanghoonYoon/torch-rasgg
-  slide_url: https://kaist-dsail.github.io/files/AAAI25_RASGG_slide.pdf
+  slide_url: /files/AAAI25_RASGG_slide.pdf
 
 - title: Revisiting Fake News Detection&#58; Towards Temporality-aware Evaluation by Leveraging Engagement Earliness
   authors: Junghoon Kim&#42;, Junmo Lee&#42;, Yeonjun In, Kanghoon Yoon, Chanyoung Park
@@ -517,7 +517,7 @@
   year: 2025
   pdf_url: https://arxiv.org/abs/2411.12775v1
   code_url: https://github.com/LeeJunmo/DAWN
-  slide_url: https://kaist-dsail.github.io/files/WSDM25_DAWN_slide.pdf
+  slide_url: /files/WSDM25_DAWN_slide.pdf
 
 - title: RAG-Enhanced Collaborative LLM Agents for Drug Discovery
   authors: Namkyeong Lee, Edward De Brouwer, Ehsan Hajiramezanali, Tommaso Biancalani, Chanyoung Park, Gabriele Scalia
@@ -567,7 +567,7 @@
   year: 2024
   pdf_url: https://arxiv.org/pdf/2410.21341
   code_url: https://github.com/HeewoongNoh/Retrieval-Retro
-  slide_url: https://kaist-dsail.github.io/files/NeurIPS24_RetrievalRetro_slide.pdf
+  slide_url: /files/NeurIPS24_RetrievalRetro_slide.pdf
   video_url: https://slideslive.com/39028754/retrievalretro-retrievalbased-inorganic-retrosynthesis-with-expert-knowledge?ref=speaker-100700
   news_url: https://n.news.naver.com/mnews/article/421/0008016817?sid=102
 
@@ -578,7 +578,7 @@
   year: 2024
   pdf_url: https://arxiv.org/pdf/2407.19155
   code_url: https://github.com/KanghoonYoon/torch-metacon
-  slide_url: https://kaist-dsail.github.io/files/CIKM24_metacon_slide.pdf
+  slide_url: /files/CIKM24_metacon_slide.pdf
 
 - title: Vision Language Model is NOT All You Need&#58; Augmentation Strategies for Molecule Language Models
   authors: Namkyeong Lee, Siddhartha Laghuvarapu, Chanyoung Park, Jimeng Sun
@@ -587,7 +587,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2407.09043
   code_url: https://github.com/Namkyeong/AMOLE
-  slide_url: https://kaist-dsail.github.io/files/CIKM24_AMOLE_slide.pdf
+  slide_url: /files/CIKM24_AMOLE_slide.pdf
 
 - title: Semantic Diversity-aware Prototype-based Learning for Unbiased Scene Graph Generation
   authors: Jaehyeong Jeon, Kibum Kim, Kanghoon Yoon, Chanyoung Park
@@ -596,7 +596,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2407.15396
   code_url: https://github.com/JeonJaeHyeong/DPL
-  slide_url: https://kaist-dsail.github.io/files/ECCV24_DPL_slide.pdf
+  slide_url: /files/ECCV24_DPL_slide.pdf
   video_url: https://www.youtube.com/watch?v=tZekI9hQwUs
 
 - title: Mew&#58; Multiplexed Immunofluorescence Image Analysis through an Efficient Multiplex Network
@@ -606,7 +606,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2407.17857
   code_url: https://github.com/UNITES-Lab/Mew
-  slide_url: https://kaist-dsail.github.io/files/ECCV24_Mew_slide.pdf
+  slide_url: /files/ECCV24_Mew_slide.pdf
 
 - title: Large Language Models meet Collaborative Filtering&#58; An Efficient All-round LLM-based Recommender System
   authors: Sein Kim&#42;, Hongseok Kang&#42;, Seungyoon Choi, Donghyun Kim, Minchul Yang, Chanyoung Park
@@ -615,7 +615,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2404.11343
   code_url: https://github.com/ghdtjr/A-LLMRec
-  slide_url: https://kaist-dsail.github.io/files/KDD24_ALLMRec_slide.pdf
+  slide_url: /files/KDD24_ALLMRec_slide.pdf
   news_url: https://n.news.naver.com/mnews/article/011/0004367520?sid=102
 
 - title: Self-Explainable Temporal Graph Networks based on Graph Information Bottleneck
@@ -625,7 +625,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2406.13214
   code_url: https://github.com/sang-woo-seo/TGIB
-  slide_url: https://kaist-dsail.github.io/files/KDD24_TGIB_slide.pdf
+  slide_url: /files/KDD24_TGIB_slide.pdf
 
 - title: Unsupervised Episode Generation for Graph Meta-learning
   authors: Jihyeong Jung, Sangwoo Seo, Sungwon Kim, Chanyoung Park
@@ -634,7 +634,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2306.15217
   code_url: https://github.com/JhngJng/NaQ-PyTorch
-  slide_url: https://kaist-dsail.github.io/files/ICML24_NaQ_slide.pdf
+  slide_url: /files/ICML24_NaQ_slide.pdf
   video_url: https://www.youtube.com/watch?v=FYqX7bf99r4
 
 - title: LLM4SGG&#58; Large Language Models for Weakly Supervised Scene Graph Generation
@@ -644,7 +644,7 @@
   year: 2024
   pdf_url: https://arxiv.org/abs/2310.10404
   code_url: https://github.com/rlqja1107/torch-LLM4SGG
-  slide_url: https://kaist-dsail.github.io/files/CVPR24_LLM4SGG_slide.pdf
+  slide_url: /files/CVPR24_LLM4SGG_slide.pdf
 
 - title: Self-guided Robust Graph Structure Refinement
   authors: Yeonjun In, Kanghoon Yoon, Kibum Kim, Kijung Shin, Chanyoung Park
@@ -654,7 +654,7 @@
   pdf_url: https://arxiv.org/abs/2402.11837
   code_url: https://github.com/yeonjun-in/torch-SG-GSR
   video_url: https://www.youtube.com/watch?v=o8b710SeuXk
-  slide_url: https://kaist-dsail.github.io/files/WWW24_SGGSR_slide.pdf
+  slide_url: /files/WWW24_SGGSR_slide.pdf
 
 - title: DSLR&#58; Diversity Enhancement and Structure Learning for Rehearsal-based Graph Continual Learning
   authors: Seungyoon Choi&#42;, Wonjoong Kim&#42;, Sungwon Kim, Yeonjun In, Sein Kim, Chanyoung Park
@@ -664,7 +664,7 @@
   pdf_url: http://arxiv.org/abs/2402.13711
   video_url: https://www.youtube.com/watch?v=9NPN7Nj1xD8
   code_url: https://github.com/seungyoon-Choi/DSLR_official
-  slide_url: https://kaist-dsail.github.io/files/WWW24_DSLR_slide.pdf
+  slide_url: /files/WWW24_DSLR_slide.pdf
 
 - title: Adaptive Self-training Framework for Fine-grained Scene Graph Generation
   authors: Kibum Kim&#42;, Kanghoon Yoon&#42;, Yeonjun In, Jinyoung Moon, Donghyun Kim, Chanyoung Park
@@ -673,7 +673,7 @@
   year: 2024
   pdf_url: https://openreview.net/pdf?id=WipsLtH77t
   code_url: https://github.com/rlqja1107/torch-ST-SGG
-  slide_url: https://kaist-dsail.github.io/files/ICLR24_STSGG_slide.pdf
+  slide_url: /files/ICLR24_STSGG_slide.pdf
 
 - title: Sterling&#58; Synergistic Representation Learning on Bipartite Graphs
   authors: Baoyu Jing, Yuchen Yan, Kaize Ding, Chanyoung Park, Yada Zhu, Huan Liu, Hanghang Tong
@@ -693,14 +693,14 @@
 
 - title: Subgraph Federated Learning for Local Generalization
   authors: Sungwon Kim, Yoonho Lee, Yunhak Oh, Namkyeong Lee, Sukwon Yun, Junseok Lee, Sein Kim, Carl Yang, Chanyoung Park
-  venue: KDD 2024 Workshop on Federated Learning for Data Mining and Graph Analytics (FedKDD) <FONT COLOR="#ff0000">(Oral)</FONT> <a href="https://kaist-dsail.github.io/files/FedKDD2024_award.pdf" target="_blank"><FONT COLOR="#ff0000"><u>(Best Paper Award)</u></FONT></a>
+  venue: KDD 2024 Workshop on Federated Learning for Data Mining and Graph Analytics (FedKDD) <FONT COLOR="#ff0000">(Oral)</FONT> <a href="/files/FedKDD2024_award.pdf" target="_blank"><FONT COLOR="#ff0000"><u>(Best Paper Award)</u></FONT></a>
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2024
-  pdf_url: https://kaist-dsail.github.io/files/FedKDD24_FedLoG.pdf
+  pdf_url: /files/FedKDD24_FedLoG.pdf
 
 - title: Interpretable Graph Model with Prototype-Based Graph Information Bottleneck
   authors: Sangwoo Seo, Sungwon Kim, Chanyoung Park
-  venue: KDD 2024 Workshop on Human-Interpretable AI <FONT COLOR="#ff0000">(Oral)</FONT> <a href="https://kaist-dsail.github.io/files/HIAI2024_award.pdf" target="_blank"><FONT COLOR="#ff0000"><u>(Best Paper Award)</u></FONT></a>
+  venue: KDD 2024 Workshop on Human-Interpretable AI <FONT COLOR="#ff0000">(Oral)</FONT> <a href="/files/HIAI2024_award.pdf" target="_blank"><FONT COLOR="#ff0000"><u>(Best Paper Award)</u></FONT></a>
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2024
   pdf_url: https://dsail.kaist.ac.kr/publications_conference/
@@ -748,7 +748,7 @@
   year: 2023
   pdf_url: https://arxiv.org/abs/2308.09649
   code_url: https://github.com/yunhak0/MUSE
-  slide_url: https://kaist-dsail.github.io/files/CIKM23_MUSE_slide.pdf
+  slide_url: /files/CIKM23_MUSE_slide.pdf
 
 - title: Class Label-aware Graph Anomaly Detection
   authors: Junghoon Kim, Yeonjun In, Kanghoon Yoon, Junmo Lee, Chanyoung Park
@@ -774,7 +774,7 @@
   pdf_url: https://arxiv.org/abs/2306.13854
   code_url: https://github.com/yeonjun-in/torch-SP-AGCL
   video_url: https://youtu.be/hqJG4_iCYMM
-  slide_url: https://kaist-dsail.github.io/files/KDD23_SPAGCL_slide.pdf
+  slide_url: /files/KDD23_SPAGCL_slide.pdf
 
 - title: Shift-Robust Molecular Relational Learning with Causal Substructure
   authors: Namkyeong Lee, Kanghoon Yoon, Gyoung S. Na, Sein Kim, Chanyoung Park
@@ -793,7 +793,7 @@
   pdf_url: https://arxiv.org/abs/2305.18758
   code_url: https://github.com/sung-won-kim/TEG
   video_url: https://youtu.be/zfn4gi9cVic
-  slide_url: https://kaist-dsail.github.io/files/KDD23_TEG_slide.pdf
+  slide_url: /files/KDD23_TEG_slide.pdf
 
 - title: Task Relation-aware Continual User Representation Learning
   authors: Sein Kim, Namkyeong Lee, Donghyun Kim, Min-Chul Yang, Chanyoung Park
@@ -803,7 +803,7 @@
   pdf_url: https://arxiv.org/abs/2306.01792
   code_url: https://github.com/Sein-Kim/TERACON
   video_url: https://youtu.be/4oW3Bwy9r6M
-  slide_url: https://kaist-dsail.github.io/files/KDD23_TERACON_slide.pdf
+  slide_url: /files/KDD23_TERACON_slide.pdf
 
 - title: Conditional Graph Information Bottleneck for Molecular Relational Learning
   authors: Namkyeong Lee, Dongmin Hyun, Gyoung S. Na, Sungwon Kim, Junseok Lee, Chanyoung Park
@@ -814,7 +814,7 @@
   code_url: https://github.com/Namkyeong/CGIB
   video_url: https://slideslive.com/39003694/conditional-graph-information-bottleneck-for-molecular-relational-learning?ref=search-presentations-Conditional+Graph+Information+Bottleneck+for+Molecular+Relational+Learning
   news_url: https://n.news.naver.com/mnews/article/016/0002171153?sid=105
-  slide_url: https://kaist-dsail.github.io/files/ICML23_CGIB_slide.pdf
+  slide_url: /files/ICML23_CGIB_slide.pdf
 
 - title: MELT&#58; Mutual Enhancement of Long-Tailed User and Item for Sequential Recommendation
   authors: Kibum Kim, Dongmin Hyun, Sukwon Yun, Chanyoung Park
@@ -823,7 +823,7 @@
   year: 2023
   pdf_url: https://arxiv.org/abs/2304.08382
   code_url: https://github.com/rlqja1107/MELT
-  slide_url: https://kaist-dsail.github.io/files/SIGIR23_MELT_slide.pdf
+  slide_url: /files/SIGIR23_MELT_slide.pdf
 
 - title: Heterogeneous Graph Learning for Multi-modal Medical Data Analysis
   authors: Sein Kim, Namkyeong Lee, Junseok Lee, Dongmin Hyun, Chanyoung Park
@@ -832,7 +832,7 @@
   year: 2023
   pdf_url: https://arxiv.org/abs/2211.15158
   code_url: https://github.com/Sein-Kim/Multimodal-Medical
-  slide_url: https://kaist-dsail.github.io/files/AAAI23_HetMed_slide.pdf
+  slide_url: /files/AAAI23_HetMed_slide.pdf
   video_url: https://youtu.be/NxXhc90dIZs
 
 
@@ -843,7 +843,7 @@
   year: 2023
   pdf_url: https://arxiv.org/abs/2212.00443
   code_url: https://github.com/KanghoonYoon/hetsgg-torch
-  slide_url: https://kaist-dsail.github.io/files/AAAI23_HetSGG_slide.pdf
+  slide_url: /files/AAAI23_HetSGG_slide.pdf
   video_url: https://youtu.be/bfr4iFVN7Jk
 
 - title: Stoichiometry Representation Learning with Polymorphic Crystal Structures
@@ -871,7 +871,7 @@
 
 - title: Single-cell RNA-seq data imputation using Feature Propagation  
   authors: Sukwon Yun&#42;, Junseok Lee&#42;, Chanyoung Park
-  venue: ICML 2023 Workshop on Computational Biology (Contributed Talk) <a href="https://kaist-dsail.github.io/files/ICML23_award.pdf" target="_blank"><FONT COLOR="#ff0000"><u>(Best Paper Award)</u></FONT></a>
+  venue: ICML 2023 Workshop on Computational Biology (Contributed Talk) <a href="/files/ICML23_award.pdf" target="_blank"><FONT COLOR="#ff0000"><u>(Best Paper Award)</u></FONT></a>
   venue_full: International Conference on Machine Learning
   year: 2023
   pdf_url: https://arxiv.org/abs/2307.10037
@@ -919,7 +919,7 @@
   year: 2022
   pdf_url: https://arxiv.org/abs/2208.10205
   code_url: https://github.com/SukwonYun/LTE4G
-  slide_url: https://kaist-dsail.github.io/files/CIKM22_LTE4G_slide.pdf
+  slide_url: /files/CIKM22_LTE4G_slide.pdf
 
 - title: Relational Self-Supervised Learning on Graphs
   authors: Namkyeong Lee, Dongmin Hyun, Junseok Lee, Chanyoung Park
@@ -928,7 +928,7 @@
   year: 2022
   pdf_url: https://arxiv.org/abs/2208.10493
   code_url: https://github.com/Namkyeong/RGRL
-  slide_url: https://kaist-dsail.github.io/files/CIKM22_RGRL_slide.pdf
+  slide_url: /files/CIKM22_RGRL_slide.pdf
   news_url: https://n.news.naver.com/mnews/article/016/0002057050?sid=105
 
 - title: Beyond Learning from Next Item&#58; Sequential Recommendation via Personalized Interest Sustainability
@@ -938,16 +938,16 @@
   year: 2022
   pdf_url: https://arxiv.org/abs/2209.06644
   code_url: https://github.com/dmhyun/peris
-  slide_url: https://kaist-dsail.github.io/files/CIKM22_PERIS_slide.pdf
+  slide_url: /files/CIKM22_PERIS_slide.pdf
 
 - title: Nonlinearity Encoding for Extrapolation of Neural Networks
   authors: Gyoung S. Na, Chanyoung Park
   venue: KDD 2022
   venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
   year: 2022
-  pdf_url: https://kaist-dsail.github.io/files/KDD22.pdf
+  pdf_url: /files/KDD22.pdf
   code_url: https://github.com/ngs00/ane
-  slide_url: https://kaist-dsail.github.io/files/KDD22_slide.pdf
+  slide_url: /files/KDD22_slide.pdf
 
 - title: GraFN&#58; Semi-Supervised Node Classification on Graph with Few Labels via Non-Parametric Distribution Assignment
   authors: Junseok Lee, Yunhak Oh, Yeonjun In, Namkyeong Lee, Dongmin Hyun, Chanyoung Park
@@ -956,7 +956,7 @@
   year: 2022
   pdf_url: https://arxiv.org/abs/2204.01303
   code_url: https://github.com/LJS-Student/GraFN
-  slide_url: https://kaist-dsail.github.io/files/SIGIR22_GraFN_slide.pdf
+  slide_url: /files/SIGIR22_GraFN_slide.pdf
   
 - title: AHP&#58; Learning to Negative Sample for Hyperedge Prediction
   authors: Hyunjin Hwang, Seungwoo Lee, Chanyoung Park, Kijung Shin
@@ -1005,7 +1005,7 @@
   venue: ICDM 2020
   venue_full: The IEEE International Conference on Data Mining
   year: 2020
-  pdf_url: https://kaist-dsail.github.io/files/ICDM20.pdf
+  pdf_url: /files/ICDM20.pdf
   code_url: https://github.com/dmhyun/CRIS
 
 
@@ -1016,7 +1016,7 @@
   year: 2020
   pdf_url: https://arxiv.org/abs/2006.04239
   code_url: https://github.com/pcy1302/asp2vec
-  slide_url: https://kaist-dsail.github.io/files/KDD20_slide.pdf
+  slide_url: /files/KDD20_slide.pdf
   video_url: https://youtu.be/DOdRmz1gLdc
 
 
@@ -1028,7 +1028,7 @@
   year: 2020
   pdf_url: https://arxiv.org/abs/1911.06750
   code_url: https://github.com/pcy1302/DMGI
-  slide_url: https://kaist-dsail.github.io/files/AAAI20_slide.pdf
+  slide_url: /files/AAAI20_slide.pdf
    
 
 - title: Task-Guided Pair Embedding in Heterogeneous Network
@@ -1038,7 +1038,7 @@
   year: 2019
   pdf_url: https://arxiv.org/pdf/1906.01546.pdf
   code_url: https://github.com/pcy1302/TapEM
-  slide_url: https://kaist-dsail.github.io/files/CIKM19_slide.pdf
+  slide_url: /files/CIKM19_slide.pdf
   
 
 - title: BHIN2vec&#58; Balancing the Type of Relation in Heterogeneous Information Network
@@ -1046,7 +1046,7 @@
   venue: CIKM 2019
   venue_full: ACM International Conference on Information and Knowledge Management
   year: 2019
-  pdf_url: https://kaist-dsail.github.io/files/CIKM19.pdf
+  pdf_url: /files/CIKM19.pdf
   code_url: https://github.com/sh0416/BHIN2VEC
 
 
@@ -1055,7 +1055,7 @@
   venue: IJCAI 2019
   venue_full: International Joint Conference on Artificial Intelligence
   year: 2019
-  pdf_url: https://kaist-dsail.github.io/files/IJCAI19_2.pdf
+  pdf_url: /files/IJCAI19_2.pdf
   code_url: https://github.com/donalee/metas
  
 
@@ -1064,16 +1064,16 @@
   venue: IJCAI 2019
   venue_full: International Joint Conference on Artificial Intelligence
   year: 2019
-  pdf_url: https://kaist-dsail.github.io/files/IJCAI19_1.pdf
+  pdf_url: /files/IJCAI19_1.pdf
 
 - title: Collaborative Translational Metric Learning
   authors: Chanyoung Park, Donghyun Kim, Xing Xie, Hwanjo Yu 
   venue: ICDM 2018
   venue_full: The IEEE International Conference on Data Mining
   year: 2018
-  pdf_url: https://kaist-dsail.github.io/files/ICDM18.pdf
+  pdf_url: /files/ICDM18.pdf
   code_url: https://github.com/pcy1302/TransCF
-  slide_url: https://kaist-dsail.github.io/files/ICDM18_slide.pdf
+  slide_url: /files/ICDM18_slide.pdf
    
 
 - title: Review Sentiment-Guided Scalable Deep Recommender System
@@ -1081,16 +1081,16 @@
   venue: SIGIR 2018
   venue_full: ACM SIGIR Conference on Research and Development in Information Retrieval (Short paper)
   year: 2018
-  pdf_url: https://kaist-dsail.github.io/files/SIGIR18.pdf
+  pdf_url: /files/SIGIR18.pdf
 
 - title: Do "Also-Viewed" Products Help User Rating Prediction?
   authors: Chanyoung Park, Donghyun Kim, Jinoh Oh, Hwanjo Yu 
   venue: WWW 2017
   venue_full: 26th International World-Wide Web Conference
   year: 2017
-  pdf_url: https://kaist-dsail.github.io/files/WWW17.pdf
+  pdf_url: /files/WWW17.pdf
   code_url: https://cornac.readthedocs.io/en/latest/models.html#module-cornac.models.mcf.recom_mcf
-  slide_url: https://kaist-dsail.github.io/files/WWW17_slide.pdf
+  slide_url: /files/WWW17_slide.pdf
  
 
 - title: Convolutional Matrix Factorization for Document Context-Aware Recommendation
@@ -1098,9 +1098,9 @@
   venue: RecSys 2016
   venue_full: ACM International Conference on Recommender System
   year: 2016
-  pdf_url: https://kaist-dsail.github.io/files/RecSys16.pdf
+  pdf_url: /files/RecSys16.pdf
   code_url: https://github.com/cartopy/ConvMF-1.0.0
-  slide_url: https://kaist-dsail.github.io/files/RecSys16_slide.pdf
+  slide_url: /files/RecSys16_slide.pdf
  
 
 - title: TRecSo&#58; Enhancing Top-k Recommendation With Social Information
@@ -1108,7 +1108,7 @@
   venue: WWW 2016
   venue_full: 25th International World-Wide Web Conference (Poster)
   year: 2016
-  pdf_url: https://kaist-dsail.github.io/files/WWW16.pdf
+  pdf_url: /files/WWW16.pdf
   code_url: http://dm.postech.ac.kr/TRecSo/TRecSo.java
 
 
@@ -1118,4 +1118,4 @@
   year: 2015
   venue_full: ACM Recommender Systems Challenge (10th place, top 1.1%)
   pdf_url: http://dx.doi.org/10.1145/2813448.2813517
-  slide_url: https://kaist-dsail.github.io/files/RecSysChallenge15_slide.pdf
+  slide_url: /files/RecSysChallenge15_slide.pdf

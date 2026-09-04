@@ -249,7 +249,7 @@
   headline: Three papers (1 Long, 2 Short) got accepted at CIKM 2023.
   
 - date: July 2023
-  headline: Our paper "Single-cell RNA-seq data imputation using Feature Propagation" received the Best Paper Award at ICML 2023 Workshop on Computational Biology <a href="https://kaist-dsail.github.io/files/ICML23_award.pdf" target="_blank">[Link]</a>.
+  headline: Our paper "Single-cell RNA-seq data imputation using Feature Propagation" received the Best Paper Award at ICML 2023 Workshop on Computational Biology <a href="/files/ICML23_award.pdf" target="_blank">[Link]</a>.
 
 - date: June 2023
   headline: Kibum Kim, Yeonjun In, and Yunhan Oh will be pursuing a Ph.D degree starting from Fall 2023.
@@ -258,7 +258,7 @@
   headline: Nine undergraduate interns joined our lab (Hyunchul Kim, Sangwu Park, Seokwon Han, Jinhyeok Park, Hyewon Ryu, Sangmin Park, Seoung Choi, Geonwoo Kim, Jiwan Kim).
 
 - date: June 2023
-  headline: Prof. Park gave a tutorial at <a href="https://www.kiise.or.kr/conference/main/getContent.do?CC=KCC&CS=2023&PARENT_ID=011500&content_no=1795" target="_blank">2023 KCC on 그래프 신경망 기반 화학/소재분야 연구 동향</a> <a href="https://kaist-dsail.github.io/files/KCC2023.pdf" target="_blank">[Slide]</a>.
+  headline: Prof. Park gave a tutorial at <a href="https://www.kiise.or.kr/conference/main/getContent.do?CC=KCC&CS=2023&PARENT_ID=011500&content_no=1795" target="_blank">2023 KCC on 그래프 신경망 기반 화학/소재분야 연구 동향</a> <a href="/files/KCC2023.pdf" target="_blank">[Slide]</a>.
 
 - date: June 2023
   headline: Two papers got accepted at ICML 2023 Workshop on Computational Biology.
@@ -309,7 +309,7 @@
   headline: A paper got accepted at ICDM 2022.
 
 - date: August 2022
-  headline: Prof. Park gave a tutorial at <a href="https://sites.google.com/view/dbsummerschool2022" target="_blank">2022 데이터베이스 소사이어티 여름학교</a> <a href="https://kaist-dsail.github.io/files/MLGraph2022.pdf" target="_blank">[Slide]</a>.
+  headline: Prof. Park gave a tutorial at <a href="https://sites.google.com/view/dbsummerschool2022" target="_blank">2022 데이터베이스 소사이어티 여름학교</a> <a href="/files/MLGraph2022.pdf" target="_blank">[Slide]</a>.
 
 - date: August 2022
   headline: Three papers got accepted at CIKM 2022.
@@ -345,13 +345,13 @@
   headline: Six undergraduate interns joined our lab (Junghoon Kim, Hanbit Lee, Hyemin Ju, Sujin Kim, Jihyung Jung, and Hyojun Kim).
 
 - date: June 2021
-  headline: Prof. Park gave a tutorial at <a href="http://kiie.org/wp/2021a/online.asp" target="_blank">2021 대한산업공학회 춘계학술대회</a>.
+  headline: Prof. Park gave a tutorial at <a href="https://kiie.org/wp/2021a/online.asp" target="_blank">2021 대한산업공학회 춘계학술대회</a>.
 
 - date: April 2021
   headline: A paper got accepted at SIGIR 2021.
 
 - date: February 2021
-  headline: Prof. Park gave a tutorial at <a href="http://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF" target="_blank">2021 한국인공지능학회 동계단기강좌</a> <a href="https://kaist-dsail.github.io/files/MLGraph2021.pdf" target="_blank">[Slide]</a>.
+  headline: Prof. Park gave a tutorial at <a href="https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF" target="_blank">2021 한국인공지능학회 동계단기강좌</a> <a href="/files/MLGraph2021.pdf" target="_blank">[Slide]</a>.
 
 - date: January 2021
   headline: A paper got accepted at WWW 2021.
