@@ -175,13 +175,31 @@ section{padding:52px 0;border-top:1px solid var(--rule)}
 .count-line{font-size:14px;color:var(--muted);margin:14px 0 10px}
 .paperlist{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
 .paperlist li{display:grid;grid-template-columns:1fr auto;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:start}
-.paperlist li.yh{display:block;padding:34px 0 8px;border-bottom:1px solid var(--ink)}
-.paperlist li.yh:first-child{padding-top:8px}
-.paperlist li.yh{display:flex;align-items:baseline;gap:20px;flex-wrap:wrap}
-.paperlist li.yh h3{font-size:26px}
-.paperlist .ystats{font-size:13px;color:var(--muted)}
-.paperlist .ystats b{font-weight:600;color:var(--ink-2)}
-.paperlist .ystats .sep{margin:0 7px;color:#c9c6be}
+/* collapsible year groups */
+.ygroup{border-top:1px solid var(--ink)}
+.ygroup:first-child{border-top:0}
+.yhead{display:flex;align-items:baseline;gap:8px 20px;flex-wrap:wrap;padding:26px 0 10px}
+.ygroup:first-child .yhead{padding-top:8px}
+.ytoggle{display:flex;align-items:baseline;gap:10px;background:none;border:0;padding:0;color:inherit;text-align:left}
+.ytoggle .chev{width:0;height:0;border:5px solid transparent;border-left-color:var(--muted);align-self:center;flex:none;transition:transform .15s}
+.ytoggle[aria-expanded="true"] .chev{transform:rotate(90deg)}
+.ytoggle h3{font-family:var(--serif);font-weight:500;font-size:26px;line-height:1.2}
+.ytoggle .ycount{font-size:13px;color:var(--muted);white-space:nowrap}
+.ytoggle:hover h3{text-decoration:underline;text-underline-offset:3px}
+.ytoggle:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:4px}
+.ystats{display:flex;flex-wrap:wrap;gap:6px}
+.vchip{border:1px solid var(--rule);background:#fff;border-radius:999px;padding:3px 10px;font-size:12.5px;line-height:1.45;color:var(--muted);white-space:nowrap;transition:background .12s,color .12s,border-color .12s}
+.vchip b{font-weight:600;color:var(--ink-2);margin-left:4px}
+.vchip:hover{border-color:var(--ink-2);color:var(--ink)}
+.vchip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.vchip[aria-pressed="true"] b{color:#fff}
+.vchip:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.ygroup.closed .paperlist{display:none}
+.listbar{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;margin:14px 0 6px;min-height:20px}
+.listbar .count-line{margin:0}
+.linkbtn{background:none;border:0;padding:0;font-size:13.5px;color:var(--ink-2);border-bottom:1px solid var(--rule)}
+.linkbtn:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.linkbtn[hidden]{display:none}
 .paperlist .yr{font-size:14px;color:var(--muted);padding-top:2px;font-variant-numeric:tabular-nums}
 .paperlist .ttl{font-size:15.5px;line-height:1.4}
 .paperlist .ttl a{text-decoration:none}
@@ -217,9 +235,16 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   .apps{grid-template-columns:1fr 1fr}
   .trend{grid-template-columns:1fr}
   .legend{flex-direction:row;flex-wrap:wrap;gap:8px 16px}
-  .paperlist li{grid-template-columns:1fr}
-    .paperlist .links{padding-top:0}
-  .paperlist .links a:first-child{margin-left:0}
+  .paperlist li{grid-template-columns:1fr;gap:6px}
+  .paperlist .links{padding-top:2px;text-align:left;max-width:none;display:flex;flex-wrap:wrap;gap:6px 16px}
+  .paperlist .links a{margin-left:0}
+  .controls{gap:10px}
+  .controls input{min-width:0;flex:1 1 100%}
+  .controls select{flex:1 1 calc(50% - 5px);min-width:0}
+  .yhead{padding:20px 0 8px;gap:6px 12px}
+  .ytoggle h3{font-size:22px}
+  .ystats{width:100%;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:2px;scrollbar-width:none}
+  .ystats::-webkit-scrollbar{display:none}
   .reps li{grid-template-columns:1fr;gap:4px}
 }
 </style>
@@ -241,8 +266,8 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
     <div class="chips" id="chips" role="group" aria-label="Filter by area"></div>
     <div class="chips sub" id="subchips" role="group" aria-label="Filter by scientific domain" hidden></div>
     <div class="chips sub" id="appchips" role="group" aria-label="Filter by application domain" hidden></div>
-    <p class="count-line" id="countLine"></p>
-    <ul class="paperlist" id="list"></ul>
+    <div class="listbar"><p class="count-line" id="countLine"></p><button type="button" class="linkbtn" id="toggleAll" data-action="close" hidden>Collapse all years</button></div>
+    <div class="years" id="list"></div>
   </section>
 
 </main>
@@ -273,7 +298,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   const link=(p,txt)=>p.pdf?`<a href="${p.pdf}" target="_blank" rel="noopener">${esc(txt||p.title)}</a>`:esc(txt||p.title);
   // ---------- list ----------
   const rank={main:0,journal:0,workshop:1,preprint:2};
-  const st={q:'',year:'',type:'',themes:new Set(),domains:new Set(),apps:new Set()};
+  const st={q:'',year:'',type:'',themes:new Set(),domains:new Set(),apps:new Set(),closed:new Set(),venue:{}};
   const DOMS=(tById['ai4sci'].domains||[]);
   const subchips=document.getElementById('subchips');
   subchips.innerHTML=DOMS.map(x=>`<button class="chip" data-domain="${x.id}" aria-pressed="false">${x.name}</button>`).join('');
@@ -312,29 +337,77 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
       (!st.q||(p.title+' '+p.authors+' '+p.venue).toLowerCase().includes(st.q))
     ).sort((a,b)=>b.year-a.year||rank[a.type]-rank[b.type]||a.id.localeCompare(b.id));
     const filtered=st.themes.size||st.domains.size||st.apps.size||st.year||st.type||st.q; document.getElementById('countLine').textContent=filtered?`${rows.length} matching papers`:'';
-    const ul=document.getElementById('list');
-    if(!rows.length){ul.innerHTML='<li class="empty">No papers match. Clear a filter to see more.</li>';return;}
-    const TIER=['NeurIPS','ICML','ICLR','KDD','AAAI','CVPR','ECCV','ICCV','ACL','EMNLP','NAACL','WWW','SIGIR','WSDM','IJCAI','CIKM','ICDM','RecSys'];
-    const yearStats=y=>{const c={},w={journal:0,workshop:0,preprint:0};
-      rows.filter(p=>p.year===y).forEach(p=>{ if(p.type==='main'){const v=p.venue.split(' ')[0]; c[v]=(c[v]||0)+1;} else w[p.type]++; });
-      const keys=Object.keys(c).sort((a,b)=>{const ia=TIER.indexOf(a),ib=TIER.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);});
-      const parts=keys.map(k=>`${k} <b>${c[k]}</b>`);
-      if(w.journal) parts.push(`Journal <b>${w.journal}</b>`); if(w.workshop) parts.push(`Workshop <b>${w.workshop}</b>`); if(w.preprint) parts.push(`Preprint <b>${w.preprint}</b>`);
-      return parts.join('<span class="sep">·</span>');};
-    let prevYear=null;
-    ul.innerHTML=rows.map(p=>{
-      const th=tById[p.theme], sub=p.domain?{name:(DOMS.find(x=>x.id===p.domain)||{}).name+(p.sci_llm?' · Scientific LLM':'')}:null;
-      const sec=(p.secondary||[]).map(s=>tById[s].name).join(', ');
-      const yh=p.year!==prevYear?`<li class="yh"><h3>${p.year}</h3><div class="ystats">${yearStats(p.year)}</div></li>`:''; prevYear=p.year;
-      const LBL={model:'Model',dataset:'Dataset',slide:'Slides',video:'Video',news:'News'};
-      const extra=Object.entries(p.links||{}).map(([k,u])=>`<a href="${u}" target="_blank" rel="noopener">${LBL[k]||k}</a>`).join('');
-      return yh+`<li><div>
+    const listEl=document.getElementById('list');
+    if(!rows.length){listEl.innerHTML='<div class="empty">No papers match. Clear a filter to see more.</div>';syncBar();return;}
+    const groups=[],gi={};
+    rows.forEach(p=>{const y=String(p.year);if(!(y in gi)){gi[y]=groups.length;groups.push([y,[]]);}groups[gi[y]][1].push(p);});
+    listEl.innerHTML=groups.map(([y,ps])=>{
+      const c={};ps.forEach(p=>{const k=venueKey(p);c[k]=(c[k]||0)+1;});
+      const chipsHtml=Object.keys(c).sort(venueSort).map(k=>`<button type="button" class="vchip" data-y="${y}" data-venue="${esc(k)}" aria-pressed="false">${esc(VLBL[k]||k)}<b>${c[k]}</b></button>`).join('');
+      return `<section class="ygroup" data-year="${y}">
+        <div class="yhead">
+          <button type="button" class="ytoggle" data-y="${y}" aria-expanded="true" aria-controls="ylist-${y}"><span class="chev"></span><h3>${y}</h3><span class="ycount"></span></button>
+          <div class="ystats">${chipsHtml}</div>
+        </div>
+        <ul class="paperlist" id="ylist-${y}">${ps.map(paperRow).join('')}</ul>
+      </section>`;
+    }).join('');
+    applyYearState();
+  }
+
+  // ---------- year collapse / per-year venue filter ----------
+  const TIER=['NeurIPS','ICML','ICLR','KDD','AAAI','CVPR','ECCV','ICCV','ACL','EMNLP','NAACL','WWW','SIGIR','WSDM','IJCAI','CIKM','ICDM','RecSys'];
+  const VLBL={journal:'Journal',workshop:'Workshop',preprint:'Preprint'};
+  const OTHER=['journal','workshop','preprint'];
+  const venueKey=p=>p.type==='main'?p.venue.split(' ')[0]:p.type;
+  function venueSort(a,b){
+    const oa=OTHER.indexOf(a),ob=OTHER.indexOf(b);
+    if(oa>=0||ob>=0) return (oa<0?-1:ob<0?1:oa-ob);
+    const ia=TIER.indexOf(a),ib=TIER.indexOf(b);
+    return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);
+  }
+  function paperRow(p){
+    const th=tById[p.theme], sub=p.domain?{name:(DOMS.find(x=>x.id===p.domain)||{}).name+(p.sci_llm?' · Scientific LLM':'')}:null;
+    const sec=(p.secondary||[]).map(s=>tById[s].name).join(', ');
+    const LBL={model:'Model',dataset:'Dataset',slide:'Slides',video:'Video',news:'News'};
+    const extra=Object.entries(p.links||{}).map(([k,u])=>`<a href="${u}" target="_blank" rel="noopener">${LBL[k]||k}</a>`).join('');
+    return `<li data-venue="${esc(venueKey(p))}"><div>
         <div class="ttl">${esc(p.title)}</div>
         <div class="meta"><span class="badge">${p.venue}</span>${badge(p)}${p.note?`<span class="badge note">${p.note}</span>`:''}${p.also_in&&p.also_in.length?`<span class="also">also appeared in ${p.also_in.join(', ')}</span>`:''}<span><span class="dot" style="background:${th.color}"></span> ${th.name}${sub?' · '+sub.name:''}${sec?` <span class="muted">+ ${sec}</span>`:''}</span></div>
         <div class="meta" style="margin-top:3px">${p.authors}</div>
       </div><div class="links">${p.pdf?`<a href="${p.pdf}" target="_blank" rel="noopener">Paper</a>`:''}${p.code?`<a href="${p.code}" target="_blank" rel="noopener">Code</a>`:''}${extra}</div></li>`;
-    }).join('');
   }
+  function applyYearState(){
+    document.querySelectorAll('#list .ygroup').forEach(secEl=>{
+      const y=secEl.dataset.year, closed=st.closed.has(y), sel=st.venue[y]||'';
+      secEl.classList.toggle('closed',closed);
+      secEl.querySelector('.ytoggle').setAttribute('aria-expanded',String(!closed));
+      secEl.querySelectorAll('.vchip').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.venue===sel)));
+      let shown=0;
+      secEl.querySelectorAll('.paperlist>li').forEach(li=>{const hide=!!sel&&li.dataset.venue!==sel;li.hidden=hide;if(!hide)shown++;});
+      secEl.querySelector('.ycount').textContent=shown+' paper'+(shown===1?'':'s')+(sel?' · '+(VLBL[sel]||sel):'');
+    });
+    syncBar();
+  }
+  function syncBar(){
+    const secs=[...document.querySelectorAll('#list .ygroup')], btn=document.getElementById('toggleAll');
+    btn.hidden=secs.length<2;
+    const allClosed=secs.length>0&&secs.every(x=>x.classList.contains('closed'));
+    btn.dataset.action=allClosed?'open':'close';
+    btn.textContent=allClosed?'Expand all years':'Collapse all years';
+  }
+  document.getElementById('list').addEventListener('click',e=>{
+    const t=e.target.closest('.ytoggle');
+    if(t){const y=t.dataset.y;st.closed.has(y)?st.closed.delete(y):st.closed.add(y);applyYearState();return;}
+    const v=e.target.closest('.vchip');
+    if(v){const y=v.dataset.y,k=v.dataset.venue;if(st.venue[y]===k)delete st.venue[y];else st.venue[y]=k;st.closed.delete(y);applyYearState();}
+  });
+  document.getElementById('toggleAll').addEventListener('click',function(){
+    const open=this.dataset.action==='open';
+    st.closed.clear();
+    if(!open) document.querySelectorAll('#list .ygroup').forEach(x=>st.closed.add(x.dataset.year));
+    applyYearState();
+  });
   { const q=new URLSearchParams(location.search); if(q.get('theme')) st.themes=new Set(q.get('theme').split(',')); if(q.get('type')){st.type=q.get('type');document.getElementById('typeSel').value=st.type;} if(q.get('year')){st.year=q.get('year');ySel.value=st.year;} }
   render();
 })();
