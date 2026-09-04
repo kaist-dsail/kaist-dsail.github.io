@@ -295,14 +295,15 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   const pill=id=>{const t=tById[id];return `<a class="area" href="#area-${id}" style="--c:${t.color}"><span class="sw"></span>${t.name}</a>`;};
   (function landscape(){
     const W=1100,F='Inter,system-ui,sans-serif',S='Fraunces,Georgia,serif';
-    const AY=80,AH=98;                       // area-card row
+    const AY=80,AH=130;                      // area-card row
     const c=id=>(tById[id]||{color:'#9a988f'}).color;
     let o='';
     const cell=(id,x,y,w,h,title,sub)=>{const col=c(id);
       o+=`<a href="#area-${id}"><g><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="6" fill="${col}" fill-opacity=".1" stroke="${col}" stroke-width="1.5"/>`;
       const lines=Array.isArray(title)?title:[title];
       lines.forEach((t,i)=>o+=`<text x="${x+14}" y="${y+26+i*20}" font-family="${S}" font-size="16.5" fill="#1c1b19">${t}</text>`);
-      if(sub) o+=`<text x="${x+14}" y="${y+h-12}" font-family="${F}" font-size="11.5" fill="#4a4944">${sub}</text>`;
+      if(sub){const sl=Array.isArray(sub)?sub:[sub];
+        sl.forEach((t,i)=>o+=`<text x="${x+14}" y="${y+h-12-(sl.length-1-i)*14}" font-family="${F}" font-size="11.5" fill="#4a4944">${t}</text>`);}
       o+=`</g></a>`;};
     const g=c('ai4sci');
     o+=`<a href="#area-ai4sci"><g><rect x="0" y="0" width="${W}" height="62" rx="6" fill="${g}" fill-opacity=".1" stroke="${g}" stroke-width="1.5"/>`;
@@ -316,8 +317,17 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
       s.split(' ').forEach(word=>{const cand=line?line+' '+word:word;
         if(line&&cand.length*8.1>maxw){out.push(line);line=word;}else line=cand;});
       if(line)out.push(line);return out;};
-    const items=[['llm','reasoning · tools · memory'],['graph','robust, label-efficient GNNs'],['recsys','LLM-based recommenders'],['multimodal','vision–language alignment'],['timeseries','forecasting · spatio-temporal']];
-    items.forEach(([id,sub],i)=>cell(id,i*(w+gap),AY,w,AH,wrapT(tById[id].name,w-34).map(esc),sub));
+    const wrapS=(s,maxw)=>{const out=[];let line='';
+      s.split(' ').forEach(word=>{const cand=line?line+' '+word:word;
+        if(line&&cand.length*5.7>maxw){out.push(line);line=word;}else line=cand;});
+      if(line)out.push(line);return out;};
+    const items=[
+      ['llm','reasoning · tools · memory · evaluation & safety'],
+      ['graph','representation · generalization · robustness · graph foundation models'],
+      ['recsys','user modeling · sequential & multimodal recommendation · continual personalization'],
+      ['multimodal','vision-language · video understanding · multimodal reasoning'],
+      ['timeseries','forecasting · continual adaptation · spatio-temporal learning']];
+    items.forEach(([id,sub],i)=>cell(id,i*(w+gap),AY,w,AH,wrapT(tById[id].name,w-34).map(esc),wrapS(sub,w-28).map(esc)));
 
     // applications band — where the areas above get applied
     const SHORT={'Sports analytics':'Sports','Social & online media':'Social media','E-commerce & retail':'E-commerce','Search & question answering':'Search & QA','Traffic & mobility':'Traffic'};

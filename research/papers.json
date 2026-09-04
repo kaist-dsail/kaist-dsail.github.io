@@ -404,12 +404,12 @@
     {
      "id": "molecules",
      "name": "Molecules & chemistry",
-     "short": "Molecules & chemistry"
+     "short": "Molecules & Chemistry"
     },
     {
      "id": "drugs",
      "name": "Drug discovery",
-     "short": "Drug discovery"
+     "short": "Drug Discovery"
     },
     {
      "id": "biology",
@@ -419,12 +419,12 @@
     {
      "id": "engineering",
      "name": "Engineering & physical simulation",
-     "short": "Engineering"
+     "short": "Physical Systems"
     },
     {
      "id": "scillm",
      "name": "Scientific LLMs & agents",
-     "short": "+ scientific LLM agents"
+     "short": "+ Scientific Agents"
     }
    ]
   },
