@@ -31,9 +31,6 @@ exclude:
   - vendor
   - .DS_Store
 
-sass:
-  sass_dir: _sass
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
