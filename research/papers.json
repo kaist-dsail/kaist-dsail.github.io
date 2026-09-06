@@ -2949,10 +2949,7 @@
    "pdf": "https://www.sciencedirect.com/science/article/pii/S0020025516308301",
    "code": null,
    "note": null,
-   "also_in": [],
-   "links": {
-    "slide": "https://pcy1302.github.io/data/InforSci16_slide.pdf"
-   }
+   "also_in": []
   },
   {
    "title": "A New DAWN for Fake News Detection: Leveraging Engagement Earliness for Temporality-aware Evaluation",
