@@ -1,369 +1,495 @@
 - date: September 2026
   headline: Our lab has been awarded an <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/" target="_blank">NVIDIA Academic Grant</a> for our research on "Geometry-Transferable Neural Operators for 3D PDE Solving."
+  cat: award
 
 - date: August 2026
   headline: Four papers got accepted at CIKM 2026 (2 x Research Track, 1 x Applied Research Track, 1 x Short Paper Track).
+  cat: paper
 
 - date: August 2026
   headline: Our paper "Physics-Embedded Graph Neural Operator for Interaction-Controlled Colloidal Aggregation" received the Best Paper Award at KDD 2026 Workshop on Reliable Scientific Foundation Models.
+  cat: award
 
 - date: August 2026
   headline: Our paper "Personalize-then-Store&#58; Benchmarking and Learning Personalized Memory for Long-Horizon Agents" received the Best Paper Award at KDD 2026 Workshop on Personal Intelligence in the Agentic AI Era (PILA).
+  cat: award
 
 - date: August 2026
   headline: Ilho Shin and Hyunchul Kim ranked 1st in <a href="https://erisk.irlab.org/" target="_blank">Task 2&#58; Contextualized Early Detection of Depression at CLEF eRisk 2026</a>.
+  cat: award
 
 - date: June 2026
   headline: Eleven undergraduate interns joined our lab.
+  cat: people
 
 - date: June 2026
   headline: Two papers got accepted at ECCV 2026.
+  cat: paper
 
 - date: May 2026
   headline: Six papers got accepted at ICML 2026 Workshop (3 x AI for Science, 1 x CATS, 1 x FAGEN, 1 x GenBIO). 
+  cat: paper
 
 - date: May 2026
   headline: Two papers got accepted at KDD 2026 (1 x Research Track and 1 x AI for Science Track).
+  cat: paper
 
 - date: May 2026
   headline: Five papers got accepted at ICML 2026.
+  cat: paper
 
 - date: April 2026
   headline: A paper got accepted by ACM Transactions on Intelligent Systems and Technology.
+  cat: paper
 
 - date: April 2026
   headline: We won the 2026 Google Research award for our research "Coordinate-Invariant Neural Operators for Geometry-Transferable 3D PDE Solving."
+  cat: award
 
 - date: April 2026
   headline: We are looking for interns to join our group during this Summer break (8 weeks).
+  cat: people
   content: Click <a href="https://ise.kaist.ac.kr/notices/view/id/3211" target="_blank">here</a> for more detail (Due date&#58;May. 7). Apply through the <a href="https://docs.google.com/forms/d/e/1FAIpQLScDRQ4-svQaZ7b_LT2ovn9aTj1NbRKM28EIwoz-WuafHs90Cg/viewform" target="_blank">official link</a> and send an email to cy.park (at) kaist.ac.kr <b>with your CV and transcript</b> to confirm that you have submitted your application.
 
 - date: April 2026
   headline: A paper got accepted at ACL 2026 (Main).
+  cat: paper
 
 - date: April 2026
   headline: Wonjoong Kim started a research internship at Microsoft Research Asia.
+  cat: people
 
 - date: March 2026
   headline: Prof. Park will be organizing <a href="https://kdd26scisocllm.github.io/" target="_blank">KDD'26 Workshop on SciSoc Agents &amp; LLMs</a>.
+  cat: service
 
 - date: March 2026
   headline: A paper got accepted by Water Research.
+  cat: paper
 
 - date: March 2026
   headline: Kibum Kim started a research internship at Huawei UK Research Centre, London, United Kingdom.
+  cat: people
 
 - date: March 2026
   headline: Six papers got accepted at ICLR 2026 Workshop (1 x AI and Partial Differential Equations (Oral), 3 x AI4Mat, 1 x AI with Recursive Self-Improvement, 1 x Generative and Experimental Perspectives for Biomolecular Design).
+  cat: paper
 
 - date: February 2026
   headline: Namkyeong Lee received the KAIST Presidential Best Ph.D. Thesis Award for his dissertation “Understanding Science through the Lens of AI.”
+  cat: award
 
 - date: January 2026
   headline: Three papers got accepted at ICLR 2026.
+  cat: paper
 
 - date: January 2026
   headline: A paper got accepted at SSAC 2026 (MIT Sloan Sports Analytics Conference).
+  cat: paper
 
 - date: January 2026
   headline: A paper got accepted at WWW 2026.
+  cat: paper
 
 - date: December 2025
   headline: Nine undergraduate interns joined our lab.
+  cat: people
 
 - date: December 2025
   headline: Prof. Park received the 2025 KAIST College of Engineering Impact Research Award.
+  cat: award
 
 - date: November 2025
   headline: Sangwoo Seo started as a visiting Ph.D student at Yale University, USA, hosted by <a href="https://graph-and-geometric-learning.github.io/" target="_blank">Prof. Rex Ying</a>
+  cat: people
 
 - date: November 2025
   headline: A paper got accepted at AAAI 2026.
+  cat: paper
 
 - date: October 2025
   headline: We are looking for interns to join our group during this Winter break (8 weeks).
+  cat: people
   content: Click <a href="https://ise.kaist.ac.kr/notices/view/id/3106" target="_blank">here</a> for more detail (Due date&#58;Nov. 6). Apply through the <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuQrYo5NtWHAA4fZ2qRUM2fwjRMvnBy6bWQUfJh-c5fFJLsA/viewform" target="_blank">official link</a> and send an email to cy.park (at) kaist.ac.kr <b>with your CV and transcript</b> to confirm that you have submitted your application.
 
 - date: October 2025
   headline: Three papers got accepted at NeurIPS 2025 Workshop (Workshop on Efficient Reasoning, AI for Science, and Reliable ML from Unreliable Data).
+  cat: paper
 
 - date: October 2025
   headline: Namkyeong Lee started a research internship at Genentech, USA.
+  cat: people
 
 - date: September 2025
   headline: Three papers got accepted at NeurIPS 2025 (including 1 Spotlight).
+  cat: paper
 
 - date: August 2025
   headline: Two papers got accepted at EMNLP 2025 (1 Main and 1 Findings).
+  cat: paper
 
 - date: August 2025
   headline: Kibum Kim started as a visiting Ph.D student at University of California San Diego, USA, hosted by <a href="https://cseweb.ucsd.edu/~jmcauley/" target="_blank">Prof. Julian McAuley</a>
+  cat: people
 
 - date: July 2025
   headline: Prof. Park will serve as a General Co-Chair of <a href="https://www.cikm2025.org/" target="_blank">CIKM 2025</a>, which will be held in Seoul, Korea.
+  cat: service
 
 - date: June 2025
   headline: A paper got accepted at ICCAD 2025.
+  cat: paper
 
 - date: June 2025
   headline: Ten undergraduate interns joined our lab.
+  cat: people
 
 - date: June 2025
   headline: Yeonjun In started a research internship at Adobe Research, USA.
+  cat: people
 
 - date: May 2025
   headline: Two papers got accepted at KDD 2025 (February Cycle).
+  cat: paper
 
 - date: May 2025
   headline: Two papers got accepted at ICML 2025.
+  cat: paper
 
 - date: April 2025
   headline: We are looking for interns to join our group during this Summer break (8 weeks).
+  cat: people
 
 - date: April 2025
   headline: Two papers got accepted at SIGIR 2025.
+  cat: paper
 
 - date: March 2025
   headline: Two papers got accepted at ICLR 2025 Workshop on Machine Learning for Genomics Explorations (MLGenX) (including 1 Spotlight).
+  cat: paper
 
 - date: February 2025
   headline: Prof. Park has been honored with the Song-Am Distinguished Research Award, which recognizes assistant professors in the College of Engineering at KAIST with outstanding research achievements within their first five years of employment.
+  cat: award
 
 - date: January 2025
   headline: Three papers got accepted at ICLR 2025 (including 1 Oral).
+  cat: paper
 
 - date: January 2025
   headline: Two papers got accepted at NAACL 2025 (1 Main and 1 Findings).
+  cat: paper
 
 - date: January 2025
   headline: Sein Kim started as a visiting Ph.D student at University of California San Diego, USA, hosted by <a href="https://cseweb.ucsd.edu/~jmcauley/" target="_blank">Prof. Julian McAuley</a>
+  cat: people
   
+
 - date: December 2024
   headline: Ten undergraduate interns joined our lab.
+  cat: people
 
 - date: December 2024
   headline: A paper got accepted at AAAI 2025.
+  cat: paper
 
 - date: November 2024
   headline: Two papers got accepted at KDD 2025 (August Cycle).
+  cat: paper
 
 - date: October 2024
   headline: We are looking for interns to join our group during this Winter break (8 weeks).
+  cat: people
   
+
 - date: October 2024
   headline: Junseok Lee received KAIST Graduate Student Outstanding Paper Award for his paper "Single-cell RNA Sequencing Data Imputation Using Bi-level Feature Propagation" published in Briefings in Bioinformatics. Congratulations!
+  cat: award
 
 - date: October 2024
   headline: A paper got accepted at WSDM 2025 (Oral).
+  cat: paper
 
 - date: October 2024
   headline: A paper got accepted at NeurIPS 2024 Workshop on AI for New Drug Modalities (AIDrugX).
+  cat: paper
     
+
 - date: September 2024
   headline: A paper got accepted at NeurIPS 2024.
+  cat: paper
 
 - date: September 2024
   headline: Namkyeong Lee started a research internship at Genentech, USA.
+  cat: people
 
 - date: August 2024
   headline: Our paper "Subgraph Federated Learning for Local Generalization" received the Best Paper Award at KDD 2024 Workshop on Federated Learning for Data Mining and Graph Analytics (FedKDD).
+  cat: award
 
 - date: August 2024
   headline: Our paper "Interpretable Graph Model with Prototype-Based Graph Information Bottleneck" received the Best Paper Award at KDD 2024 Workshop on Human-Interpretable AI.
+  cat: award
 
 - date: July 2024
   headline: Two papers got accepted at CIKM 2024.
+  cat: paper
 
 - date: July 2024
   headline: Two papers got accepted at ECCV 2024.
+  cat: paper
 
 - date: July 2024
   headline: Junseok Lee started as a visiting Ph.D student at University of Texas Health Science Center at Houston (UTHealth), USA, hosted by <a href="https://yejinjkim.github.io/" target="_blank">Prof. Yejin Kim</a>.
+  cat: people
 
 - date: June 2024
   headline: Kanghoon Yoon started a research internship at Qualcomm AI, USA.
+  cat: people
 
 - date: June 2024
   headline: Hyunsung Kim joined our lab and will be pursuing a Ph.D degree starting from Fall 2024.
+  cat: people
 
 - date: June 2024
   headline: Hongseok Kang and Jimin Seo joined our lab and will be pursuing a Master's degree starting from Fall 2024.
+  cat: people
 
 - date: June 2024
   headline: Eight undergraduate interns joined our lab.
+  cat: people
 
 - date: May 2024
   headline: Two papers got accepted at KDD 2024.
+  cat: paper
 
 - date: May 2024
   headline: A paper got accepted at ICML 2024.
+  cat: paper
 
 - date: April 2024
   headline: We are looking for interns to join our group during this Summer break (8 weeks).
+  cat: people
   # content: Click <a href="https://ie.kaist.ac.kr/0502/view/id/2861" target="_blank">here</a> for more detail (Due date&#58;May. 3). Apply through the <a href="https://forms.gle/GZxAA3FBK6xmvaoA8" target="_blank">official link</a> and send an email to cy.park (at) kaist.ac.kr <b>with your CV and transcript</b> to confirm that you have submitted your application.
 
 - date: April 2024
   headline: A paper got accepted at Briefings in Bioinformatics.
+  cat: paper
 
 - date: April 2024
   headline: Yeonjun In started a research internship at Adobe Research, USA.
-
-- date: March 2023
-  headline: A paper got accepted at WWW 2024 Workshop on Data-centric Artificial Intelligence (DCAI).
+  cat: people
 
 - date: February 2024
   headline: A paper got accepted at CVPR 2024.
+  cat: paper
 
 - date: January 2024
   headline: Congratulations! Sangwoo Seo and Sungwon Kim received Gold Prize at the 30th Samsung Humantech Paper Award.
+  cat: award
   content: Sangwoo Seo and Sungwon Kim received Gold Prize at the 30th Samsung Humantech Paper Award for their paper <a href="https://openreview.net/pdf?id=icWwBKyVMs" target="_blank">Interpretable Prototype-based Graph Information Bottleneck</a> published in NeurIPS 2023. The Gold Prize is given to only one paper in Computer Science & Engineering area every year.
 
 - date: January 2024
   headline: Two papers got accepted at WWW 2024.
+  cat: paper
 
 - date: January 2024
   headline: A paper got accepted at ICLR 2024.
+  cat: paper
 
 - date: January 2024
   headline: Prof. Park received 2023 Technology Innovation Awards of College of Engineering, KAIST.
+  cat: award
 
 - date: December 2023
   headline: Sungwon Kim, Wonjoong Kim, and Seungyoon Choi will be pursuing a Ph.D degree starting from Spring 2024.
+  cat: people
 
 - date: December 2023
   headline: Hyunchul Kim, Jiwan Kim, and Hoyoung Choi joined our lab and will be pursuing a Master's degree starting from Spring 2024.
+  cat: people
 
 - date: December 2023
   headline: Ten undergraduate interns joined our lab.
+  cat: people
 
 - date: December 2023
   headline: A paper got accepted at AAAI 2024.
+  cat: paper
 
 - date: October 2023
   headline: Two papers got accepted at NeurIPS 2023 workshop on AI for Scientific Discovery&#58; From Theory to Practice (AI4Science).
+  cat: paper
 
 - date: September 2023
   headline: Two papers got accepted at NeurIPS 2023.
+  cat: paper
   
+
 - date: September 2023
   headline: Namkyeong started as a visiting Ph.D student at <a href="https://www.sunlab.org/" target="_blank"> Sunlab @ UIUC </a>.
+  cat: people
 
 - date: August 2023
   headline: Three papers (1 Long, 2 Short) got accepted at CIKM 2023.
+  cat: paper
   
+
 - date: July 2023
   headline: Our paper "Single-cell RNA-seq data imputation using Feature Propagation" received the Best Paper Award at ICML 2023 Workshop on Computational Biology <a href="/files/ICML23_award.pdf" target="_blank">[Link]</a>.
+  cat: award
 
 - date: June 2023
   headline: Kibum Kim, Yeonjun In, and Yunhan Oh will be pursuing a Ph.D degree starting from Fall 2023.
+  cat: people
 
 - date: June 2023
   headline: Nine undergraduate interns joined our lab (Hyunchul Kim, Sangwu Park, Seokwon Han, Jinhyeok Park, Hyewon Ryu, Sangmin Park, Seoung Choi, Geonwoo Kim, Jiwan Kim).
+  cat: people
 
 - date: June 2023
   headline: Prof. Park gave a tutorial at <a href="https://www.kiise.or.kr/conference/main/getContent.do?CC=KCC&CS=2023&PARENT_ID=011500&content_no=1795" target="_blank">2023 KCC on 그래프 신경망 기반 화학/소재분야 연구 동향</a> <a href="/files/KCC2023.pdf" target="_blank">[Slide]</a>.
+  cat: talk
 
 - date: June 2023
   headline: Two papers got accepted at ICML 2023 Workshop on Computational Biology.
+  cat: paper
 
 - date: May 2023
   headline: A paper got accepted at Bioinformatics.
+  cat: paper
 
 - date: May 2023
   headline: Four papers got accepted at KDD 2023.
+  cat: paper
 
 - date: April 2023
   headline: A paper got accepted at ICML 2023.
+  cat: paper
 
 - date: April 2023
   headline: A paper got accepted at SIGIR 2023.
+  cat: paper
+
+- date: March 2023
+  headline: A paper got accepted at WWW 2024 Workshop on Data-centric Artificial Intelligence (DCAI).
+  cat: paper
 
 - date: March 2023
   headline: A paper got accepted at ICLR 2023 Workshop on Machine Learning for Materials (ML4Materials).
+  cat: paper
 
 - date: February 2023
   headline: Prof. Park received KAIST Excellence in Teaching Award of Year 2022.
+  cat: award
 
 - date: January 2023
   headline: Prof. Park received Best Teaching Award from ISysE, KAIST
+  cat: award
 
 - date: December 2022
   headline: Namkyeong Lee and Junseok Lee will be pursuing a Ph.D degree starting from Spring 2023.
+  cat: people
 
 - date: December 2022
   headline: Yoonho Lee, Junghoon Kim, Junmo Lee, Jaehyeong Jeon, and Heewoong Noh joined our lab and will be pursuing a Master's degree starting from Spring 2023.
+  cat: people
 
 - date: December 2022
   headline: Nine undergraduate interns joined our lab (Seohyun Lim, Yisak Kim, Jihwan Bae, Joongchan An, Taejun Yang, Jihwan Oh, Jungwoo Lee, Sanha Jang, and Inseon Ji).
+  cat: people
 
 - date: December 2022
   headline: Namkyeong and Sein started a research internship at NAVER.
+  cat: people
 
 - date: November 2022
   headline: Two papers got accepted at AAAI 2023.
+  cat: paper
 
 - date: November 2022
   headline: A paper got accepted at NeurIPS 2022 Workshop on New Frontiers in Graph Learning (GLFrontiers).
+  cat: paper
 
 - date: October 2022
   headline: A paper got accepted at EMNLP 2022 (Findings).
+  cat: paper
 
 - date: September 2022
   headline: A paper got accepted at ICDM 2022.
+  cat: paper
 
 - date: August 2022
   headline: Prof. Park gave a tutorial at <a href="https://sites.google.com/view/dbsummerschool2022" target="_blank">2022 데이터베이스 소사이어티 여름학교</a> <a href="/files/MLGraph2022.pdf" target="_blank">[Slide]</a>.
+  cat: talk
 
 - date: August 2022
   headline: Three papers got accepted at CIKM 2022.
+  cat: paper
 
 - date: June 2022
   headline: Sangwoo Seo, Sein Kim, and Jihyeong Jung joined our lab and will be pursuing a Ph.D/Master's degree starting from Fall 2022.
+  cat: people
 
 - date: June 2022
   headline: Nine undergraduate interns joined our lab (Heewoong Noh, Jeehong Kim, Jaehyeong Jeon, Kyuhyeok Seo, Sangmin Lee, Jinyoung Hong, Youngro Kim, Seonghun Hong, and Juheon Han).
+  cat: people
 
 - date: May 2022
   headline: A paper got accepted at KDD 2022.
+  cat: paper
 
 - date: April 2022
   headline: Two papers got accepted at SIGIR 2022.
+  cat: paper
 
 - date: December 2021
   headline: Seven undergraduate interns joined our lab (Daeyoung Kim, Han Kim, Jongbok Lee, Junmo Lee, Suyeon Lee, Jaewon Jung, and Hoyoung Choi).
+  cat: people
 
 - date: December 2021
   headline: Wonjoong Kim, Seungyoon Choi, and Sungwon Kim joined our lab and will be pursuing a Master's degree starting from Spring 2022.
+  cat: people
 
 - date: December 2021
   headline: A paper got accepted at AAAI 2022.
+  cat: paper
 
 - date: September 2021
   headline: A paper got accepted at ICDM 2021.
+  cat: paper
 
 - date: July 2021
   headline: Call for Paper&#58; <a href="https://www.frontiersin.org/journals/artificial-intelligence" target="_blank"> Frontiers in Artificial Intelligence </a> <a href="https://www.frontiersin.org/research-topics/22665/graph-representation-learning-methods-and-applications#overview" target="_blank">(Graph representation learning&#58; Methods and Applications)</a>.
+  cat: service
 
 - date: June 2021
   headline: Six undergraduate interns joined our lab (Junghoon Kim, Hanbit Lee, Hyemin Ju, Sujin Kim, Jihyung Jung, and Hyojun Kim).
+  cat: people
 
 - date: June 2021
   headline: Prof. Park gave a tutorial at <a href="https://kiie.org/wp/2021a/online.asp" target="_blank">2021 대한산업공학회 춘계학술대회</a>.
+  cat: talk
 
 - date: April 2021
   headline: A paper got accepted at SIGIR 2021.
+  cat: paper
 
 - date: February 2021
   headline: Prof. Park gave a tutorial at <a href="https://aiassociation.kr/Conference/ConferenceView.asp?AC=0&CODE=CC20210101&CpPage=104#CONF" target="_blank">2021 한국인공지능학회 동계단기강좌</a> <a href="/files/MLGraph2021.pdf" target="_blank">[Slide]</a>.
+  cat: talk
 
 - date: January 2021
   headline: A paper got accepted at WWW 2021.
+  cat: paper
 
 - date: December 2020
   headline: Five undergraduate interns joined our lab (Yoonho Lee, Sein Kim, Sukwon Yun, Kibum Kim, and Jaehyun Nam).
+  cat: people
 
 - date: December 2020
   headline: Namkyeong Lee, Junseok Lee, and Junyoung Ryu joined our lab and will be pursuing a Master's degree starting from Spring 2021.
+  cat: people
 
 - date: November 2020
   headline: DSAIL is open!

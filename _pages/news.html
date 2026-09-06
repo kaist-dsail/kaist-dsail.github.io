@@ -219,6 +219,21 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 .ynav{display:flex;gap:6px;flex-wrap:wrap}
 .ynav a{text-decoration:none;font-size:13px;color:var(--ink-2);border:1px solid var(--rule);border-radius:999px;padding:4px 11px}
 .ynav a:hover{background:var(--surface)}
+
+/* category badges + filter */
+.cb{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+  padding:2px 8px;border-radius:999px;margin-right:9px;white-space:nowrap;vertical-align:1px;
+  color:var(--cc);background:color-mix(in srgb,var(--cc) 11%,#fff);border:1px solid color-mix(in srgb,var(--cc) 26%,#fff)}
+.cb-paper{--cc:#2F6DB5}.cb-people{--cc:#2E8B6E}.cb-award{--cc:#C6542B}.cb-talk{--cc:#7A4FA8}.cb-service{--cc:#6f6e69}
+.fbar{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 30px}
+.fc{border:1px solid var(--rule);background:#fff;border-radius:999px;padding:6px 13px;font-size:13px;
+  color:var(--ink-2);display:flex;align-items:center;gap:7px;line-height:1.3}
+.fc b{font-weight:600;font-size:11.5px;color:var(--muted)}
+.fc:hover{background:var(--surface)}
+.fc[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.fc[aria-pressed=true]:hover{background:var(--ink)}
+.fc[aria-pressed=true] b{color:rgba(255,255,255,.72)}
+.news li[hidden],.ygroup[hidden],.ynav a[hidden]{display:none!important}
 .ygroup{display:grid;grid-template-columns:120px 1fr;gap:24px;padding:28px 0;border-top:1px solid var(--rule);scroll-margin-top:16px}
 .ygroup h2{font-size:28px;position:sticky;top:16px;align-self:start}
 .news{list-style:none;margin:0;padding:0;max-width:52em}
@@ -237,8 +252,12 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 </div></header>
 <main class="wrap">
   <div class="nhero"><div><h1>News</h1><p>Papers, awards, and people, newest first.</p></div><div class="ynav">{% assign years = "" | split: "" %}{% for article in site.data.news %}{% assign yr = article.date | split: " " | last %}{% unless years contains yr %}{% assign years = years | push: yr %}{% endunless %}{% endfor %}{% for yr in years %}<a href="#y{{ yr }}">{{ yr }}</a>{% endfor %}</div></div>
+  <div class="fbar">
+    <button type="button" class="fc" data-f="all" aria-pressed="true">All <b>{{ site.data.news | size }}</b></button>
+    {% assign cats = "paper,people,award,talk,service" | split: "," %}{% for c in cats %}{% assign n = site.data.news | where: "cat", c | size %}{% if n > 0 %}<button type="button" class="fc" data-f="{{ c }}" aria-pressed="false"><span class="cb cb-{{ c }}">{{ c | capitalize }}</span> <b>{{ n }}</b></button>{% endif %}{% endfor %}
+  </div>
   {% assign prev = "" %}
-{% for article in site.data.news %}{% assign yr = article.date | split: " " | last %}{% if yr != prev %}{% unless forloop.first %}</ul></div>{% endunless %}<div class="ygroup" id="y{{ yr }}"><h2>{{ yr }}</h2><ul class="news">{% endif %}<li><span class="date">{{ article.date | split: " " | first }}</span><div><span class="head">{{ article.headline }}</span>{% if article.content %}<div class="body">{{ article.content }}</div>{% endif %}</div></li>{% assign prev = yr %}{% endfor %}</ul></div>
+{% for article in site.data.news %}{% assign yr = article.date | split: " " | last %}{% if yr != prev %}{% unless forloop.first %}</ul></div>{% endunless %}<div class="ygroup" id="y{{ yr }}"><h2>{{ yr }}</h2><ul class="news">{% endif %}<li{% if article.cat %} data-c="{{ article.cat }}"{% endif %}><span class="date">{{ article.date | split: " " | first }}</span><div>{% if article.cat %}<span class="cb cb-{{ article.cat }}">{{ article.cat | capitalize }}</span>{% endif %}<span class="head">{{ article.headline }}</span>{% if article.content %}<div class="body">{{ article.content }}</div>{% endif %}</div></li>{% assign prev = yr %}{% endfor %}</ul></div>
 </main>
 <footer><div class="wrap">© DSAIL, KAIST. Data Science &amp; Artificial Intelligence Lab.</div></footer>
 <script>
@@ -248,6 +267,22 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   btn.addEventListener('click',function(e){e.stopPropagation();set(!nd.classList.contains('open'))});
   document.addEventListener('click',function(e){if(!nd.contains(e.target))set(false)});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&nd.classList.contains('open')){set(false);btn.focus()}});
+})();
+(function(){var bar=document.querySelector('.fbar');if(!bar)return;
+  var items=[].slice.call(document.querySelectorAll('.news li'));
+  var groups=[].slice.call(document.querySelectorAll('.ygroup'));
+  bar.addEventListener('click',function(e){
+    var b=e.target.closest('.fc');if(!b)return;
+    var f=b.dataset.f;
+    [].forEach.call(bar.querySelectorAll('.fc'),function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+    items.forEach(function(li){li.hidden = f!=='all' && li.dataset.c!==f});
+    groups.forEach(function(g){
+      var any=[].slice.call(g.querySelectorAll('.news li')).some(function(li){return !li.hidden});
+      g.hidden=!any;
+      var link=document.querySelector('.ynav a[href="#'+g.id+'"]');
+      if(link) link.hidden=!any;
+    });
+  });
 })();
 </script>
 </body>
