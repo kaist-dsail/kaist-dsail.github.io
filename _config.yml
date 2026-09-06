@@ -22,6 +22,15 @@ include:
   - .htaccess
   - _pages
 
+# repo housekeeping that must not become public pages
+exclude:
+  - DEPLOY_NOTES.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - vendor
+  - .DS_Store
+
 sass:
   sass_dir: _sass
 
