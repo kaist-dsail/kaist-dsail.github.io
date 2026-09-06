@@ -7,7 +7,7 @@
    "name": "Graph & Relational Learning",
    "ko": "그래프 표현 학습",
    "color": "#2F6DB5",
-   "definition": "Learning from relational data — networks, hypergraphs, and interaction structures — with representations that generalize under noise, scarce labels, and distribution shift.",
+   "definition": "Learning from relational data — networks, knowledge graphs, hypergraphs, and interaction structures — with representations that generalize under noise, scarce labels, and distribution shift.",
    "definition_ko": "라벨·구조·분포가 불완전한 그래프에서 강건하고 일반화되는 표현을 학습합니다.",
    "questions": [
     "How do graph models stay reliable under structural noise and adversarial attacks?",
@@ -44,6 +44,7 @@
     "hypergraphs",
     "temporal graphs",
     "heterogeneous & multiplex networks",
+    "knowledge graphs",
     "bipartite graphs",
     "interpretability",
     "anomaly detection",
