@@ -1443,7 +1443,7 @@
    "id": "p052",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/KDD25_LLM-SRec_slide.pdf"
+    "slide": "/files/KDD25_LLM-SRec_slide.pdf"
    }
   },
   {
@@ -1462,7 +1462,7 @@
    "id": "p053",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/KDD25_GOODIE_slide.pdf"
+    "slide": "/files/KDD25_GOODIE_slide.pdf"
    }
   },
   {
@@ -1484,7 +1484,7 @@
    "domain": "molecules",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/KDD25_HEDMoL_slide.pdf"
+    "slide": "/files/KDD25_HEDMoL_slide.pdf"
    }
   },
   {
@@ -1522,7 +1522,7 @@
    "domain": "engineering",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/ICML25_TEMNN_slide.pdf",
+    "slide": "/files/ICML25_TEMNN_slide.pdf",
     "news": "https://www.joongang.co.kr/article/25324013"
    }
   },
@@ -1545,7 +1545,7 @@
    "domain": "biology",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/ICML25_Spotscape_slide.pdf"
+    "slide": "/files/ICML25_Spotscape_slide.pdf"
    }
   },
   {
@@ -1566,7 +1566,7 @@
    "id": "p058",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/SIGIR25_DGMRec_slide.pdf"
+    "slide": "/files/SIGIR25_DGMRec_slide.pdf"
    }
   },
   {
@@ -1585,7 +1585,7 @@
    "id": "p059",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/SIGIR25_DITTO_slide.pdf"
+    "slide": "/files/SIGIR25_DITTO_slide.pdf"
    }
   },
   {
@@ -1606,7 +1606,7 @@
    "id": "p060",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/ICLR25_FEDLOG_slide.pdf",
+    "slide": "/files/ICLR25_FEDLOG_slide.pdf",
     "news": "https://www.lecturernews.com/news/articleView.html?idxno=188721"
    }
   },
@@ -1626,7 +1626,7 @@
    "id": "p061",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/ICLR25_NLVSGG_slide.pdf"
+    "slide": "/files/ICLR25_NLVSGG_slide.pdf"
    }
   },
   {
@@ -1665,7 +1665,7 @@
    "id": "p063",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/NAACL25_DIVA_slide.pdf"
+    "slide": "/files/NAACL25_DIVA_slide.pdf"
    }
   },
   {
@@ -1686,7 +1686,7 @@
    "id": "p064",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/NAACL25_SIMPLOT_slide.pdf"
+    "slide": "/files/NAACL25_SIMPLOT_slide.pdf"
    }
   },
   {
@@ -1705,7 +1705,7 @@
    "id": "p065",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/AAAI25_RASGG_slide.pdf"
+    "slide": "/files/AAAI25_RASGG_slide.pdf"
    }
   },
   {
@@ -1728,7 +1728,7 @@
    "id": "p066",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/WSDM25_DAWN_slide.pdf"
+    "slide": "/files/WSDM25_DAWN_slide.pdf"
    }
   },
   {
@@ -1764,7 +1764,7 @@
    "domain": "materials",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/NeurIPS24_RetrievalRetro_slide.pdf",
+    "slide": "/files/NeurIPS24_RetrievalRetro_slide.pdf",
     "video": "https://slideslive.com/39028754/retrievalretro-retrievalbased-inorganic-retrosynthesis-with-expert-knowledge?ref=speaker-100700",
     "news": "https://n.news.naver.com/mnews/article/421/0008016817?sid=102"
    }
@@ -1785,7 +1785,7 @@
    "id": "p069",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/CIKM24_metacon_slide.pdf"
+    "slide": "/files/CIKM24_metacon_slide.pdf"
    }
   },
   {
@@ -1809,7 +1809,7 @@
    "domain": "molecules",
    "sci_llm": true,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/CIKM24_AMOLE_slide.pdf"
+    "slide": "/files/CIKM24_AMOLE_slide.pdf"
    }
   },
   {
@@ -1828,7 +1828,7 @@
    "id": "p071",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/ECCV24_DPL_slide.pdf",
+    "slide": "/files/ECCV24_DPL_slide.pdf",
     "video": "https://www.youtube.com/watch?v=tZekI9hQwUs"
    }
   },
@@ -1852,7 +1852,7 @@
    "domain": "biology",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/ECCV24_Mew_slide.pdf"
+    "slide": "/files/ECCV24_Mew_slide.pdf"
    }
   },
   {
@@ -1873,7 +1873,7 @@
    "id": "p073",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/KDD24_ALLMRec_slide.pdf",
+    "slide": "/files/KDD24_ALLMRec_slide.pdf",
     "news": "https://n.news.naver.com/mnews/article/011/0004367520?sid=102"
    }
   },
@@ -1893,7 +1893,7 @@
    "id": "p074",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/KDD24_TGIB_slide.pdf"
+    "slide": "/files/KDD24_TGIB_slide.pdf"
    }
   },
   {
@@ -1912,7 +1912,7 @@
    "id": "p075",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/ICML24_NaQ_slide.pdf",
+    "slide": "/files/ICML24_NaQ_slide.pdf",
     "video": "https://www.youtube.com/watch?v=FYqX7bf99r4"
    }
   },
@@ -1934,7 +1934,7 @@
    "id": "p076",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/CVPR24_LLM4SGG_slide.pdf"
+    "slide": "/files/CVPR24_LLM4SGG_slide.pdf"
    }
   },
   {
@@ -1953,7 +1953,7 @@
    "id": "p077",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/WWW24_SGGSR_slide.pdf",
+    "slide": "/files/WWW24_SGGSR_slide.pdf",
     "video": "https://www.youtube.com/watch?v=o8b710SeuXk"
    }
   },
@@ -1973,7 +1973,7 @@
    "id": "p078",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/WWW24_DSLR_slide.pdf",
+    "slide": "/files/WWW24_DSLR_slide.pdf",
     "video": "https://www.youtube.com/watch?v=9NPN7Nj1xD8"
    }
   },
@@ -1993,7 +1993,7 @@
    "id": "p079",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/ICLR24_STSGG_slide.pdf"
+    "slide": "/files/ICLR24_STSGG_slide.pdf"
    }
   },
   {
@@ -2071,7 +2071,7 @@
    "id": "p083",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/CIKM23_MUSE_slide.pdf"
+    "slide": "/files/CIKM23_MUSE_slide.pdf"
    }
   },
   {
@@ -2122,7 +2122,7 @@
    "id": "p086",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/KDD23_SPAGCL_slide.pdf",
+    "slide": "/files/KDD23_SPAGCL_slide.pdf",
     "video": "https://youtu.be/hqJG4_iCYMM"
    }
   },
@@ -2164,7 +2164,7 @@
    "id": "p088",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/KDD23_TEG_slide.pdf",
+    "slide": "/files/KDD23_TEG_slide.pdf",
     "video": "https://youtu.be/zfn4gi9cVic"
    }
   },
@@ -2184,7 +2184,7 @@
    "id": "p089",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/KDD23_TERACON_slide.pdf",
+    "slide": "/files/KDD23_TERACON_slide.pdf",
     "video": "https://youtu.be/4oW3Bwy9r6M"
    }
   },
@@ -2207,7 +2207,7 @@
    "domain": "molecules",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/ICML23_CGIB_slide.pdf",
+    "slide": "/files/ICML23_CGIB_slide.pdf",
     "video": "https://slideslive.com/39003694/conditional-graph-information-bottleneck-for-molecular-relational-learning?ref=search-presentations-Conditional+Graph+Information+Bottleneck+for+Molecular+Relational+Learning",
     "news": "https://n.news.naver.com/mnews/article/016/0002171153?sid=105"
    }
@@ -2228,7 +2228,7 @@
    "id": "p091",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/SIGIR23_MELT_slide.pdf"
+    "slide": "/files/SIGIR23_MELT_slide.pdf"
    }
   },
   {
@@ -2251,7 +2251,7 @@
    "domain": "biology",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/AAAI23_HetMed_slide.pdf",
+    "slide": "/files/AAAI23_HetMed_slide.pdf",
     "video": "https://youtu.be/NxXhc90dIZs"
    }
   },
@@ -2273,7 +2273,7 @@
    "id": "p093",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/AAAI23_HetSGG_slide.pdf",
+    "slide": "/files/AAAI23_HetSGG_slide.pdf",
     "video": "https://youtu.be/bfr4iFVN7Jk"
    }
   },
@@ -2381,7 +2381,7 @@
    "id": "p099",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/CIKM22_LTE4G_slide.pdf"
+    "slide": "/files/CIKM22_LTE4G_slide.pdf"
    }
   },
   {
@@ -2400,7 +2400,7 @@
    "id": "p100",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/CIKM22_RGRL_slide.pdf",
+    "slide": "/files/CIKM22_RGRL_slide.pdf",
     "news": "https://n.news.naver.com/mnews/article/016/0002057050?sid=105"
    }
   },
@@ -2420,7 +2420,7 @@
    "id": "p101",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/CIKM22_PERIS_slide.pdf"
+    "slide": "/files/CIKM22_PERIS_slide.pdf"
    }
   },
   {
@@ -2432,7 +2432,7 @@
    "theme": "ai4sci",
    "subtheme": "molecules-materials",
    "secondary": [],
-   "pdf": "https://kaist-dsail.github.io/files/KDD22.pdf",
+   "pdf": "/files/KDD22.pdf",
    "code": "https://github.com/ngs00/ane",
    "note": null,
    "also_in": [],
@@ -2440,7 +2440,7 @@
    "domain": "materials",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/KDD22_slide.pdf"
+    "slide": "/files/KDD22_slide.pdf"
    }
   },
   {
@@ -2459,7 +2459,7 @@
    "id": "p103",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/SIGIR22_GraFN_slide.pdf"
+    "slide": "/files/SIGIR22_GraFN_slide.pdf"
    }
   },
   {
@@ -2557,7 +2557,7 @@
    "theme": "recsys",
    "subtheme": null,
    "secondary": [],
-   "pdf": "https://kaist-dsail.github.io/files/ICDM20.pdf",
+   "pdf": "/files/ICDM20.pdf",
    "code": "https://github.com/dmhyun/CRIS",
    "note": null,
    "also_in": [],
@@ -2580,7 +2580,7 @@
    "id": "p110",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/KDD20_slide.pdf",
+    "slide": "/files/KDD20_slide.pdf",
     "video": "https://youtu.be/DOdRmz1gLdc"
    }
   },
@@ -2600,7 +2600,7 @@
    "id": "p111",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/AAAI20_slide.pdf"
+    "slide": "/files/AAAI20_slide.pdf"
    }
   },
   {
@@ -2619,7 +2619,7 @@
    "id": "p112",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/CIKM19_slide.pdf"
+    "slide": "/files/CIKM19_slide.pdf"
    }
   },
   {
@@ -2631,7 +2631,7 @@
    "theme": "graph",
    "subtheme": null,
    "secondary": [],
-   "pdf": "https://kaist-dsail.github.io/files/CIKM19.pdf",
+   "pdf": "/files/CIKM19.pdf",
    "code": "https://github.com/sh0416/BHIN2VEC",
    "note": null,
    "also_in": [],
@@ -2647,7 +2647,7 @@
    "theme": "recsys",
    "subtheme": null,
    "secondary": [],
-   "pdf": "https://kaist-dsail.github.io/files/IJCAI19_2.pdf",
+   "pdf": "/files/IJCAI19_2.pdf",
    "code": "https://github.com/donalee/metas",
    "note": null,
    "also_in": [],
@@ -2663,7 +2663,7 @@
    "theme": "recsys",
    "subtheme": null,
    "secondary": [],
-   "pdf": "https://kaist-dsail.github.io/files/IJCAI19_1.pdf",
+   "pdf": "/files/IJCAI19_1.pdf",
    "code": null,
    "note": null,
    "also_in": [],
@@ -2679,14 +2679,14 @@
    "theme": "recsys",
    "subtheme": null,
    "secondary": [],
-   "pdf": "https://kaist-dsail.github.io/files/ICDM18.pdf",
+   "pdf": "/files/ICDM18.pdf",
    "code": "https://github.com/pcy1302/TransCF",
    "note": null,
    "also_in": [],
    "id": "p116",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/ICDM18_slide.pdf"
+    "slide": "/files/ICDM18_slide.pdf"
    }
   },
   {
@@ -2698,7 +2698,7 @@
    "theme": "recsys",
    "subtheme": null,
    "secondary": [],
-   "pdf": "https://kaist-dsail.github.io/files/SIGIR18.pdf",
+   "pdf": "/files/SIGIR18.pdf",
    "code": null,
    "note": "Short paper",
    "also_in": [],
@@ -2714,14 +2714,14 @@
    "theme": "recsys",
    "subtheme": null,
    "secondary": [],
-   "pdf": "https://kaist-dsail.github.io/files/WWW17.pdf",
+   "pdf": "/files/WWW17.pdf",
    "code": null,
    "note": null,
    "also_in": [],
    "id": "p118",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/WWW17_slide.pdf"
+    "slide": "/files/WWW17_slide.pdf"
    }
   },
   {
@@ -2733,14 +2733,14 @@
    "theme": "recsys",
    "subtheme": null,
    "secondary": [],
-   "pdf": "https://kaist-dsail.github.io/files/RecSys16.pdf",
+   "pdf": "/files/RecSys16.pdf",
    "code": "https://github.com/cartopy/ConvMF-1.0.0",
    "note": null,
    "also_in": [],
    "id": "p119",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/RecSys16_slide.pdf"
+    "slide": "/files/RecSys16_slide.pdf"
    }
   },
   {
@@ -2752,7 +2752,7 @@
    "theme": "recsys",
    "subtheme": null,
    "secondary": [],
-   "pdf": "https://kaist-dsail.github.io/files/WWW16.pdf",
+   "pdf": "/files/WWW16.pdf",
    "code": null,
    "note": "Poster",
    "also_in": [],
@@ -2775,7 +2775,7 @@
    "id": "p121",
    "sci_llm": false,
    "links": {
-    "slide": "https://kaist-dsail.github.io/files/RecSysChallenge15_slide.pdf"
+    "slide": "/files/RecSysChallenge15_slide.pdf"
    }
   },
   {
