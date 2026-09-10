@@ -661,7 +661,10 @@
    "note": "Applied Research Track",
    "also_in": [],
    "id": "p010",
-   "sci_llm": false
+   "sci_llm": false,
+   "links": {
+    "news": "https://n.news.naver.com/mnews/article/123/0002388795?sid=004"
+   }
   },
   {
    "title": "A Behavioral Trait Leaks into Preferences: Diagnosing Trait Interference in LLM User Simulators",
