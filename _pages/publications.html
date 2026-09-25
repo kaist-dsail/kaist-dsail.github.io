@@ -362,7 +362,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
       (!st.domains.size||st.domains.has(p.domain)||(st.domains.has('scillm')&&p.sci_llm)) &&
       (!st.year||String(p.year)===st.year) && (!st.type||p.type===st.type) &&
       (!st.q||(p.title+' '+p.authors+' '+p.venue).toLowerCase().includes(st.q))
-    ).sort((a,b)=>b.year-a.year||rank[a.type]-rank[b.type]||a.id.localeCompare(b.id));
+    ).sort((a,b)=>b.year-a.year||rank[a.type]-rank[b.type]);  // 동순위는 papers.json 배열 순서를 따름
     const filtered=st.themes.size||st.domains.size||st.apps.size||st.year||st.type||st.q; document.getElementById('countLine').textContent=filtered?`${rows.length} matching papers`:'';
     const listEl=document.getElementById('list');
     if(!rows.length){listEl.innerHTML='<div class="empty">No papers match. Clear a filter to see more.</div>';syncBar();return;}

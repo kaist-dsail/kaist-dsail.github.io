@@ -164,7 +164,7 @@
     "p022",
     "p033",
     "p003",
-    "p004",
+    "p159",
     "p049",
     "p063"
    ],
@@ -300,13 +300,13 @@
       "p028",
       "p046",
       "p087",
-      "p002"
+      "p163"
      ],
      "short": {
       "p028": "Collaborative LLM agents for drug discovery",
       "p046": "3D interaction pre-training for molecular relational learning",
       "p087": "Shift-robust molecular relational learning",
-      "p002": "Lipid nanoparticle screening"
+      "p163": "Lipid nanoparticle screening"
      },
      "id": "drugs"
     },
@@ -485,39 +485,6 @@
  ],
  "papers": [
   {
-   "title": "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces",
-   "authors": "Sungho Park, Wonjoong Kim, Rongyuan Tan, Jue Zhang, Wook-Shin Han, Pengfei Gao, Chanyoung Park, Yongqiang Yao, Rao Fu, Elsie Nallipogu, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang",
-   "venue": "Preprint",
-   "year": 2026,
-   "type": "preprint",
-   "theme": "llm",
-   "subtheme": null,
-   "secondary": [],
-   "pdf": "https://arxiv.org/abs/2608.23041",
-   "code": "https://github.com/microsoft/AutoSaddler",
-   "note": null,
-   "also_in": [],
-   "id": "p001",
-   "sci_llm": false
-  },
-  {
-   "title": "Screening Lipid Nanoparticles through Structure-Ratio Alignment",
-   "authors": "Yoonho Lee, Yunhak Oh, Hoyoung Choi, Chanyoung Park",
-   "venue": "Preprint",
-   "year": 2026,
-   "type": "preprint",
-   "theme": "ai4sci",
-   "subtheme": "biology-physics",
-   "secondary": [],
-   "pdf": "https://www.biorxiv.org/content/10.64898/2026.07.08.737142v1.full",
-   "code": null,
-   "note": null,
-   "also_in": [],
-   "id": "p002",
-   "domain": "drugs",
-   "sci_llm": false
-  },
-  {
    "title": "Personalizing Embodied Multimodal Large Language Model Agents over Long-term User Interactions",
    "authors": "Jeongeun Lee, Chanyoung Park, Dongha Lee",
    "venue": "Preprint",
@@ -533,22 +500,6 @@
    "note": null,
    "also_in": [],
    "id": "p003",
-   "sci_llm": false
-  },
-  {
-   "title": "PAIR: Prefix-Aware Internal Reward Model for Multi-Turn Agent Optimization",
-   "authors": "Wonjoong Kim, Yeonjun In, Sangwu Park, Dongha Lee, Chanyoung Park",
-   "venue": "Preprint",
-   "year": 2026,
-   "type": "preprint",
-   "theme": "llm",
-   "subtheme": null,
-   "secondary": [],
-   "pdf": "https://arxiv.org/abs/2605.17877",
-   "code": "https://github.com/wonjoong-kim/PAIR",
-   "note": null,
-   "also_in": [],
-   "id": "p004",
    "sci_llm": false
   },
   {
@@ -604,6 +555,164 @@
    "note": null,
    "also_in": [],
    "id": "p007",
+   "sci_llm": false
+  },
+  {
+   "title": "Periodic Complex Stochastic Processes for Retrieving Atomic Structures of Unknown Matters",
+   "authors": "Gyoung S. Na, Chanyoung Park",
+   "venue": "NeurIPS 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=6UlOrnEUHL",
+   "code": null,
+   "note": null,
+   "also_in": [
+    "ICML 2026 AI for Science Workshop"
+   ],
+   "id": "p156",
+   "domain": "materials",
+   "sci_llm": false
+  },
+  {
+   "title": "Self-EvolveRec: Self-Evolving Recommender Systems with LLM-based Directional Feedback",
+   "authors": "Sein Kim, Sangwu Park, HongSeok Kang, Wonjoong Kim, Jimin Seo, Yeonjun In, Kanghoon Yoon, Hyunsik Jeon, Chanyoung Park",
+   "venue": "NeurIPS 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=fBLhmZ1aNN",
+   "code": null,
+   "note": null,
+   "also_in": [
+    "KDD 2026 Workshop (Agentic SE)",
+    "ICLR 2026 Workshop (RSI)"
+   ],
+   "id": "p158",
+   "sci_llm": false
+  },
+  {
+   "title": "PAIR: Prefix-Aware Internal Reward Model for Multi-Turn Agent Optimization",
+   "authors": "Wonjoong Kim, Yeonjun In, Sangwu Park, Dongha Lee, Chanyoung Park",
+   "venue": "NeurIPS 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2605.17877",
+   "code": "https://github.com/wonjoong-kim/PAIR",
+   "note": null,
+   "also_in": [],
+   "id": "p159",
+   "sci_llm": false
+  },
+  {
+   "title": "Chasing Label Shifters: A Change-Aware Framework for Dynamic Graph Node Classification",
+   "authors": "Junghoon Kim, Seungyoon Choi, Hyunsung Kim, Chanyoung Park",
+   "venue": "NeurIPS 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "graph",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": null,
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p160",
+   "sci_llm": false
+  },
+  {
+   "title": "A Structured LLM Framework for Inorganic Material Synthesis Planning",
+   "authors": "Heewoong Noh, Gyoung S. Na, Namkyeong Lee, Chanyoung Park",
+   "venue": "NeurIPS 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://openreview.net/pdf?id=4UtSgrJJ8N",
+   "code": null,
+   "note": null,
+   "also_in": [
+    "KDD 2026 Workshop (Agentic AI for Science)",
+    "ICLR 2026 Workshop (AI4Mat, as MSP-LLM)"
+   ],
+   "id": "p161",
+   "domain": "materials",
+   "sci_llm": true
+  },
+  {
+   "title": "Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-Horizon Agents",
+   "authors": "Yeonjun In, Wonjoong Kim, Sangwu Park, Kanghoon Yoon, Chanyoung Park",
+   "venue": "NeurIPS 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2605.25535",
+   "code": "https://github.com/yeonjun-in/PerMemBench",
+   "note": null,
+   "also_in": [
+    "KDD 2026 Workshop (PILA, Best Paper Award)"
+   ],
+   "id": "p162",
+   "sci_llm": false
+  },
+  {
+   "title": "Screening Lipid Nanoparticles through Structure-Ratio Alignment",
+   "authors": "Yoonho Lee, Yunhak Oh, Hoyoung Choi, Chanyoung Park",
+   "venue": "NeurIPS 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [],
+   "pdf": "https://www.biorxiv.org/content/10.64898/2026.07.08.737142v1.full",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p163",
+   "domain": "drugs",
+   "sci_llm": false
+  },
+  {
+   "title": "scTrilemma: Balancing Identity, Invariance, and Reconstruction in Single-Cell Representation Learning",
+   "authors": "Yunhak Oh, Yoonho Lee, Junseok Lee, Namkyeong Lee, Sang-Yeon Hwang, Yinhua Piao, Hyomin Kim, Seonghwan Kim, Jaechang Lim, Woo Youn Kim, Sungsoo Ahn, Chanyoung Park",
+   "venue": "NeurIPS 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [],
+   "pdf": null,
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p164",
+   "domain": "biology",
+   "sci_llm": false
+  },
+  {
+   "title": "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces",
+   "authors": "Sungho Park, Wonjoong Kim, Rongyuan Tan, Jue Zhang, Wook-Shin Han, Pengfei Gao, Chanyoung Park, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang",
+   "venue": "NeurIPS 2026",
+   "year": 2026,
+   "type": "main",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2608.23041",
+   "code": "https://github.com/microsoft/AutoSaddler",
+   "note": null,
+   "also_in": [],
+   "id": "p157",
    "sci_llm": false
   },
   {
@@ -1058,7 +1167,8 @@
    "code": null,
    "note": null,
    "also_in": [
-    "ICLR 2026 Workshop (RSI)"
+    "ICLR 2026 Workshop (RSI)",
+    "NeurIPS 2026 (conference version)"
    ],
    "id": "p031",
    "sci_llm": false
@@ -1093,7 +1203,9 @@
    "pdf": "https://arxiv.org/abs/2605.25535",
    "code": "https://github.com/yeonjun-in/PerMemBench",
    "note": "Best Paper Award",
-   "also_in": [],
+   "also_in": [
+    "NeurIPS 2026 (conference version)"
+   ],
    "id": "p033",
    "sci_llm": false
   },
@@ -1111,7 +1223,9 @@
    "pdf": "https://openreview.net/pdf?id=4UtSgrJJ8N",
    "code": null,
    "note": null,
-   "also_in": [],
+   "also_in": [
+    "NeurIPS 2026 (conference version)"
+   ],
    "id": "p034",
    "domain": "materials",
    "sci_llm": true
@@ -1202,7 +1316,9 @@
    "pdf": "https://openreview.net/pdf?id=6UlOrnEUHL",
    "code": null,
    "note": null,
-   "also_in": [],
+   "also_in": [
+    "NeurIPS 2026 (conference version)"
+   ],
    "id": "p039",
    "domain": "materials",
    "sci_llm": false
@@ -1275,7 +1391,9 @@
    "pdf": "https://openreview.net/forum?id=O2irXCLp3q",
    "code": null,
    "note": null,
-   "also_in": [],
+   "also_in": [
+    "NeurIPS 2026 (conference version)"
+   ],
    "id": "p043",
    "domain": "materials",
    "sci_llm": true
@@ -3188,7 +3306,8 @@
    "code": null,
    "note": null,
    "also_in": [
-    "KDD 2026 Workshop (Agentic SE) (workshop version)"
+    "KDD 2026 Workshop (Agentic SE) (workshop version)",
+    "NeurIPS 2026 (conference version)"
    ],
    "id": "p144",
    "sci_llm": false
