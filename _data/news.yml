@@ -1,14 +1,14 @@
 - date: September 2026
+  headline: Nine papers got accepted at NeurIPS 2026.
+  cat: paper
+
+- date: September 2026
   headline: Four papers got accepted at NeurIPS 2026 Workshop (1 x AI4Science, 3 x AI4Mat).
   cat: paper
 
 - date: September 2026
   headline: Sungwon Kim started as a visiting Ph.D student at California Institute of Technology, USA, hosted by <a href="https://tensorlab.cms.caltech.edu/users/anima/" target="_blank">Prof. Anima Anandkumar</a>
   cat: people
-
-- date: September 2026
-  headline: Nine papers got accepted at NeurIPS 2026.
-  cat: paper
 
 - date: September 2026
   headline: Our lab has been awarded an <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/" target="_blank">NVIDIA Academic Grant</a> for our research on "Geometry-Transferable Neural Operators for 3D PDE Solving."
