@@ -363,7 +363,7 @@
       "p028",
       "p070",
       "p042",
-      "p005"
+      "p165"
      ],
      "short": {
       "p023": "Structure elucidation from IR spectra with LLM agents",
@@ -372,7 +372,7 @@
       "p028": "Collaborative LLM agents for drug discovery",
       "p070": "Augmentation strategies for molecule language models",
       "p042": "Multi-agent reasoning for perturbation prediction",
-      "p005": "Machine collective intelligence for explainable discovery"
+      "p165": "Machine collective intelligence for explainable discovery"
      }
     }
    ],
@@ -501,23 +501,6 @@
    "also_in": [],
    "id": "p003",
    "sci_llm": false
-  },
-  {
-   "title": "Machine Collective Intelligence for Explainable Scientific Discovery",
-   "authors": "Gyoung S. Na, Chanyoung Park",
-   "venue": "Preprint",
-   "year": 2026,
-   "type": "preprint",
-   "theme": "ai4sci",
-   "subtheme": "molecules-materials",
-   "secondary": [],
-   "pdf": "https://arxiv.org/abs/2604.27297",
-   "code": "https://github.com/ngs00/mci",
-   "note": null,
-   "also_in": [],
-   "id": "p005",
-   "domain": "materials",
-   "sci_llm": true
   },
   {
    "title": "Continual Traffic Forecasting via Mixture of Experts",
@@ -874,7 +857,7 @@
    "theme": "ai4sci",
    "subtheme": "molecules-materials",
    "secondary": [],
-   "pdf": "https://arxiv.org/abs/2312.13289v2",
+   "pdf": "https://dl.acm.org/doi/10.1145/3770855.3818922",
    "code": "https://github.com/Namkyeong/PCRL",
    "note": "AI for Science Track",
    "also_in": [
@@ -1132,6 +1115,74 @@
    ],
    "id": "p029",
    "domain": "engineering",
+   "sci_llm": false
+  },
+  {
+   "title": "Machine Collective Intelligence with Canonical Syntax Representations for Explainable Scientific Discovery",
+   "authors": "Gyoung S. Na, Chanyoung Park",
+   "venue": "NeurIPS 2026 AI4Science Workshop",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2604.27297",
+   "code": "https://github.com/ngs00/mci",
+   "note": null,
+   "also_in": [],
+   "id": "p165",
+   "domain": "materials",
+   "sci_llm": true
+  },
+  {
+   "title": "Bridging Prediction and Planning: From Synthesis Temperature Distributions to Optimization-Guided Experiments",
+   "authors": "Jaewon Bae, Seungyun Shin, Chanyoung Park",
+   "venue": "NeurIPS 2026 Workshop (AI4Mat)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": null,
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p166",
+   "domain": "materials",
+   "sci_llm": false
+  },
+  {
+   "title": "Combining Physical and Retrieved Empirical Priors for Solid-State Synthesis Condition Prediction",
+   "authors": "Woojin Bae, Hyunsung Jang, Jaewon Bae, Chanyoung Park",
+   "venue": "NeurIPS 2026 Workshop (AI4Mat)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": null,
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p167",
+   "domain": "materials",
+   "sci_llm": false
+  },
+  {
+   "title": "A Structure-to-Density Model for Trajectory-Free Lithium Transport Screening",
+   "authors": "Kunmin Jang, Dongin Kim, Woojin Bae, Jaewon Bae, Chanyoung Park",
+   "venue": "NeurIPS 2026 Workshop (AI4Mat)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": null,
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p168",
+   "domain": "materials",
    "sci_llm": false
   },
   {
@@ -3581,7 +3632,7 @@
     "p043",
     "p042",
     "p034",
-    "p005",
+    "p165",
     "p070"
    ]
   },
