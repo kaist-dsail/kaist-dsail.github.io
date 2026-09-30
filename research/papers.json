@@ -749,7 +749,7 @@
     "graph"
    ],
    "pdf": "https://arxiv.org/abs/2609.25542",
-   "code": null,
+   "code": "https://github.com/jhkim611/DefaultGNN",
    "note": "Applied Research Track",
    "also_in": [],
    "id": "p010",
@@ -770,7 +770,7 @@
     "llm"
    ],
    "pdf": "https://arxiv.org/abs/2609.25572",
-   "code": null,
+   "code": "https://github.com/chaehyun1/PQA",
    "note": "Short paper",
    "also_in": [],
    "id": "p011",
