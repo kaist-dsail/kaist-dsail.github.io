@@ -485,6 +485,22 @@
  ],
  "papers": [
   {
+   "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
+   "authors": "Sungho Park, Wonjoong Kim, Jue Zhang, Wook-Shin Han, Pengfei Gao, Chanyoung Park, Yongqiang Yao, Rao Fu, Elsie Nallipogu, Qingwei Lin, Victor Rühle",
+   "venue": "Preprint",
+   "year": 2026,
+   "type": "preprint",
+   "theme": "llm",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2610.00906",
+   "code": "https://github.com/microsoft/AutoSaddler/tree/feat/activesaddler",
+   "note": null,
+   "also_in": [],
+   "id": "p169",
+   "sci_llm": false
+  },
+  {
    "title": "Personalizing Embodied Multimodal Large Language Model Agents over Long-term User Interactions",
    "authors": "Jeongeun Lee, Chanyoung Park, Dongha Lee",
    "venue": "Preprint",
@@ -666,7 +682,7 @@
    "sci_llm": false
   },
   {
-   "title": "scTrilemma: Balancing Identity, Invariance, and Reconstruction in Single-Cell Representation Learning",
+   "title": "scTrilemma: Balancing Identity, Invariance, and Fidelity in Single-Cell Representation Learning",
    "authors": "Yunhak Oh, Yoonho Lee, Junseok Lee, Namkyeong Lee, Sang-Yeon Hwang, Yinhua Piao, Hyomin Kim, Seonghwan Kim, Jaechang Lim, Woo Youn Kim, Sungsoo Ahn, Chanyoung Park",
    "venue": "NeurIPS 2026",
    "year": 2026,
@@ -674,8 +690,8 @@
    "theme": "ai4sci",
    "subtheme": "biology-physics",
    "secondary": [],
-   "pdf": null,
-   "code": null,
+   "pdf": "https://arxiv.org/abs/2609.38840",
+   "code": "https://github.com/yunhak0/scTrilemma",
    "note": null,
    "also_in": [],
    "id": "p164",
