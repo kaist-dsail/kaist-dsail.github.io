@@ -693,7 +693,9 @@
    "pdf": "https://arxiv.org/abs/2609.38840",
    "code": "https://github.com/yunhak0/scTrilemma",
    "note": null,
-   "also_in": [],
+   "also_in": [
+    "NeurIPS 2026 Workshop (GenAI4Health)"
+   ],
    "id": "p164",
    "domain": "biology",
    "sci_llm": false
@@ -3587,6 +3589,25 @@
    "id": "p155",
    "sci_llm": false,
    "domain": "biology"
+  },
+  {
+   "title": "scTrilemma: Balancing Identity, Invariance, and Fidelity in Single-Cell Representation Learning",
+   "authors": "Yunhak Oh, Yoonho Lee, Junseok Lee, Namkyeong Lee, Sang-Yeon Hwang, Yinhua Piao, Hyomin Kim, Seonghwan Kim, Jaechang Lim, Woo Youn Kim, Sungsoo Ahn, Chanyoung Park",
+   "venue": "NeurIPS 2026 Workshop (GenAI4Health)",
+   "year": 2026,
+   "type": "workshop",
+   "theme": "ai4sci",
+   "subtheme": "biology-physics",
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2609.38840",
+   "code": "https://github.com/yunhak0/scTrilemma",
+   "note": null,
+   "also_in": [
+    "NeurIPS 2026 (conference version)"
+   ],
+   "id": "p170",
+   "domain": "biology",
+   "sci_llm": false
   }
  ],
  "convergence": [
