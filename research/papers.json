@@ -485,6 +485,24 @@
  ],
  "papers": [
   {
+   "title": "ManiPhysicsBench: Physics-Based Assessment of Object Preservation in VLA Manipulation",
+   "authors": "Sangwu Park, Yeonjun In, Wonjoong Kim, Sungwon Kim, Sein Kim, Chanyoung Park",
+   "venue": "Preprint",
+   "year": 2026,
+   "type": "preprint",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/abs/2610.02802",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p171",
+   "sci_llm": false
+  },
+  {
    "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
    "authors": "Sungho Park, Wonjoong Kim, Jue Zhang, Wook-Shin Han, Pengfei Gao, Chanyoung Park, Yongqiang Yao, Rao Fu, Elsie Nallipogu, Qingwei Lin, Victor Rühle",
    "venue": "Preprint",
@@ -805,7 +823,7 @@
    "secondary": [
     "llm"
    ],
-   "pdf": "https://clef-staging.pages.dev/paper141.pdf",
+   "pdf": "https://ceur-ws.org/Vol-4283/paper141.pdf",
    "code": null,
    "note": "Ranked 1st, eRisk Task 2",
    "also_in": [],
