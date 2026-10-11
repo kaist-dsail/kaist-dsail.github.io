@@ -1,6 +1,6 @@
 {
  "lab": "DSAIL @ KAIST",
- "updated": "2026-09-02",
+ "updated": "2026-10-12",
  "themes": [
   {
    "id": "graph",
@@ -15,13 +15,13 @@
     "How should graph learning extend to distributed clients, continual streams, and higher-order structure?"
    ],
    "representative": [
+    "p160",
     "p047",
     "p048",
     "p055",
     "p060",
     "p075",
     "p081",
-    "p086",
     "p105"
    ],
    "short": "Graph",
@@ -64,13 +64,13 @@
     "How can user representations and the recommender itself evolve over time?"
    ],
    "representative": [
+    "p158",
     "p011",
     "p025",
     "p027",
     "p052",
     "p059",
     "p073",
-    "p089",
     "p091"
    ],
    "short": "Personalization",
@@ -162,7 +162,7 @@
     "p018",
     "p021",
     "p022",
-    "p033",
+    "p162",
     "p003",
     "p159",
     "p049",
@@ -238,14 +238,14 @@
     }
    ],
    "representative": [
+    "p164",
     "p017",
     "p023",
     "p028",
     "p057",
     "p068",
     "p082",
-    "p090",
-    "p095"
+    "p090"
    ],
    "short": "AI for Science",
    "flow": [
@@ -264,15 +264,17 @@
       "p082",
       "p016",
       "p068",
-      "p043",
-      "p040"
+      "p161",
+      "p040",
+      "p156"
      ],
      "short": {
       "p082": "Density-of-states prediction for crystals",
       "p016": "Probabilistic compositional crystal representation",
       "p068": "Retrieval-based inorganic retrosynthesis",
-      "p043": "LLM-based complete synthesis planning",
-      "p040": "DOS-guided crystal generation"
+      "p040": "DOS-guided crystal generation",
+      "p161": "Structured LLM planner for inorganic synthesis",
+      "p156": "Atomic structure retrieval for unknown materials"
      },
      "id": "materials"
     },
@@ -316,6 +318,7 @@
      "papers": [
       "p095",
       "p057",
+      "p164",
       "p072",
       "p019",
       "p037",
@@ -327,7 +330,8 @@
       "p019": "Perturbation-conditioned response prediction",
       "p037": "Antibody–antigen structure tokenization",
       "p042": "Multi-agent perturbation reasoning",
-      "p072": "Multiplexed immunofluorescence image analysis"
+      "p072": "Multiplexed immunofluorescence image analysis",
+      "p164": "Trade-offs in single-cell representation learning"
      },
      "id": "biology"
     },
@@ -358,8 +362,7 @@
      "question": "Language models and agents that read spectra, plan synthesis, and reason about molecules and cells.",
      "papers": [
       "p023",
-      "p043",
-      "p034",
+      "p161",
       "p028",
       "p070",
       "p042",
@@ -367,12 +370,11 @@
      ],
      "short": {
       "p023": "Structure elucidation from IR spectra with LLM agents",
-      "p043": "LLM-based complete synthesis planning",
-      "p034": "Structured LLM planner for inorganic synthesis",
       "p028": "Collaborative LLM agents for drug discovery",
       "p070": "Augmentation strategies for molecule language models",
       "p042": "Multi-agent reasoning for perturbation prediction",
-      "p165": "Machine collective intelligence for explainable discovery"
+      "p165": "Machine collective intelligence for explainable discovery",
+      "p161": "Structured LLM planner for inorganic synthesis"
      }
     }
    ],
@@ -3651,8 +3653,8 @@
    "name": "Personalized agents",
    "blurb": "Agents that remember users and recommenders that improve themselves.",
    "papers": [
-    "p031",
-    "p033",
+    "p158",
+    "p162",
     "p003",
     "p011",
     "p073",
@@ -3684,9 +3686,8 @@
    "papers": [
     "p023",
     "p028",
-    "p043",
+    "p161",
     "p042",
-    "p034",
     "p165",
     "p070"
    ]
