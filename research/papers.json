@@ -487,6 +487,23 @@
  ],
  "papers": [
   {
+   "title": "CondMSP: Condition-Informed and Resource-Aware Inorganic Materials Synthesis Planning",
+   "authors": "Heewoong Noh, Gyoung S. Na, Elton Pan, Namkyeong Lee, Chanyoung Park",
+   "venue": "Preprint",
+   "year": 2026,
+   "type": "preprint",
+   "theme": "ai4sci",
+   "subtheme": "molecules-materials",
+   "secondary": [],
+   "pdf": "https://arxiv.org/abs/2610.15603",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p172",
+   "domain": "materials",
+   "sci_llm": false
+  },
+  {
    "title": "ManiPhysicsBench: Physics-Based Assessment of Object Preservation in VLA Manipulation",
    "authors": "Sangwu Park, Yeonjun In, Wonjoong Kim, Sungwon Kim, Sein Kim, Chanyoung Park",
    "venue": "Preprint",
@@ -574,6 +591,24 @@
    "note": null,
    "also_in": [],
    "id": "p007",
+   "sci_llm": false
+  },
+  {
+   "title": "Personalized Visual Representation Alignment for Generative Multimodal Recommendation",
+   "authors": "Seonwoo Choi, Kibum Kim, Chanyoung Park, Donghyun Kim",
+   "venue": "WACV 2027",
+   "year": 2027,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [
+    "multimodal"
+   ],
+   "pdf": null,
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p173",
    "sci_llm": false
   },
   {
