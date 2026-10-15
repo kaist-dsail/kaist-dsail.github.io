@@ -11,7 +11,7 @@ set -euo pipefail
 SITE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 CV_REPO="${CV_REPO:-$(cd "$SITE/.." && pwd)/cv-overleaf}"
 OUT="$SITE/files/CV.pdf"
-export PATH="/Library/TeX/texbin:$PATH"
+export PATH="/Library/TeX/texbin:$HOME/bin:$HOME/.cargo/bin:/opt/homebrew/bin:$PATH"
 
 PULL=1; PUSH=0
 for a in "$@"; do
@@ -36,7 +36,22 @@ MSG
   exit 1
 fi
 
-command -v latexmk >/dev/null || { echo "error: latexmk not found (expected in /Library/TeX/texbin)" >&2; exit 1; }
+# compiler: latexmk when a full TeX is installed, else Tectonic (single binary)
+if command -v latexmk >/dev/null; then
+  BUILDER=latexmk
+elif command -v tectonic >/dev/null; then
+  BUILDER=tectonic
+else
+  cat >&2 <<'MSG'
+error: no LaTeX compiler found (looked for latexmk and tectonic)
+
+Install one of:
+  Tectonic  — single binary, no admin rights:
+      mkdir -p ~/bin && cd ~/bin && curl --proto '=https' -fsSL https://drop-sh.fullyjustified.net | sh
+  BasicTeX  — https://tug.org/mactex/morepackages.html  (then: sudo tlmgr update --self)
+MSG
+  exit 1
+fi
 
 if [ "$PUSH" = 1 ]; then
   echo "==> pushing local edits to Overleaf"
@@ -73,7 +88,7 @@ case "$ENGINE" in
   lualatex) LMK_FLAG=-lualatex ;;
   *)        LMK_FLAG=-pdf      ;;
 esac
-echo "==> compiling $MAIN with $ENGINE"
+echo "==> compiling $MAIN with $BUILDER ($ENGINE)"
 
 BUILD="$CV_REPO/.build"
 rm -rf "$BUILD"          # stale latexmk state silently pins the wrong engine
@@ -81,8 +96,16 @@ mkdir -p "$BUILD"
 # keep build artefacts out of the Overleaf project, without adding a file to it
 EXCL="$(git -C "$CV_REPO" rev-parse --absolute-git-dir)/info/exclude"
 grep -qxF '.build/' "$EXCL" 2>/dev/null || echo '.build/' >> "$EXCL"
-(cd "$CV_REPO" && latexmk "$LMK_FLAG" -f -interaction=nonstopmode \
-   -outdir=.build "$MAIN" >"$BUILD/latexmk.log" 2>&1) || true
+if [ "$BUILDER" = latexmk ]; then
+  (cd "$CV_REPO" && latexmk "$LMK_FLAG" -f -interaction=nonstopmode \
+     -outdir=.build "$MAIN" >"$BUILD/latexmk.log" 2>&1) || true
+else
+  # Tectonic is XeTeX-based, so it matches the xelatex engine this CV asks for
+  (cd "$CV_REPO" && tectonic -X compile --keep-logs --outdir .build "$MAIN" \
+     >"$BUILD/latexmk.log" 2>&1) || true
+  # errors live in the .log for both builders; fold it in so the counts below work
+  [ -f "$BUILD/${MAIN%.tex}.log" ] && cat "$BUILD/${MAIN%.tex}.log" >>"$BUILD/latexmk.log"
+fi
 
 PDF="$BUILD/${MAIN%.tex}.pdf"
 if [ ! -f "$PDF" ]; then
