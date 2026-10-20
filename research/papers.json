@@ -487,6 +487,24 @@
  ],
  "papers": [
   {
+   "title": "Do VLAs Really Follow Instructions? Diagnosing How-Level Instruction Following in Vision-Language-Action Models",
+   "authors": "Sangwu Park, Wonjoong Kim, Yeonjun In, Chanyoung Park",
+   "venue": "Preprint",
+   "year": 2026,
+   "type": "preprint",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": "https://arxiv.org/abs/2610.21251",
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p174",
+   "sci_llm": false
+  },
+  {
    "title": "CondMSP: Condition-Informed and Resource-Aware Inorganic Materials Synthesis Planning",
    "authors": "Heewoong Noh, Gyoung S. Na, Elton Pan, Namkyeong Lee, Chanyoung Park",
    "venue": "Preprint",
