@@ -254,6 +254,15 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 .hero .join-line{margin-top:16px;font-size:15px;color:var(--muted)}
 .hero .join-line a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--rule)}
 .hero .join-line a:hover{border-bottom-color:var(--ink);color:var(--ink)}
+.recruit{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin-top:18px;padding:12px 16px;max-width:46em;
+  background:#f1f8f4;border:1px solid #cfe3da;border-radius:8px;font-size:14.5px;line-height:1.5;color:var(--ink-2)}
+.recruit[hidden]{display:none}
+.recruit b{color:#1d5a48;font-weight:600}
+.recruit .dl{color:var(--muted)}
+.recruit .go a{color:#1d5a48;font-weight:500;text-decoration:none;border-bottom:1px solid rgba(29,90,72,.35)}
+.recruit .go a:hover{border-bottom-color:#1d5a48}
+.recruit .note{flex-basis:100%;font-size:13px;color:var(--muted)}
+
 .btn{display:inline-block;text-decoration:none;font-size:14.5px;font-weight:500;padding:10px 18px;border-radius:6px;border:1px solid var(--ink);color:var(--ink)}
 .btn.primary{background:var(--ink);color:#fff}
 .btn:hover{background:var(--surface)} .btn.primary:hover{background:#333}
@@ -300,6 +309,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
       <p class="lede">We are DSAIL at KAIST, led by <a href="/professor">Prof. Chanyoung Park</a>. Our research spans graph and relational learning, personalized recommendation, multimodal intelligence, agentic AI, and AI for science. Across these areas, we study how representations learned from complex data can support generalization, reasoning, decision-making, and discovery.</p>
       <div class="ctas"><a class="btn primary" href="/research/">Explore our research</a></div>
       <p class="join-line">Looking to join the lab? See <a href="/professor/#join">Prospective students</a>.</p>
+      <p class="recruit" hidden data-until="2026-11-05T23:59:59+09:00"><b>Now recruiting winter interns</b><span class="dl">8 weeks between Dec 21 and Feb 26 · apply by Nov 5 (Thu) 23:59 KST</span><span class="go"><a href="https://ise.kaist.ac.kr/notices/view/id/3357" target="_blank" rel="noopener">Notice</a> · <a href="https://drive.google.com/file/d/165joJZWWiNO773HxGl8fpTKaSDu1sOn1/view" target="_blank" rel="noopener">Topics</a> · <a href="https://forms.gle/ruLkyD8QKkbfTYWT7" target="_blank" rel="noopener">Apply</a></span><span class="note">After applying, email your CV and transcript to cy.park (at) kaist.ac.kr to confirm your application.</span></p>
     </div>
   </div>
 
@@ -340,6 +350,9 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
   document.addEventListener('click',function(e){if(!nd.contains(e.target))set(false)});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&nd.classList.contains('open')){set(false);btn.focus()}});
 })();
+</script>
+<script>
+(function(){var now=Date.now();document.querySelectorAll('[data-until]').forEach(function(el){if(now<Date.parse(el.getAttribute('data-until')))el.hidden=false;});})();
 </script>
 </body>
 </html>
