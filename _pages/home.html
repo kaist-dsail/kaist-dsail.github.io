@@ -322,7 +322,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 
   <section id="news">
     <div class="section-head"><h2>News</h2><p><a href="/news">See all news →</a></p></div>
-    <ul class="news">{% for article in site.data.news limit:10 %}<li><span class="date">{{ article.date }}</span><span class="head">{{ article.headline }}</span></li>{% endfor %}</ul>
+    <ul class="news">{% for article in site.data.news limit:10 %}<li><span class="date">{{ article.date }}</span><span class="head">{% if article.anchor %}<a href="/news#{{ article.anchor }}">{{ article.headline }}</a>{% else %}{{ article.headline }}{% endif %}</span></li>{% endfor %}</ul>
   </section>
 
   <section id="contact">

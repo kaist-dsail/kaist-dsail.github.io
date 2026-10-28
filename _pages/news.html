@@ -261,6 +261,8 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
 .news{list-style:none;margin:0;padding:0;max-width:52em}
 .news li{display:grid;grid-template-columns:90px 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule);font-size:15.5px;line-height:1.5}
 .news li:first-child{padding-top:4px}
+.news li[id]{scroll-margin-top:24px}
+.news li:target{background:#f1f8f4;box-shadow:0 0 0 10px #f1f8f4;border-radius:2px}
 .news .date{color:var(--muted);font-size:13.5px;padding-top:3px}
 .news .body{color:var(--ink-2);font-size:14.5px;margin-top:4px}
 .news a{text-decoration:underline}
@@ -279,7 +281,7 @@ footer{padding:36px 0 56px;color:var(--muted);font-size:13px;border-top:1px soli
     {% assign cats = "paper,people,award,talk,service" | split: "," %}{% for c in cats %}{% assign n = site.data.news | where: "cat", c | size %}{% if n > 0 %}<button type="button" class="fc" data-f="{{ c }}" aria-pressed="false"><span class="cb cb-{{ c }}">{{ c | capitalize }}</span> <b>{{ n }}</b></button>{% endif %}{% endfor %}
   </div>
   {% assign prev = "" %}
-{% for article in site.data.news %}{% assign yr = article.date | split: " " | last %}{% if yr != prev %}{% unless forloop.first %}</ul></div>{% endunless %}<div class="ygroup" id="y{{ yr }}"><h2>{{ yr }}</h2><ul class="news">{% endif %}<li{% if article.cat %} data-c="{{ article.cat }}"{% endif %}><span class="date">{{ article.date | split: " " | first }}</span><div>{% if article.cat %}<span class="cb cb-{{ article.cat }}">{{ article.cat | capitalize }}</span>{% endif %}<span class="head">{{ article.headline }}</span>{% if article.content %}<div class="body">{{ article.content }}</div>{% endif %}</div></li>{% assign prev = yr %}{% endfor %}</ul></div>
+{% for article in site.data.news %}{% assign yr = article.date | split: " " | last %}{% if yr != prev %}{% unless forloop.first %}</ul></div>{% endunless %}<div class="ygroup" id="y{{ yr }}"><h2>{{ yr }}</h2><ul class="news">{% endif %}<li{% if article.cat %} data-c="{{ article.cat }}"{% endif %}{% if article.anchor %} id="{{ article.anchor }}"{% endif %}><span class="date">{{ article.date | split: " " | first }}</span><div>{% if article.cat %}<span class="cb cb-{{ article.cat }}">{{ article.cat | capitalize }}</span>{% endif %}<span class="head">{{ article.headline }}</span>{% if article.content %}<div class="body">{{ article.content }}</div>{% endif %}</div></li>{% assign prev = yr %}{% endfor %}</ul></div>
 </main>
 <footer><div class="wrap">© DSAIL, KAIST. Data Science &amp; Artificial Intelligence Lab.</div></footer>
 <script>
