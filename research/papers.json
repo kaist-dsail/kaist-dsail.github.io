@@ -700,7 +700,7 @@
    "sci_llm": false
   },
   {
-   "title": "A Structured LLM Framework for Inorganic Material Synthesis Planning",
+   "title": "MSP-LLM: A Structured Large Language Model Framework for Inorganic Material Synthesis Planning",
    "authors": "Heewoong Noh, Gyoung S. Na, Namkyeong Lee, Chanyoung Park",
    "venue": "NeurIPS 2026",
    "year": 2026,
@@ -713,7 +713,7 @@
    "note": null,
    "also_in": [
     "KDD 2026 Workshop (Agentic AI for Science)",
-    "ICLR 2026 Workshop (AI4Mat, as MSP-LLM)"
+    "ICLR 2026 Workshop (AI4Mat)"
    ],
    "id": "p161",
    "domain": "materials",
