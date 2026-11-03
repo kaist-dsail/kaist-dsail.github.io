@@ -612,24 +612,6 @@
    "sci_llm": false
   },
   {
-   "title": "Personalized Visual Representation Alignment for Generative Multimodal Recommendation",
-   "authors": "Seonwoo Choi, Kibum Kim, Chanyoung Park, Donghyun Kim",
-   "venue": "WACV 2027",
-   "year": 2027,
-   "type": "main",
-   "theme": "recsys",
-   "subtheme": null,
-   "secondary": [
-    "multimodal"
-   ],
-   "pdf": null,
-   "code": null,
-   "note": null,
-   "also_in": [],
-   "id": "p173",
-   "sci_llm": false
-  },
-  {
    "title": "GeoGater: Meta-Feature Guided Adaptive Routing for Worldwide Image Geolocalization",
    "authors": "Hoyoung Choi, Sungwon Kim, Jiwan Kim, Chanyoung Park",
    "venue": "WSDM 2027",
@@ -645,6 +627,24 @@
    "note": null,
    "also_in": [],
    "id": "p175",
+   "sci_llm": false
+  },
+  {
+   "title": "Personalized Visual Representation Alignment for Generative Multimodal Recommendation",
+   "authors": "Seonwoo Choi, Kibum Kim, Chanyoung Park, Donghyun Kim",
+   "venue": "WACV 2027",
+   "year": 2027,
+   "type": "main",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [
+    "multimodal"
+   ],
+   "pdf": null,
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p173",
    "sci_llm": false
   },
   {
