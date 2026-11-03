@@ -630,6 +630,24 @@
    "sci_llm": false
   },
   {
+   "title": "GeoGater: Meta-Feature Guided Adaptive Routing for Worldwide Image Geolocalization",
+   "authors": "Hoyoung Choi, Sungwon Kim, Jiwan Kim, Chanyoung Park",
+   "venue": "WSDM 2027",
+   "year": 2027,
+   "type": "main",
+   "theme": "multimodal",
+   "subtheme": null,
+   "secondary": [
+    "llm"
+   ],
+   "pdf": null,
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p175",
+   "sci_llm": false
+  },
+  {
    "title": "Complex-Valued Periodic Stochastic Processes for Retrieving Unknown Atomic Structures",
    "authors": "Gyoung S. Na, Chanyoung Park",
    "venue": "NeurIPS 2026",
