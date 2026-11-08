@@ -819,8 +819,8 @@
     "llm",
     "applications"
    ],
-   "pdf": null,
-   "code": null,
+   "pdf": "https://arxiv.org/abs/2609.02093",
+   "code": "https://github.com/seungyoon-Choi/CoSPOT",
    "note": null,
    "also_in": [
     "KDD 2026 Workshop (MiLeTS)"
@@ -3264,8 +3264,8 @@
     "llm",
     "applications"
    ],
-   "pdf": null,
-   "code": null,
+   "pdf": "https://arxiv.org/abs/2609.02093",
+   "code": "https://github.com/seungyoon-Choi/CoSPOT",
    "note": null,
    "also_in": [
     "CIKM 2026 (conference version)"
