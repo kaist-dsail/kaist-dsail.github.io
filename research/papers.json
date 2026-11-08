@@ -1324,7 +1324,7 @@
     "llm"
    ],
    "pdf": "https://openreview.net/pdf?id=fBLhmZ1aNN",
-   "code": null,
+   "code": "https://github.com/Sein-Kim/self_evolverec",
    "note": null,
    "also_in": [
     "ICLR 2026 Workshop (RSI)",
@@ -3463,7 +3463,7 @@
     "llm"
    ],
    "pdf": "https://openreview.net/pdf?id=fBLhmZ1aNN",
-   "code": null,
+   "code": "https://github.com/Sein-Kim/self_evolverec",
    "note": null,
    "also_in": [
     "KDD 2026 Workshop (Agentic SE) (workshop version)",
