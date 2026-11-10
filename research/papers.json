@@ -727,7 +727,7 @@
    "subtheme": "molecules-materials",
    "secondary": [],
    "pdf": "https://openreview.net/pdf?id=4UtSgrJJ8N",
-   "code": null,
+   "code": "https://github.com/HeewoongNoh/MSP-LLM",
    "note": null,
    "also_in": [
     "KDD 2026 Workshop (Agentic AI for Science)",
@@ -1381,7 +1381,7 @@
     "llm"
    ],
    "pdf": "https://openreview.net/pdf?id=4UtSgrJJ8N",
-   "code": null,
+   "code": "https://github.com/HeewoongNoh/MSP-LLM",
    "note": null,
    "also_in": [
     "NeurIPS 2026 (conference version)"
@@ -1549,7 +1549,7 @@
     "llm"
    ],
    "pdf": "https://openreview.net/forum?id=O2irXCLp3q",
-   "code": null,
+   "code": "https://github.com/HeewoongNoh/MSP-LLM",
    "note": null,
    "also_in": [
     "NeurIPS 2026 (conference version)"
