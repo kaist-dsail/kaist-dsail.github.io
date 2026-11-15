@@ -612,6 +612,22 @@
    "sci_llm": false
   },
   {
+   "title": "Beyond Time Series: Integrating Categorical Context for Robust Time Series Classification",
+   "authors": "Seungyoon Choi, Hyunchul Kim, Yerin Kim, Sangheon Lee, Chanyoung Park",
+   "venue": "KDD 2027",
+   "year": 2027,
+   "type": "main",
+   "theme": "timeseries",
+   "subtheme": null,
+   "secondary": [],
+   "pdf": null,
+   "code": null,
+   "note": null,
+   "also_in": [],
+   "id": "p176",
+   "sci_llm": false
+  },
+  {
    "title": "GeoGater: Meta-Feature Guided Adaptive Routing for Worldwide Image Geolocalization",
    "authors": "Hoyoung Choi, Sungwon Kim, Jiwan Kim, Chanyoung Park",
    "venue": "WSDM 2027",
