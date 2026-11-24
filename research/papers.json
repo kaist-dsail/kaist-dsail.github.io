@@ -1222,6 +1222,26 @@
    "sci_llm": true
   },
   {
+   "title": "Towards Robust Real-World Multi-Modal Recommendation: Disentangling and Generating Missing Modalities",
+   "authors": "Jiwan Kim, Hongseok Kang, Sein Kim, Kibum Kim, Chanyoung Park",
+   "venue": "ACM TORS 2026",
+   "year": 2026,
+   "type": "journal",
+   "theme": "recsys",
+   "subtheme": null,
+   "secondary": [
+    "multimodal"
+   ],
+   "pdf": null,
+   "code": "https://github.com/ptkjw1997/DGMRec",
+   "note": null,
+   "also_in": [
+    "SIGIR 2025 (conference version)"
+   ],
+   "id": "p177",
+   "sci_llm": false
+  },
+  {
    "title": "Physics-Embedded Graph Neural Operator for Interaction-Controlled Colloidal Aggregation",
    "authors": "Yongjoon Choe, Sungwon Kim, Susan E. Burns, Chanyoung Park",
    "venue": "Water Research 2026",
@@ -1856,7 +1876,9 @@
    "pdf": "https://arxiv.org/abs/2504.16352",
    "code": "https://github.com/ptkjw1997/DGMRec",
    "note": "Best-ranked, journal fast-track",
-   "also_in": [],
+   "also_in": [
+    "ACM TORS 2026 (journal version)"
+   ],
    "id": "p058",
    "sci_llm": false,
    "links": {
