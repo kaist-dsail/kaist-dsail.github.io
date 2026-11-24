@@ -612,7 +612,7 @@
    "sci_llm": false
   },
   {
-   "title": "Beyond Time Series: Integrating Categorical Context for Robust Time Series Classification",
+   "title": "When Context Matters: Addressing Contextual Heterogeneity in Time Series Classification",
    "authors": "Seungyoon Choi, Hyunchul Kim, Yerin Kim, Sangheon Lee, Chanyoung Park",
    "venue": "KDD 2027",
    "year": 2027,
