@@ -1,6 +1,6 @@
 {
  "lab": "DSAIL @ KAIST",
- "updated": "2026-10-12",
+ "updated": "2026-11-24",
  "themes": [
   {
    "id": "graph",
@@ -455,11 +455,11 @@
     "anomaly detection"
    ],
    "representative": [
+    "p176",
     "p008",
     "p020",
     "p074",
-    "p006",
-    "p007"
+    "p006"
    ]
   },
   {
